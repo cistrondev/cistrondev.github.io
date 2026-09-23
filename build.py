@@ -184,9 +184,10 @@ APPS = [
             ("Know what it's worth",
              "Current Chrono24 asking prices for your exact reference, with the "
              "median worked out on your iPhone."),
-            ("Honest limits",
-             "A quiet room gives the best readings. For service decisions, a bench "
-             "machine and a watchmaker still have the final word."),
+            ("Magnetism check",
+             "A magnetized hairspring is the most common reason a watch suddenly "
+             "gains time. Sweep the watch across the back of your iPhone and its "
+             "magnetometer tells you whether it needs demagnetizing."),
         ],
         "privacy_title": "Nothing recorded. Nothing uploaded.",
         "privacy": [
