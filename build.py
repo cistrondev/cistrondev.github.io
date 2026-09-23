@@ -548,9 +548,9 @@ def home_page():
     </section>
 
     <section class="closing">
-      <h2>Honest about the network.</h2>
-      <p>Some features have to reach out: a price check, a voice download, an article you shared. They run only in response to something you do, and each app's privacy policy says exactly what is sent, and to whom.</p>
-      <p><a class="more" href="privacy/">See what each app sends</a></p>
+      <h2>We respect your privacy.</h2>
+      <p>We don't know who you are, and we'd like to keep it that way. With no accounts, no analytics and no ads, there's nothing about you for us, advertisers or data brokers to see. And the apps never ask for your Instagram or Facebook password.</p>
+      <p><a class="more" href="privacy/">Read our privacy policies</a></p>
     </section>
 
     <section class="about" id="about">
