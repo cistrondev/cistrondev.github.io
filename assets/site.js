@@ -17,3 +17,17 @@ document.querySelectorAll("[data-gallery]").forEach((gallery) => {
   window.addEventListener("resize", update);
   update();
 });
+
+// Light/Dark switch for galleries that have a dark-mode screenshot set.
+document.querySelectorAll("[data-appearance]").forEach((button) => {
+  button.addEventListener("click", () => {
+    const gallery = button.closest("[data-gallery]");
+    const mode = button.dataset.appearance;
+    gallery.querySelectorAll("[data-appearance]").forEach((b) => {
+      b.setAttribute("aria-pressed", String(b === button));
+    });
+    gallery.querySelectorAll("img[data-dark]").forEach((img) => {
+      img.src = img.dataset[mode];
+    });
+  });
+});

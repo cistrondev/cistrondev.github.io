@@ -31,6 +31,9 @@ SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 # of excerpts from real reviews — quote them word for word (trim with "…",
 # never reword) and attribute by where they were posted, not by reviewer name.
 # `stars` is optional: leave it out for sources without ratings, like Reddit.
+#
+# `dark_shots: True` means a dark-mode set exists at assets/img/<slug>/dark/
+# (same numbering); the gallery then gets a Light/Dark switch.
 APPS = [
     {
         "slug": "aloud",
@@ -86,6 +89,7 @@ APPS = [
                       "apps I’ve seen!"},
         ],
         "tile": [1, 2, 6],
+        "dark_shots": True,
         "shots": [
             "Anything you can read, it reads to you.",
             "Get through the reading list.",
@@ -364,8 +368,8 @@ def store_url(app):
     return f"https://apps.apple.com/app/id{app['id']}"
 
 
-def shot(app, n):
-    return f"assets/img/{app['slug']}/{n:02d}.webp"
+def shot(app, n, dark=False):
+    return f"assets/img/{app['slug']}/{'dark/' if dark else ''}{n:02d}.webp"
 
 
 def icon(app):
@@ -431,6 +435,10 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}">
   <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/png" sizes="32x32" href="{prefix}{asset('favicon-32.png')}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{prefix}{asset('favicon-16.png')}">
+  <link rel="icon" type="image/png" sizes="48x48" href="{prefix}{asset('favicon-48.png')}">
+  <link rel="apple-touch-icon" href="{prefix}{asset('apple-touch-icon.png')}">
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">{banner}
   <link rel="stylesheet" href="{prefix}{asset('site.css')}">{script}
@@ -586,9 +594,21 @@ def proof_section(app):
 
 def app_page(app):
     p = "../"
+    dark = app.get("dark_shots", False)
+
+    def variants(i):
+        if not dark:
+            return ""
+        return f' data-light="{p}{shot(app, i)}" data-dark="{p}{shot(app, i, dark=True)}"'
+
     shots = "\n".join(
-        f'          <li><img src="{p}{shot(app, i)}" width="{SHOT_W}" height="{SHOT_H}" alt="{esc(alt)}" loading="{"eager" if i < 4 else "lazy"}" decoding="async"></li>'
+        f'          <li><img src="{p}{shot(app, i)}"{variants(i)} width="{SHOT_W}" height="{SHOT_H}" alt="{esc(alt)}" loading="{"eager" if i < 4 else "lazy"}" decoding="async"></li>'
         for i, alt in enumerate(app["shots"], 1))
+    toggle = """
+        <div class="appearance-toggle" role="group" aria-label="Screenshot appearance">
+          <button type="button" data-appearance="light" aria-pressed="true">Light</button>
+          <button type="button" data-appearance="dark" aria-pressed="false">Dark</button>
+        </div>""" if dark else ""
     features = "\n".join(
         f"""        <li><h3>{esc(t)}</h3><p>{esc(d)}</p></li>""" for t, d in app["features"])
     privacy = "\n".join(f"          <li>{esc(b)}</li>" for b in app["privacy"])
@@ -611,9 +631,11 @@ def app_page(app):
       <ul class="gallery-track" tabindex="0">
 {shots}
       </ul>
-      <div class="gallery-paddles">
-        <button type="button" data-prev aria-label="Previous screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M20.5 11 13.5 18l7 7"/></svg></button>
-        <button type="button" data-next aria-label="Next screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M15.5 11l7 7-7 7"/></svg></button>
+      <div class="gallery-controls">{toggle}
+        <div class="gallery-paddles">
+          <button type="button" data-prev aria-label="Previous screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M20.5 11 13.5 18l7 7"/></svg></button>
+          <button type="button" data-next aria-label="Next screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M15.5 11l7 7-7 7"/></svg></button>
+        </div>
       </div>
     </section>
 
