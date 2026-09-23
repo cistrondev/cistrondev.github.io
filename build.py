@@ -19,7 +19,7 @@ BRAND = "Cistron"                 # header wordmark and page titles
 COMPANY = "Cistron Development"   # copyright line
 # Contact address. Leave empty to hide the Contact links and every policy's
 # "## Contact" section; set it and rebuild to bring them back.
-EMAIL = ""
+EMAIL = "cistron.support@icloud.com"
 YEAR = 2026
 SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 
