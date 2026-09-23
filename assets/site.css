@@ -401,6 +401,22 @@ a:hover { text-decoration: underline; }
 .features h3 { font-size: 21px; line-height: 1.19; font-weight: 600; letter-spacing: 0.011em; margin-bottom: 8px; }
 .features p { color: var(--text-2); }
 
+/* How the app differs from its competitors: one heading, one paragraph. */
+.why {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--gutter) 96px;
+  text-align: center;
+}
+.why h2 {
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  margin-bottom: 20px;
+}
+.why p { font-size: 21px; line-height: 1.43; letter-spacing: 0.011em; color: var(--text-2); text-wrap: pretty; }
+
 .proof {
   max-width: var(--content);
   margin: 0 auto;
@@ -610,6 +626,8 @@ a:hover { text-decoration: underline; }
   .gallery-paddles { display: none; }
   .intro, .features { padding-bottom: 64px; }
   .features ul { grid-template-columns: 1fr; gap: 28px; padding-top: 32px; }
+  .why { padding-bottom: 64px; }
+  .why p { font-size: 19px; }
   .proof { padding-bottom: 64px; }
   .stats { gap: 28px; margin-bottom: 64px; }
   .review { padding: 24px; border-radius: 20px; }

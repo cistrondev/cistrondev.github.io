@@ -34,6 +34,9 @@ SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 #
 # `dark_shots: True` means a dark-mode set exists at assets/img/<slug>/dark/
 # (same numbering); the gallery then gets a Light/Dark switch.
+#
+# Optional `why`: (heading, paragraph) on how the app differs from its
+# competitors. Keep every claim true for this app and never name a rival.
 APPS = [
     {
         "slug": "aloud",
@@ -90,6 +93,15 @@ APPS = [
         ],
         "tile": [1, 2, 6],
         "dark_shots": True,
+        "why": (
+            "No cloud. No subscription.",
+            "Many popular text-to-speech apps make their voices on their own "
+            "servers, so the articles and documents you listen to are uploaded "
+            "there first, and their premium plans can cost $139 a year, or $29 a "
+            "month (nearly $350 a year). Aloud makes every voice right on your "
+            "iPhone, so what you read is never sent anywhere to be spoken. And "
+            "there is no subscription: one optional purchase, yours forever.",
+        ),
         "shots": [
             "Anything you can read, it reads to you.",
             "Get through the reading list.",
@@ -279,6 +291,16 @@ APPS = [
                       "Love that no ads are involved!"},
         ],
         "tile": [1, 4, 5],
+        "why": (
+            "Your password stays yours.",
+            "Most follower trackers ask for your Instagram password, then access "
+            "your account in the background. Instagram warns that letting "
+            "unauthorized apps into your account puts it at risk, and people who "
+            "use them regularly report locked, suspended or “action blocked” "
+            "accounts. Unfollowers never asks for your password and never signs "
+            "in as you: it reads the data export Instagram itself gives you. And "
+            "there is no subscription: one optional purchase unlocks everything.",
+        ),
         "shots": [
             "See every unfollower: who left, and when, read from your own Instagram export.",
             "Probably blocked you: accounts that left your followers and following at the same time.",
@@ -622,6 +644,15 @@ def app_page(app):
         for o in APPS if o is not app)
     note = f'\n      <p class="note">{esc(app["note"])}</p>' if app["note"] else ""
     proof = proof_section(app)
+    why = ""
+    if "why" in app:
+        heading, text = app["why"]
+        why = f"""    <section class="why">
+      <h2>{esc(heading)}</h2>
+      <p>{esc(text)}</p>
+    </section>
+
+"""
     lead, rest = app["intro"]
 
     body = f"""    <section class="app-hero">
@@ -654,7 +685,7 @@ def app_page(app):
       </ul>
     </section>
 
-{proof}
+{why}{proof}
     <section class="privacy-card">
       <div>
         <p class="eyebrow">Privacy</p>
