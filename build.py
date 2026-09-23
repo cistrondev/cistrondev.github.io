@@ -358,10 +358,15 @@ PRINCIPLES = [
 esc = html.escape
 
 
+def versioned(path):
+    """<path>?v=<content hash>, so browsers refetch a file after every change
+    (GitHub Pages lets them reuse any file for 10 minutes otherwise)."""
+    digest = hashlib.sha1((ROOT / path).read_bytes()).hexdigest()[:8]
+    return f"{path}?v={digest}"
+
+
 def asset(name):
-    """assets/<name>?v=<content hash>, so browsers refetch it after every change."""
-    digest = hashlib.sha1((ROOT / "assets" / name).read_bytes()).hexdigest()[:8]
-    return f"assets/{name}?v={digest}"
+    return versioned(f"assets/{name}")
 
 
 def store_url(app):
@@ -369,11 +374,11 @@ def store_url(app):
 
 
 def shot(app, n, dark=False):
-    return f"assets/img/{app['slug']}/{'dark/' if dark else ''}{n:02d}.webp"
+    return versioned(f"assets/img/{app['slug']}/{'dark/' if dark else ''}{n:02d}.webp")
 
 
 def icon(app):
-    return f"assets/img/{app['slug']}/icon.png"
+    return versioned(f"assets/img/{app['slug']}/icon.png")
 
 
 def inline_md(text):
