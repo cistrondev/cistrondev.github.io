@@ -20,6 +20,9 @@ COMPANY = "Cistron Development"   # copyright line
 # Contact address. Leave empty to hide the Contact links and every policy's
 # "## Contact" section; set it and rebuild to bring them back.
 EMAIL = "cistron.support@icloud.com"
+# Google Search Console ownership check (URL-prefix property for
+# https://cistrondev.github.io/). Leave in place or verification lapses.
+GOOGLE_SITE_VERIFICATION = "0HO-cftcZWuRyvlFjb1OlFsgFgWXaGyS6AsLK70I34Q"
 YEAR = 2026
 SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 
@@ -450,6 +453,8 @@ def md_to_html(source):
 
 def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts=False):
     home = prefix or "./"
+    google = (f'\n  <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">'
+              if GOOGLE_SITE_VERIFICATION else "")
     nav_contact = f'        <li><a href="mailto:{EMAIL}">Contact</a></li>\n' if EMAIL else ""
     footer_contact = f'          <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>\n' if EMAIL else ""
     banner = f'\n  <meta name="apple-itunes-app" content="app-id={app_id}">' if app_id else ""
@@ -461,7 +466,7 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">{google}
   <link rel="icon" type="image/png" sizes="32x32" href="{prefix}{asset('favicon-32.png')}">
   <link rel="icon" type="image/png" sizes="16x16" href="{prefix}{asset('favicon-16.png')}">
   <link rel="icon" type="image/png" sizes="48x48" href="{prefix}{asset('favicon-48.png')}">
