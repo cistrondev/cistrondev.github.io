@@ -153,6 +153,8 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
   letter-spacing: -0.015em;
 }
+/* Two sentences, each starting on its own line. */
+.hero-sub span { display: block; }
 .hero-sub {
   max-width: 640px;
   margin: 24px auto 0;
