@@ -377,7 +377,7 @@ PRINCIPLES = [
      "No ads, no analytics, and no tracking. Nothing is watching what you do.",
      '<circle cx="14" cy="14" r="10"/><path d="M7 21 21 7"/>'),
     ("Subscription-free",
-     "No subscriptions, and no free trials that quietly turn into charges. Nothing to remember to cancel.",
+     "No subscriptions, and no free trials that quietly turn into charges.",
      '<path d="M4.5 14.2 14.2 4.5H23.5v9.3L13.8 23.5z"/><circle cx="18.6" cy="9.4" r="1.7"/>'),
 ]
 
