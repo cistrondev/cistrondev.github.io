@@ -151,7 +151,7 @@ APPS = [
         ],
         "privacy_title": "Your health data never leaves your iPhone.",
         "privacy": [
-            "Health data is read, analyzed and kept on your iPhone. Never uploaded.",
+            "Health data is read, analyzed, and kept on your iPhone. Never uploaded.",
             "From Photos it reads only dates and locations, never the images.",
             "No account, no analytics, no ads, no tracking.",
         ],
@@ -182,9 +182,9 @@ APPS = [
         "tagline": "A watchmaker's timing machine, in your iPhone.",
         "pricing": "First watch free · One-time Pro unlock",
         "intro": (
-            "Rate, amplitude and beat error in about thirty seconds.",
+            "Rate, amplitude, and beat error in about thirty seconds.",
             "Timegrapher listens to your mechanical watch through the iPhone's "
-            "microphone, then keeps your whole collection, every reading and what "
+            "microphone, then keeps your whole collection, every reading, and what "
             "each watch is worth, in one place.",
         ),
         "features": [
@@ -195,7 +195,7 @@ APPS = [
              "It tracks the room's noise floor and rejects stray sounds. Amplitude "
              "comes from your calibre's own lift angle."),
             ("Your collection",
-             "Every watch with its photo, reference, movement and lift angle, and "
+             "Every watch with its photo, reference, movement, and lift angle, and "
              "every measurement saved."),
             ("See the drift",
              "Charts show the rate across months and years, with a plain-language "
@@ -228,7 +228,7 @@ APPS = [
         ],
         "tile": [1, 3, 4],
         "shots": [
-            "Your iPhone is a timing machine: rate, amplitude and beat error in 30 seconds.",
+            "Your iPhone is a timing machine: rate, amplitude, and beat error in 30 seconds.",
             "Readings that hold steady, with amplitude from lift angle.",
             "Your collection, one bench.",
             "See the drift before it matters.",
@@ -258,7 +258,7 @@ APPS = [
              "The classic list, plus mutuals and requests that were never "
              "accepted."),
             ("Who you interact with most",
-             "Your likes, comments and story reactions, counted from your own "
+             "Your likes, comments, and story reactions, counted from your own "
              "export."),
             ("Your history, charted",
              "Growth and follow-back trends built from every export you import."),
@@ -299,7 +299,7 @@ APPS = [
             "Most follower trackers ask for your Instagram password, then access "
             "your account in the background. Instagram warns that letting "
             "unauthorized apps into your account puts it at risk, and people who "
-            "use them regularly report locked, suspended or “action blocked” "
+            "use them regularly report locked, suspended, or “action blocked” "
             "accounts. Unfollowers never asks for your password and never signs "
             "in as you: it reads the data export Instagram itself gives you. And "
             "there is no subscription: one optional purchase unlocks everything.",
@@ -308,7 +308,7 @@ APPS = [
             "See every unfollower: who left, and when, read from your own Instagram export.",
             "Probably blocked you: accounts that left your followers and following at the same time.",
             "They don't follow back: search, sort, and tap through to any profile.",
-            "Who you hype the most: your likes, comments and story reactions, counted.",
+            "Who you hype the most: your likes, comments, and story reactions, counted.",
             "Your stats, charted: growth and follow-back charts from your own history.",
         ],
     },
@@ -334,7 +334,7 @@ APPS = [
             ("Your own removals",
              "Kept apart using Facebook's own record, with real dates."),
             ("Requests and followers",
-             "Requests left unanswered, rejections, followers and following."),
+             "Requests left unanswered, rejections, followers, and following."),
             ("Your friendship history",
              "Friends over time, your most social year, and your oldest friends, "
              "ranked."),
@@ -357,7 +357,7 @@ APPS = [
             "New name, who dis? Renames matched by the exact friend-since second.",
             "Your friend eras, charted.",
             "Day-one besties: your oldest friends, ranked.",
-            "Left on read: pending requests, rejections, followers and following.",
+            "Left on read: pending requests, rejections, followers, and following.",
             "No login. No leaks. Your export goes in; nothing goes out.",
         ],
     },
@@ -374,8 +374,11 @@ PRINCIPLES = [
      "No accounts, no sign-in, no passwords. There is nothing of yours to leak.",
      '<rect x="6" y="12.5" width="16" height="11.5" rx="2.5"/><path d="M9.5 12.5V9a4.5 4.5 0 0 1 9 0v3.5"/>'),
     ("Ad-free",
-     "No ads, no analytics, no tracking, and no subscriptions.",
+     "No ads, no analytics, and no tracking. Nothing is watching what you do.",
      '<circle cx="14" cy="14" r="10"/><path d="M7 21 21 7"/>'),
+    ("Subscription-free",
+     "No subscriptions. Nothing renews, and there is nothing to cancel.",
+     '<path d="M4.5 14.2 14.2 4.5H23.5v9.3L13.8 23.5z"/><circle cx="18.6" cy="9.4" r="1.7"/>'),
 ]
 
 # ---------------------------------------------------------------- helpers
@@ -576,7 +579,7 @@ def home_page():
 
     <section class="closing">
       <h2>We respect your privacy.</h2>
-      <p>We don't know who you are, and we'd like to keep it that way. With no accounts, no analytics and no ads, there's nothing about you for us, advertisers or data brokers to see. And the apps never ask for your Instagram or Facebook password.</p>
+      <p>We don't know who you are, and we'd like to keep it that way. With no accounts, no analytics, and no ads, there's nothing about you for us, advertisers, or data brokers to see. And the apps never ask for your Instagram or Facebook password.</p>
       <p><a class="more" href="privacy/">Read our privacy policies</a></p>
     </section>
 
@@ -749,7 +752,7 @@ def privacy_index():
         </li>""" for app in APPS)
     body = f"""    <section class="privacy-hero">
       <h1>Privacy.</h1>
-      <p class="hero-sub">None of these apps has accounts, analytics, advertising or tracking. We run no servers, so your data never reaches us.</p>
+      <p class="hero-sub">None of these apps has accounts, analytics, advertising, or tracking. We run no servers, so your data never reaches us.</p>
     </section>
 
     <section class="policies">

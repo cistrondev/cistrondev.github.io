@@ -162,15 +162,16 @@ a:hover { text-decoration: underline; }
   color: var(--text-2);
 }
 
+/* A little wider than the text column, so five headings fit on one line each. */
 .principles-wrap {
-  max-width: var(--content);
+  max-width: 1120px;
   margin: 0 auto;
   padding: 0 var(--gutter) 120px;
 }
 .principles {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px 32px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px 28px;
   border-top: 1px solid var(--rule);
   padding-top: 40px;
 }
@@ -185,7 +186,7 @@ a:hover { text-decoration: underline; }
   stroke-linejoin: round;
   margin-bottom: 16px;
 }
-.principle h3 { font-size: 21px; line-height: 1.19; font-weight: 600; letter-spacing: 0.011em; margin-bottom: 8px; }
+.principle h3 { hyphens: manual; font-size: 21px; line-height: 1.19; font-weight: 600; letter-spacing: 0.011em; margin-bottom: 8px; }
 .principle p { color: var(--text-2); }
 
 .apps { padding: 0 12px 12px; }
@@ -592,7 +593,7 @@ a:hover { text-decoration: underline; }
 /* ------------------------------------------------------------ responsive */
 
 @media (max-width: 1068px) {
-  .principles { grid-template-columns: repeat(2, 1fr); }
+  .principles { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (max-width: 734px) {
