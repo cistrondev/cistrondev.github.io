@@ -31,3 +31,4 @@ document.querySelectorAll("[data-appearance]").forEach((button) => {
     });
   });
 });
+

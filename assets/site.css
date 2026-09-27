@@ -373,6 +373,108 @@ a:hover { text-decoration: underline; }
 .gallery-paddles button:disabled { opacity: 0.36; cursor: default; background: #e8e8ed; }
 .gallery-paddles svg { width: 36px; height: 36px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
 
+/* ------------------------------------------------------------ iPhone Duo */
+
+/* A row under the screenshots: folded, half open and open, all at one
+   height. Bezels are ~2% of the device, as on the hardware. */
+.duo-row {
+  --duo-h: clamp(220px, 22vw, 330px);
+  margin-top: 72px;
+  text-align: center;
+}
+.duo-title { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; font-weight: 600; letter-spacing: -0.003em; padding: 0 var(--gutter); }
+.duo-sub { margin-top: 8px; font-size: 21px; color: var(--text-2); padding: 0 var(--gutter); }
+/* Centred when all three fit; scrolls sideways (snapping) when they don't. */
+.duo-track {
+  display: flex;
+  align-items: flex-start;   /* devices share a top line; captions can differ in length */
+  gap: 48px;
+  width: max-content;
+  max-width: 100%;
+  margin: 40px auto 0;
+  padding: 8px var(--gutter) 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 var(--gutter);
+  scrollbar-width: none;
+}
+.duo-track::-webkit-scrollbar { display: none; }
+.duo-track li { flex: none; scroll-snap-align: center; }
+/* min-content: each caption wraps to its own device's width, so a long
+   caption can't widen the row. */
+.duo-track figure { margin: 0; width: min-content; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.duo-track figcaption { min-width: 100%; font-size: 15px; line-height: 1.4; color: var(--text-2); text-wrap: balance; }
+.duo-track figcaption strong { display: block; color: var(--text); font-weight: 600; margin-bottom: 2px; }
+
+.duo-screen img, .duo-flat img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* Folded: the 466x678pt cover screen. The camera is a hole in the top-right
+   corner, above the status bar that runs down that edge. */
+.duo-closed {
+  height: var(--duo-h);
+  aspect-ratio: 466 / 678;
+  padding: 1.9%;
+  background: #1a1a1c;
+  border-radius: 12.8% / 8.8%;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.14);
+}
+.duo-screen { position: relative; height: 100%; }
+.duo-screen img { border-radius: 11.5% / 7.9%; }
+.duo-camera {
+  position: absolute;
+  top: 1.8%;
+  right: 6.2%;
+  width: 7.7%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #0b0b0c;
+}
+
+/* Open flat: the 951x669pt inner display, held like a book. */
+.duo-flat {
+  height: var(--duo-h);
+  aspect-ratio: 951 / 669;
+  padding: 1.1%;
+  background: #1a1a1c;
+  border-radius: 5% / 7.1%;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.14);
+}
+.duo-flat img { border-radius: 4.3% / 6.1%; }
+
+/* Half open: the same spread, each half turned toward you around the fold. */
+.duo-book {
+  display: flex;
+  perspective: calc(var(--duo-h) * 5);
+  filter: drop-shadow(0 16px 20px rgba(0, 0, 0, 0.14));
+}
+.duo-half {
+  position: relative;
+  height: var(--duo-h);
+  aspect-ratio: 475.5 / 669;
+  overflow: hidden;
+  border: calc(var(--duo-h) * 0.018) solid #1a1a1c;
+  background: #1a1a1c;
+}
+.duo-half img { position: absolute; top: 0; height: 100%; width: 200%; max-width: none; }
+.duo-half-left {
+  border-right: 0;
+  border-radius: calc(var(--duo-h) * 0.07) 0 0 calc(var(--duo-h) * 0.07);
+  transform-origin: right center;
+  transform: rotateY(26deg);
+}
+.duo-half-right {
+  border-left: 0;
+  border-radius: 0 calc(var(--duo-h) * 0.07) calc(var(--duo-h) * 0.07) 0;
+  transform-origin: left center;
+  transform: rotateY(-26deg);
+}
+.duo-half-left img { left: 0; }
+.duo-half-right img { left: -100%; }
+/* Light falls off into the fold. */
+.duo-half::after { content: ""; position: absolute; inset: 0; pointer-events: none; }
+.duo-half-left::after { background: linear-gradient(to left, rgba(0, 0, 0, 0.16), transparent 28%); }
+.duo-half-right::after { background: linear-gradient(to right, rgba(0, 0, 0, 0.10), transparent 28%); }
+
 .intro {
   max-width: 820px;
   margin: 0 auto;
@@ -625,6 +727,10 @@ a:hover { text-decoration: underline; }
   .gallery-track { gap: 12px; }
   .gallery-track img { width: min(64vw, 260px); border-radius: 18px; }
   .gallery-paddles { display: none; }
+  .gallery-controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+  .duo-row { margin-top: 48px; }
+  .duo-sub { font-size: 19px; }
+  .duo-track { gap: 28px; justify-content: flex-start; }
   .intro, .features { padding-bottom: 64px; }
   .features ul { grid-template-columns: 1fr; gap: 28px; padding-top: 32px; }
   .why { padding-bottom: 64px; }

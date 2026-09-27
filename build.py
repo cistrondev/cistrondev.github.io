@@ -38,6 +38,9 @@ SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 # `dark_shots: True` means a dark-mode set exists at assets/img/<slug>/dark/
 # (same numbering); the gallery then gets a Light/Dark switch.
 #
+# `duo: True` adds an "iPhone Duo" showcase (folded / half open / open),
+# drawn from assets/img/<slug>/duo/{cover,spread}-{light,dark}.webp.
+#
 # Optional `why`: (heading, paragraph) on how the app differs from its
 # competitors. Keep every claim true for this app and never name a rival.
 APPS = [
@@ -96,6 +99,7 @@ APPS = [
         ],
         "tile": [1, 2, 6],
         "dark_shots": True,
+        "duo": True,
         "why": (
             "No cloud. No subscription.",
             "Many popular text-to-speech apps make their voices on their own "
@@ -602,6 +606,52 @@ def stars(review):
     return f'            <p class="stars" aria-label="{n} out of 5 stars">{"★" * n}</p>\n'
 
 
+def duo_showcase(app, p):
+    """A row under the gallery: the same screens on the iPhone Duo, folded,
+    half open and open flat. It sits inside the gallery section, so the
+    Light/Dark switch swaps these images along with the screenshots."""
+    if not app.get("duo"):
+        return "", ""
+    slug = app["slug"]
+
+    def img(name, alt=""):
+        light = f"{p}{versioned(f'assets/img/{slug}/duo/{name}-light.webp')}"
+        dark = f"{p}{versioned(f'assets/img/{slug}/duo/{name}-dark.webp')}"
+        size = 'width="699" height="1017"' if name == "cover" else 'width="1427" height="1004"'
+        return (f'<img src="{light}" data-light="{light}" data-dark="{dark}" {size} '
+                f'alt="{esc(alt)}" loading="lazy" decoding="async">')
+
+    row = f"""
+      <div class="duo-row">
+        <h2 class="duo-title">On iPhone Duo</h2>
+        <p class="duo-sub">Closed, it listens. Open, it reads.</p>
+        <ul class="duo-track">
+          <li>
+            <figure>
+              <div class="duo-closed"><div class="duo-screen">{img("cover", "Aloud on the iPhone Duo's cover screen: the voice keeps reading, with play controls.")}<span class="duo-camera"></span></div></div>
+              <figcaption><strong>Folded</strong> The voice keeps going on the cover screen.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="duo-book">
+                <div class="duo-half duo-half-left">{img("spread", "Aloud on the half-open iPhone Duo: two facing pages.")}</div>
+                <div class="duo-half duo-half-right">{img("spread")}</div>
+              </div>
+              <figcaption><strong>Half open</strong> Two facing pages, at any angle.</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <div class="duo-flat">{img("spread", "Aloud on the open iPhone Duo: the Spanish original on the left page, the English translation on the right, row for row.")}</div>
+              <figcaption><strong>Open</strong> Translating? The original and the translation, side by side.</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>"""
+    return "", row
+
+
 def proof_section(app):
     """Stats and review excerpts for an app page; empty when it has neither."""
     stats, reviews = app.get("stats", []), app.get("reviews", [])
@@ -644,6 +694,7 @@ def app_page(app):
           <button type="button" data-appearance="light" aria-pressed="true">Light</button>
           <button type="button" data-appearance="dark" aria-pressed="false">Dark</button>
         </div>""" if dark else ""
+    duo_button, duo_dialog = duo_showcase(app, p)
     features = "\n".join(
         f"""        <li><h3>{esc(t)}</h3><p>{esc(d)}</p></li>""" for t, d in app["features"])
     privacy = "\n".join(f"          <li>{esc(b)}</li>" for b in app["privacy"])
@@ -675,12 +726,12 @@ def app_page(app):
       <ul class="gallery-track" tabindex="0">
 {shots}
       </ul>
-      <div class="gallery-controls">{toggle}
+      <div class="gallery-controls">{duo_button}{toggle}
         <div class="gallery-paddles">
           <button type="button" data-prev aria-label="Previous screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M20.5 11 13.5 18l7 7"/></svg></button>
           <button type="button" data-next aria-label="Next screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M15.5 11l7 7-7 7"/></svg></button>
         </div>
-      </div>
+      </div>{duo_dialog}
     </section>
 
     <section class="intro">
