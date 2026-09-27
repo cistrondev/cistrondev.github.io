@@ -558,7 +558,7 @@ def home_page():
     body = f"""    <section class="hero">
       <p class="eyebrow">Built for iPhone</p>
       <h1>Apps that mind <br>their own business.</h1>
-      <p class="hero-sub"><span>Useful, powerful apps that respect your time, your money and your privacy.</span> <span>No ads to waste your time, no subscriptions to drain your wallet, no tracking to expose your personal data.</span></p>
+      <p class="hero-sub">Useful, powerful apps that respect your time, your money and your privacy.</p>
     </section>
 
     <section class="principles-wrap" aria-label="Principles">
