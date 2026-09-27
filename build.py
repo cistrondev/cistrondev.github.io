@@ -118,6 +118,7 @@ APPS = [
             "Reader mode: read it your way.",
             "Twice the speed. Half the time.",
             "Your shelf, on every device.",
+            "Read it in your language: any piece translated on the device, sentence beside sentence.",
         ],
     },
     {
@@ -233,10 +234,11 @@ APPS = [
         "tile": [1, 3, 4],
         "shots": [
             "Your iPhone is a timing machine: rate, amplitude, and beat error in 30 seconds.",
-            "Readings that hold steady, with amplitude from lift angle.",
-            "Your collection, one bench.",
-            "See the drift before it matters.",
+            "Accurate readings, no matter what: quiet movements, even in noisy rooms.",
+            "Your entire collection at a glance: age, health, and value.",
+            "See the drift before it matters, and know when to service your watch.",
             "Know what it's worth: the Chrono24 median for your exact reference.",
+            "Is your watch magnetized? Checked in ten seconds.",
         ],
     },
     {
