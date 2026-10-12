@@ -15,7 +15,6 @@ assets/site.css, site.js   styles and the screenshot-gallery buttons
 assets/img/<app>/          icon.png + 01.webp, 02.webp, … screenshots
 content/privacy/<app>.md   privacy policy sources
 build.py                   generates every .html file above
-ios/Pedometer/             Xcode project for the Pedometer app (not part of the site)
 ```
 
 ## Editing
