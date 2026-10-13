@@ -43,6 +43,10 @@ SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 #
 # Optional `why`: (heading, paragraph) on how the app differs from its
 # competitors. Keep every claim true for this app and never name a rival.
+#
+# `live: False` is for an app that is not on the App Store yet: its pages say
+# "Coming soon" where the App Store buttons and the price would be. On release
+# day, remove the line and fill in `pricing`.
 APPS = [
     {
         "slug": "aloud",
@@ -367,6 +371,59 @@ APPS = [
             "No login. No leaks. Your export goes in; nothing goes out.",
         ],
     },
+    {
+        "slug": "pedometer",
+        "name": "Pedometer",
+        "store_name": "Pedometer: Step Counter Widget",
+        "id": "6822166433",
+        "live": False,
+        "tagline": "Your steps, on your Lock Screen.",
+        "pricing": "",
+        "intro": (
+            "Steps, distance, and flights climbed, as plain numbers and charts.",
+            "Pedometer reads Apple Health, so Apple Watch steps are included, "
+            "and puts today's count on your Lock Screen and Home Screen.",
+        ),
+        "features": [
+            ("Today",
+             "Your steps against your goal, with what is left to go. Distance "
+             "and flights climbed against their goals, with active energy and "
+             "walking speed beside them."),
+            ("Your own goals",
+             "Set a daily goal for steps, distance, and flights climbed. They "
+             "start at 10,000 steps, 8 km or 5 miles, and 10 flights."),
+            ("History",
+             "One chart per number, for the last week, month, or year, with the "
+             "daily average and the change from the period before."),
+            ("Lock Screen widgets",
+             "Steps and distance, each inside a ring that closes at your goal, "
+             "and flights climbed, with a figure that climbs a staircase to "
+             "your goal."),
+            ("Home Screen widget",
+             "The same card as the app, small or medium. Set it to light, dark, "
+             "or automatic, and show the steps alone if you like."),
+            ("No Apple Watch required",
+             "Your iPhone counts your steps on its own. If you wear an Apple "
+             "Watch, its steps are included."),
+        ],
+        "privacy_title": "Nothing leaves your iPhone.",
+        "privacy": [
+            "Reads Apple Health and never writes to it.",
+            "Everything is counted and stored on your iPhone. Nothing is uploaded.",
+            "No account, no analytics, no tracking.",
+        ],
+        "network": "Nothing. The app makes no network connections at all.",
+        "note": "Pedometer is not a medical device and does not give medical advice.",
+        "tile": [1, 2, 3],
+        "shots": [
+            "Your steps on the Lock Screen: a step counter widget, with distance and stairs beside it.",
+            "Every step, counted: reads Apple Health, Apple Watch steps included.",
+            "On your Home Screen, too: the same card, small or medium.",
+            "Your week, at a glance: daily bars, the average, and the change.",
+            "Every number, over time: a month or a whole year, charted.",
+            "Nothing leaves your iPhone: no account, no tracking.",
+        ],
+    },
 ]
 
 PRINCIPLES = [
@@ -405,6 +462,11 @@ def asset(name):
 
 def store_url(app):
     return f"https://apps.apple.com/app/id{app['id']}"
+
+
+def is_live(app):
+    """False for an app that is not on the App Store yet (`live: False`)."""
+    return app.get("live", True)
 
 
 def shot(app, n, dark=False):
@@ -518,13 +580,14 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
 
 def local_nav(app, prefix, current):
     here = ' aria-current="page"'
+    store = (f'\n        <li><a class="pill pill-small" href="{store_url(app)}">App Store</a></li>'
+             if is_live(app) else "")
     return f"""  <nav class="localnav" aria-label="{esc(app['name'])}">
     <div class="localnav-inner">
       <a class="localnav-title" href="{prefix}{app['slug']}/">{esc(app['name'])}</a>
       <ul>
         <li><a href="{prefix}{app['slug']}/"{here if current == 'overview' else ''}>Overview</a></li>
-        <li><a href="{prefix}{app['slug']}/privacy/"{here if current == 'privacy' else ''}>Privacy</a></li>
-        <li><a class="pill pill-small" href="{store_url(app)}">App Store</a></li>
+        <li><a href="{prefix}{app['slug']}/privacy/"{here if current == 'privacy' else ''}>Privacy</a></li>{store}
       </ul>
     </div>
   </nav>"""
@@ -550,6 +613,8 @@ def home_page():
 
     tiles = []
     for app in APPS:
+        store = (f'<a class="pill pill-outline" href="{store_url(app)}">App Store</a>'
+                 if is_live(app) else '<span class="pill pill-soon">Coming soon</span>')
         imgs = "".join(
             f'<img src="{p}{shot(app, n)}" width="{SHOT_W}" height="{SHOT_H}" alt="" loading="lazy" decoding="async">'
             for n in app["tile"])
@@ -559,7 +624,7 @@ def home_page():
         <p class="tile-tagline">{esc(app['tagline'])}</p>
         <p class="tile-actions">
           <a class="pill" href="{p}{app['slug']}/">Learn more</a>
-          <a class="pill pill-outline" href="{store_url(app)}">App Store</a>
+          {store}
         </p>
         <div class="tile-shots">{imgs}</div>
       </article>""")
@@ -715,13 +780,19 @@ def app_page(app):
 
 """
     lead, rest = app["intro"]
+    if is_live(app):
+        meta = app["pricing"]
+        store = f'<a class="pill pill-large" href="{store_url(app)}">View on the App Store</a>'
+    else:
+        meta = "Coming soon"
+        store = '<span class="pill pill-large pill-soon">Coming soon to the App Store</span>'
 
     body = f"""    <section class="app-hero">
       <img class="app-icon app-icon-large" src="{p}{icon(app)}" width="256" height="256" alt="{esc(app['name'])} app icon">
       <h1>{esc(app['name'])}</h1>
       <p class="app-tagline">{esc(app['tagline'])}</p>
-      <p class="app-meta">{esc(app['pricing'])} · iPhone · iOS 17 or later</p>
-      <p><a class="pill pill-large" href="{store_url(app)}">View on the App Store</a></p>
+      <p class="app-meta">{esc(meta)} · iPhone · iOS 17 or later</p>
+      <p>{store}</p>
     </section>
 
     <section class="gallery" data-gallery aria-label="Screenshots">
@@ -768,7 +839,8 @@ def app_page(app):
     write(f"{app['slug']}/index.html", page(
         prefix=p, title=f"{app['name']}: {app['tagline']}",
         description=f"{lead} {rest}", body=body,
-        local_nav=local_nav(app, p, "overview"), app_id=app["id"], scripts=True))
+        local_nav=local_nav(app, p, "overview"),
+        app_id=app["id"] if is_live(app) else None, scripts=True))
 
 
 def privacy_page(app):
@@ -788,7 +860,8 @@ def privacy_page(app):
     write(f"{app['slug']}/privacy/index.html", page(
         prefix=p, title=f"{app['name']} Privacy Policy",
         description=f"How {app['name']} handles your information: {app['network']}",
-        body=body, local_nav=local_nav(app, p, "privacy"), app_id=app["id"]))
+        body=body, local_nav=local_nav(app, p, "privacy"),
+        app_id=app["id"] if is_live(app) else None))
 
 
 def privacy_index():

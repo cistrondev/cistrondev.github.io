@@ -134,6 +134,13 @@ a:hover { text-decoration: underline; }
 .pill-outline:hover { background: var(--blue); color: #fff; }
 .pill-small { padding: 4px 11px; font-size: 12px; letter-spacing: -0.01em; }
 .pill-large { padding: 14px 26px; }
+/* In place of an App Store button, for an app that is not released yet. */
+.pill-soon, .pill-soon:hover {
+  background: transparent;
+  border-color: var(--rule);
+  color: var(--text-2);
+  cursor: default;
+}
 
 .more::after { content: "\00a0›"; }
 

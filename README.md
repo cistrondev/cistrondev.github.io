@@ -33,6 +33,10 @@ To add an app: add an entry to `APPS`, put its policy in
 plus screenshots as `01.webp`, `02.webp`, … at 642×1389 (half of a
 1284×2778 App Store screenshot).
 
+An app that is not on the App Store yet takes `"live": False` in its entry.
+Its pages then say "Coming soon" where the App Store buttons and the price
+would be. On release day, remove that line, fill in `pricing`, and rebuild.
+
 ## Publishing
 
 The site is served by GitHub Pages from the `main` branch of
