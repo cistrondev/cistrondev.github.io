@@ -376,9 +376,8 @@ APPS = [
         "name": "Pedometer",
         "store_name": "Pedometer: Step Counter Widget",
         "id": "6822166433",
-        "live": False,
         "tagline": "Your steps, on your Lock Screen.",
-        "pricing": "",
+        "pricing": "Free",
         "intro": (
             "Steps, distance, and flights climbed, as plain numbers and charts.",
             "Pedometer reads Apple Health, so Apple Watch steps are included, "
