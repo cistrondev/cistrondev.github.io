@@ -1,6 +1,6 @@
 # Privacy Policy for Timegrapher
 
-**Effective date: 6 July 2026**
+**Effective date: 17 October 2026**
 
 Timegrapher ("the app") is designed to work entirely on your device. This
 policy explains, in plain language, what the app does and does not do with your
@@ -11,8 +11,9 @@ information.
 **Timegrapher does not collect, store, transmit, or share any personal data.**
 There are no accounts, no servers, no analytics, no advertising, and no
 third‑party tracking. The app's only network activity is the optional market
-price check described below, which you trigger yourself. Everything you enter
-or measure stays on your iPhone.
+price check and the optional photo identification described below, both of
+which you trigger yourself. Everything you enter or measure stays on your
+iPhone.
 
 ## Microphone
 
@@ -25,8 +26,15 @@ leaves your iPhone, and no audio is retained after a measurement ends.
 
 If you choose to add a photo to a watch, the app accesses your camera or photo
 library only to obtain the image you select. That image is stored **only on
-your device**, as part of the app's local data. Photos are never uploaded or
-shared by the app.
+your device**, as part of the app's local data.
+
+On iOS 27 and later, the watch form offers **Identify from Photo**. Only when
+you tap it, the app sends that watch's photo to Apple's Private Cloud Compute,
+where an Apple model suggests the brand, model and reference. Apple uses the
+photo only to answer that request and doesn't keep it. The request does not go
+through the developer, and the developer can't see the photo or the answer.
+Apple's handling is described in Apple's own privacy policy. If you never tap
+Identify from Photo, no photo leaves your iPhone.
 
 ## Information you enter
 
@@ -43,8 +51,8 @@ as if you had opened the page yourself — and computes the median asking price
 on your device. The request goes directly to Chrono24 and contains only the
 search text (the watch's brand and reference number). The developer receives
 nothing, stores nothing, and cannot see what you looked up. Chrono24's own
-privacy policy governs their website. If you never tap the fetch button, the
-app makes no network connections at all.
+privacy policy governs their website. If you never tap the fetch button or
+Identify from Photo, the app makes no network connections at all.
 
 ## Purchases
 
