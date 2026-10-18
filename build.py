@@ -217,16 +217,21 @@ APPS = [
              "gains time. Sweep the watch across the back of your iPhone and its "
              "magnetometer tells you whether it needs demagnetizing."),
         ],
-        "privacy_title": "Nothing recorded. Nothing uploaded.",
+        "privacy_title": "Nothing recorded. Nothing kept.",
         "privacy": [
             "Microphone audio is analyzed live and is never recorded or saved.",
             "Your collection and measurements are stored only on your iPhone.",
             "The optional price check searches Chrono24 for your watch's "
-            "reference. Nothing else is sent.",
+            "reference.",
+            "Identify from Photo sends the photo to Apple's Private Cloud "
+            "Compute only when you tap it. Apple doesn't keep it, and the "
+            "developer never sees it.",
         ],
         "network": (
-            "Nothing, unless you run the Chrono24 price check. Then only your "
-            "watch's brand and reference are searched. Audio is never recorded."
+            "Nothing, unless you run the Chrono24 price check or Identify from "
+            "Photo. The price check searches only your watch's brand and "
+            "reference. Identify from Photo sends that one photo to Apple's "
+            "Private Cloud Compute. Audio is never recorded."
         ),
         "note": "",
         "reviews": [
