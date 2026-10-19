@@ -16,6 +16,7 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parent
 BRAND = "Cistron"                 # header wordmark and page titles
+SITE_URL = "https://cistrondev.github.io/"   # canonical address; also used by sitemap.xml
 COMPANY = "Cistron Development"   # copyright line
 # Contact address. Leave empty to hide the Contact links and every policy's
 # "## Contact" section; set it and rebuild to bring them back.
@@ -602,11 +603,32 @@ def local_nav(app, prefix, current):
   </nav>"""
 
 
+# Every page's public address, collected as pages are written, for sitemap.xml.
+PAGE_URLS = []
+
+
 def write(path, text):
+    if path.endswith(".html"):
+        # The one official address of the page, so search engines don't treat
+        # /aloud/ and /aloud/index.html as two pages.
+        url = SITE_URL + path.removesuffix("index.html")
+        text = text.replace("</head>", f'  <link rel="canonical" href="{url}">\n'
+                                       f'  <meta property="og:url" content="{url}">\n</head>', 1)
+        PAGE_URLS.append(url)
     path = ROOT / path
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
     print("wrote", path.relative_to(ROOT))
+
+
+def search_files():
+    """sitemap.xml lists every page; robots.txt allows everything and points
+    crawlers at the sitemap. Both are rebuilt from the pages just written."""
+    urls = "\n".join(f"  <url><loc>{esc(u)}</loc></url>" for u in PAGE_URLS)
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          f"{urls}\n</urlset>\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
 
 
 # ---------------------------------------------------------------- pages
@@ -908,3 +930,4 @@ if __name__ == "__main__":
     for app in APPS:
         app_page(app)
         privacy_page(app)
+    search_files()

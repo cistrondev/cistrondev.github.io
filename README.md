@@ -27,6 +27,8 @@ python3 build.py
 ```
 
 Don't hand-edit the generated `.html` files. The next build overwrites them.
+The build also writes `sitemap.xml` (every page) and `robots.txt` (points
+search engines at the sitemap), so new pages are listed automatically.
 
 To add an app: add an entry to `APPS`, put its policy in
 `content/privacy/<slug>.md`, and add `assets/img/<slug>/icon.png` (256×256)
