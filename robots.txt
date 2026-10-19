@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cistrondev.github.io/sitemap.xml
