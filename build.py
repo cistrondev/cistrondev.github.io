@@ -23,6 +23,9 @@ EMAIL = "cistron.support@icloud.com"
 # Google Search Console ownership check (URL-prefix property for
 # https://cistrondev.github.io/). Leave in place or verification lapses.
 GOOGLE_SITE_VERIFICATION = "0HO-cftcZWuRyvlFjb1OlFsgFgWXaGyS6AsLK70I34Q"
+# Proves to Toolradar (a software directory) that this site is ours, so the
+# company profile can list the apps. Empty removes the tag.
+TOOLRADAR_VERIFICATION = "toolradar-verify-rOrqezKzteNECKs2sFwvBf"
 YEAR = 2026
 SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 
@@ -530,6 +533,8 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
     home = prefix or "./"
     google = (f'\n  <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">'
               if GOOGLE_SITE_VERIFICATION else "")
+    if TOOLRADAR_VERIFICATION:
+        google += f'\n  <meta name="toolradar-verify" content="{TOOLRADAR_VERIFICATION}">'
     nav_contact = f'        <li><a href="mailto:{EMAIL}">Contact</a></li>\n' if EMAIL else ""
     footer_contact = f'          <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>\n' if EMAIL else ""
     banner = f'\n  <meta name="apple-itunes-app" content="app-id={app_id}">' if app_id else ""
