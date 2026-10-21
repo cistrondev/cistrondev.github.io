@@ -209,7 +209,8 @@ APPS = [
              "comes from your calibre's own lift angle."),
             ("Your collection",
              "Every watch with its photo, reference, movement, and lift angle, and "
-             "every measurement saved."),
+             "every measurement saved. Add a photo and Identify from Photo "
+             "suggests the brand and model."),
             ("See the drift",
              "Charts show the rate across months and years, with a plain-language "
              "verdict after each reading."),
@@ -389,8 +390,9 @@ APPS = [
         "pricing": "Free",
         "intro": (
             "Steps, distance, and flights climbed, as plain numbers and charts.",
-            "Pedometer reads Apple Health, so Apple Watch steps are included, "
-            "and puts today's count on your Lock Screen and Home Screen.",
+            "Pedometer reads Apple Health and puts today's count on your Lock "
+            "Screen and Home Screen. Your iPhone counts steps on its own, and "
+            "Apple Watch steps are included if you wear one.",
         ),
         "features": [
             ("Today",
@@ -410,9 +412,9 @@ APPS = [
             ("Home Screen widget",
              "The same card as the app, small or medium. Set it to light, dark, "
              "or automatic, and show the steps alone if you like."),
-            ("No Apple Watch required",
-             "Your iPhone counts your steps on its own. If you wear an Apple "
-             "Watch, its steps are included."),
+            ("Your color",
+             "Choose graphite, blue, green, orange, pink, or purple for the goal "
+             "bars, the charts, and the Home Screen widget."),
         ],
         "privacy_title": "Nothing leaves your iPhone.",
         "privacy": [
@@ -427,6 +429,7 @@ APPS = [
             "Your steps on the Lock Screen: a step counter widget, with distance and stairs beside it.",
             "Every step, counted: reads Apple Health, Apple Watch steps included.",
             "On your Home Screen, too: the same card, small or medium.",
+            "Choose your color: six colors for the goal bars, the charts, and the widget.",
             "Your week, at a glance: daily bars, the average, and the change.",
             "Every number, over time: a month or a whole year, charted.",
             "Nothing leaves your iPhone: no account, no tracking.",
