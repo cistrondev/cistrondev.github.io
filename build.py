@@ -208,12 +208,12 @@ APPS = [
              "It tracks the room's noise floor and rejects stray sounds. Amplitude "
              "comes from your calibre's own lift angle."),
             ("Your collection",
-             "Every watch with its photo, reference, movement, and lift angle, and "
-             "every measurement saved. Add a photo and Identify from Photo "
-             "suggests the brand and model."),
-            ("See the drift",
-             "Charts show the rate across months and years, with a plain-language "
-             "verdict after each reading."),
+             "Every watch with its photo, reference, movement, and lift angle. "
+             "Every reading is saved and charted. Identify from Photo suggests "
+             "the brand and model."),
+            ("Accuracy over a day of wear",
+             "Take two photos of the watch a day apart. Timegrapher compares them "
+             "with your iPhone's clock and shows how the watch ran on your wrist."),
             ("Know what it's worth",
              "Current Chrono24 asking prices for your exact reference, with the "
              "median worked out on your iPhone."),
@@ -253,6 +253,7 @@ APPS = [
             "See the drift before it matters, and know when to service your watch.",
             "Know what it's worth: the Chrono24 median for your exact reference.",
             "Is your watch magnetized? Checked in ten seconds.",
+            "Accuracy over a day of wear: two photos, a day apart, show how it ran on your wrist.",
         ],
     },
     {
@@ -412,6 +413,15 @@ APPS = [
             ("Home Screen widget",
              "The same card as the app, small or medium. Set it to light, dark, "
              "or automatic, and show the steps alone if you like."),
+            ("By hour",
+             "Today's steps hour by hour, beside your usual day over the last "
+             "four weeks."),
+            ("Large widget",
+             "Your day hour by hour on the Home Screen, with steps, distance, "
+             "and flights climbed."),
+            ("Records",
+             "Totals for every month and year, and your best day, week, and "
+             "month for steps, flights climbed, and walking speed."),
             ("Your color",
              "Choose graphite, blue, green, orange, pink, or purple for the goal "
              "bars, the charts, and the Home Screen widget."),
@@ -429,6 +439,9 @@ APPS = [
             "Your steps on the Lock Screen: a step counter widget, with distance and stairs beside it.",
             "Every step, counted: reads Apple Health, Apple Watch steps included.",
             "On your Home Screen, too: the same card, small or medium.",
+            "Your day, hour by hour: today's steps beside a usual day.",
+            "A large widget for your day: today hour by hour, on your Home Screen.",
+            "Your best day, week, and month: totals for every month and year, and all time.",
             "Choose your color: six colors for the goal bars, the charts, and the widget.",
             "Your week, at a glance: daily bars, the average, and the change.",
             "Every number, over time: a month or a whole year, charted.",
