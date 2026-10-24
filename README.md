@@ -14,8 +14,22 @@ privacy/index.html         what each app sends over the network + links
 assets/site.css, site.js   styles and the screenshot-gallery buttons
 assets/img/<app>/          icon.png + 01.webp, 02.webp, … screenshots
 content/privacy/<app>.md   privacy policy sources
+content/<app>/<lang>.py    translations, FAQ and export guide (Unfollowers only)
 build.py                   generates every .html file above
 ```
+
+Unfollowers also has these pages, one set per language (en, pt-BR, es, it,
+fr, de, el, nl):
+
+```
+unfollowers/<lang>/                   app page with an FAQ (English: unfollowers/)
+unfollowers/<lang>/<guide-slug>/      how to download the Instagram data export
+assets/img/unfollowers/<lang>/        that language's screenshots (es, it, fr, de, el, nl)
+```
+
+Each language version links to the others with `hreflang` tags (English is
+`x-default`) and carries schema.org data: SoftwareApplication and FAQPage on
+the app page, HowTo on the guide. sitemap.xml lists the same alternates.
 
 ## Editing
 
@@ -34,6 +48,13 @@ To add an app: add an entry to `APPS`, put its policy in
 `content/privacy/<slug>.md`, and add `assets/img/<slug>/icon.png` (256×256)
 plus screenshots as `01.webp`, `02.webp`, … at 642×1389 (half of a
 1284×2778 App Store screenshot).
+
+To change the Unfollowers translations, FAQ or guide, edit
+`content/unfollowers/<lang>.py` (en.py explains every key and the copy rules)
+and rebuild. English page copy stays in `APPS`; en.py holds only the English
+FAQ and guide. To add a language, copy a language file, translate it, and add
+its code to the app's `languages` list. On a phone the header and app-bar
+links have little room, so check a new language at 375 px wide.
 
 An app that is not on the App Store yet takes `"live": False` in its entry.
 Its pages then say "Coming soon" where the App Store buttons and the price

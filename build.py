@@ -11,8 +11,10 @@ No dependencies beyond the Python standard library.
 """
 import hashlib
 import html
+import json
 import pathlib
 import re
+import runpy
 
 ROOT = pathlib.Path(__file__).resolve().parent
 BRAND = "Cistron"                 # header wordmark and page titles
@@ -51,6 +53,11 @@ SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 # `live: False` is for an app that is not on the App Store yet: its pages say
 # "Coming soon" where the App Store buttons and the price would be. On release
 # day, remove the line and fill in `pricing`.
+#
+# `languages` lists the languages the app's page exists in, English first.
+# Each has a file content/<slug>/<code>.py (see content/unfollowers/en.py):
+# the page copy, an FAQ and a how-to guide. Every language version links to
+# all the others with hreflang tags, and English is the x-default.
 APPS = [
     {
         "slug": "aloud",
@@ -315,6 +322,8 @@ APPS = [
                       "Love that no ads are involved!"},
         ],
         "tile": [1, 4, 5],
+        "languages": ["en", "pt-BR", "es", "it", "fr", "de", "el", "nl"],
+        "category": "SocialNetworkingApplication",   # schema.org applicationCategory
         "why": (
             "Your password stays yours.",
             "Most follower trackers ask for your Instagram password, then access "
@@ -468,6 +477,38 @@ PRINCIPLES = [
      '<path d="M4.5 14.2 14.2 4.5H23.5v9.3L13.8 23.5z"/><circle cx="18.6" cy="9.4" r="1.7"/>'),
 ]
 
+# The site's own words: navigation, footer, buttons. A language file's `ui`
+# replaces any of these on that language's pages. On a 375-pixel phone the
+# header links must stay within about 178px of text and the app bar's two
+# links within about 112px, so long languages use short words there.
+UI_EN = {
+    "nav_apps": "Apps",
+    "nav_privacy": "Privacy",
+    "nav_about": "About",
+    "nav_contact": "Contact",
+    "trademark": "Instagram and Facebook are trademarks of Meta Platforms, Inc. Unfollowers "
+                 "and Unfriended are independent apps and are not affiliated with, endorsed "
+                 "by, or sponsored by Meta.",
+    "rights": "All rights reserved.",
+    "overview": "Overview",
+    "privacy": "Privacy",
+    "app_store": "App Store",
+    "view_on_store": "View on the App Store",
+    "platform": "iPhone · iOS 17 or later",
+    "screenshots": "Screenshots",
+    "prev": "Previous screenshots",
+    "next": "Next screenshots",
+    "privacy_eyebrow": "Privacy",
+    "read_policy": "Read the privacy policy",
+    "what_people_say": "What people say.",
+    "more_apps": "More apps",
+    "languages": "Languages",
+    "faq": "Questions and answers",
+    "summary": "What to choose",
+    "tips": "Good to know",
+    "cta_more": "About {name}",
+}
+
 # ---------------------------------------------------------------- helpers
 
 esc = html.escape
@@ -493,8 +534,15 @@ def is_live(app):
     return app.get("live", True)
 
 
+def shot_path(app, n, dark=False):
+    """A language with its own screenshots keeps them in a subfolder
+    (`shots_dir`), e.g. assets/img/unfollowers/es/01.webp."""
+    folder = app["slug"] + (f"/{app['shots_dir']}" if app.get("shots_dir") else "")
+    return f"assets/img/{folder}/{'dark/' if dark else ''}{n:02d}.webp"
+
+
 def shot(app, n, dark=False):
-    return versioned(f"assets/img/{app['slug']}/{'dark/' if dark else ''}{n:02d}.webp")
+    return versioned(shot_path(app, n, dark))
 
 
 def icon(app):
@@ -544,20 +592,131 @@ def md_to_html(source):
     return title, date, "\n".join(out)
 
 
+# ---------------------------------------------------------------- languages
+
+def load_languages(app):
+    """The app's language files, in the order of its `languages` list. Each
+    file defines a dict L; this adds its `code`. The English page copy stays
+    in APPS, so en.py adds only the FAQ and the guide."""
+    langs = []
+    for code in app.get("languages", []):
+        L = runpy.run_path(str(ROOT / "content" / app["slug"] / f"{code}.py"))["L"]
+        langs.append({**L, "code": code})
+    return langs
+
+
+def lang_dir(app, L):
+    """Folder of an app's page in one language: unfollowers/ or unfollowers/es/."""
+    return f"{app['slug']}/{L['path']}"
+
+
+def guide_dir(app, L):
+    return f"{lang_dir(app, L)}{L['guide']['slug']}/"
+
+
+def up(folder):
+    """Relative prefix from a page in `folder` back to the site root."""
+    return "../" * folder.count("/")
+
+
+def hreflang_links(cluster):
+    """<link rel="alternate"> for every language version of a page, plus
+    x-default (the English one, listed first). `cluster`: [(code, URL)]."""
+    links = [f'  <link rel="alternate" hreflang="{code}" href="{url}">' for code, url in cluster]
+    links.append(f'  <link rel="alternate" hreflang="x-default" href="{cluster[0][1]}">')
+    return "\n".join(links)
+
+
+def json_ld(data):
+    """A schema.org block for search engines and chat assistants."""
+    text = json.dumps({"@context": "https://schema.org", **data}, ensure_ascii=False, indent=1)
+    text = text.replace("</", "<\\/")   # a string can't close the <script>
+    return f'  <script type="application/ld+json">\n{text}\n  </script>'
+
+
+LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
+
+
+def rich(text, links):
+    """Language-file text to HTML: **bold**, and [label](key) links, where
+    key is an entry of `links` (guide, store, privacy) or a URL."""
+    text = esc(text, quote=False)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    return LINK.sub(lambda m: f'<a href="{esc(links.get(m.group(2), m.group(2)))}">{m.group(1)}</a>', text)
+
+
+def plain(text):
+    """The same text without markup, for structured data."""
+    return LINK.sub(r"\1", text.replace("**", ""))
+
+
+def blocks_html(blocks, links, sep="\n"):
+    """An FAQ answer: each string is a paragraph, each list a numbered list."""
+    out = []
+    for b in blocks:
+        if isinstance(b, str):
+            out.append(f"<p>{rich(b, links)}</p>")
+        else:
+            out.append("<ol>" + "".join(f"<li>{rich(i, links)}</li>" for i in b) + "</ol>")
+    return sep.join(out)
+
+
+def language_nav(langs, current, p, folder_of):
+    """Links to the same page in every language; `folder_of(L)` gives its folder."""
+    ui = {**UI_EN, **current.get("ui", {})}
+
+    def item(L):
+        here = ' aria-current="page"' if L is current else ""
+        return (f'        <li><a href="{p}{folder_of(L)}" hreflang="{L["code"]}" '
+                f'lang="{L["code"]}"{here}>{esc(L["name"])}</a></li>')
+
+    items = "\n".join(item(L) for L in langs)
+    return f"""    <nav class="langs" aria-label="{esc(ui['languages'])}">
+      <h2>{esc(ui['languages'])}</h2>
+      <ul>
+{items}
+      </ul>
+    </nav>
+"""
+
+
+def faq_section(L, links, ui):
+    items = "\n".join(f"""        <div class="faq-item">
+          <h3>{esc(q)}</h3>
+          <div class="faq-answer">
+            {blocks_html(a, links, chr(10) + "            ")}
+          </div>
+        </div>""" for q, a in L["faq"])
+    return f"""    <section class="faq" id="faq">
+      <h2>{esc(ui['faq'])}</h2>
+      <div class="faq-list">
+{items}
+      </div>
+    </section>
+
+"""
+
+
 # ---------------------------------------------------------------- chrome
 
-def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts=False):
+def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts=False,
+         lang="en", ui=UI_EN, head=""):
+    """`lang` and `ui` translate the page's frame; `head` adds tags to <head>
+    (hreflang links, structured data)."""
     home = prefix or "./"
     google = (f'\n  <meta name="google-site-verification" content="{GOOGLE_SITE_VERIFICATION}">'
               if GOOGLE_SITE_VERIFICATION else "")
     if TOOLRADAR_VERIFICATION:
         google += f'\n  <meta name="toolradar-verify" content="{TOOLRADAR_VERIFICATION}">'
-    nav_contact = f'        <li><a href="mailto:{EMAIL}">Contact</a></li>\n' if EMAIL else ""
+    nav_contact = f'        <li><a href="mailto:{EMAIL}">{esc(ui["nav_contact"])}</a></li>\n' if EMAIL else ""
     footer_contact = f'          <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>\n' if EMAIL else ""
     banner = f'\n  <meta name="apple-itunes-app" content="app-id={app_id}">' if app_id else ""
     script = f'\n  <script src="{prefix}{asset("site.js")}" defer></script>' if scripts else ""
+    head = f"\n{head}" if head else ""
+    # An empty nav_about leaves the link out, where longer words need the room on phones.
+    about = f'        <li><a href="{home}#about">{esc(ui["nav_about"])}</a></li>\n' if ui["nav_about"] else ""
     return f"""<!doctype html>
-<html lang="en">
+<html lang="{lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -570,17 +729,16 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
   <link rel="apple-touch-icon" href="{prefix}{asset('apple-touch-icon.png')}">
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">{banner}
-  <link rel="stylesheet" href="{prefix}{asset('site.css')}">{script}
+  <link rel="stylesheet" href="{prefix}{asset('site.css')}">{script}{head}
 </head>
 <body>
   <header class="globalnav">
     <nav class="globalnav-inner" aria-label="Site">
       <a class="wordmark" href="{home}">{BRAND}</a>
       <ul>
-        <li><a href="{home}#apps">Apps</a></li>
-        <li><a href="{prefix}privacy/">Privacy</a></li>
-        <li><a href="{home}#about">About</a></li>
-{nav_contact}      </ul>
+        <li><a href="{home}#apps">{esc(ui["nav_apps"])}</a></li>
+        <li><a href="{prefix}privacy/">{esc(ui["nav_privacy"])}</a></li>
+{about}{nav_contact}      </ul>
     </nav>
   </header>
 {local_nav}
@@ -589,12 +747,12 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
   </main>
   <footer class="footer">
     <div class="footer-inner">
-      <p>Instagram and Facebook are trademarks of Meta Platforms, Inc. Unfollowers and Unfriended are independent apps and are not affiliated with, endorsed by, or sponsored by Meta.</p>
+      <p>{esc(ui["trademark"])}</p>
       <div class="footer-row">
-        <p>Copyright © {YEAR} {COMPANY}. All rights reserved.</p>
+        <p>Copyright © {YEAR} {COMPANY}. {esc(ui["rights"])}</p>
         <ul>
-          <li><a href="{home}#apps">Apps</a></li>
-          <li><a href="{prefix}privacy/">Privacy</a></li>
+          <li><a href="{home}#apps">{esc(ui["nav_apps"])}</a></li>
+          <li><a href="{prefix}privacy/">{esc(ui["nav_privacy"])}</a></li>
 {footer_contact}        </ul>
       </div>
     </div>
@@ -604,16 +762,19 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
 """
 
 
-def local_nav(app, prefix, current):
+def local_nav(app, prefix, current, ui=UI_EN, home=None):
+    """`home` is the folder of the app page this nav leads back to (the
+    page in the reader's language); the privacy policy is English only."""
     here = ' aria-current="page"'
-    store = (f'\n        <li><a class="pill pill-small" href="{store_url(app)}">App Store</a></li>'
+    home = home or f"{app['slug']}/"
+    store = (f'\n        <li><a class="pill pill-small" href="{store_url(app)}">{esc(ui["app_store"])}</a></li>'
              if is_live(app) else "")
     return f"""  <nav class="localnav" aria-label="{esc(app['name'])}">
     <div class="localnav-inner">
-      <a class="localnav-title" href="{prefix}{app['slug']}/">{esc(app['name'])}</a>
+      <a class="localnav-title" href="{prefix}{home}">{esc(app['name'])}</a>
       <ul>
-        <li><a href="{prefix}{app['slug']}/"{here if current == 'overview' else ''}>Overview</a></li>
-        <li><a href="{prefix}{app['slug']}/privacy/"{here if current == 'privacy' else ''}>Privacy</a></li>{store}
+        <li><a href="{prefix}{home}"{here if current == 'overview' else ''}>{esc(ui["overview"])}</a></li>
+        <li><a href="{prefix}{app['slug']}/privacy/"{here if current == 'privacy' else ''}>{esc(ui["privacy"])}</a></li>{store}
       </ul>
     </div>
   </nav>"""
@@ -621,6 +782,8 @@ def local_nav(app, prefix, current):
 
 # Every page's public address, collected as pages are written, for sitemap.xml.
 PAGE_URLS = []
+# Page URL -> its language versions [(code, URL)], repeated in sitemap.xml.
+ALTERNATES = {}
 
 
 def write(path, text):
@@ -639,10 +802,21 @@ def write(path, text):
 
 def search_files():
     """sitemap.xml lists every page; robots.txt allows everything and points
-    crawlers at the sitemap. Both are rebuilt from the pages just written."""
-    urls = "\n".join(f"  <url><loc>{esc(u)}</loc></url>" for u in PAGE_URLS)
+    crawlers at the sitemap. Both are rebuilt from the pages just written.
+    Pages that exist in several languages list them all, as in their <head>."""
+    def entry(u):
+        cluster = ALTERNATES.get(u)
+        if not cluster:
+            return f"  <url><loc>{esc(u)}</loc></url>"
+        links = "".join(
+            f'\n    <xhtml:link rel="alternate" hreflang="{code}" href="{esc(url)}"/>'
+            for code, url in cluster + [("x-default", cluster[0][1])])
+        return f"  <url>\n    <loc>{esc(u)}</loc>{links}\n  </url>"
+
+    urls = "\n".join(entry(u) for u in PAGE_URLS)
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
-          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
+          ' xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
           f"{urls}\n</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
 
@@ -766,7 +940,7 @@ def duo_showcase(app, p):
     return "", row
 
 
-def proof_section(app):
+def proof_section(app, ui=UI_EN):
     """Stats and review excerpts for an app page; empty when it has neither."""
     stats, reviews = app.get("stats", []), app.get("reviews", [])
     if not stats and not reviews:
@@ -784,15 +958,57 @@ def proof_section(app):
           </figure>
         </li>""" for r in reviews)
         single = " reviews-single" if len(reviews) == 1 else ""
-        parts.append(f"""      <h2 class="proof-title">What people say.</h2>
+        parts.append(f"""      <h2 class="proof-title">{esc(ui["what_people_say"])}</h2>
       <ul class="reviews{single}">
 {cards}
       </ul>""")
     return '    <section class="proof">\n' + "\n".join(parts) + "\n    </section>\n"
 
 
-def app_page(app):
-    p = "../"
+def app_structured_data(app, L, url, links):
+    """schema.org SoftwareApplication + FAQPage for one language version."""
+    store = store_url(app)
+    lead, rest = app["intro"]
+    software = {
+        "@type": "SoftwareApplication",
+        "@id": f"{SITE_URL}{app['slug']}/#app",
+        "name": app["store_name"],
+        "alternateName": app["name"],
+        "url": url,
+        "inLanguage": L["code"],
+        "description": f"{lead} {rest}",
+        "applicationCategory": app.get("category", "UtilitiesApplication"),
+        "operatingSystem": "iOS 17.0 or later",
+        "availableOnDevice": "iPhone",
+        "downloadUrl": store,
+        "installUrl": store,
+        "sameAs": store,
+        "image": f"{SITE_URL}assets/img/{app['slug']}/icon.png",
+        "screenshot": [SITE_URL + shot_path(app, i) for i in range(1, len(app["shots"]) + 1)],
+        "featureList": [title for title, _ in app["features"]],
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "publisher": {"@type": "Organization", "name": COMPANY, "url": SITE_URL},
+    }
+    faq = {
+        "@type": "FAQPage",
+        "@id": f"{url}#faq",
+        "inLanguage": L["code"],
+        "mainEntity": [{"@type": "Question", "name": q,
+                        "acceptedAnswer": {"@type": "Answer", "text": blocks_html(a, links, "")}}
+                       for q, a in L["faq"]],
+    }
+    return json_ld({"@graph": [software, faq]})
+
+
+def app_page(base, langs=(), L=None):
+    """An app's page. With a language file `L`, its `page` entries replace the
+    English copy in APPS, and the page gains the FAQ, a link to the export
+    guide, the language list, hreflang links and structured data."""
+    L = L or {}
+    app = {**base, **L.get("page", {})}
+    ui = {**UI_EN, **L.get("ui", {})}
+    folder = lang_dir(base, L) if L else f"{base['slug']}/"
+    p = up(folder)
     dark = app.get("dark_shots", False)
 
     def variants(i):
@@ -814,9 +1030,9 @@ def app_page(app):
     privacy = "\n".join(f"          <li>{esc(b)}</li>" for b in app["privacy"])
     others = "\n".join(
         f"""        <li><a href="{p}{o['slug']}/"><img class="app-icon" src="{p}{icon(o)}" width="256" height="256" alt=""><span>{esc(o['name'])}</span></a></li>"""
-        for o in APPS if o is not app)
+        for o in APPS if o is not base)
     note = f'\n      <p class="note">{esc(app["note"])}</p>' if app["note"] else ""
-    proof = proof_section(app)
+    proof = proof_section(app, ui)
     why = ""
     if "why" in app:
         heading, text = app["why"]
@@ -829,33 +1045,51 @@ def app_page(app):
     lead, rest = app["intro"]
     if is_live(app):
         meta = app["pricing"]
-        store = f'<a class="pill pill-large" href="{store_url(app)}">View on the App Store</a>'
+        store = f'<a class="pill pill-large" href="{store_url(app)}">{esc(ui["view_on_store"])}</a>'
     else:
         meta = "Coming soon"
         store = '<span class="pill pill-large pill-soon">Coming soon to the App Store</span>'
+    privacy_href = "privacy/" if folder == f"{base['slug']}/" else f"{p}{base['slug']}/privacy/"
+
+    guide_link = faq = languages = head = ""
+    if L:
+        links = {"guide": f"{p}{guide_dir(base, L)}", "store": store_url(base),
+                 "privacy": f"{p}{base['slug']}/privacy/"}
+        guide_link = (f'\n      <p class="intro-link"><a class="more" href="{links["guide"]}">'
+                      f'{esc(L["guide_link"])}</a></p>')
+        faq = faq_section(L, links, ui)
+        languages = "\n" + language_nav(langs, L, p, lambda x: lang_dir(base, x))
+        url = SITE_URL + folder
+        cluster = [(x["code"], SITE_URL + lang_dir(base, x)) for x in langs]
+        ALTERNATES[url] = cluster
+        absolute = {"guide": SITE_URL + guide_dir(base, L), "store": store_url(base),
+                    "privacy": f"{SITE_URL}{base['slug']}/privacy/"}
+        head = "\n".join([f'  <meta property="og:locale" content="{L["og_locale"]}">',
+                          hreflang_links(cluster),
+                          app_structured_data(app, L, url, absolute)])
 
     body = f"""    <section class="app-hero">
       <img class="app-icon app-icon-large" src="{p}{icon(app)}" width="256" height="256" alt="{esc(app['name'])} app icon">
       <h1>{esc(app['name'])}</h1>
       <p class="app-tagline">{esc(app['tagline'])}</p>
-      <p class="app-meta">{esc(meta)} · iPhone · iOS 17 or later</p>
+      <p class="app-meta">{esc(meta)} · {esc(ui["platform"])}</p>
       <p>{store}</p>
     </section>
 
-    <section class="gallery" data-gallery aria-label="Screenshots">
+    <section class="gallery" data-gallery aria-label="{esc(ui["screenshots"])}">
       <ul class="gallery-track" tabindex="0">
 {shots}
       </ul>
       <div class="gallery-controls">{duo_button}{toggle}
         <div class="gallery-paddles">
-          <button type="button" data-prev aria-label="Previous screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M20.5 11 13.5 18l7 7"/></svg></button>
-          <button type="button" data-next aria-label="Next screenshots"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M15.5 11l7 7-7 7"/></svg></button>
+          <button type="button" data-prev aria-label="{esc(ui["prev"])}"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M20.5 11 13.5 18l7 7"/></svg></button>
+          <button type="button" data-next aria-label="{esc(ui["next"])}"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M15.5 11l7 7-7 7"/></svg></button>
         </div>
       </div>{duo_dialog}
     </section>
 
     <section class="intro">
-      <p><strong>{esc(lead)}</strong> {esc(rest)}</p>
+      <p><strong>{esc(lead)}</strong> {esc(rest)}</p>{guide_link}
     </section>
 
     <section class="features">
@@ -864,30 +1098,106 @@ def app_page(app):
       </ul>
     </section>
 
-{why}{proof}
+{why}{proof}{faq}
     <section class="privacy-card">
       <div>
-        <p class="eyebrow">Privacy</p>
+        <p class="eyebrow">{esc(ui["privacy_eyebrow"])}</p>
         <h2>{esc(app['privacy_title'])}</h2>
-        <p><a class="more" href="privacy/">Read the privacy policy</a></p>
+        <p><a class="more" href="{privacy_href}">{esc(ui["read_policy"])}</a></p>
       </div>
       <ul class="checks">
 {privacy}
       </ul>
     </section>
-{note}
+{note}{languages}
     <section class="more-apps">
-      <h2>More apps</h2>
+      <h2>{esc(ui["more_apps"])}</h2>
       <ul>
 {others}
       </ul>
     </section>"""
 
-    write(f"{app['slug']}/index.html", page(
+    write(f"{folder}index.html", page(
         prefix=p, title=f"{app['name']}: {app['tagline']}",
         description=f"{lead} {rest}", body=body,
-        local_nav=local_nav(app, p, "overview"),
-        app_id=app["id"] if is_live(app) else None, scripts=True))
+        local_nav=local_nav(base, p, "overview", ui, folder),
+        app_id=app["id"] if is_live(app) else None, scripts=True,
+        lang=L.get("code", "en"), ui=ui, head=head))
+
+
+def guide_page(base, langs, L):
+    """Step by step: how to get the data the app reads, in one language."""
+    app = {**base, **L.get("page", {})}
+    ui = {**UI_EN, **L.get("ui", {})}
+    g = L["guide"]
+    folder = guide_dir(base, L)
+    home = lang_dir(base, L)
+    p = up(folder)
+    store = store_url(base)
+    links = {"app": f"{p}{home}", "store": store, "privacy": f"{p}{base['slug']}/privacy/"}
+
+    summary = "\n".join(
+        f"          <div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>" for k, v in g["choose"])
+    steps = "\n".join(f"""        <li id="step-{i}">
+          <h2>{esc(title)}</h2>
+          <p>{rich(text, links)}</p>
+        </li>""" for i, (title, text) in enumerate(g["steps"], 1))
+    tips = "\n".join(f"""        <div>
+          <h3>{esc(title)}</h3>
+          <p>{rich(text, links)}</p>
+        </div>""" for title, text in g["tips"])
+
+    body = f"""    <article class="guide">
+      <p class="eyebrow"><a href="{p}{home}">{esc(app['name'])}</a></p>
+      <h1>{esc(g['title'])}</h1>
+      <p class="guide-lead">{rich(g['lead'], links)}</p>
+      <div class="guide-summary">
+        <p class="guide-summary-title">{esc(ui['summary'])}</p>
+        <dl>
+{summary}
+        </dl>
+      </div>
+      <ol class="guide-steps">
+{steps}
+      </ol>
+      <h2 class="guide-tips-title">{esc(ui['tips'])}</h2>
+      <div class="guide-tips">
+{tips}
+      </div>
+      <p class="guide-updated">{esc(g['updated'])}</p>
+      <aside class="guide-cta">
+        <img class="app-icon" src="{p}{icon(base)}" width="256" height="256" alt="">
+        <h2>{esc(g['cta_title'])}</h2>
+        <p>{esc(g['cta_text'])}</p>
+        <p class="guide-cta-actions">
+          <a class="pill" href="{store}">{esc(ui['view_on_store'])}</a>
+          <a class="more" href="{p}{home}">{esc(ui['cta_more'].format(name=app['name']))}</a>
+        </p>
+      </aside>
+    </article>
+
+{language_nav(langs, L, p, lambda x: guide_dir(base, x))}"""
+
+    url = SITE_URL + folder
+    cluster = [(x["code"], SITE_URL + guide_dir(base, x)) for x in langs]
+    ALTERNATES[url] = cluster
+    howto = json_ld({
+        "@type": "HowTo",
+        "name": g["title"],
+        "description": g["description"],
+        "inLanguage": L["code"],
+        "url": url,
+        "step": [{"@type": "HowToStep", "position": i, "name": title, "text": plain(text),
+                  "url": f"{url}#step-{i}"}
+                 for i, (title, text) in enumerate(g["steps"], 1)],
+    })
+    head = "\n".join([f'  <meta property="og:locale" content="{L["og_locale"]}">',
+                      hreflang_links(cluster), howto])
+    write(f"{folder}index.html", page(
+        prefix=p, title=g["title"], description=g["description"], body=body,
+        local_nav=local_nav(base, p, "guide", ui, home),
+        app_id=base["id"] if is_live(base) else None,
+        lang=L["code"], ui=ui, head=head))
 
 
 def privacy_page(app):
@@ -944,6 +1254,11 @@ if __name__ == "__main__":
     home_page()
     privacy_index()
     for app in APPS:
-        app_page(app)
+        langs = load_languages(app)
+        for L in langs:
+            app_page(app, langs, L)
+            guide_page(app, langs, L)
+        if not langs:
+            app_page(app)
         privacy_page(app)
     search_files()
