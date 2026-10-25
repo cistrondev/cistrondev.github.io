@@ -1,13 +1,13 @@
-# Privacy Policy for Private Voice Clone
+# Privacy Policy for Voice Clone
 
 **Last updated: 25 October 2026**
 
-Private Voice Clone ("the app") makes a copy of your voice on your iPhone. This policy explains, in plain
+Voice Clone ("the app") makes a copy of your voice on your iPhone. This policy explains, in plain
 language, what the app does and does not do with your information.
 
 ## The short version
 
-**Private Voice Clone does not collect, store, transmit, or share any personal data.** There are no accounts,
+**Voice Clone does not collect, store, transmit, or share any personal data.** There are no accounts,
 no servers, no analytics, no third‑party advertising, and no tracking. Your voice recording, the text you type
 and the clips the app makes stay on your iPhone. The app's only network connection downloads the voice model
 (see "The voice model download" below).
@@ -65,7 +65,7 @@ The developer holds no copy of your data and so cannot access, restore, or delet
 
 ## Children's privacy
 
-Private Voice Clone does not collect any personal information from anyone, including children.
+Voice Clone does not collect any personal information from anyone, including children.
 
 ## Changes to this policy
 
