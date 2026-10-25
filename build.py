@@ -472,6 +472,63 @@ APPS = [
             "Nothing leaves your iPhone: no account, no tracking.",
         ],
     },
+    {
+        "slug": "voiceclone",
+        "name": "Private Voice Clone",
+        "store_name": "Private Voice Clone: Offline",
+        "id": "",
+        "live": False,
+        # The voice model needs 8 GB of memory, so newer iPhones only.
+        "platform": "iPhone 15 Pro or later · iOS 18 or later",
+        "tagline": "Text to speech in your own voice.",
+        "pricing": "Free",
+        "intro": (
+            "Record a short sample of your voice, type any text, and hear it "
+            "read in your voice.",
+            "The voice model runs on your iPhone, so your recordings and clips "
+            "stay with you. There is no account and nothing to buy.",
+        ),
+        "features": [
+            ("Your voice in 15 seconds",
+             "Talk for 10 to 15 seconds in your normal voice. The app learns "
+             "your voice from that one sample, on your iPhone."),
+            ("Type anything",
+             "Type what it should say and tap Generate. A long text starts "
+             "playing as soon as its first sentence is ready."),
+            ("22 languages",
+             "Record once, in any language, then make clips in 22 languages. "
+             "When your text looks like another language, the app offers to "
+             "switch."),
+            ("Works offline",
+             "The first time, the app downloads the voice model, about 1.9 GB. "
+             "After that it works in airplane mode."),
+            ("Your clips",
+             "Every clip is saved with its text and language. Play it, share "
+             "it, save it to Files, or delete it."),
+            ("No account, no credits",
+             "There is nothing to sign up for and no credits to buy."),
+        ],
+        "privacy_title": "Nothing leaves your iPhone.",
+        "privacy": [
+            "Your voice sample, your text, and your clips stay on your iPhone.",
+            "The voice model runs on the phone. Nothing is uploaded.",
+            "Each clip is labelled as AI-generated in its file information.",
+            "No account, no analytics, no tracking.",
+        ],
+        "network": "Only the one-time download of the voice model from Hugging "
+                   "Face. Nothing about you is sent.",
+        "note": "Needs an iPhone 15 Pro or later, for its 8 GB of memory. Clone "
+                "only your own voice, or the voice of someone who agreed to it.",
+        "tile": [1, 3, 5],
+        "shots": [
+            "Clone your voice on your iPhone: the voice model runs on the phone.",
+            "Record 15 seconds of your voice: say anything, in your normal voice.",
+            "Type anything, hear it in your voice: long texts start after the first sentence.",
+            "Works in airplane mode: after a one-time download, no internet needed.",
+            "Speak 22 languages in your own voice: record once, in any language.",
+            "No account, no credits: save clips to Files or share them.",
+        ],
+    },
 ]
 
 PRINCIPLES = [
@@ -1087,7 +1144,7 @@ def app_page(base, langs=(), L=None):
       <img class="app-icon app-icon-large" src="{p}{icon(app)}" width="256" height="256" alt="{esc(app['name'])} app icon">
       <h1>{esc(app['name'])}</h1>
       <p class="app-tagline">{esc(app['tagline'])}</p>
-      <p class="app-meta">{esc(meta)} · {esc(ui["platform"])}</p>
+      <p class="app-meta">{esc(meta)} · {esc(app.get("platform", ui["platform"]))}</p>
       <p>{store}</p>
     </section>
 
