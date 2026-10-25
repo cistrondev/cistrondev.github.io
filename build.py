@@ -409,6 +409,19 @@ APPS = [
              "Your steps against your goal, with what is left to go. Distance "
              "and flights climbed against their goals, with active energy and "
              "walking speed beside them."),
+            ("Walks and runs",
+             "Record a walk or run with GPS: your route on a map, with speed or "
+             "pace, elevation, climb, and calories. Each one is saved to Apple "
+             "Health with its route."),
+            ("Live heart rate",
+             "With AirPods Pro 3, Powerbeats Pro 2, or a Bluetooth heart rate "
+             "strap, your heart rate shows live during a walk or run (iOS 26)."),
+            ("On the Lock Screen",
+             "While you walk, the time, distance, speed, heart rate, and "
+             "calories stay on the Lock Screen, with a pause button."),
+            ("Share a walk",
+             "A picture of each walk or run, with the map and your numbers, for "
+             "any app you like."),
             ("Your own goals",
              "Set a daily goal for steps, distance, and flights climbed. They "
              "start at 10,000 steps, 8 km or 5 miles, and 10 flights."),
@@ -420,40 +433,39 @@ APPS = [
              "and flights climbed, with a figure that climbs a staircase to "
              "your goal."),
             ("Home Screen widget",
-             "The same card as the app, small or medium. Set it to light, dark, "
-             "or automatic, and show the steps alone if you like."),
+             "The same card as the app, small, medium, or large. Set it to light, "
+             "dark, or automatic, and show the steps alone if you like."),
             ("By hour",
              "Today's steps hour by hour, beside your usual day over the last "
              "four weeks."),
-            ("Large widget",
-             "Your day hour by hour on the Home Screen, with steps, distance, "
-             "and flights climbed."),
             ("Records",
-             "Totals for every month and year, and your best day, week, and "
-             "month for steps, flights climbed, and walking speed."),
+             "Totals of steps, distance, and flights for every month and year, "
+             "and your best day, week, and month for steps, flights climbed, "
+             "and walking speed."),
             ("Your color",
              "Choose graphite, blue, green, orange, pink, or purple for the goal "
              "bars, the charts, and the Home Screen widget."),
         ],
         "privacy_title": "Nothing leaves your iPhone.",
         "privacy": [
-            "Reads Apple Health and never writes to it.",
+            "Reads Apple Health, and writes to it only the walks and runs you record.",
+            "Your location is used only while you record, and stays on your iPhone.",
             "Everything is counted and stored on your iPhone. Nothing is uploaded.",
             "No account, no analytics, no tracking.",
         ],
-        "network": "Nothing. The app makes no network connections at all.",
+        "network": "Only the map, which Apple Maps draws. Nothing about you is sent.",
         "note": "Pedometer is not a medical device and does not give medical advice.",
         "tile": [1, 2, 3],
         "shots": [
             "Your steps on the Lock Screen: a step counter widget, with distance and stairs beside it.",
             "Every step, counted: reads Apple Health, Apple Watch steps included.",
+            "Walks and runs, on a map: speed, elevation, calories, and heart rate.",
+            "Watch it live, share it after: the Lock Screen while you go, a picture after.",
             "On your Home Screen, too: the same card, small or medium.",
             "Your day, hour by hour: today's steps beside a usual day.",
-            "A large widget for your day: today hour by hour, on your Home Screen.",
             "Your best day, week, and month: totals for every month and year, and all time.",
             "Choose your color: six colors for the goal bars, the charts, and the widget.",
             "Your week, at a glance: daily bars, the average, and the change.",
-            "Every number, over time: a month or a whole year, charted.",
             "Nothing leaves your iPhone: no account, no tracking.",
         ],
     },
