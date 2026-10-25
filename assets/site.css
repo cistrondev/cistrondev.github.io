@@ -228,7 +228,9 @@ a:hover { text-decoration: underline; }
 .tiles .tile:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .tile .app-icon { width: 72px; margin-bottom: 20px; }
 .tile h3 { font-size: 40px; line-height: 1.1; font-weight: 600; letter-spacing: 0; }
-.tile-tagline { margin-top: 8px; font-size: 21px; line-height: 1.38; letter-spacing: 0.011em; color: var(--text-2); max-width: 420px; }
+/* The tagline takes any spare height, so a one-line tagline next to a two-line
+   one still puts both tiles' buttons and screenshots on the same line. */
+.tile-tagline { margin-top: 8px; font-size: 21px; line-height: 1.38; letter-spacing: 0.011em; color: var(--text-2); max-width: 420px; flex-grow: 1; }
 .tile-actions { margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
 .tile-actions .pill { padding: 8px 16px; font-size: 15px; }
 /* Every tile shows three shots at the same size, so the full-width last tile
