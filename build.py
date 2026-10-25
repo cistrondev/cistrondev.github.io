@@ -238,12 +238,15 @@ APPS = [
             "Identify from Photo sends the photo to Apple's Private Cloud "
             "Compute only when you tap it. Apple doesn't keep it, and the "
             "developer never sees it.",
+            "The Clock tab gets the time from Apple's time server. The "
+            "request carries no personal data.",
         ],
         "network": (
-            "Nothing, unless you run the Chrono24 price check or Identify from "
-            "Photo. The price check searches only your watch's brand and "
-            "reference. Identify from Photo sends that one photo to Apple's "
-            "Private Cloud Compute. Audio is never recorded."
+            "Only when you use a feature that needs it. The Clock tab asks "
+            "time.apple.com for the time. The price check searches only your "
+            "watch's brand and reference on Chrono24. Identify from Photo sends "
+            "that one photo to Apple's Private Cloud Compute. Audio is never "
+            "recorded."
         ),
         "note": "",
         "reviews": [
