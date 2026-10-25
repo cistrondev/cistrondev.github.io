@@ -44,8 +44,12 @@ SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 # `dark_shots: True` means a dark-mode set exists at assets/img/<slug>/dark/
 # (same numbering); the gallery then gets a Light/Dark switch.
 #
-# `duo: True` adds an "iPhone Duo" showcase (folded / half open / open),
-# drawn from assets/img/<slug>/duo/{cover,spread}-{light,dark}.webp.
+# `duo` adds an "iPhone Duo" showcase under the gallery: a subtitle and up to
+# three phones, each (pose, image, label, caption, alt). pose is "cover" (the
+# folded cover screen, 699×1017), "book" (half open) or "flat" (open); the last
+# two take a 1427×1004 inner-screen image. Images live at
+# assets/img/<slug>/duo/<image>-light.webp, plus <image>-dark.webp when the app
+# has `dark_shots`.
 #
 # Optional `why`: (heading, paragraph) on how the app differs from its
 # competitors. Keep every claim true for this app and never name a rival.
@@ -114,7 +118,18 @@ APPS = [
         ],
         "tile": [1, 2, 6],
         "dark_shots": True,
-        "duo": True,
+        "duo": {
+            "sub": "Closed, it listens. Open, it reads.",
+            "items": [
+                ("cover", "cover", "Folded", "The voice keeps going on the cover screen.",
+                 "Aloud on the iPhone Duo's cover screen: the voice keeps reading, with play controls."),
+                ("book", "spread", "Half open", "Two facing pages, at any angle.",
+                 "Aloud on the half-open iPhone Duo: two facing pages."),
+                ("flat", "spread", "Open", "Translating? The original and the translation, side by side.",
+                 "Aloud on the open iPhone Duo: the Spanish original on the left page, the English "
+                 "translation on the right, row for row."),
+            ],
+        },
         "why": (
             "No cloud. No subscription.",
             "Many popular text-to-speech apps make their voices on their own "
@@ -564,6 +579,23 @@ APPS = [
              "Pictures saved from Instagram, WhatsApp and other apps are left "
              "out. You can add, edit or remove any country yourself."),
         ],
+        "duo": {
+            "sub": "Unfold it for a globe of your travels.",
+            "items": [
+                ("cover", "cover", "Folded",
+                 "Your count, the map and your countries on the cover screen.",
+                 "Atlas on the iPhone Duo's cover screen: 34 countries, a world map with "
+                 "them filled in, and the list of countries."),
+                ("book", "map", "Half open",
+                 "The whole world map, across both halves.",
+                 "Atlas on the half-open iPhone Duo: a world map with the visited countries "
+                 "filled in."),
+                ("flat", "globe", "Open",
+                 "A globe of your countries that turns slowly. Tap one to see your visits.",
+                 "Atlas on the open iPhone Duo: a globe with the visited countries filled in, "
+                 "and Italy tapped, showing 9 visits."),
+            ],
+        },
         "privacy_title": "Your photos stay on your iPhone.",
         "privacy": [
             "Atlas reads the location and date of your photos on the phone.",
@@ -1023,46 +1055,49 @@ def stars(review):
 
 
 def duo_showcase(app, p):
-    """A row under the gallery: the same screens on the iPhone Duo, folded,
-    half open and open flat. It sits inside the gallery section, so the
-    Light/Dark switch swaps these images along with the screenshots."""
-    if not app.get("duo"):
+    """A row under the gallery: the app on the iPhone Duo, folded, half open
+    and open flat (see `duo` in the notes at the top). It sits inside the
+    gallery section, so the Light/Dark switch swaps these images along with
+    the screenshots."""
+    duo = app.get("duo")
+    if not duo:
         return "", ""
     slug = app["slug"]
 
-    def img(name, alt=""):
+    def img(name, size, alt=""):
         light = f"{p}{versioned(f'assets/img/{slug}/duo/{name}-light.webp')}"
-        dark = f"{p}{versioned(f'assets/img/{slug}/duo/{name}-dark.webp')}"
-        size = 'width="699" height="1017"' if name == "cover" else 'width="1427" height="1004"'
+        dark_path = f"assets/img/{slug}/duo/{name}-dark.webp"
+        dark = f"{p}{versioned(dark_path)}" if (ROOT / dark_path).exists() else light
         return (f'<img src="{light}" data-light="{light}" data-dark="{dark}" {size} '
                 f'alt="{esc(alt)}" loading="lazy" decoding="async">')
 
+    cover = 'width="699" height="1017"'
+    inner = 'width="1427" height="1004"'
+    phones = []
+    for pose, name, label, caption, alt in duo["items"]:
+        if pose == "cover":
+            art = (f'<div class="duo-closed"><div class="duo-screen">{img(name, cover, alt)}'
+                   f'<span class="duo-camera"></span></div></div>')
+        elif pose == "book":
+            art = (f"""<div class="duo-book">
+                <div class="duo-half duo-half-left">{img(name, inner, alt)}</div>
+                <div class="duo-half duo-half-right">{img(name, inner)}</div>
+              </div>""")
+        else:
+            art = f'<div class="duo-flat">{img(name, inner, alt)}</div>'
+        phones.append(f"""          <li>
+            <figure>
+              {art}
+              <figcaption><strong>{esc(label)}</strong> {esc(caption)}</figcaption>
+            </figure>
+          </li>""")
+    items = "\n".join(phones)
     row = f"""
       <div class="duo-row">
         <h2 class="duo-title">On iPhone Duo</h2>
-        <p class="duo-sub">Closed, it listens. Open, it reads.</p>
+        <p class="duo-sub">{esc(duo["sub"])}</p>
         <ul class="duo-track">
-          <li>
-            <figure>
-              <div class="duo-closed"><div class="duo-screen">{img("cover", "Aloud on the iPhone Duo's cover screen: the voice keeps reading, with play controls.")}<span class="duo-camera"></span></div></div>
-              <figcaption><strong>Folded</strong> The voice keeps going on the cover screen.</figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <div class="duo-book">
-                <div class="duo-half duo-half-left">{img("spread", "Aloud on the half-open iPhone Duo: two facing pages.")}</div>
-                <div class="duo-half duo-half-right">{img("spread")}</div>
-              </div>
-              <figcaption><strong>Half open</strong> Two facing pages, at any angle.</figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <div class="duo-flat">{img("spread", "Aloud on the open iPhone Duo: the Spanish original on the left page, the English translation on the right, row for row.")}</div>
-              <figcaption><strong>Open</strong> Translating? The original and the translation, side by side.</figcaption>
-            </figure>
-          </li>
+{items}
         </ul>
       </div>"""
     return "", row
