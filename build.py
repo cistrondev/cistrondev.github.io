@@ -474,8 +474,8 @@ APPS = [
     },
     {
         "slug": "voiceclone",
-        "name": "Private Voice Clone",
-        "store_name": "Private Voice Clone: Offline",
+        "name": "Voice Clone",
+        "store_name": "Voice Clone: Private & Offline",
         "id": "",
         "live": False,
         # The voice model needs 8 GB of memory, so newer iPhones only.
