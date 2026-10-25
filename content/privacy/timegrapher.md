@@ -1,6 +1,6 @@
 # Privacy Policy for Timegrapher
 
-**Effective date: 17 October 2026**
+**Effective date: 25 October 2026**
 
 Timegrapher ("the app") is designed to work entirely on your device. This
 policy explains, in plain language, what the app does and does not do with your
@@ -10,10 +10,10 @@ information.
 
 **Timegrapher does not collect, store, transmit, or share any personal data.**
 There are no accounts, no servers, no analytics, no advertising, and no
-third‑party tracking. The app's only network activity is the optional market
-price check and the optional photo identification described below, both of
-which you trigger yourself. Everything you enter or measure stays on your
-iPhone.
+third‑party tracking. The app's only network activity is the time check on the
+Clock tab, the optional market price check and the optional photo
+identification, all described below. Each happens only when you use that
+feature. Everything you enter or measure stays on your iPhone.
 
 ## Microphone
 
@@ -43,6 +43,27 @@ year, notes, and your saved measurements — are stored **locally on your
 device** using Apple's on‑device storage (SwiftData). This information is not
 sent anywhere and is not accessible to the developer.
 
+## Atomic clock
+
+When you open the Clock tab, the app asks Apple's public time server
+(time.apple.com) for the current time, using the standard Network Time
+Protocol. This is the same kind of request your iPhone makes to set its own
+clock. It contains only timestamps, carries no personal data, and does not go
+through the developer.
+
+## Reminders
+
+Reminders you turn on (to measure a watch again, or to take the second photo of
+a day‑of‑wear check) are scheduled on your iPhone as local notifications. They
+are not sent to or through any server.
+
+## Sharing and export
+
+When you share a timing report or export your measurements as a CSV file, the
+app creates the file on your iPhone and hands it to the iOS share sheet. Where
+it goes from there is your choice. The timing report leaves out the watch's
+serial number.
+
 ## Market prices (Chrono24)
 
 If you use the optional market‑price check, the app loads the public Chrono24
@@ -51,8 +72,9 @@ as if you had opened the page yourself — and computes the median asking price
 on your device. The request goes directly to Chrono24 and contains only the
 search text (the watch's brand and reference number). The developer receives
 nothing, stores nothing, and cannot see what you looked up. Chrono24's own
-privacy policy governs their website. If you never tap the fetch button or
-Identify from Photo, the app makes no network connections at all.
+privacy policy governs their website. Apart from the Clock tab's time check,
+the app makes no network connections unless you tap the fetch button or
+Identify from Photo.
 
 ## Purchases
 
