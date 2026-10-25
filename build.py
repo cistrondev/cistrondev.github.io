@@ -529,6 +529,62 @@ APPS = [
             "No account, no credits: save clips to Files or share them.",
         ],
     },
+    {
+        "slug": "atlas",
+        "name": "Atlas",
+        "store_name": "Atlas: Travel Map From Photos",
+        "id": "",
+        "live": False,
+        "tagline": "Every country you've been to, from your photos.",
+        "pricing": "Free",
+        "intro": (
+            "Atlas finds the countries you've been to in the photos on your "
+            "iPhone and puts them on a world map.",
+            "It reads only the location and date saved with each photo, on the "
+            "phone. There is no account, and nothing is uploaded.",
+        ),
+        "features": [
+            ("Your map, filled in",
+             "Every country in your photos, on a world map you can zoom into. "
+             "Tap any country to see its name and how many times you've been."),
+            ("Every trip",
+             "Each visit to a country, with its dates. Tap a trip to see its "
+             "photos, and hide any that aren't from it."),
+            ("Lived here",
+             "Countries with 90 or more days of photos within a year are marked "
+             "as places you've lived, in a deeper colour."),
+            ("Stats",
+             "Trips and days away, countries per year, your busiest years and "
+             "where you went, the countries you go back to most, and your "
+             "longest trips."),
+            ("Share your map",
+             "A picture of your map and flags for an Instagram post or Story, "
+             "or all your flags as emoji for your bio."),
+            ("Fewer false visits",
+             "Pictures saved from Instagram, WhatsApp and other apps are left "
+             "out. You can add, edit or remove any country yourself."),
+        ],
+        "privacy_title": "Your photos stay on your iPhone.",
+        "privacy": [
+            "Atlas reads the location and date of your photos on the phone.",
+            "There is no account, and nothing is uploaded.",
+            "No analytics, no ads, no tracking.",
+            "Deleting the app deletes everything it saved.",
+        ],
+        "network": "Nothing. Atlas makes no network connections. A photo kept "
+                   "only in iCloud is downloaded by Photos when you open it, as "
+                   "in the Photos app.",
+        "note": "",
+        "tile": [1, 3, 5],
+        "shots": [
+            "Every country you've been to, on one map: the count, the map and your list.",
+            "Found in your photos, on your iPhone: nothing is uploaded.",
+            "Tap any country to see your visits: zoom in anywhere on the map.",
+            "Every trip, with its photos: each visit's dates and pictures.",
+            "Your travels, year by year: trips, days away and your busiest years.",
+            "Share your map as a Story: a post and a line of flags too.",
+        ],
+    },
 ]
 
 PRINCIPLES = [
