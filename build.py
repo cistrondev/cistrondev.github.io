@@ -560,18 +560,21 @@ APPS = [
         ),
         "features": [
             ("Your map, filled in",
-             "Every country in your photos, on a world map you can zoom into. "
-             "Tap any country to see its name and how many times you've been."),
+             "Every country in your photos, on a world map you can zoom into or "
+             "on a turning globe. Tap any country to see how many times you've "
+             "been, or to add one that isn't in your photos."),
             ("Every trip",
              "Each visit to a country, with its dates. Tap a trip to see its "
-             "photos, and hide any that aren't from it."),
+             "photos and hide any that aren't from it. Merge trips that were "
+             "really one."),
             ("Lived here",
              "Countries with 90 or more days of photos within a year are marked "
-             "as places you've lived, in a deeper colour."),
+             "as places you've lived, in a deeper colour, with how long you lived "
+             "there. Moving somewhere new doesn't count as time away."),
             ("Stats",
-             "Trips and days away, countries per year, your busiest years and "
-             "where you went, the countries you go back to most, and your "
-             "longest trips."),
+             "Trips and days away, countries per year (tap a year to see where "
+             "you went), your busiest years, the countries you go back to most, "
+             "and your longest trips."),
             ("Share your map",
              "A picture of your map and flags for an Instagram post or Story, "
              "or all your flags as emoji for your bio."),
@@ -611,7 +614,7 @@ APPS = [
         "shots": [
             "Every country you've been to, on one map: the count, the map and your list.",
             "Found in your photos, on your iPhone: nothing is uploaded.",
-            "Tap any country to see your visits: zoom in anywhere on the map.",
+            "Tap any country to see your visits: zoom in anywhere on the map, or switch to the globe.",
             "Every trip, with its photos: each visit's dates and pictures.",
             "Your travels, year by year: trips, days away and your busiest years.",
             "Share your map as a Story: a post and a line of flags too.",
