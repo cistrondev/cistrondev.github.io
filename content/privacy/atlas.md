@@ -28,19 +28,27 @@ You can change or turn off photo access at any time in Settings › Privacy & Se
 The app keeps four small files in its own storage on your iPhone:
 
 - the countries and visits it found;
-- your own changes (countries you added or removed, edited visit counts, and the photos you hid);
+- your own changes (countries you added or removed, edited visit counts, trips you merged, and the photos you
+  hid);
 - for each photo it counted, the photo's library ID, its date and its country, so a trip can show its photos (no
   coordinates and no image data);
 - your Photo sources settings.
 
-It also remembers the list order and a few settings of the last scan. None of this is sent anywhere or accessible
-to the developer.
+It also remembers the list order, a few settings of the last scan, and how often the app has just been useful to
+you (a scan that found countries, a shared picture), which decides when it asks for a rating. None of this is sent
+anywhere or accessible to the developer.
 
 ## Sharing and copying
 
 When you share your map, the app draws the picture on your iPhone and hands it to iOS. It goes only where you send
 it. **Copy flags** puts only the flag emoji on the clipboard. The optional Instagram Story button puts the story
 picture on the clipboard for five minutes, for Instagram to pick up, and then opens Instagram.
+
+## Ratings and email
+
+Now and then the app may ask you to rate it, using Apple's standard rating prompt; Apple handles any rating you
+give. **Rate Atlas** opens the App Store, and **Email the developer** opens a new message in your mail app with the
+app and iOS version filled in. The app itself sends nothing: an email reaches the developer only if you send it.
 
 ## Analytics, advertising, and tracking
 
