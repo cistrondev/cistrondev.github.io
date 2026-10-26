@@ -209,4 +209,29 @@
   <url><loc>https://cistrondev.github.io/voiceclone/privacy/</loc></url>
   <url><loc>https://cistrondev.github.io/atlas/</loc></url>
   <url><loc>https://cistrondev.github.io/atlas/privacy/</loc></url>
+  <url>
+    <loc>https://cistrondev.github.io/jobsitecalc/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/jobsitecalc/stair-layout/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/jobsitecalc/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
+  </url>
+  <url><loc>https://cistrondev.github.io/jobsitecalc/privacy/</loc></url>
 </urlset>

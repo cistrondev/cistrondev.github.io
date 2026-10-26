@@ -620,6 +620,73 @@ APPS = [
             "Share your map as a Story: a post and a line of flags too.",
         ],
     },
+    {
+        "slug": "jobsitecalc",
+        "name": "Jobsite Calc",
+        "store_name": "Jobsite Calc: Feet Inch Math",
+        "id": "",
+        "live": False,
+        "platform": "iPhone and iPad · iOS 17 or later",
+        "category": "UtilitiesApplication",
+        "tagline": "Feet, inches and fractions. Pay once.",
+        "pricing": "Free · One-time unlock",
+        "intro": (
+            "A feet-inch-fraction calculator for framers, carpenters and "
+            "contractors.",
+            "Type a measurement the way you read it on the tape, see the whole "
+            "calculation on screen, and lay out stairs, rafters and concrete from "
+            "it. One purchase unlocks every tool, forever. No subscription, no "
+            "account, no internet.",
+        ),
+        "features": [
+            ("Feet, inches and fractions",
+             "Enter 12' 3-1/2\" with the Feet, Inch and / keys. Add, subtract, "
+             "multiply and divide, and get the answer to the nearest 1/16, or to "
+             "any fraction you choose. The whole expression stays on screen, with "
+             "parentheses."),
+            ("Convert with one tap",
+             "Tap the unit on the result to cycle feet-inches, inches, decimal "
+             "feet, yards, metres, centimetres and millimetres. Areas, volumes and "
+             "angles convert too."),
+            ("Stairs with the code check",
+             "Enter the total rise and get the risers, treads, stringer length, "
+             "angle and stairwell opening, drawn as a stringer. A green or red "
+             "check against the 7-3/4 inch riser, 10 inch tread and 6' 8\" "
+             "headroom limits, which you can change."),
+            ("Rafters and roofs",
+             "Common, hip, valley and jack rafters from a pitch and a run, with "
+             "the plumb and level cuts and the jack list. Irregular hips. Roof "
+             "squares, bundles and sheets."),
+            ("Concrete and materials",
+             "Slabs, footings, columns and piers in cubic yards and bags. Drywall "
+             "and sheathing sheets, block, brick, studs and plates, board feet "
+             "and lumber cost."),
+            ("Angles and a tape",
+             "Crown and compound miters, polygons, circles and arcs. Every result "
+             "goes on a tape you can reuse, copy or share."),
+        ],
+        "privacy_title": "Nothing leaves your phone.",
+        "privacy": [
+            "The app has no network code. Nothing is uploaded.",
+            "No account, no analytics, no tracking, no ads.",
+            "Your settings and your tape stay on your iPhone.",
+            "The one purchase goes through Apple, and the price never renews.",
+        ],
+        "network": "No network connections at all. The one purchase goes through "
+                   "the App Store.",
+        "note": "Dark screen, big keys and key clicks, for gloves and sunlight. "
+                "Works with no signal.",
+        "tile": [1, 2, 3],
+        "shots": [
+            "Feet, inches and fractions, with the whole calculation on screen.",
+            "Stairs from the total rise: risers, treads, stringer and the code check.",
+            "Rafters from a pitch and a run, with the plumb and level cuts.",
+            "Concrete slabs, footings and piers in cubic yards and bags.",
+            "Crown and compound miters, with the miter and bevel angles.",
+            "One purchase unlocks every tool, forever. No subscription.",
+        ],
+        "languages": ["en", "es"],
+    },
 ]
 
 PRINCIPLES = [
@@ -657,6 +724,8 @@ UI_EN = {
     "privacy": "Privacy",
     "app_store": "App Store",
     "view_on_store": "View on the App Store",
+    "coming_soon": "Coming soon to the App Store",
+    "soon": "Coming soon",
     "platform": "iPhone · iOS 17 or later",
     "screenshots": "Screenshots",
     "prev": "Previous screenshots",
@@ -1146,9 +1215,7 @@ def app_structured_data(app, L, url, links):
         "applicationCategory": app.get("category", "UtilitiesApplication"),
         "operatingSystem": "iOS 17.0 or later",
         "availableOnDevice": "iPhone",
-        "downloadUrl": store,
-        "installUrl": store,
-        "sameAs": store,
+        **({"downloadUrl": store, "installUrl": store, "sameAs": store} if is_live(app) else {}),
         "image": f"{SITE_URL}assets/img/{app['slug']}/icon.png",
         "screenshot": [SITE_URL + shot_path(app, i) for i in range(1, len(app["shots"]) + 1)],
         "featureList": [title for title, _ in app["features"]],
@@ -1213,8 +1280,8 @@ def app_page(base, langs=(), L=None):
         meta = app["pricing"]
         store = f'<a class="pill pill-large" href="{store_url(app)}">{esc(ui["view_on_store"])}</a>'
     else:
-        meta = "Coming soon"
-        store = '<span class="pill pill-large pill-soon">Coming soon to the App Store</span>'
+        meta = ui["soon"]
+        store = f'<span class="pill pill-large pill-soon">{esc(ui["coming_soon"])}</span>'
     privacy_href = "privacy/" if folder == f"{base['slug']}/" else f"{p}{base['slug']}/privacy/"
 
     guide_link = faq = languages = head = ""
@@ -1301,6 +1368,8 @@ def guide_page(base, langs, L):
     p = up(folder)
     store = store_url(base)
     links = {"app": f"{p}{home}", "store": store, "privacy": f"{p}{base['slug']}/privacy/"}
+    store_pill = (f'<a class="pill" href="{store}">{esc(ui["view_on_store"])}</a>' if is_live(base)
+                  else f'<span class="pill pill-soon">{esc(ui["coming_soon"])}</span>')
 
     summary = "\n".join(
         f"          <div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>" for k, v in g["choose"])
@@ -1336,7 +1405,7 @@ def guide_page(base, langs, L):
         <h2>{esc(g['cta_title'])}</h2>
         <p>{esc(g['cta_text'])}</p>
         <p class="guide-cta-actions">
-          <a class="pill" href="{store}">{esc(ui['view_on_store'])}</a>
+          {store_pill}
           <a class="more" href="{p}{home}">{esc(ui['cta_more'].format(name=app['name']))}</a>
         </p>
       </aside>
