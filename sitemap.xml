@@ -2,7 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://cistrondev.github.io/</loc></url>
   <url><loc>https://cistrondev.github.io/privacy/</loc></url>
-  <url><loc>https://cistrondev.github.io/aloud/</loc></url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/listen-to-articles-and-books/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/pt-br/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
+  </url>
   <url><loc>https://cistrondev.github.io/aloud/privacy/</loc></url>
   <url><loc>https://cistrondev.github.io/lifetrends/</loc></url>
   <url><loc>https://cistrondev.github.io/lifetrends/privacy/</loc></url>

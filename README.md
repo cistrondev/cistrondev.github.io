@@ -27,6 +27,13 @@ unfollowers/<lang>/<guide-slug>/      how to download the Instagram data export
 assets/img/unfollowers/<lang>/        that language's screenshots (es, it, fr, de, el, nl)
 ```
 
+Aloud has the same, in en, de, es, fr, it and pt-BR (`content/aloud/`), with
+a guide on listening to articles, PDFs and EPUBs. Its screenshots per
+language, light and dark, are in `assets/img/aloud/<lang>/` and
+`assets/img/aloud/<lang>/dark/`: the App Store renders (slots 1 to 9) at
+642×1389, the dark set drawn with the night palette on the phone only.
+Jobsite Calc has en and es.
+
 Each language version links to the others with `hreflang` tags (English is
 `x-default`) and carries schema.org data: SoftwareApplication and FAQPage on
 the app page, HowTo on the guide. sitemap.xml lists the same alternates.
