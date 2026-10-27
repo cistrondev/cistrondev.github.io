@@ -77,11 +77,11 @@ APPS = [
         ),
         "features": [
             ("Natural voices, on device",
-             "Fourteen voices for English and thirty more languages. No server does "
-             "the talking, so Aloud keeps reading in airplane mode."),
-            ("Articles, PDFs, anything",
-             "Share from any browser, open PDFs from Files, even scanned ones, or "
-             "paste your own text."),
+             "Ten voices for English and four that read thirty more languages. No "
+             "server does the talking, so Aloud keeps reading in airplane mode."),
+            ("Articles, PDFs, books",
+             "Share from any browser, open PDFs and EPUB books from Files, even "
+             "scanned PDFs, or paste your own text."),
             ("A reader, not a player",
              "The sentence being spoken is lit. Hold the margin rail to scrub "
              "through the whole document."),
@@ -118,6 +118,9 @@ APPS = [
         ],
         "tile": [1, 2, 6],
         "dark_shots": True,
+        "platform": "iPhone and iPad · iOS 17 or later",
+        "languages": ["en", "de", "es", "fr", "it", "pt-BR"],
+        "category": "ProductivityApplication",   # schema.org applicationCategory
         "duo": {
             "sub": "Closed, it listens. Open, it reads.",
             "items": [
@@ -739,6 +742,9 @@ UI_EN = {
     "summary": "What to choose",
     "tips": "Good to know",
     "cta_more": "About {name}",
+    "appearance": "Screenshot appearance",
+    "light": "Light",
+    "dark": "Dark",
 }
 
 # ---------------------------------------------------------------- helpers
@@ -1166,7 +1172,7 @@ def duo_showcase(app, p):
     items = "\n".join(phones)
     row = f"""
       <div class="duo-row">
-        <h2 class="duo-title">On iPhone Duo</h2>
+        <h2 class="duo-title">{esc(duo.get("title", "On iPhone Duo"))}</h2>
         <p class="duo-sub">{esc(duo["sub"])}</p>
         <ul class="duo-track">
 {items}
@@ -1252,10 +1258,10 @@ def app_page(base, langs=(), L=None):
     shots = "\n".join(
         f'          <li><img src="{p}{shot(app, i)}"{variants(i)} width="{SHOT_W}" height="{SHOT_H}" alt="{esc(alt)}" loading="{"eager" if i < 4 else "lazy"}" decoding="async"></li>'
         for i, alt in enumerate(app["shots"], 1))
-    toggle = """
-        <div class="appearance-toggle" role="group" aria-label="Screenshot appearance">
-          <button type="button" data-appearance="light" aria-pressed="true">Light</button>
-          <button type="button" data-appearance="dark" aria-pressed="false">Dark</button>
+    toggle = f"""
+        <div class="appearance-toggle" role="group" aria-label="{esc(ui["appearance"])}">
+          <button type="button" data-appearance="light" aria-pressed="true">{esc(ui["light"])}</button>
+          <button type="button" data-appearance="dark" aria-pressed="false">{esc(ui["dark"])}</button>
         </div>""" if dark else ""
     duo_button, duo_dialog = duo_showcase(app, p)
     features = "\n".join(
