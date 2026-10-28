@@ -51,7 +51,7 @@ L = {
              "La sincronización con iCloud es opcional y guarda tu estantería como archivos "
              "de texto normales en tu propio iCloud Drive."),
         ],
-        "privacy_title": "Privado por diseño.",
+        "privacy_title": "Tus documentos se quedan contigo.",
         "privacy": [
             "La voz se genera en tu iPhone. Tus documentos nunca se suben.",
             "Las voces se descargan una vez desde un servidor público. Los artículos que "
@@ -61,7 +61,7 @@ L = {
         "note": "",
         "reviews": [],
         "why": (
-            "Sin nube. Sin suscripción.",
+            "Sin servidores y sin suscripción.",
             "Muchas apps conocidas de texto a voz generan sus voces en sus propios "
             "servidores, así que los artículos y documentos que escuchas se suben allí "
             "primero, y sus planes premium pueden costar 139 $ al año o 29 $ al mes, casi "

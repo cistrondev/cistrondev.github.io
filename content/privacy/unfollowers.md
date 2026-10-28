@@ -9,7 +9,7 @@ language, what the app does and does not do with your information.
 ## The short version
 
 **Unfollowers does not collect, store on our servers, sell, or share any of
-your personal data — we have no servers and no account system.** There are no
+your personal data. We have no servers and no account system.** There are no
 user accounts, no analytics, no advertising, and no third‑party tracking. Your
 Instagram data is analyzed and stored only on your iPhone. The app makes no
 network connection using your data except the profile check described below.
@@ -21,8 +21,8 @@ from Instagram yourself ("Download your information"). When you import that
 file into the app:
 
 - It is read and analyzed **entirely on your device**.
-- The results — your followers, following, unfollowers, likely blocks, pending
-  requests, the accounts you interact with most, and related lists — are
+- The results (your followers, following, unfollowers, likely blocks, pending
+  requests, the accounts you interact with most, and related lists) are
   stored **only on your device** in the app's private storage.
 - This information is **never uploaded to us or to any third party**. We have no
   server that could receive it, and the developer has no access to it.
@@ -45,7 +45,7 @@ Whenever it runs:
 - The app makes **anonymous** requests to Instagram's public web endpoint,
   **without logging in** and without any account credentials.
 - Each request sends **only the username being checked** to Instagram/Meta's
-  servers — never your identity, your name, your other data, or your device
+  servers, never your identity, your name, your other data, or your device
   identifiers.
 - No cookies are stored and no browsing data is retained between checks.
 
@@ -58,14 +58,14 @@ makes no network requests involving your data at all.
 ## Reminders
 
 If you switch on re‑import reminders in Settings, the app schedules a local
-notification on your iPhone. It is created and delivered by iOS on your device —
-no notification server is involved — and you can switch it off at any time.
+notification on your iPhone. It is created and delivered by iOS on your device
+(no notification server is involved), and you can switch it off at any time.
 
 ## Information you enter
 
 The app does not ask you to create an account or enter personal details such as
-your name, email, or password. Any actions you take within the app — for example
-dismissing an entry from a list — are stored **locally on your device** and are
+your name, email, or password. Any actions you take within the app, for example
+dismissing an entry from a list, are stored **locally on your device** and are
 not sent anywhere.
 
 ## Purchases

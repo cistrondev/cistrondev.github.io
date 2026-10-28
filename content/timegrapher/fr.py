@@ -30,7 +30,7 @@ L = {
             "au même endroit.",
         ),
         "features": [
-            ("Les valeurs qui comptent",
+            ("Marche, amplitude, erreur de repère",
              "Les secondes d'avance ou de retard par jour, l'angle parcouru par le "
              "balancier et la symétrie du tic et du tac. Fréquence détectée de 18 000 à "
              "36 000 A/h."),
@@ -53,7 +53,7 @@ L = {
              "soudain à avancer. Le magnétomètre de l'iPhone vous dit s'il faut la "
              "démagnétiser."),
         ],
-        "privacy_title": "Rien d'enregistré. Rien de conservé.",
+        "privacy_title": "Le son n'est jamais enregistré.",
         "privacy": [
             "Le son du microphone est analysé en direct et n'est jamais enregistré ni conservé.",
             "Votre collection et vos mesures restent uniquement sur votre iPhone.",

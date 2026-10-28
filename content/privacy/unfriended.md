@@ -9,7 +9,7 @@ not do with your information.
 ## The short version
 
 **Unfriended does not collect, store on our servers, sell, or share any of
-your personal data — we have no servers and no account system.** There are no
+your personal data. We have no servers and no account system.** There are no
 user accounts, no analytics, no advertising, and no third‑party tracking. Your
 Facebook data is analyzed and stored only on your iPhone. **The app makes
 no network connections at all.**
@@ -21,8 +21,8 @@ from Facebook yourself ("Download your information" in Accounts Centre). When
 you import that file into the app:
 
 - It is read and analyzed **entirely on your device**.
-- The results — your friends, detected unfriends, name changes, removed
-  friends, friend requests, followers, and related lists — are stored **only
+- The results (your friends, detected unfriends, name changes, removed
+  friends, friend requests, followers, and related lists) are stored **only
   on your device** in the app's private storage.
 - This information is **never uploaded to us or to any third party**. We have
   no server that could receive it, and the developer has no access to it.
@@ -38,8 +38,8 @@ cannot leave your device through the app.
 ## Information you enter
 
 The app does not ask you to create an account or enter personal details such
-as your name, email, or password. Any actions you take within the app — for
-example dismissing an entry from a list — are stored **locally on your
+as your name, email, or password. Any actions you take within the app, for
+example dismissing an entry from a list, are stored **locally on your
 device** and are not sent anywhere.
 
 ## Purchases

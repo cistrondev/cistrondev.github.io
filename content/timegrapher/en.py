@@ -108,7 +108,7 @@ L = {
                        "results, and check it for magnetism.",
         "lead": "A timing machine tells you how fast or slow a mechanical watch runs and how "
                 "healthy its movement is. Timegrapher turns your iPhone into one, using the "
-                "microphone. Here is how to get a steady reading and what the numbers mean.",
+                "microphone. A quiet room and firm contact give the steadiest reading.",
         "choose": [
             ("Rate", "Seconds gained or lost per day"),
             ("Amplitude", "How far the balance swings"),

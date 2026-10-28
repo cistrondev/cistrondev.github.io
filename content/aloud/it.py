@@ -50,7 +50,7 @@ L = {
              "La sincronizzazione con iCloud è facoltativa e salva il tuo scaffale come "
              "semplici file di testo nel tuo iCloud Drive."),
         ],
-        "privacy_title": "Privato per come è fatto.",
+        "privacy_title": "I tuoi documenti restano con te.",
         "privacy": [
             "La voce viene creata sul tuo iPhone. I tuoi documenti non vengono mai caricati.",
             "Le voci si scaricano una volta da un server pubblico. Gli articoli che "
@@ -60,7 +60,7 @@ L = {
         "note": "",
         "reviews": [],
         "why": (
-            "Niente cloud. Niente abbonamento.",
+            "Senza server e senza abbonamento.",
             "Molte app di sintesi vocale famose creano le voci sui propri server, quindi gli "
             "articoli e i documenti che ascolti vengono prima caricati lì, e i loro piani "
             "premium possono costare 139 $ l'anno, oppure 29 $ al mese, quasi 350 $ l'anno. "

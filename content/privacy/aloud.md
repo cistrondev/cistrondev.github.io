@@ -8,7 +8,7 @@ sees what you read.
 Aloud is a text-to-speech reader for iPhone. It turns articles, PDFs, and text
 you paste into speech using a voice model that runs on your device's Neural
 Engine. This policy explains, in plain terms, what happens to your
-information — which is: it stays on your iPhone, or in your own iCloud if you
+information. In short, it stays on your iPhone, or in your own iCloud if you
 choose to sync.
 
 ## What we collect
@@ -27,7 +27,7 @@ storage:
 
 - the text of every article, PDF, or note you add, and the PDFs themselves;
 - your library, reading positions, and which pieces you have finished;
-- your settings — chosen voice, playback speed, sort order;
+- your settings (chosen voice, playback speed, sort order);
 - the downloaded voice models.
 
 This data is covered by your device's encryption and is included in your
@@ -63,12 +63,12 @@ situations. Both are initiated by you, and neither involves us.
    model files are downloaded from Hugging Face (huggingface.co), a third-party
    model host, and then kept on your device. Each additional voice you choose
    downloads its files the same way. These requests contain no information
-   about you and no text from your documents — only the name of the file being
+   about you and no text from your documents, only the name of the file being
    fetched. After a voice is downloaded, Aloud can read without any internet
    connection at all.
 
 **Your documents are never uploaded.** Speech is generated on your iPhone, so
-the text you listen to is never transmitted anywhere — not to us, and not to any
+the text you listen to is never transmitted anywhere, either to us or to any
 speech service. If you translate a piece, the translation is done on your iPhone
 by Apple's Translation framework; iOS may download a language from Apple the
 first time you use it, but your text is not sent.

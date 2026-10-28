@@ -96,8 +96,8 @@ L = {
                        "Then see who unfollowed you with Unfollowers.",
         "lead": "Instagram lets you download a copy of your account data. The export "
                 "includes the full lists of your followers and of the accounts you follow. "
-                "Unfollowers reads this file to show who unfollowed you. Here is how to get "
-                "it in the Instagram app on iPhone.",
+                "Unfollowers reads this file to show who unfollowed you. The steps below "
+                "are for the Instagram app on iPhone.",
         "choose": [
             ("Information", "Followers and following"),
             ("Date range", "All time"),

@@ -41,7 +41,7 @@ to you inside the app.** Specifically:
 ## Photos (location and date metadata only)
 
 If you grant photo access, LifeTrends reads **only the date and location
-(GPS) metadata attached to your photos** — never the images themselves. It uses
+(GPS) metadata attached to your photos**, never the images themselves. It uses
 this to estimate where you were on given days so it can find place‑based
 patterns (for example, how your activity differs when you travel).
 
@@ -72,9 +72,9 @@ from the list, your location is never read.
 
 ## Information processed on your device
 
-The trends, statistics, charts, and correlations LifeTrends produces — along
+The trends, statistics, charts, and correlations LifeTrends produces, along
 with any preferences you set, such as your chosen home city or which metrics are
-enabled — are computed and stored **locally on your iPhone** using Apple's
+enabled, are computed and stored **locally on your iPhone** using Apple's
 on‑device storage. This information is not sent anywhere and is not accessible
 to the developer.
 

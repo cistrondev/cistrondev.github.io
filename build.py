@@ -83,20 +83,20 @@ APPS = [
             ("Articles, PDFs, books",
              "Share from any browser, open PDFs and EPUB books from Files, even "
              "scanned PDFs, or paste your own text."),
-            ("A reader, not a player",
+            ("Read along",
              "The sentence being spoken is lit. Hold the margin rail to scrub "
              "through the whole document."),
             ("Faster, if you like",
              "From 0.5× to 3× without the chipmunk voice, with pauses trimmed at "
              "every full stop if you want them."),
-            ("Made for the move",
+            ("With the screen locked",
              "Keeps reading with the screen locked, with lock-screen and AirPods "
              "controls and a sleep timer that fades out."),
             ("On every device",
              "Optional iCloud sync keeps your shelf as plain text files in your "
              "own iCloud Drive."),
         ],
-        "privacy_title": "Private by architecture.",
+        "privacy_title": "Your documents stay with you.",
         "privacy": [
             "Speech is generated on your iPhone. Your documents are never uploaded.",
             "Voices download once from a public host. Articles you share are "
@@ -135,13 +135,13 @@ APPS = [
             ],
         },
         "why": (
-            "No cloud. No subscription.",
+            "No servers and no subscription.",
             "Many popular text-to-speech apps make their voices on their own "
             "servers, so the articles and documents you listen to are uploaded "
             "there first, and their premium plans can cost $139 a year, or $29 a "
             "month (nearly $350 a year). Aloud makes every voice right on your "
-            "iPhone, so what you read is never sent anywhere to be spoken. And "
-            "there is no subscription: one optional purchase, yours forever.",
+            "iPhone, so what you read is never sent anywhere to be spoken. There "
+            "is no subscription either: one optional purchase removes the limit for good.",
         ),
         "shots": [
             "Anything you can read, it reads to you.",
@@ -165,11 +165,11 @@ APPS = [
         "intro": (
             "You walk more on weekends. You sleep less on Sunday nights.",
             "LifeTrends reads the Apple Health history already on your iPhone, "
-            "tells you in plain English what is actually in it, and shows the "
+            "tells you in plain English what is in it, and shows the "
             "numbers behind every claim.",
         ),
         "features": [
-            ("Findings, not guesses",
+            ("Only patterns that hold up",
              "A pattern only appears when it is large enough to matter and "
              "unlikely to be chance. Thin evidence shows nothing."),
             ("Weekdays, seasons, body clock",
@@ -229,7 +229,7 @@ APPS = [
             "each watch is worth, in one place.",
         ),
         "features": [
-            ("The numbers that matter",
+            ("Rate, amplitude, beat error",
              "Seconds gained or lost per day, how far the balance swings, and "
              "tick–tock symmetry. Beat rate detected from 18,000 to 36,000 bph."),
             ("Readings that hold steady",
@@ -250,7 +250,7 @@ APPS = [
              "gains time. Sweep the watch across the back of your iPhone and its "
              "magnetometer tells you whether it needs demagnetizing."),
         ],
-        "privacy_title": "Nothing recorded. Nothing kept.",
+        "privacy_title": "Audio is never recorded.",
         "privacy": [
             "Microphone audio is analyzed live and is never recorded or saved.",
             "Your collection and measurements are stored only on your iPhone.",
@@ -384,7 +384,7 @@ APPS = [
         "features": [
             ("Who dropped you",
              "Friends who unfriended you, deactivated, or deleted their account."),
-            ("Renames, not false alarms",
+            ("Renames spotted",
              "Name changes are matched by the exact second a friendship began, so "
              "a new name never looks like an unfriend."),
             ("Your own removals",
@@ -398,7 +398,7 @@ APPS = [
              "The app shows every tap it takes to download your export from "
              "Facebook."),
         ],
-        "privacy_title": "Zero network requests. Really.",
+        "privacy_title": "Nothing leaves your iPhone.",
         "privacy": [
             "The app makes no network connections at all.",
             "Your Facebook export is read and stored only on your iPhone.",
@@ -707,19 +707,19 @@ APPS = [
 
 PRINCIPLES = [
     ("Minimal",
-     "One job, done well. No feeds, no clutter, nothing fighting for your attention.",
+     "Each app does one job, with no feed or clutter competing for your attention.",
      '<circle cx="14" cy="14" r="10"/><circle cx="14" cy="14" r="2.6" fill="currentColor" stroke="none"/>'),
     ("Local",
      "Your data is processed right on your iPhone. We run no servers, so we never see it.",
      '<rect x="8" y="3" width="12" height="22" rx="3"/><path d="M12.5 6h3"/>'),
     ("Safe",
-     "No accounts, no sign-in, no passwords. There is nothing of yours to leak.",
+     "There are no accounts or passwords, so there is nothing of yours to leak.",
      '<rect x="6" y="12.5" width="16" height="11.5" rx="2.5"/><path d="M9.5 12.5V9a4.5 4.5 0 0 1 9 0v3.5"/>'),
     ("Ad-free",
-     "No ads, no analytics, and no tracking. Nothing is watching what you do.",
+     "None of the apps has ads, analytics or tracking.",
      '<circle cx="14" cy="14" r="10"/><path d="M7 21 21 7"/>'),
     ("Subscription-free",
-     "No subscriptions, and no free trials that quietly turn into charges.",
+     "No subscriptions, and no free trials that turn into charges.",
      '<path d="M4.5 14.2 14.2 4.5H23.5v9.3L13.8 23.5z"/><circle cx="18.6" cy="9.4" r="1.7"/>'),
 ]
 
@@ -1144,7 +1144,7 @@ def home_page():
     body = f"""    <section class="hero">
       <p class="eyebrow">Built for iPhone</p>
       <h1>Apps that mind <br>their own business.</h1>
-      <p class="hero-sub">Powerful apps that respect your time, your money, and your privacy.</p>
+      <p class="hero-sub">Small iPhone apps with no accounts, no ads and no subscriptions.</p>
     </section>
 
     <section class="principles-wrap" aria-label="Principles">

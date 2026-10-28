@@ -68,7 +68,7 @@ L = {
         "lead": "A stair starts with one measurement, the total rise. From it the app "
                 "gives the number of risers, their height, the treads, the total run, "
                 "the stringer length, the angle and the stairwell opening, and checks "
-                "them against the code limits. Here is how to use it.",
+                "them against the code limits.",
         "choose": [
             ("Riser", "7-3/4 in at most"),
             ("Tread", "10 in at least"),

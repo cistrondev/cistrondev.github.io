@@ -50,7 +50,7 @@ L = {
              "La synchronisation iCloud est facultative et range votre étagère en simples "
              "fichiers texte dans votre propre iCloud Drive."),
         ],
-        "privacy_title": "Privé par conception.",
+        "privacy_title": "Vos documents restent chez vous.",
         "privacy": [
             "La voix est créée sur votre iPhone. Vos documents ne sont jamais envoyés.",
             "Les voix se téléchargent une fois depuis un serveur public. Les articles que "
@@ -61,7 +61,7 @@ L = {
         "note": "",
         "reviews": [],
         "why": (
-            "Pas de cloud. Pas d'abonnement.",
+            "Sans serveur et sans abonnement.",
             "Beaucoup d'apps de synthèse vocale connues créent leurs voix sur leurs propres "
             "serveurs : les articles et documents que vous écoutez y sont donc envoyés "
             "d'abord, et leurs formules premium peuvent coûter 139 $ par an, ou 29 $ par "
