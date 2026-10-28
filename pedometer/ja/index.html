@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedometer: 歩数を、ロック画面に。</title>
+  <meta name="description" content="歩数、距離、上った階数を、わかりやすい数字とグラフで。 Pedometerはヘルスケアを読み取り、今日の数値をロック画面とホーム画面に表示します。iPhoneだけで歩数を数えられ、Apple Watchを着けていればその歩数も含まれます。">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="google-site-verification" content="0HO-cftcZWuRyvlFjb1OlFsgFgWXaGyS6AsLK70I34Q">
+  <meta name="toolradar-verify" content="toolradar-verify-rOrqezKzteNECKs2sFwvBf">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png?v=0b3cd452">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon-16.png?v=0c1a7870">
+  <link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon-48.png?v=98163ec7">
+  <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png?v=97c86b02">
+  <meta property="og:title" content="Pedometer: 歩数を、ロック画面に。">
+  <meta property="og:description" content="歩数、距離、上った階数を、わかりやすい数字とグラフで。 Pedometerはヘルスケアを読み取り、今日の数値をロック画面とホーム画面に表示します。iPhoneだけで歩数を数えられ、Apple Watchを着けていればその歩数も含まれます。">
+  <meta name="apple-itunes-app" content="app-id=6822166433">
+  <link rel="stylesheet" href="../../assets/site.css?v=15ca1493">
+  <script src="../../assets/site.js?v=4f8fc1a7" defer></script>
+  <meta property="og:locale" content="ja_JP">
+  <link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/">
+  <link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/">
+  <link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/">
+  <link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/">
+  <link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/">
+  <link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/">
+  <link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/">
+  <link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://cistrondev.github.io/pedometer/#app",
+   "name": "Pedometer: Step Counter Widget",
+   "alternateName": "Pedometer",
+   "url": "https://cistrondev.github.io/pedometer/ja/",
+   "inLanguage": "ja",
+   "description": "歩数、距離、上った階数を、わかりやすい数字とグラフで。 Pedometerはヘルスケアを読み取り、今日の数値をロック画面とホーム画面に表示します。iPhoneだけで歩数を数えられ、Apple Watchを着けていればその歩数も含まれます。",
+   "applicationCategory": "HealthApplication",
+   "operatingSystem": "iOS 17.0 or later",
+   "availableOnDevice": "iPhone",
+   "downloadUrl": "https://apps.apple.com/app/id6822166433",
+   "installUrl": "https://apps.apple.com/app/id6822166433",
+   "sameAs": "https://apps.apple.com/app/id6822166433",
+   "image": "https://cistrondev.github.io/assets/img/pedometer/icon.png",
+   "screenshot": [
+    "https://cistrondev.github.io/assets/img/pedometer/ja/01.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/02.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/03.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/04.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/05.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/06.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/07.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/08.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/09.webp",
+    "https://cistrondev.github.io/assets/img/pedometer/ja/10.webp"
+   ],
+   "featureList": [
+    "今日",
+    "ウォーキングとランニング",
+    "リアルタイムの心拍数",
+    "ロック画面に表示",
+    "記録を共有",
+    "自分の目標",
+    "履歴",
+    "ロック画面のウィジェット",
+    "ホーム画面のウィジェット",
+    "時間別",
+    "記録",
+    "好きなカラー"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "@id": "https://cistrondev.github.io/#org",
+    "name": "Cistron Development",
+    "url": "https://cistrondev.github.io/"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://cistrondev.github.io/pedometer/ja/#faq",
+   "inLanguage": "ja",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "サブスクなしで使える無料の歩数計アプリはありますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Pedometerは無料で、サブスクリプションもアカウントも不要です。歩数、距離、上った階数をわかりやすい数字とグラフで表示し、ロック画面とホーム画面にウィジェットとして置けます。GPSでウォーキングやランニングも記録できます。任意のチップは何も解除しません。<a href=\"https://apps.apple.com/app/id6822166433\">App Storeで見る<\/a><\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "iPhoneのロック画面に歩数を表示するには？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<ol><li>Pedometerをインストールして開き、<strong>連携する<\/strong>をタップしてヘルスケアの読み取りを許可します。<\/li><li>ロック画面を長押しし、<strong>カスタマイズ<\/strong>をタップしてロック画面を選びます。<\/li><li>時計の下のウィジェット欄をタップし、<strong>Pedometer<\/strong>を選んで歩数、距離、上った階数を追加します。<\/li><li><strong>完了<\/strong>をタップします。<\/li><\/ol><p>歩数と距離のウィジェットは、目標に達すると閉じるリングの中に表示されます。<a href=\"https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/\">詳しい手順はこちら<\/a><\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Apple Watchは必要ですか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>いいえ。iPhoneを持ち歩けば、iPhoneだけで歩数を数えます。Apple Watchも着けている場合、Pedometerはヘルスケアを読み取ります。ヘルスケアは両方の歩数を二重に数えずにまとめます。<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "GPSでウォーキングやランニングを記録できますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>はい。<strong>ウォーキングとランニング<\/strong>の<strong>ウォーキング<\/strong>または<strong>ランニング<\/strong>をタップします。地図にルートが描かれ、時間、距離、速度またはペース、カロリー、標高、上昇が表示されます。記録中はロック画面に数値と一時停止ボタンが表示されます。記録はルートとともにヘルスケアに保存され、画像で共有できます。<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Apple Watchなしで心拍数を表示できますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>はい、iOS 26で対応しています。AirPods Pro 3、Powerbeats Pro 2、Bluetooth心拍ベルトがあれば、ウォーキングやランニング中の心拍数をリアルタイムで表示します。<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "1日の歩数目標は変えられますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>はい。<strong>1日の目標<\/strong>で、歩数、距離、上った階数の目標を設定できます。初期値は10,000歩、8 km、10階です。ウィジェットのリングは目標で閉じます。<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Pedometerは本当に無料ですか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>はい。すべての機能が無料で、サブスクリプションはありません。<strong>設定<\/strong> › <strong>Pedometerを応援<\/strong>から、よければチップを送れます。任意で、何も解除しません。<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Pedometerは健康データをアップロードしますか？",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>いいえ。すべてiPhone内で計測・保存し、何もアップロードしません。Pedometerはヘルスケアを読み取り、書き込むのは記録したウォーキングとランニングだけです。位置情報は記録中にのみ使います。アカウント不要、解析なし、トラッキングなし。<a href=\"https://cistrondev.github.io/pedometer/privacy/\">プライバシーポリシー（英語）<\/a><\/p>"
+     }
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="canonical" href="https://cistrondev.github.io/pedometer/ja/">
+  <meta property="og:url" content="https://cistrondev.github.io/pedometer/ja/">
+</head>
+<body>
+  <header class="globalnav">
+    <nav class="globalnav-inner" aria-label="Site">
+      <a class="wordmark" href="../../">Cistron</a>
+      <ul>
+        <li><a href="../../#apps">アプリ</a></li>
+        <li><a href="../../privacy/">プライバシー</a></li>
+        <li><a href="mailto:cistron.support@icloud.com">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <nav class="localnav" aria-label="Pedometer">
+    <div class="localnav-inner">
+      <a class="localnav-title" href="../../pedometer/ja/">Pedometer</a>
+      <ul>
+        <li><a href="../../pedometer/ja/" aria-current="page">概要</a></li>
+        <li><a href="../../pedometer/privacy/">プライバシー</a></li>
+        <li><a class="pill pill-small" href="https://apps.apple.com/app/id6822166433">App Store</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="app-hero">
+      <img class="app-icon app-icon-large" src="../../assets/img/pedometer/icon.png?v=736d30dd" width="256" height="256" alt="Pedometer app icon">
+      <h1>Pedometer</h1>
+      <p class="app-tagline">歩数を、ロック画面に。</p>
+      <p class="app-meta">無料 · iPhone · iOS 17以降</p>
+      <p><a class="pill pill-large" href="https://apps.apple.com/app/id6822166433">App Storeで見る</a></p>
+    </section>
+
+    <section class="gallery" data-gallery aria-label="スクリーンショット">
+      <ul class="gallery-track" tabindex="0">
+          <li><img src="../../assets/img/pedometer/ja/01.webp?v=6d8a02ab" width="642" height="1389" alt="歩数をロック画面に。歩数計ウィジェット。距離と階段も並べて表示。" loading="eager" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/02.webp?v=f93b2c3b" width="642" height="1389" alt="一歩ずつ、しっかり記録。ヘルスケアを読み取り、Apple Watchの歩数も含みます。" loading="eager" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/03.webp?v=ba2c0db0" width="642" height="1389" alt="ウォーキングとランを地図で記録。速度、標高、カロリー、心拍数も。" loading="eager" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/04.webp?v=2059abe2" width="642" height="1389" alt="ライブで確認、あとで共有。記録中はロック画面に、終わったら画像で。" loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/05.webp?v=9f971b45" width="642" height="1389" alt="ホーム画面にも。同じカードを小または中サイズで。" loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/06.webp?v=d168c8dd" width="642" height="1389" alt="今日の歩数を時間ごとに。いつもの日と並べて表示。" loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/07.webp?v=f3ae6316" width="642" height="1389" alt="最高の日・週・月を記録。月別・年別の合計と累計も。" loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/08.webp?v=bcc7c0b6" width="642" height="1389" alt="好きなカラーを選べます。目標バー、グラフ、ウィジェットに使える6色。" loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/09.webp?v=c40410cc" width="642" height="1389" alt="1週間をひと目で。日ごとの棒グラフ、平均、変化。" loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/pedometer/ja/10.webp?v=22130db2" width="642" height="1389" alt="データはiPhoneの中だけ。アカウント不要、トラッキングなし。" loading="lazy" decoding="async"></li>
+      </ul>
+      <div class="gallery-controls">
+        <div class="gallery-paddles">
+          <button type="button" data-prev aria-label="前のスクリーンショット"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M20.5 11 13.5 18l7 7"/></svg></button>
+          <button type="button" data-next aria-label="次のスクリーンショット"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M15.5 11l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <p><strong>歩数、距離、上った階数を、わかりやすい数字とグラフで。</strong> Pedometerはヘルスケアを読み取り、今日の数値をロック画面とホーム画面に表示します。iPhoneだけで歩数を数えられ、Apple Watchを着けていればその歩数も含まれます。</p>
+      <p class="intro-link"><a class="more" href="../../pedometer/ja/step-counter-lock-screen/">iPhoneのロック画面に歩数計を表示する方法</a></p>
+    </section>
+
+    <section class="features">
+      <ul>
+        <li><h3>今日</h3><p>歩数と目標、目標までの残り。距離と上った階数もそれぞれの目標と並べ、アクティブエネルギーと歩行速度も表示します。</p></li>
+        <li><h3>ウォーキングとランニング</h3><p>GPSでウォーキングやランニングを記録。地図上のルートに、速度またはペース、標高、上昇、カロリーを表示します。記録はルートとともにヘルスケアに保存されます。</p></li>
+        <li><h3>リアルタイムの心拍数</h3><p>AirPods Pro 3、Powerbeats Pro 2、Bluetooth心拍ベルトがあれば、心拍数をリアルタイムで表示します（iOS 26）。</p></li>
+        <li><h3>ロック画面に表示</h3><p>記録中は時間、距離、速度、心拍数、カロリーがロック画面に表示され、一時停止ボタンも使えます。</p></li>
+        <li><h3>記録を共有</h3><p>ウォーキングやランニングごとに、地図と数値を入れた画像をどのアプリにも共有できます。</p></li>
+        <li><h3>自分の目標</h3><p>歩数、距離、上った階数に1日の目標を設定できます。初期値は10,000歩、8 km、10階です。</p></li>
+        <li><h3>履歴</h3><p>数値ごとのグラフで過去1週間、1か月、1年を表示。1日の平均と、前の期間との差がわかります。</p></li>
+        <li><h3>ロック画面のウィジェット</h3><p>歩数と距離は目標で閉じるリングの中に、上った階数は階段を上る人形と一緒に表示します。</p></li>
+        <li><h3>ホーム画面のウィジェット</h3><p>アプリと同じカードを小・中・大サイズで。ライト、ダーク、自動から選べ、歩数だけの表示にもできます。</p></li>
+        <li><h3>時間別</h3><p>今日の歩数を時間ごとに、過去4週間のいつもの日と並べて表示します。</p></li>
+        <li><h3>記録</h3><p>月別・年別の合計と、歩数・上った階数・歩行速度の最高の日・週・月。</p></li>
+        <li><h3>好きなカラー</h3><p>グラファイト、ブルー、グリーン、オレンジ、ピンク、パープルから、目標バー、グラフ、ウィジェットの色を選べます。</p></li>
+      </ul>
+    </section>
+
+    <section class="faq" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>サブスクなしで使える無料の歩数計アプリはありますか？</h3>
+          <div class="faq-answer">
+            <p>Pedometerは無料で、サブスクリプションもアカウントも不要です。歩数、距離、上った階数をわかりやすい数字とグラフで表示し、ロック画面とホーム画面にウィジェットとして置けます。GPSでウォーキングやランニングも記録できます。任意のチップは何も解除しません。<a href="https://apps.apple.com/app/id6822166433">App Storeで見る</a></p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>iPhoneのロック画面に歩数を表示するには？</h3>
+          <div class="faq-answer">
+            <ol><li>Pedometerをインストールして開き、<strong>連携する</strong>をタップしてヘルスケアの読み取りを許可します。</li><li>ロック画面を長押しし、<strong>カスタマイズ</strong>をタップしてロック画面を選びます。</li><li>時計の下のウィジェット欄をタップし、<strong>Pedometer</strong>を選んで歩数、距離、上った階数を追加します。</li><li><strong>完了</strong>をタップします。</li></ol>
+            <p>歩数と距離のウィジェットは、目標に達すると閉じるリングの中に表示されます。<a href="../../pedometer/ja/step-counter-lock-screen/">詳しい手順はこちら</a></p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>Apple Watchは必要ですか？</h3>
+          <div class="faq-answer">
+            <p>いいえ。iPhoneを持ち歩けば、iPhoneだけで歩数を数えます。Apple Watchも着けている場合、Pedometerはヘルスケアを読み取ります。ヘルスケアは両方の歩数を二重に数えずにまとめます。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>GPSでウォーキングやランニングを記録できますか？</h3>
+          <div class="faq-answer">
+            <p>はい。<strong>ウォーキングとランニング</strong>の<strong>ウォーキング</strong>または<strong>ランニング</strong>をタップします。地図にルートが描かれ、時間、距離、速度またはペース、カロリー、標高、上昇が表示されます。記録中はロック画面に数値と一時停止ボタンが表示されます。記録はルートとともにヘルスケアに保存され、画像で共有できます。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>Apple Watchなしで心拍数を表示できますか？</h3>
+          <div class="faq-answer">
+            <p>はい、iOS 26で対応しています。AirPods Pro 3、Powerbeats Pro 2、Bluetooth心拍ベルトがあれば、ウォーキングやランニング中の心拍数をリアルタイムで表示します。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>1日の歩数目標は変えられますか？</h3>
+          <div class="faq-answer">
+            <p>はい。<strong>1日の目標</strong>で、歩数、距離、上った階数の目標を設定できます。初期値は10,000歩、8 km、10階です。ウィジェットのリングは目標で閉じます。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>Pedometerは本当に無料ですか？</h3>
+          <div class="faq-answer">
+            <p>はい。すべての機能が無料で、サブスクリプションはありません。<strong>設定</strong> › <strong>Pedometerを応援</strong>から、よければチップを送れます。任意で、何も解除しません。</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>Pedometerは健康データをアップロードしますか？</h3>
+          <div class="faq-answer">
+            <p>いいえ。すべてiPhone内で計測・保存し、何もアップロードしません。Pedometerはヘルスケアを読み取り、書き込むのは記録したウォーキングとランニングだけです。位置情報は記録中にのみ使います。アカウント不要、解析なし、トラッキングなし。<a href="../../pedometer/privacy/">プライバシーポリシー（英語）</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="privacy-card">
+      <div>
+        <p class="eyebrow">プライバシー</p>
+        <h2>データはiPhoneの中だけ。</h2>
+        <p><a class="more" href="../../pedometer/privacy/">プライバシーポリシーを読む（英語）</a></p>
+      </div>
+      <ul class="checks">
+          <li>ヘルスケアを読み取り、書き込むのは記録したウォーキングとランニングだけです。</li>
+          <li>位置情報は記録中にのみ使用し、iPhoneの外には出ません。</li>
+          <li>すべてiPhone内で計測し、保存します。アップロードはしません。</li>
+          <li>アカウント不要、解析なし、トラッキングなし。</li>
+      </ul>
+    </section>
+
+      <p class="note">Pedometerは医療機器ではなく、医学的な助言は行いません。</p>
+    <nav class="langs" aria-label="言語">
+      <h2>言語</h2>
+      <ul>
+        <li><a href="../../pedometer/" hreflang="en" lang="en">English</a></li>
+        <li><a href="../../pedometer/de/" hreflang="de" lang="de">Deutsch</a></li>
+        <li><a href="../../pedometer/es/" hreflang="es" lang="es">Español</a></li>
+        <li><a href="../../pedometer/fr/" hreflang="fr" lang="fr">Français</a></li>
+        <li><a href="../../pedometer/it/" hreflang="it" lang="it">Italiano</a></li>
+        <li><a href="../../pedometer/nl/" hreflang="nl" lang="nl">Nederlands</a></li>
+        <li><a href="../../pedometer/pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+        <li><a href="../../pedometer/ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a></li>
+      </ul>
+    </nav>
+
+    <section class="more-apps">
+      <h2>ほかのアプリ</h2>
+      <ul>
+        <li><a href="../../aloud/"><img class="app-icon" src="../../assets/img/aloud/icon.png?v=ff04d142" width="256" height="256" alt=""><span>Aloud</span></a></li>
+        <li><a href="../../lifetrends/"><img class="app-icon" src="../../assets/img/lifetrends/icon.png?v=2ffe7f70" width="256" height="256" alt=""><span>LifeTrends</span></a></li>
+        <li><a href="../../timegrapher/"><img class="app-icon" src="../../assets/img/timegrapher/icon.png?v=d7c9a8a3" width="256" height="256" alt=""><span>Timegrapher</span></a></li>
+        <li><a href="../../unfollowers/"><img class="app-icon" src="../../assets/img/unfollowers/icon.png?v=ab7cf88a" width="256" height="256" alt=""><span>Unfollowers</span></a></li>
+        <li><a href="../../unfriended/"><img class="app-icon" src="../../assets/img/unfriended/icon.png?v=cf7b7fc3" width="256" height="256" alt=""><span>Unfriended</span></a></li>
+        <li><a href="../../voiceclone/"><img class="app-icon" src="../../assets/img/voiceclone/icon.png?v=480e01a2" width="256" height="256" alt=""><span>Voice Clone</span></a></li>
+        <li><a href="../../atlas/"><img class="app-icon" src="../../assets/img/atlas/icon.png?v=2b6f9c77" width="256" height="256" alt=""><span>Atlas</span></a></li>
+        <li><a href="../../jobsitecalc/"><img class="app-icon" src="../../assets/img/jobsitecalc/icon.png?v=77e0ec99" width="256" height="256" alt=""><span>Jobsite Calc</span></a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>InstagramおよびFacebookはMeta Platforms, Inc.の商標です。UnfollowersとUnfriendedは独立したアプリであり、Metaとの提携、承認、後援関係はありません。</p>
+      <div class="footer-row">
+        <p>Copyright © 2026 Cistron Development. All rights reserved.</p>
+        <ul>
+          <li><a href="../../#apps">アプリ</a></li>
+          <li><a href="../../privacy/">プライバシー</a></li>
+          <li><a href="mailto:cistron.support@icloud.com">cistron.support@icloud.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

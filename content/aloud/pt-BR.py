@@ -10,6 +10,7 @@ L = {
     "name": "Português",
     "path": "pt-br/",
     "og_locale": "pt_BR",
+    "also": ["pt"],
     "ui": {
         **_ui,
         "summary": "O que o Aloud lê",
