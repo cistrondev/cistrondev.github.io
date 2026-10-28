@@ -38,8 +38,8 @@ Identify from Photo, no photo leaves your iPhone.
 
 ## Information you enter
 
-Any details you add — such as brand, model, reference number, serial number,
-year, notes, and your saved measurements — are stored **locally on your
+Any details you add, such as brand, model, reference number, serial number,
+year, notes, and your saved measurements, are stored **locally on your
 device** using Apple's on‑device storage (SwiftData). This information is not
 sent anywhere and is not accessible to the developer.
 
@@ -67,8 +67,8 @@ serial number.
 ## Market prices (Chrono24)
 
 If you use the optional market‑price check, the app loads the public Chrono24
-search results for your watch's reference in a built‑in browser view — exactly
-as if you had opened the page yourself — and computes the median asking price
+search results for your watch's reference in a built‑in browser view, exactly
+as if you had opened the page yourself, and computes the median asking price
 on your device. The request goes directly to Chrono24 and contains only the
 search text (the watch's brand and reference number). The developer receives
 nothing, stores nothing, and cannot see what you looked up. Chrono24's own

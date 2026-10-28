@@ -50,7 +50,7 @@ L = {
              "Die iCloud-Synchronisierung ist optional und legt dein Regal als einfache "
              "Textdateien in dein eigenes iCloud Drive."),
         ],
-        "privacy_title": "Privat, weil es so gebaut ist.",
+        "privacy_title": "Deine Dokumente bleiben bei dir.",
         "privacy": [
             "Die Sprache entsteht auf deinem iPhone. Deine Dokumente werden nie hochgeladen.",
             "Die Stimmen werden einmal von einem öffentlichen Server geladen. Geteilte "
@@ -60,7 +60,7 @@ L = {
         "note": "",
         "reviews": [],
         "why": (
-            "Keine Cloud. Kein Abo.",
+            "Ohne Server und ohne Abo.",
             "Viele bekannte Vorlese-Apps erzeugen ihre Stimmen auf eigenen Servern. Die "
             "Artikel und Dokumente, die du hörst, werden also zuerst dorthin hochgeladen, "
             "und ihre Premium-Abos kosten bis zu 139 $ im Jahr oder 29 $ im Monat, fast "

@@ -27,7 +27,7 @@ L = {
             "verwaltet Ihre ganze Sammlung, jede Messung und den Wert jeder Uhr an einem Ort.",
         ),
         "features": [
-            ("Die Werte, die zählen",
+            ("Gang, Amplitude, Abfallfehler",
              "Sekunden Vor- oder Nachgang pro Tag, wie weit die Unruh ausschwingt, und die "
              "Symmetrie von Tic und Tac. Halbschwingungen von 18.000 bis 36.000 A/h werden "
              "automatisch erkannt."),
@@ -49,7 +49,7 @@ L = {
              "plötzlich vorgeht. Das Magnetometer des iPhones zeigt, ob Ihre Uhr "
              "entmagnetisiert werden muss."),
         ],
-        "privacy_title": "Nichts aufgezeichnet. Nichts gespeichert.",
+        "privacy_title": "Der Ton wird nie aufgezeichnet.",
         "privacy": [
             "Der Ton des Mikrofons wird live ausgewertet und nie aufgezeichnet oder gespeichert.",
             "Ihre Sammlung und Ihre Messungen liegen nur auf Ihrem iPhone.",

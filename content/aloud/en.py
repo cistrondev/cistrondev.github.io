@@ -98,8 +98,7 @@ L = {
                        "voice made on your iPhone, at your speed, offline.",
         "lead": "Aloud reads anything you can read: a web article, a PDF, an EPUB book or "
                 "text you paste. The voice is made on your iPhone, so it works offline and "
-                "nothing you read is uploaded. Here is how to get each kind of text in and "
-                "how to listen.",
+                "nothing you read is uploaded. The steps below cover each kind of text.",
         "choose": [
             ("Articles", "Share from Safari or any app"),
             ("PDFs and EPUBs", "Open from Files"),

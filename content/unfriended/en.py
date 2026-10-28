@@ -33,7 +33,7 @@ L = {
         ]),
         ("Why does Unfriended need two exports?", [
             "Facebook friendship is mutual, so a single list can't show who left: someone who "
-            "unfriended you is simply not on it. Two exports taken a few weeks apart show the "
+            "unfriended you is not on it. Two exports taken a few weeks apart show the "
             "difference. Your own removals are kept apart, using Facebook's own record of "
             "them.",
         ]),
@@ -69,8 +69,8 @@ L = {
                        "you by comparing two exports.",
         "lead": "Facebook lets you download a copy of your friends list, with the date each "
                 "friendship began. It takes about a minute to ask for, and Facebook "
-                "prepares the file within minutes to a few hours. Here is every tap, in the "
-                "Facebook app on iPhone.",
+                "prepares the file within minutes to a few hours. The steps below are "
+                "for the Facebook app on iPhone.",
         "choose": [
             ("Information", "Friends, and Followers"),
             ("Date range", "All time"),
