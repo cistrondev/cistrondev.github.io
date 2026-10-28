@@ -6,6 +6,7 @@ L = {
     "name": "Português (Brasil)",
     "path": "pt-br/",
     "og_locale": "pt_BR",
+    "also": ["pt"],
     "ui": {
         "nav_apps": "Apps",
         "nav_privacy": "Privacidade",

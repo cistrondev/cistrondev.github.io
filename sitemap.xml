@@ -1,136 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://cistrondev.github.io/</loc></url>
-  <url><loc>https://cistrondev.github.io/privacy/</loc></url>
+  <url>
+    <loc>https://cistrondev.github.io/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/listen-to-articles-and-books/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/de/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/es/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/fr/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/it/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/pt-br/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
   </url>
-  <url><loc>https://cistrondev.github.io/aloud/privacy/</loc></url>
-  <url><loc>https://cistrondev.github.io/lifetrends/</loc></url>
-  <url><loc>https://cistrondev.github.io/lifetrends/privacy/</loc></url>
-  <url><loc>https://cistrondev.github.io/timegrapher/</loc></url>
-  <url><loc>https://cistrondev.github.io/timegrapher/privacy/</loc></url>
+  <url>
+    <loc>https://cistrondev.github.io/aloud/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/lifetrends/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/lifetrends/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/lifetrends/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/lifetrends/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/check-watch-accuracy/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/de/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/fr/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/ja/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -141,8 +258,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/download-instagram-data/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -153,8 +272,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/pt-br/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -165,8 +286,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -177,8 +300,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/es/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -189,8 +314,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -201,8 +328,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/it/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -213,8 +342,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -225,8 +356,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/fr/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -237,8 +370,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -249,8 +384,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/de/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -261,8 +398,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -273,8 +412,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/el/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -285,8 +426,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -297,8 +440,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/nl/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
@@ -309,8 +454,10 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
@@ -319,38 +466,304 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
-  <url><loc>https://cistrondev.github.io/unfollowers/privacy/</loc></url>
-  <url><loc>https://cistrondev.github.io/unfriended/</loc></url>
-  <url><loc>https://cistrondev.github.io/unfriended/privacy/</loc></url>
-  <url><loc>https://cistrondev.github.io/pedometer/</loc></url>
-  <url><loc>https://cistrondev.github.io/pedometer/privacy/</loc></url>
-  <url><loc>https://cistrondev.github.io/voiceclone/</loc></url>
-  <url><loc>https://cistrondev.github.io/voiceclone/privacy/</loc></url>
-  <url><loc>https://cistrondev.github.io/atlas/</loc></url>
-  <url><loc>https://cistrondev.github.io/atlas/privacy/</loc></url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfriended/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfriended/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfriended/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfriended/download-facebook-friends-list/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfriended/download-facebook-friends-list/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfriended/download-facebook-friends-list/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfriended/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/step-counter-lock-screen/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/de/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/es/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/fr/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/it/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/nl/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/pt-br/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/ja/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/pedometer/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/voiceclone/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/voiceclone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/voiceclone/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/voiceclone/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/atlas/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/atlas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/atlas/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/atlas/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/stair-layout/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/es/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/</loc>
+    <lastmod>2026-10-28</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
   </url>
-  <url><loc>https://cistrondev.github.io/jobsitecalc/privacy/</loc></url>
+  <url>
+    <loc>https://cistrondev.github.io/jobsitecalc/privacy/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
 </urlset>

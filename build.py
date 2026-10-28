@@ -15,6 +15,7 @@ import json
 import pathlib
 import re
 import runpy
+import datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent
 BRAND = "Cistron"                 # header wordmark and page titles
@@ -200,6 +201,8 @@ APPS = [
         ),
         "note": "LifeTrends is not a medical device and does not give medical advice.",
         "tile": [1, 2, 4],
+        "languages": ["en"],
+        "category": "HealthApplication",   # schema.org applicationCategory
         "shots": [
             "Your life has patterns, hiding in your health data.",
             "It knows where you were: the cities you move more in.",
@@ -274,6 +277,8 @@ APPS = [
                       "price of my collection over the years"},
         ],
         "tile": [1, 3, 4],
+        "languages": ["en", "de", "fr", "ja"],
+        "category": "UtilitiesApplication",   # schema.org applicationCategory
         "shots": [
             "Your iPhone is a timing machine: rate, amplitude, and beat error in 30 seconds.",
             "Accurate readings, no matter what: quiet movements, even in noisy rooms.",
@@ -402,6 +407,8 @@ APPS = [
         "network": "Nothing. The app makes no network connections at all.",
         "note": "Unfriended is an independent app, not affiliated with Facebook or Meta.",
         "tile": [2, 4, 5],
+        "languages": ["en"],
+        "category": "SocialNetworkingApplication",   # schema.org applicationCategory
         "shots": [
             "Who dropped you? Import your Facebook export twice and the difference shows who left.",
             "They dropped you. Facebook won't say.",
@@ -477,6 +484,8 @@ APPS = [
         "network": "Only the map, which Apple Maps draws. Nothing about you is sent.",
         "note": "Pedometer is not a medical device and does not give medical advice.",
         "tile": [1, 2, 3],
+        "languages": ["en", "de", "es", "fr", "it", "nl", "pt-BR", "ja"],
+        "category": "HealthApplication",   # schema.org applicationCategory
         "shots": [
             "Your steps on the Lock Screen: a step counter widget, with distance and stairs beside it.",
             "Every step, counted: reads Apple Health, Apple Watch steps included.",
@@ -538,6 +547,8 @@ APPS = [
         "note": "Needs an iPhone 15 Pro or later, for its 8 GB of memory. Clone "
                 "only your own voice, or the voice of someone who agreed to it.",
         "tile": [1, 3, 5],
+        "languages": ["en"],
+        "category": "MultimediaApplication",   # schema.org applicationCategory
         "shots": [
             "Clone your voice on your iPhone: the voice model runs on the phone.",
             "Record 15 seconds of your voice: say anything, in your normal voice.",
@@ -614,6 +625,8 @@ APPS = [
                    "in the Photos app.",
         "note": "",
         "tile": [1, 3, 5],
+        "languages": ["en"],
+        "category": "TravelApplication",   # schema.org applicationCategory
         "shots": [
             "Every country you've been to, on one map: the count, the map and your list.",
             "Found in your photos, on your iPhone: nothing is uploaded.",
@@ -857,6 +870,16 @@ def up(folder):
     return "../" * folder.count("/")
 
 
+def alternates(langs, url_of):
+    """[(hreflang, URL)] for every language version, English first. A language
+    file's `also` adds codes served by the same page (pt-BR also answers "pt")."""
+    out = []
+    for x in langs:
+        out.append((x["code"], url_of(x)))
+        out += [(code, url_of(x)) for code in x.get("also", [])]
+    return out
+
+
 def hreflang_links(cluster):
     """<link rel="alternate"> for every language version of a page, plus
     x-default (the English one, listed first). `cluster`: [(code, URL)]."""
@@ -1020,6 +1043,33 @@ def local_nav(app, prefix, current, ui=UI_EN, home=None):
 
 # Every page's public address, collected as pages are written, for sitemap.xml.
 PAGE_URLS = []
+# Page URL -> the day its HTML last changed. A page whose HTML is the same as
+# on disk keeps the date the previous sitemap.xml gave it.
+TODAY = datetime.date.today().isoformat()
+LASTMOD = {}
+
+
+def _old_lastmod():
+    path = ROOT / "sitemap.xml"
+    if not path.exists():
+        return {}
+    text = path.read_text(encoding="utf-8")
+    return dict(re.findall(r"<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", text))
+
+
+OLD_LASTMOD = _old_lastmod()
+
+# Search and AI crawlers named in robots.txt. "User-agent: *" already allows
+# them; naming them says plainly that answer engines are welcome.
+AI_CRAWLERS = [
+    "Googlebot", "Bingbot", "Applebot", "Applebot-Extended", "Google-Extended",
+    "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot",
+    "Claude-User", "PerplexityBot", "Perplexity-User", "DuckAssistBot",
+    "Amazonbot", "meta-externalagent", "MistralAI-User", "CCBot",
+]
+# IndexNow key (Bing, Yandex, Seznam, Naver): the file <key>.txt at the site
+# root proves the site is ours, so changed URLs can be pushed to Bing at once.
+INDEXNOW_KEY = "c1a7f0e2b9d84d5fa3e6b2c4d8f1a903"
 # Page URL -> its language versions [(code, URL)], repeated in sitemap.xml.
 ALTERNATES = {}
 
@@ -1032,6 +1082,9 @@ def write(path, text):
         text = text.replace("</head>", f'  <link rel="canonical" href="{url}">\n'
                                        f'  <meta property="og:url" content="{url}">\n</head>', 1)
         PAGE_URLS.append(url)
+        old = ROOT / path
+        same = old.exists() and old.read_text(encoding="utf-8") == text
+        LASTMOD[url] = OLD_LASTMOD.get(url, TODAY) if same else TODAY
     path = ROOT / path
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
@@ -1044,19 +1097,19 @@ def search_files():
     Pages that exist in several languages list them all, as in their <head>."""
     def entry(u):
         cluster = ALTERNATES.get(u)
-        if not cluster:
-            return f"  <url><loc>{esc(u)}</loc></url>"
+        mod = f"\n    <lastmod>{LASTMOD[u]}</lastmod>" if u in LASTMOD else ""
         links = "".join(
             f'\n    <xhtml:link rel="alternate" hreflang="{code}" href="{esc(url)}"/>'
-            for code, url in cluster + [("x-default", cluster[0][1])])
-        return f"  <url>\n    <loc>{esc(u)}</loc>{links}\n  </url>"
+            for code, url in (cluster + [("x-default", cluster[0][1])] if cluster else []))
+        return f"  <url>\n    <loc>{esc(u)}</loc>{mod}{links}\n  </url>"
 
     urls = "\n".join(entry(u) for u in PAGE_URLS)
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
           ' xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
           f"{urls}\n</urlset>\n")
-    write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n")
+    bots = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_CRAWLERS)
+    write("robots.txt", f"User-agent: *\nAllow: /\n\n{bots}Sitemap: {SITE_URL}sitemap.xml\n")
 
 
 # ---------------------------------------------------------------- pages
@@ -1119,10 +1172,19 @@ def home_page():
       <p>A cistron is the stretch of DNA that does one complete job: it carries the instructions for a single protein. The word comes from biology's <i>cis</i>–<i>trans</i> test, and <i>cis</i> is Latin for “on this side”. That's the idea behind every app here: each does one job well, and does it on your side, on your iPhone, not on someone else's server.</p>
     </section>"""
 
+    org = {"@type": "Organization", "@id": f"{SITE_URL}#org", "name": COMPANY,
+           "alternateName": BRAND, "url": SITE_URL,
+           "logo": f"{SITE_URL}assets/apple-touch-icon.png",
+           **({"email": EMAIL} if EMAIL else {}),
+           "sameAs": ["https://apps.apple.com/developer/id6787521132"]}
+    apps = {"@type": "ItemList", "name": f"iPhone apps by {COMPANY}",
+            "itemListElement": [
+                {"@type": "ListItem", "position": i, "url": f"{SITE_URL}{a['slug']}/",
+                 "name": a["store_name"]} for i, a in enumerate(APPS, 1)]}
     write("index.html", page(
         prefix=p, title=f"{BRAND} · Apps for iPhone",
         description="Minimal, local, ad-free iPhone apps. No accounts, no ads, no tracking.",
-        body=body))
+        body=body, head=json_ld({"@graph": [org, apps]})))
 
 
 def stars(review):
@@ -1206,6 +1268,12 @@ def proof_section(app, ui=UI_EN):
     return '    <section class="proof">\n' + "\n".join(parts) + "\n    </section>\n"
 
 
+def base_platform(app):
+    """The platform line in English, e.g. "iPhone · iOS 17 or later"."""
+    return next((a.get("platform") for a in APPS if a["slug"] == app["slug"]), None) \
+        or UI_EN["platform"]
+
+
 def app_structured_data(app, L, url, links):
     """schema.org SoftwareApplication + FAQPage for one language version."""
     store = store_url(app)
@@ -1219,14 +1287,16 @@ def app_structured_data(app, L, url, links):
         "inLanguage": L["code"],
         "description": f"{lead} {rest}",
         "applicationCategory": app.get("category", "UtilitiesApplication"),
-        "operatingSystem": "iOS 17.0 or later",
+        "operatingSystem": "iOS {}.0 or later".format(
+            (re.findall(r"iOS (\d+)", base_platform(app)) or ["17"])[0]),
         "availableOnDevice": "iPhone",
         **({"downloadUrl": store, "installUrl": store, "sameAs": store} if is_live(app) else {}),
         "image": f"{SITE_URL}assets/img/{app['slug']}/icon.png",
         "screenshot": [SITE_URL + shot_path(app, i) for i in range(1, len(app["shots"]) + 1)],
         "featureList": [title for title, _ in app["features"]],
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-        "publisher": {"@type": "Organization", "name": COMPANY, "url": SITE_URL},
+        "publisher": {"@type": "Organization", "@id": f"{SITE_URL}#org", "name": COMPANY,
+                      "url": SITE_URL},
     }
     faq = {
         "@type": "FAQPage",
@@ -1292,17 +1362,20 @@ def app_page(base, langs=(), L=None):
 
     guide_link = faq = languages = head = ""
     if L:
-        links = {"guide": f"{p}{guide_dir(base, L)}", "store": store_url(base),
-                 "privacy": f"{p}{base['slug']}/privacy/"}
-        guide_link = (f'\n      <p class="intro-link"><a class="more" href="{links["guide"]}">'
-                      f'{esc(L["guide_link"])}</a></p>')
+        links = {"store": store_url(base), "privacy": f"{p}{base['slug']}/privacy/"}
+        if "guide" in L:
+            links["guide"] = f"{p}{guide_dir(base, L)}"
+            guide_link = (f'\n      <p class="intro-link"><a class="more" href="{links["guide"]}">'
+                          f'{esc(L["guide_link"])}</a></p>')
         faq = faq_section(L, links, ui)
-        languages = "\n" + language_nav(langs, L, p, lambda x: lang_dir(base, x))
+        if len(langs) > 1:
+            languages = "\n" + language_nav(langs, L, p, lambda x: lang_dir(base, x))
         url = SITE_URL + folder
-        cluster = [(x["code"], SITE_URL + lang_dir(base, x)) for x in langs]
+        cluster = alternates(langs, lambda x: SITE_URL + lang_dir(base, x))
         ALTERNATES[url] = cluster
-        absolute = {"guide": SITE_URL + guide_dir(base, L), "store": store_url(base),
-                    "privacy": f"{SITE_URL}{base['slug']}/privacy/"}
+        absolute = {"store": store_url(base), "privacy": f"{SITE_URL}{base['slug']}/privacy/"}
+        if "guide" in L:
+            absolute["guide"] = SITE_URL + guide_dir(base, L)
         head = "\n".join([f'  <meta property="og:locale" content="{L["og_locale"]}">',
                           hreflang_links(cluster),
                           app_structured_data(app, L, url, absolute)])
@@ -1420,7 +1493,7 @@ def guide_page(base, langs, L):
 {language_nav(langs, L, p, lambda x: guide_dir(base, x))}"""
 
     url = SITE_URL + folder
-    cluster = [(x["code"], SITE_URL + guide_dir(base, x)) for x in langs]
+    cluster = alternates(langs, lambda x: SITE_URL + guide_dir(base, x))
     ALTERNATES[url] = cluster
     howto = json_ld({
         "@type": "HowTo",
@@ -1491,15 +1564,92 @@ def privacy_index():
         body=body))
 
 
+def faq_text(blocks):
+    """An FAQ answer as plain Markdown, for llms-full.txt."""
+    out = []
+    for b in blocks:
+        if isinstance(b, str):
+            out.append(plain(b))
+        else:
+            out.append("\n".join(f"{i}. {plain(x)}" for i, x in enumerate(b, 1)))
+    return "\n\n".join(out)
+
+
+def llms_files(all_langs):
+    """llms.txt (llmstxt.org): a short Markdown map of the site for AI
+    assistants, and llms-full.txt with every app's facts, FAQ and guide in
+    English, so an assistant can answer from one file."""
+    short = [f"# {BRAND}",
+             "",
+             f"> {BRAND} ({COMPANY}) makes small iPhone apps that work on the device. "
+             "None of them has accounts, ads, analytics or tracking, and none is a "
+             "subscription: each is free to download, and some have one optional "
+             "one-time purchase.",
+             "",
+             f"Contact: {EMAIL}" if EMAIL else "",
+             "",
+             "## Apps", ""]
+    full = [f"# {BRAND}: every app, in full", "",
+            f"> {BRAND} ({COMPANY}) makes small iPhone apps that work on the device, "
+            "with no accounts, ads, analytics, tracking or subscriptions.", ""]
+    for app in APPS:
+        langs = all_langs[app["slug"]]
+        url = f"{SITE_URL}{app['slug']}/"
+        lead, rest = app["intro"]
+        status = (f"{app['pricing']}. App Store: {store_url(app)}" if is_live(app)
+                  else "Coming soon to the App Store")
+        short.append(f"- [{app['store_name']}]({url}): {app['tagline']} {lead} "
+                     f"{status}.")
+        full += [f"## {app['store_name']}", "",
+                 f"Page: {url}",
+                 f"Price: {app['pricing'] if is_live(app) else 'not released yet'}",
+                 f"Runs on: {app.get('platform', UI_EN['platform'])}",
+                 *( [f"App Store: {store_url(app)}"] if is_live(app) else [] ),
+                 f"Privacy policy: {url}privacy/",
+                 f"What it sends over the network: {app['network']}"]
+        if len(langs) > 1:
+            full.append("This page in other languages: " + ", ".join(
+                f"{L['name']} {SITE_URL}{lang_dir(app, L)}" for L in langs[1:]))
+        full += ["", f"{lead} {rest}", "", "### Features", ""]
+        full += [f"- **{t}.** {d}" for t, d in app["features"]]
+        full += ["", f"### Privacy: {app['privacy_title']}", ""]
+        full += [f"- {b}" for b in app["privacy"]]
+        if app.get("note"):
+            full += ["", app["note"]]
+        en = next((L for L in langs if L["code"] == "en"), None)
+        if en:
+            full += ["", "### Questions and answers", ""]
+            for q, a in en["faq"]:
+                full += [f"**{q}**", "", faq_text(a), ""]
+            if "guide" in en:
+                g = en["guide"]
+                full += [f"### {g['title']}", "", f"Guide: {SITE_URL}{guide_dir(app, en)}", "",
+                         plain(g["lead"]), ""]
+                full += [f"{i}. **{t}.** {plain(x)}" for i, (t, x) in enumerate(g["steps"], 1)]
+                full += [""]
+                short.append(f"  - Guide: [{g['title']}]({SITE_URL}{guide_dir(app, en)})")
+        full.append("")
+    short += ["", "## More", "",
+              f"- [Privacy policies]({SITE_URL}privacy/): what each app sends over the network, if anything",
+              f"- [Everything in one file]({SITE_URL}llms-full.txt): each app's features, privacy, FAQ and guide",
+              ""]
+    write("llms.txt", "\n".join(short))
+    write("llms-full.txt", "\n".join(full))
+
+
 if __name__ == "__main__":
     home_page()
     privacy_index()
+    all_langs = {}
     for app in APPS:
-        langs = load_languages(app)
+        langs = all_langs[app["slug"]] = load_languages(app)
         for L in langs:
             app_page(app, langs, L)
-            guide_page(app, langs, L)
+            if "guide" in L:
+                guide_page(app, langs, L)
         if not langs:
             app_page(app)
         privacy_page(app)
+    llms_files(all_langs)
+    write(f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
     search_files()

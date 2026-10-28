@@ -1,0 +1,28 @@
+# Cistron
+
+> Cistron (Cistron Development) makes small iPhone apps that work on the device. None of them has accounts, ads, analytics or tracking, and none is a subscription: each is free to download, and some have one optional one-time purchase.
+
+Contact: cistron.support@icloud.com
+
+## Apps
+
+- [Aloud — Text to Speech Reader](https://cistrondev.github.io/aloud/): Anything you can read, read aloud. Share an article, open a PDF, or paste any text. Free to try · One-time unlock. App Store: https://apps.apple.com/app/id6795773116.
+  - Guide: [How to listen to articles, PDFs and EPUB books on iPhone](https://cistrondev.github.io/aloud/listen-to-articles-and-books/)
+- [LifeTrends: Health Insights](https://cistrondev.github.io/lifetrends/): The patterns hiding in your health data. You walk more on weekends. You sleep less on Sunday nights. Free · One-time Pro unlock. App Store: https://apps.apple.com/app/id6787547184.
+- [Timegrapher — Watch Accuracy](https://cistrondev.github.io/timegrapher/): A watchmaker's timing machine, in your iPhone. Rate, amplitude, and beat error in about thirty seconds. First watch free · One-time Pro unlock. App Store: https://apps.apple.com/app/id6788081843.
+  - Guide: [How to check your mechanical watch's accuracy with an iPhone](https://cistrondev.github.io/timegrapher/check-watch-accuracy/)
+- [Unfollowers Tracker: No Login](https://cistrondev.github.io/unfollowers/): See who unfollowed you on Instagram. No login. Instagram will never tell you who unfollowed you. Your own data export will. Free · One-time unlock. App Store: https://apps.apple.com/app/id6787521130.
+  - Guide: [How to download your Instagram data export (JSON)](https://cistrondev.github.io/unfollowers/download-instagram-data/)
+- [Unfriended: Who Deleted Me?](https://cistrondev.github.io/unfriended/): Find out who unfriended you on Facebook. Facebook friendship is mutual, so no single snapshot can show who left. Free. App Store: https://apps.apple.com/app/id6792587859.
+  - Guide: [How to download your Facebook friends list](https://cistrondev.github.io/unfriended/download-facebook-friends-list/)
+- [Pedometer: Step Counter Widget](https://cistrondev.github.io/pedometer/): Your steps, on your Lock Screen. Steps, distance, and flights climbed, as plain numbers and charts. Free. App Store: https://apps.apple.com/app/id6822166433.
+  - Guide: [How to put a step counter on your iPhone Lock Screen](https://cistrondev.github.io/pedometer/step-counter-lock-screen/)
+- [Voice Clone: Private & Offline](https://cistrondev.github.io/voiceclone/): Text to speech in your own voice. Record a short sample of your voice, type any text, and hear it read in your voice. Coming soon to the App Store.
+- [Atlas: Travel Map From Photos](https://cistrondev.github.io/atlas/): Every country you've been to, from your photos. Atlas finds the countries you've been to in the photos on your iPhone and puts them on a world map. Coming soon to the App Store.
+- [Jobsite Calc: Feet Inch Math](https://cistrondev.github.io/jobsitecalc/): Feet, inches and fractions. Pay once. A feet-inch-fraction calculator for framers, carpenters and contractors. Coming soon to the App Store.
+  - Guide: [How to lay out a stair stringer: risers, treads and the code check](https://cistrondev.github.io/jobsitecalc/stair-layout/)
+
+## More
+
+- [Privacy policies](https://cistrondev.github.io/privacy/): what each app sends over the network, if anything
+- [Everything in one file](https://cistrondev.github.io/llms-full.txt): each app's features, privacy, FAQ and guide

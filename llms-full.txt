@@ -1,0 +1,705 @@
+# Cistron: every app, in full
+
+> Cistron (Cistron Development) makes small iPhone apps that work on the device, with no accounts, ads, analytics, tracking or subscriptions.
+
+## Aloud — Text to Speech Reader
+
+Page: https://cistrondev.github.io/aloud/
+Price: Free to try · One-time unlock
+Runs on: iPhone and iPad · iOS 17 or later
+App Store: https://apps.apple.com/app/id6795773116
+Privacy policy: https://cistrondev.github.io/aloud/privacy/
+What it sends over the network: Downloads each voice once from Hugging Face, and fetches articles you share from their own websites. Optional iCloud sync goes to your own iCloud. Your documents are never uploaded.
+This page in other languages: Deutsch https://cistrondev.github.io/aloud/de/, Español https://cistrondev.github.io/aloud/es/, Français https://cistrondev.github.io/aloud/fr/, Italiano https://cistrondev.github.io/aloud/it/, Português https://cistrondev.github.io/aloud/pt-br/
+
+Share an article, open a PDF, or paste any text. Aloud reads it to you in a natural voice generated on your iPhone, sentence by sentence, and always keeps your place.
+
+### Features
+
+- **Natural voices, on device.** Ten voices for English and four that read thirty more languages. No server does the talking, so Aloud keeps reading in airplane mode.
+- **Articles, PDFs, books.** Share from any browser, open PDFs and EPUB books from Files, even scanned PDFs, or paste your own text.
+- **A reader, not a player.** The sentence being spoken is lit. Hold the margin rail to scrub through the whole document.
+- **Faster, if you like.** From 0.5× to 3× without the chipmunk voice, with pauses trimmed at every full stop if you want them.
+- **Made for the move.** Keeps reading with the screen locked, with lock-screen and AirPods controls and a sleep timer that fades out.
+- **On every device.** Optional iCloud sync keeps your shelf as plain text files in your own iCloud Drive.
+
+### Privacy: Private by architecture.
+
+- Speech is generated on your iPhone. Your documents are never uploaded.
+- Voices download once from a public host. Articles you share are fetched from their own website, as a browser would.
+- No account, no analytics, no ads, no tracking.
+
+### Questions and answers
+
+**What is a good text-to-speech app for iPhone without a subscription?**
+
+Aloud reads articles, PDFs, EPUB books and any text aloud in a natural voice. It is free to download, and one in-app purchase removes the limit for good. There is no subscription and nothing renews.
+
+The voices are made on your iPhone or iPad, so what you read is never uploaded to be spoken, and Aloud keeps reading without an internet connection. There is no account, no ads and no tracking.
+
+**How do I listen to an article on my iPhone?**
+
+1. Open the article in Safari or any other app.
+2. Tap Share, then Aloud.
+3. Open Aloud and press play. The sentence being read is lit on the page.
+
+When you share from Safari, Aloud reads the page as Safari shows it, so articles on sites you are signed in to come through too. Links shared from the Facebook, Messenger or Instagram apps work as well. Step-by-step guide.
+
+**Can Aloud turn an EPUB into an audiobook?**
+
+Yes. Open an EPUB file from the Files app, or tap + › Import a file. Aloud keeps the book's cover and chapters. The Chapters list shows how long each chapter takes to hear, and you can start from any of them. Your place is kept, so a long book plays like an audiobook.
+
+Books bought with copy protection cannot be opened by other apps, Aloud included. DRM-free EPUBs, like the ones from Project Gutenberg or Standard Ebooks, work.
+
+**Can it read PDFs, including scanned ones?**
+
+Yes. Open a PDF from Files or share it to Aloud. Aloud reads the text in order, and for a scanned PDF it recognises the text on the device first.
+
+**Does Aloud work offline?**
+
+Yes. Each voice downloads once, the first time you use it. After that the speech is made on your iPhone, so Aloud reads in airplane mode, on the underground or on a flight. Fetching a new article still needs the internet; anything already on your shelf does not.
+
+**Which languages can it read?**
+
+Ten natural voices read English, and four more read over thirty other languages, including German, Spanish, French, Italian and Portuguese. The app itself is in English, German, Spanish, French, Italian and Portuguese.
+
+**Can it translate what I'm reading?**
+
+Yes, on iOS 18 or later. Tap the translate button in the reader and choose a language under Translate into. Apple's translator does the work on your iPhone, so nothing is sent anywhere. The page then shows each sentence with its translation, and Read the translation aloud lets the voice read either language.
+
+**How fast can it read?**
+
+From 0.5× to 3×, without the chipmunk sound. Shorten pauses trims the silence between sentences, so a 30-minute article fits a 15-minute walk.
+
+**Is Aloud free?**
+
+Aloud is free to download, with every voice and feature. The free shelf holds three pieces at a time. A one-time purchase, Unlock Aloud, removes the limit. There is no subscription. See it on the App Store.
+
+**Can I bring my reading list from Pocket or Instapaper?**
+
+Yes. Export your saves from Pocket, Instapaper, Raindrop or your browser's bookmarks, then in Aloud open Settings › Import from a file. Every link lands on your shelf, and Aloud fetches the articles in the background.
+
+**Does Aloud upload my documents?**
+
+No. Speech is made on your iPhone. Aloud downloads each voice once from a public host, and fetches articles you share from their own websites, as a browser would. Sync with iCloud is optional and keeps your shelf as plain text files in your own iCloud Drive. Privacy policy.
+
+### How to listen to articles, PDFs and EPUB books on iPhone
+
+Guide: https://cistrondev.github.io/aloud/listen-to-articles-and-books/
+
+Aloud reads anything you can read: a web article, a PDF, an EPUB book or text you paste. The voice is made on your iPhone, so it works offline and nothing you read is uploaded. Here is how to get each kind of text in and how to listen.
+
+1. **Install Aloud.** Download Aloud from the App Store. It runs on iPhone and iPad with iOS 17 or later. The first time you press play, the voice downloads once. After that it works offline.
+2. **Share an article.** Open the article in Safari or another app, tap Share, then Aloud. The article goes on your shelf without menus, ads or comments. From Safari, Aloud reads the page as you see it, so articles you are signed in to work.
+3. **Open a PDF or an EPUB.** In Aloud, tap + › Import a file and pick the file, or share it to Aloud from the Files app. Scanned PDFs are recognised on the device. EPUB books keep their cover and chapters.
+4. **Paste any text.** Tap + › Paste text for notes, emails or anything you copied. Paste a link takes a web address.
+5. **Press play.** Open a piece and press play. The sentence being read is lit, and the rest stays dim. Hold the rail in the margin to move through the whole piece. In a book, tap Chapters in the ••• menu to start from any chapter.
+6. **Set the speed.** Tap the speed button and choose anything from 0.5× to 3×. Turn on Shorten pauses to trim the silence between sentences.
+7. **Lock your iPhone.** Aloud keeps reading with the screen locked. Use the lock-screen or AirPods controls, and set the Sleep timer if you listen in bed: the voice fades out at the end.
+8. **Translate it, if you like.** On iOS 18 or later, tap the translate button and pick a language under Translate into. Each sentence appears with its translation, and Read the translation aloud switches the voice to the other language.
+
+
+## LifeTrends: Health Insights
+
+Page: https://cistrondev.github.io/lifetrends/
+Price: Free · One-time Pro unlock
+Runs on: iPhone · iOS 17 or later
+App Store: https://apps.apple.com/app/id6787547184
+Privacy policy: https://cistrondev.github.io/lifetrends/privacy/
+What it sends over the network: Nothing, unless you tap Current Location and are outside its built-in city list. Then one approximate position goes to Apple to name the city. Health data never leaves.
+
+You walk more on weekends. You sleep less on Sunday nights. LifeTrends reads the Apple Health history already on your iPhone, tells you in plain English what is actually in it, and shows the numbers behind every claim.
+
+### Features
+
+- **Findings, not guesses.** A pattern only appears when it is large enough to matter and unlikely to be chance. Thin evidence shows nothing.
+- **Weekdays, seasons, body clock.** Weekday against weekend, month by month across your whole history, and your daily rhythm hour by hour.
+- **Trips and places.** Worked out from photo dates and locations only, never the pictures, matched against cities built into the app.
+- **Every number, charted.** Each metric over your entire history, plus the correlations between them that hold up.
+- **The whole story.** Tap any finding for the gap, the sample sizes, and whether it still holds this year.
+- **No score, no streaks.** No readiness number, no coaching voice, no advice you did not ask for.
+
+### Privacy: Your health data never leaves your iPhone.
+
+- Health data is read, analyzed, and kept on your iPhone. Never uploaded.
+- From Photos it reads only dates and locations, never the images.
+- No account, no analytics, no ads, no tracking.
+
+LifeTrends is not a medical device and does not give medical advice.
+
+### Questions and answers
+
+**Is there an app that finds patterns in my Apple Health data?**
+
+LifeTrends reads the Apple Health history already on your iPhone and tells you, in plain sentences, what is in it: that you walk more on weekends, sleep less on Sunday nights, or climb more stairs in June. Tap any finding for the gap, the sample sizes and whether it still holds this year. See it on the App Store.
+
+**How does LifeTrends decide what counts as a pattern?**
+
+A difference only becomes a finding when it is large enough to matter and unlikely to be chance. One unusual week stays an unusual week. Correlations between two measurements appear only when they pass a significance test. The Info tab explains how every conclusion is reached.
+
+**What data does it use?**
+
+Steps, distance, stairs and location trends work with just an iPhone. Heart rate, sleep, exercise and daylight come from a wearable such as Apple Watch. Blood pressure needs a connected monitor, and weight or calories need entries in Apple Health. LifeTrends uses whatever you have and skips the rest.
+
+**Can it tell how travel affects my sleep and activity?**
+
+Yes. With optional photo access, LifeTrends reads the date and location saved with your photos, never the pictures, and matches them to cities built into the app. It can then show, for example, that you walk more in New York or sleep shorter and earlier after a long flight east.
+
+**Is LifeTrends free?**
+
+The Summary tab is free and covers your last two years. LifeTrends Pro is a one-time purchase, never a subscription, and adds the Statistics tab, with every measurement charted and correlation plots, and analysis of your full history.
+
+**Does LifeTrends upload my health data?**
+
+No. Health data is read, analysed and kept on your iPhone. There is no account, no server and no analytics. The only network request happens if you tap Current Location while outside the built-in city list: then one approximate position goes to Apple to name the city. Privacy policy.
+
+**Is it a medical app?**
+
+No. LifeTrends describes patterns in measurements you have already recorded. It is not a medical device and does not give medical advice.
+
+
+## Timegrapher — Watch Accuracy
+
+Page: https://cistrondev.github.io/timegrapher/
+Price: First watch free · One-time Pro unlock
+Runs on: iPhone · iOS 17 or later
+App Store: https://apps.apple.com/app/id6788081843
+Privacy policy: https://cistrondev.github.io/timegrapher/privacy/
+What it sends over the network: Only when you use a feature that needs it. The Clock tab asks time.apple.com for the time. The price check searches only your watch's brand and reference on Chrono24. Identify from Photo sends that one photo to Apple's Private Cloud Compute. Audio is never recorded.
+This page in other languages: Deutsch https://cistrondev.github.io/timegrapher/de/, Français https://cistrondev.github.io/timegrapher/fr/, 日本語 https://cistrondev.github.io/timegrapher/ja/
+
+Rate, amplitude, and beat error in about thirty seconds. Timegrapher listens to your mechanical watch through the iPhone's microphone, then keeps your whole collection, every reading, and what each watch is worth, in one place.
+
+### Features
+
+- **The numbers that matter.** Seconds gained or lost per day, how far the balance swings, and tick–tock symmetry. Beat rate detected from 18,000 to 36,000 bph.
+- **Readings that hold steady.** It tracks the room's noise floor and rejects stray sounds. Amplitude comes from your calibre's own lift angle.
+- **Your collection.** Every watch with its photo, reference, movement, and lift angle. Every reading is saved and charted. Identify from Photo suggests the brand and model.
+- **Accuracy over a day of wear.** Take two photos of the watch a day apart. Timegrapher compares them with your iPhone's clock and shows how the watch ran on your wrist.
+- **Know what it's worth.** Current Chrono24 asking prices for your exact reference, with the median worked out on your iPhone.
+- **Magnetism check.** A magnetized hairspring is the most common reason a watch suddenly gains time. Sweep the watch across the back of your iPhone and its magnetometer tells you whether it needs demagnetizing.
+
+### Privacy: Nothing recorded. Nothing kept.
+
+- Microphone audio is analyzed live and is never recorded or saved.
+- Your collection and measurements are stored only on your iPhone.
+- The optional price check searches Chrono24 for your watch's reference.
+- Identify from Photo sends the photo to Apple's Private Cloud Compute only when you tap it. Apple doesn't keep it, and the developer never sees it.
+- The Clock tab gets the time from Apple's time server. The request carries no personal data.
+
+### Questions and answers
+
+**Can an iPhone measure how accurate my mechanical watch is?**
+
+Yes. Timegrapher listens to the watch through the iPhone's own microphone and works like a watchmaker's timing machine. In about 30 seconds it shows the rate (seconds gained or lost per day), the amplitude (how far the balance wheel swings) and the beat error (the difference between tick and tock).
+
+It works with automatic and hand-wound watches. The first watch is free, and there is no subscription. See it on the App Store.
+
+**How do I measure my watch with Timegrapher?**
+
+1. Wind the watch and go somewhere quiet.
+2. Tap Add watch and enter the movement and its lift angle, if you know it.
+3. Tap Measure and rest the bottom edge of the iPhone firmly on the watch, ideally on the glass.
+4. Keep still. The measurement stops by itself at 0:30 and shows the rate, amplitude, beat error and a verdict.
+
+Step-by-step guide.
+
+**What are good values for rate, amplitude and beat error?**
+
+These are the bands Timegrapher uses for its verdict:
+
+1. Rate: within ±5 seconds a day is chronometer territory. Up to ±15 is fine for daily wear. From ±30 the watch needs regulating.
+2. Amplitude: 250° to 315° is healthy for a wound watch lying dial up. Below 220° a service is due soon, and below 200° the oil has probably dried. Above 315° the balance risks knocking.
+3. Beat error: under 0.3 ms is well in beat. From 0.8 ms an adjustment is worth it, and above 1.5 ms the watch is noticeably out of beat.
+
+Rates differ between positions, so note whether the watch was dial up, dial down or crown down. Measure in positions takes each one in turn.
+
+**How do I know if my watch is magnetized?**
+
+A magnetized hairspring is the most common reason a mechanical watch suddenly gains time, often minutes a day. Timegrapher checks with the iPhone's magnetometer: tap Check magnetism, measure the background field, then hold the watch against the back of the iPhone. The difference is the answer.
+
+Take off any magnetic case, wallet or mount first. Every check is saved, so a check before and after demagnetizing shows whether it worked.
+
+**What lift angle should I use?**
+
+The lift angle is a property of the movement, and Timegrapher uses it to work out the amplitude. Many Swiss movements use 52°, but plenty use other values, so look up your calibre. A wrong lift angle is the usual reason a phone app shows the wrong amplitude. The rate and beat error do not depend on it.
+
+**How accurate is a phone timegrapher compared to a bench machine?**
+
+Timegrapher times each tick to a fraction of a millisecond and fits thousands of them against the iPhone's clock, the same principle a bench machine uses. A quiet room and firm contact give the best readings. Bluetooth headphones compress the sound, so disconnect them and let the iPhone's own microphone listen.
+
+Treat the results as a guide. For a decision about a service, a bench machine and a watchmaker's judgement come first.
+
+**Can I check how my watch runs on the wrist over a whole day?**
+
+Yes. Rate from photos compares two photos of the dial taken a day apart. Each photo records the exact time it was taken, so the position of the seconds hand shows how much the watch gained or lost while you wore it.
+
+**Does it work with quartz watches?**
+
+No. A quartz watch keeps time with a crystal and moves its hand once a second, so there is no balance wheel to listen to. Timegrapher is for automatic and hand-wound mechanical watches.
+
+**Is Timegrapher free?**
+
+Your first watch is free for good, with every measurement. Timegrapher Pro is a one-time purchase that removes the limit on watches. There is no subscription, and purchases restore on any device with the same Apple Account.
+
+**Does Timegrapher record my audio?**
+
+No. The sound is analysed live and never recorded, saved or uploaded. Your collection stays on your iPhone. The optional price check searches Chrono24 for your watch's reference, and Identify from Photo sends that one photo to Apple's Private Cloud Compute only when you tap it. Privacy policy.
+
+### How to check your mechanical watch's accuracy with an iPhone
+
+Guide: https://cistrondev.github.io/timegrapher/check-watch-accuracy/
+
+A timing machine tells you how fast or slow a mechanical watch runs and how healthy its movement is. Timegrapher turns your iPhone into one, using the microphone. Here is how to get a steady reading and what the numbers mean.
+
+1. **Install Timegrapher.** Download Timegrapher from the App Store. Your first watch is free. Allow microphone access when it asks.
+2. **Wind the watch.** Give a hand-wound watch a full wind, or wear an automatic for a while first. Amplitude is lower on a watch that is nearly run down.
+3. **Add the watch.** Tap Add watch and enter the brand, reference and movement. Set the Lift angle for your calibre, because the amplitude depends on it. Identify from Photo can suggest the brand and model.
+4. **Find a quiet spot.** A fridge hum or traffic costs accuracy. Take off Bluetooth headphones so the iPhone's own microphone listens.
+5. **Measure.** Tap Measure and rest the bottom edge of the iPhone firmly on the watch, ideally on the glass. Direct contact carries the ticks far better than air. The measurement stops by itself at 0:30.
+6. **Read the result.** You get the rate in seconds per day, the amplitude in degrees, the beat error in milliseconds and the beat rate, with a verdict from Excellent to Service needed and the reasons for it. The Guide tab explains each number.
+7. **Try other positions.** Rates change with position. Measure in positions takes the watch dial up, dial down and on its edge, and shows the spread between them.
+8. **Check for magnetism.** If the watch suddenly gains a lot of time, tap Check magnetism. It uses the iPhone's magnetometer and tells you whether the watch needs demagnetizing.
+
+
+## Unfollowers Tracker: No Login
+
+Page: https://cistrondev.github.io/unfollowers/
+Price: Free · One-time unlock
+Runs on: iPhone · iOS 17 or later
+App Store: https://apps.apple.com/app/id6787521130
+Privacy policy: https://cistrondev.github.io/unfollowers/privacy/
+What it sends over the network: Only the usernames being checked, sent anonymously to Instagram when a profile check runs. Your export stays on your iPhone.
+This page in other languages: Português (Brasil) https://cistrondev.github.io/unfollowers/pt-br/, Español https://cistrondev.github.io/unfollowers/es/, Italiano https://cistrondev.github.io/unfollowers/it/, Français https://cistrondev.github.io/unfollowers/fr/, Deutsch https://cistrondev.github.io/unfollowers/de/, Ελληνικά https://cistrondev.github.io/unfollowers/el/, Nederlands https://cistrondev.github.io/unfollowers/nl/
+
+Instagram will never tell you who unfollowed you. Your own data export will. Unfollowers reads the official export you download from Instagram yourself and shows what changed, without ever asking for your password.
+
+### Features
+
+- **Who unfollowed you.** Tracked across imports, with the date each change was caught.
+- **Probably blocked.** Accounts that left your followers and your following at the same moment, flagged as a likely block, never stated as fact.
+- **Who doesn't follow back.** The classic list, plus mutuals and requests that were never accepted.
+- **Who you interact with most.** Your likes, comments, and story reactions, counted from your own export.
+- **Your history, charted.** Growth and follow-back trends built from every export you import.
+- **No login, ever.** There is no sign-in screen anywhere in the app. Your password stays yours.
+
+### Privacy: Your export never leaves your iPhone.
+
+- Your Instagram export is read and stored only on your iPhone.
+- No account, no analytics, no ads, no tracking.
+- Checking whether an account still exists sends only that username to Instagram, anonymously.
+
+Unfollowers is an independent app, not affiliated with Instagram or Meta.
+
+### Questions and answers
+
+**How can I see who unfollowed me on Instagram?**
+
+Instagram doesn't show who unfollowed you. Your Instagram data export lists everyone who follows you on the day you download it. Unfollowers compares two of these exports and shows who left.
+
+1. Download your data export from Instagram, with Followers and following in JSON format. Here is how.
+2. Import the ZIP file into Unfollowers. You see right away who doesn't follow you back.
+3. A few weeks later, download a new export and import it too. Unfollowers lists who unfollowed you since the first one, with the date each change was found.
+
+Each new export you import adds to your history.
+
+**Is there a safe unfollow tracker without login?**
+
+Unfollowers works without a login. It never asks for your Instagram password and never signs in to your account. It reads the data export that you download from Instagram yourself.
+
+Many follower trackers ask for your Instagram password and then use your account in the background. Instagram warns that letting unauthorized apps into your account puts it at risk. With Unfollowers, your password stays with you, and the app never takes any action on your account.
+
+Your export file is read and stored on your iPhone. There is no account, no ads and no tracking.
+
+**How do I download my Instagram data export?**
+
+In the Instagram app, open your profile and tap the menu. Then go to Accounts Center › Your information and permissions › Export your information › Create export. On some accounts, Accounts Center is called Meta Account. Choose Export to device. Pick Followers and following, the whole date range and the JSON format, then tap Start export. Instagram tells you when the file is ready, usually within minutes.
+
+Step-by-step guide.
+
+**Can I see who blocked me on Instagram?**
+
+Instagram doesn't report blocks, so no app can know for sure. When someone blocks you, they disappear from your followers and from the accounts you follow at the same time. Unfollowers flags these accounts as probably blocked. This only works for people who followed you and whom you followed.
+
+An account that was deleted, deactivated or renamed disappears in the same way. The profile check (the vibe check) asks instagram.com whether each username still exists, and moves accounts that are gone to a separate list.
+
+**Is Unfollowers free?**
+
+Unfollowers is free to download. The free version shows who doesn't follow you back, who you don't follow back, and your mutuals. A one-time purchase unlocks everything else, including the lists of who unfollowed you and who probably blocked you. There is no subscription. The app runs on iPhone with iOS 17 or later.
+
+**Does anything leave my iPhone?**
+
+Your export file stays on your iPhone. The app reads and stores it there, and the developer runs no servers. The one feature that uses the internet is the profile check. It asks instagram.com whether an account still exists and sends only that username, without signing in. It runs when you tap the vibe check, and, once the app is unlocked, for up to 30 new accounts after each import. Privacy policy.
+
+### How to download your Instagram data export (JSON)
+
+Guide: https://cistrondev.github.io/unfollowers/download-instagram-data/
+
+Instagram lets you download a copy of your account data. The export includes the full lists of your followers and of the accounts you follow. Unfollowers reads this file to show who unfollowed you. Here is how to get it in the Instagram app on iPhone.
+
+1. **Open the menu.** In the Instagram app, tap your profile picture in the bottom right. Then tap the menu (☰) in the top right.
+2. **Accounts Center.** Tap Accounts Center. On some accounts it is called Meta Account.
+3. **Your information.** Tap Your information and permissions, then Export your information.
+4. **Create an export.** Tap Create export. Pick your Instagram profile and tap Next.
+5. **Export to device.** Choose Export to device. This saves the file on your iPhone.
+6. **Choose the data.** On the next screen, choose the information to export. Tick Followers and following, in the connections section. To see who you interact with most, also tick likes, comments and story interactions. You can untick the rest to keep the file small.
+7. **All time, JSON.** For the date range, choose all time. For the format, choose JSON. Unfollowers can't read the HTML format.
+8. **Start the export.** Tap Start export. Instagram prepares the file. This usually takes a few minutes.
+9. **Download the ZIP.** Instagram sends you a notification when the file is ready. Go back to Export your information and download the file. Instagram may ask for your password. You type it into Instagram itself. Save the ZIP file to the Files app.
+10. **Import it into Unfollowers.** Open Unfollowers, tap the import button and choose the ZIP file. You don't need to unzip it.
+
+
+## Unfriended: Who Deleted Me?
+
+Page: https://cistrondev.github.io/unfriended/
+Price: Free
+Runs on: iPhone · iOS 17 or later
+App Store: https://apps.apple.com/app/id6792587859
+Privacy policy: https://cistrondev.github.io/unfriended/privacy/
+What it sends over the network: Nothing. The app makes no network connections at all.
+
+Facebook friendship is mutual, so no single snapshot can show who left. Unfriended compares two of your own Facebook data exports, a few weeks apart, and shows exactly what changed. All on your iPhone, with zero network requests.
+
+### Features
+
+- **Who dropped you.** Friends who unfriended you, deactivated, or deleted their account.
+- **Renames, not false alarms.** Name changes are matched by the exact second a friendship began, so a new name never looks like an unfriend.
+- **Your own removals.** Kept apart using Facebook's own record, with real dates.
+- **Requests and followers.** Requests left unanswered, rejections, followers, and following.
+- **Your friendship history.** Friends over time, your most social year, and your oldest friends, ranked.
+- **A one-minute how-to.** The app shows every tap it takes to download your export from Facebook.
+
+### Privacy: Zero network requests. Really.
+
+- The app makes no network connections at all.
+- Your Facebook export is read and stored only on your iPhone.
+- No login, no account, no analytics, no ads.
+
+Unfriended is an independent app, not affiliated with Facebook or Meta.
+
+### Questions and answers
+
+**How can I see who unfriended me on Facebook?**
+
+Facebook doesn't tell you, and there is no list of people who left. Your own Facebook data export lists everyone who is your friend on the day you download it. Unfriended compares two of these exports and shows who is missing.
+
+1. Download your Friends and followers from Facebook in JSON format. Here is how.
+2. Import the ZIP file into Unfriended.
+3. A few weeks later, download a new export and import it too. Unfriended shows who unfriended you, deactivated or deleted their account.
+
+**Why does Unfriended need two exports?**
+
+Facebook friendship is mutual, so a single list can't show who left: someone who unfriended you is simply not on it. Two exports taken a few weeks apart show the difference. Your own removals are kept apart, using Facebook's own record of them.
+
+**Will a friend who changed their name show up as an unfriend?**
+
+No. Unfriended matches people by the exact second your friendship began, which Facebook records. A friend with a new name keeps the same friend-since second, so they show up as a rename, not as someone who left.
+
+**Can I tell whether someone unfriended me or deleted their account?**
+
+Not from the export alone, so Unfriended lists people who dropped you together with those who deactivated or deleted their account. A quick look at their profile on Facebook settles it.
+
+**Does Unfriended need my Facebook password?**
+
+No. There is no login screen anywhere in the app, and it never contacts Facebook. It reads only the export file that you download from Facebook yourself.
+
+**Is Unfriended free?**
+
+Yes. Unfriended is free, with no subscription, no ads and no account. See it on the App Store.
+
+**Is my Facebook data uploaded anywhere?**
+
+No. The app makes no network connections at all. Your export is read and stored only on your iPhone, and deleting the app deletes it. Privacy policy.
+
+### How to download your Facebook friends list
+
+Guide: https://cistrondev.github.io/unfriended/download-facebook-friends-list/
+
+Facebook lets you download a copy of your friends list, with the date each friendship began. It takes about a minute to ask for, and Facebook prepares the file within minutes to a few hours. Here is every tap, in the Facebook app on iPhone.
+
+1. **Open the menu.** In the Facebook app, go to your profile and tap the menu (☰) in the top left.
+2. **Settings & privacy.** Scroll to the bottom of the menu and tap Settings & privacy, then Settings.
+3. **Accounts Centre.** Under Your account, tap Accounts Centre.
+4. **Your information.** Tap Your information and permissions, then Export your information.
+5. **Create an export.** Tap Create export. Pick your Facebook profile, not Instagram, then choose Export to device.
+6. **Pick the data.** Under Connections, tick Friends and Followers (two separate boxes), then save.
+7. **JSON, all time.** Set Date range to All time and Format to JSON, then tap Start export.
+8. **Download and import.** Facebook tells you when the file is ready. Tap Download, save the ZIP to Files, and import it into Unfriended. You have 4 days to download it.
+
+
+## Pedometer: Step Counter Widget
+
+Page: https://cistrondev.github.io/pedometer/
+Price: Free
+Runs on: iPhone · iOS 17 or later
+App Store: https://apps.apple.com/app/id6822166433
+Privacy policy: https://cistrondev.github.io/pedometer/privacy/
+What it sends over the network: Only the map, which Apple Maps draws. Nothing about you is sent.
+This page in other languages: Deutsch https://cistrondev.github.io/pedometer/de/, Español https://cistrondev.github.io/pedometer/es/, Français https://cistrondev.github.io/pedometer/fr/, Italiano https://cistrondev.github.io/pedometer/it/, Nederlands https://cistrondev.github.io/pedometer/nl/, Português (Brasil) https://cistrondev.github.io/pedometer/pt-br/, 日本語 https://cistrondev.github.io/pedometer/ja/
+
+Steps, distance, and flights climbed, as plain numbers and charts. Pedometer reads Apple Health and puts today's count on your Lock Screen and Home Screen. Your iPhone counts steps on its own, and Apple Watch steps are included if you wear one.
+
+### Features
+
+- **Today.** Your steps against your goal, with what is left to go. Distance and flights climbed against their goals, with active energy and walking speed beside them.
+- **Walks and runs.** Record a walk or run with GPS: your route on a map, with speed or pace, elevation, climb, and calories. Each one is saved to Apple Health with its route.
+- **Live heart rate.** With AirPods Pro 3, Powerbeats Pro 2, or a Bluetooth heart rate strap, your heart rate shows live during a walk or run (iOS 26).
+- **On the Lock Screen.** While you walk, the time, distance, speed, heart rate, and calories stay on the Lock Screen, with a pause button.
+- **Share a walk.** A picture of each walk or run, with the map and your numbers, for any app you like.
+- **Your own goals.** Set a daily goal for steps, distance, and flights climbed. They start at 10,000 steps, 8 km or 5 miles, and 10 flights.
+- **History.** One chart per number, for the last week, month, or year, with the daily average and the change from the period before.
+- **Lock Screen widgets.** Steps and distance, each inside a ring that closes at your goal, and flights climbed, with a figure that climbs a staircase to your goal.
+- **Home Screen widget.** The same card as the app, small, medium, or large. Set it to light, dark, or automatic, and show the steps alone if you like.
+- **By hour.** Today's steps hour by hour, beside your usual day over the last four weeks.
+- **Records.** Totals of steps, distance, and flights for every month and year, and your best day, week, and month for steps, flights climbed, and walking speed.
+- **Your color.** Choose graphite, blue, green, orange, pink, or purple for the goal bars, the charts, and the Home Screen widget.
+
+### Privacy: Nothing leaves your iPhone.
+
+- Reads Apple Health, and writes to it only the walks and runs you record.
+- Your location is used only while you record, and stays on your iPhone.
+- Everything is counted and stored on your iPhone. Nothing is uploaded.
+- No account, no analytics, no tracking.
+
+Pedometer is not a medical device and does not give medical advice.
+
+### Questions and answers
+
+**What is a free step counter app for iPhone without a subscription?**
+
+Pedometer is free, with no subscription and no account. It shows your steps, distance and flights climbed as plain numbers and charts, and puts them on your Lock Screen and Home Screen as widgets. It also records walks and runs with GPS. An optional tip jar unlocks nothing. See it on the App Store.
+
+**How do I show my step count on the iPhone Lock Screen?**
+
+1. Install Pedometer, open it and tap Connect to let it read Apple Health.
+2. Touch and hold the Lock Screen, tap Customize, then choose the Lock Screen.
+3. Tap the widget area under the clock, choose Pedometer, and add Steps, Distance or Flights climbed.
+4. Tap Done.
+
+The steps and distance widgets sit in a ring that closes at your goal. Step-by-step guide.
+
+**Do I need an Apple Watch?**
+
+No. Your iPhone counts your steps on its own when you carry it. If you also wear an Apple Watch, Pedometer reads Apple Health, which combines the steps from both without counting them twice.
+
+**Can it record walks and runs with GPS?**
+
+Yes. Tap Walk or Run under Walks and runs. The map draws your route and shows time, distance, speed or pace, calories, elevation and climb. While you go, the numbers stay on the Lock Screen with a pause button. Each walk or run is saved to Apple Health with its route, and you can share a picture of it.
+
+**Can it show my heart rate without an Apple Watch?**
+
+Yes, on iOS 26. With AirPods Pro 3, Powerbeats Pro 2 or a Bluetooth heart rate strap, your heart rate shows live during a walk or run.
+
+**Can I change my daily step goal?**
+
+Yes. Set a daily goal for steps, distance and flights climbed. They start at 10,000 steps, 8 km or 5 miles, and 10 flights. The widgets close their rings at your goals.
+
+**Can I see my step history and records?**
+
+Yes. History shows one chart per number for the last week, month or year, with the daily average and the change from the period before. Records show your totals for every month and year, and your best day, week and month for steps, flights climbed and walking speed.
+
+**Is Pedometer really free?**
+
+Yes. Every feature is free and there is no subscription. Under Settings › Support Pedometer you can leave a tip if you like. Tips are optional and unlock nothing.
+
+**Does Pedometer upload my health data?**
+
+No. Everything is counted and stored on your iPhone, and nothing is uploaded. Pedometer reads Apple Health and writes to it only the walks and runs you record. Your location is used only while you record. There is no account, no analytics and no tracking. Privacy policy.
+
+### How to put a step counter on your iPhone Lock Screen
+
+Guide: https://cistrondev.github.io/pedometer/step-counter-lock-screen/
+
+Your iPhone already counts your steps. Pedometer puts that count on your Lock Screen, so you see it every time you pick up the phone. It takes about a minute, and you need no Apple Watch.
+
+1. **Install Pedometer.** Download Pedometer from the App Store. It is free, with no account.
+2. **Connect Apple Health.** Open Pedometer and tap Connect. Allow it to read steps, distance and flights climbed. Your iPhone has been counting these all along, so your history appears right away.
+3. **Set your goals.** Choose a daily goal for steps, distance and flights climbed under Daily goals. The widget rings close when you reach them.
+4. **Edit the Lock Screen.** Lock your iPhone, wake it, then touch and hold the Lock Screen. Tap Customize and choose the Lock Screen.
+5. **Add the widget.** Tap the widget area under the clock. Find Pedometer in the list and tap Steps, Distance or Flights climbed. You can add more than one.
+6. **Tap Done.** Your step count is now on the Lock Screen and updates through the day.
+7. **Add it to the Home Screen too.** Touch and hold an empty part of the Home Screen, tap Edit, then Add Widget. Search for Pedometer and choose small, medium or large. The large size adds today hour by hour.
+
+
+## Voice Clone: Private & Offline
+
+Page: https://cistrondev.github.io/voiceclone/
+Price: not released yet
+Runs on: iPhone 15 Pro or later · iOS 18 or later
+Privacy policy: https://cistrondev.github.io/voiceclone/privacy/
+What it sends over the network: Only the one-time download of the voice model from Hugging Face. Nothing about you is sent.
+
+Record a short sample of your voice, type any text, and hear it read in your voice. The voice model runs on your iPhone, so your recordings and clips stay with you. There is no account and nothing to buy.
+
+### Features
+
+- **Your voice in 15 seconds.** Talk for 10 to 15 seconds in your normal voice. The app learns your voice from that one sample, on your iPhone.
+- **Type anything.** Type what it should say and tap Generate. A long text starts playing as soon as its first sentence is ready.
+- **22 languages.** Record once, in any language, then make clips in 22 languages. When your text looks like another language, the app offers to switch.
+- **Works offline.** The first time, the app downloads the voice model, about 1.9 GB. After that it works in airplane mode.
+- **Your clips.** Every clip is saved with its text and language. Play it, share it, save it to Files, or delete it.
+- **No account, no credits.** There is nothing to sign up for and no credits to buy.
+
+### Privacy: Nothing leaves your iPhone.
+
+- Your voice sample, your text, and your clips stay on your iPhone.
+- The voice model runs on the phone. Nothing is uploaded.
+- Each clip is labelled as AI-generated in its file information.
+- No account, no analytics, no tracking.
+
+Needs an iPhone 15 Pro or later, for its 8 GB of memory. Clone only your own voice, or the voice of someone who agreed to it.
+
+### Questions and answers
+
+**Can I clone my voice on my iPhone without uploading it?**
+
+Yes. Voice Clone runs the voice model on the iPhone itself. Record 10 to 15 seconds of your voice, type any text, and hear it read in your voice. Your sample, your text and your clips never leave the phone. Voice Clone is coming soon to the App Store.
+
+**Which iPhones can run it?**
+
+An iPhone 15 Pro or later, with iOS 18 or later. The voice model needs the 8 GB of memory those models have.
+
+**Does it work offline?**
+
+Yes. The first time, the app downloads the voice model once, about 1.9 GB. After that it makes speech in airplane mode.
+
+**Which languages can it speak?**
+
+Record once, in any language, and make clips in 22 languages in your own voice. When your text looks like another language, the app offers to switch.
+
+**Is it free?**
+
+Yes. There is no account to make and there are no credits to buy.
+
+**Can I clone someone else's voice?**
+
+Only with their permission. Clone your own voice, or the voice of someone who agreed to it. Every clip is labelled as AI-generated in its file information.
+
+
+## Atlas: Travel Map From Photos
+
+Page: https://cistrondev.github.io/atlas/
+Price: not released yet
+Runs on: iPhone · iOS 17 or later
+Privacy policy: https://cistrondev.github.io/atlas/privacy/
+What it sends over the network: Nothing. Atlas makes no network connections. A photo kept only in iCloud is downloaded by Photos when you open it, as in the Photos app.
+
+Atlas finds the countries you've been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.
+
+### Features
+
+- **Your map, filled in.** Every country in your photos, on a world map you can zoom into or on a turning globe. Tap any country to see how many times you've been, or to add one that isn't in your photos.
+- **Every trip.** Each visit to a country, with its dates. Tap a trip to see its photos and hide any that aren't from it. Merge trips that were really one.
+- **Lived here.** Countries with 90 or more days of photos within a year are marked as places you've lived, in a deeper colour, with how long you lived there. Moving somewhere new doesn't count as time away.
+- **Stats.** Trips and days away, countries per year (tap a year to see where you went), your busiest years, the countries you go back to most, and your longest trips.
+- **Share your map.** A picture of your map and flags for an Instagram post or Story, or all your flags as emoji for your bio.
+- **Fewer false visits.** Pictures saved from Instagram, WhatsApp and other apps are left out. You can add, edit or remove any country yourself.
+
+### Privacy: Your photos stay on your iPhone.
+
+- Atlas reads the location and date of your photos on the phone.
+- There is no account, and nothing is uploaded.
+- No analytics, no ads, no tracking.
+- Deleting the app deletes everything it saved.
+
+### Questions and answers
+
+**Is there an app that shows every country I've visited from my photos?**
+
+Atlas finds the countries you've been to in the photos on your iPhone and fills them in on a world map. It works from the location and date saved with each photo, so there is nothing to type in. Atlas is coming soon to the App Store.
+
+**How does Atlas know where I've been?**
+
+Most iPhone photos carry the place and time they were taken. Atlas reads those two details, works out the country, and groups photos taken close together into trips. It never looks at what is in the pictures.
+
+**Will pictures people sent me count as visits?**
+
+No. Pictures saved from Instagram, WhatsApp and other apps are left out, so a friend's holiday photo doesn't add a country to your map. You can also hide any photo from a trip, and add, edit or remove any country yourself.
+
+**Does it count the countries I've lived in?**
+
+Yes. A country with 90 or more days of photos within a year is marked as a place you've lived, in a deeper colour, with how long you lived there. Moving somewhere new doesn't count as time away.
+
+**Can I share my travel map?**
+
+Yes. Atlas makes a picture of your map and flags for an Instagram post or Story, and a line of flag emoji for your bio.
+
+**Does Atlas upload my photos?**
+
+No. Atlas makes no network connections. It reads the location and date of your photos on the phone, has no account, and deleting the app deletes everything it saved. Privacy policy.
+
+
+## Jobsite Calc: Feet Inch Math
+
+Page: https://cistrondev.github.io/jobsitecalc/
+Price: not released yet
+Runs on: iPhone and iPad · iOS 17 or later
+Privacy policy: https://cistrondev.github.io/jobsitecalc/privacy/
+What it sends over the network: No network connections at all. The one purchase goes through the App Store.
+This page in other languages: Español https://cistrondev.github.io/jobsitecalc/es/
+
+A feet-inch-fraction calculator for framers, carpenters and contractors. Type a measurement the way you read it on the tape, see the whole calculation on screen, and lay out stairs, rafters and concrete from it. One purchase unlocks every tool, forever. No subscription, no account, no internet.
+
+### Features
+
+- **Feet, inches and fractions.** Enter 12' 3-1/2" with the Feet, Inch and / keys. Add, subtract, multiply and divide, and get the answer to the nearest 1/16, or to any fraction you choose. The whole expression stays on screen, with parentheses.
+- **Convert with one tap.** Tap the unit on the result to cycle feet-inches, inches, decimal feet, yards, metres, centimetres and millimetres. Areas, volumes and angles convert too.
+- **Stairs with the code check.** Enter the total rise and get the risers, treads, stringer length, angle and stairwell opening, drawn as a stringer. A green or red check against the 7-3/4 inch riser, 10 inch tread and 6' 8" headroom limits, which you can change.
+- **Rafters and roofs.** Common, hip, valley and jack rafters from a pitch and a run, with the plumb and level cuts and the jack list. Irregular hips. Roof squares, bundles and sheets.
+- **Concrete and materials.** Slabs, footings, columns and piers in cubic yards and bags. Drywall and sheathing sheets, block, brick, studs and plates, board feet and lumber cost.
+- **Angles and a tape.** Crown and compound miters, polygons, circles and arcs. Every result goes on a tape you can reuse, copy or share.
+
+### Privacy: Nothing leaves your phone.
+
+- The app has no network code. Nothing is uploaded.
+- No account, no analytics, no tracking, no ads.
+- Your settings and your tape stay on your iPhone.
+- The one purchase goes through Apple, and the price never renews.
+
+Dark screen, big keys and key clicks, for gloves and sunlight. Works with no signal.
+
+### Questions and answers
+
+**Is Jobsite Calc a one-time purchase?**
+
+Yes. The app is free to download: the calculator, the conversions and the tape cost nothing. One in-app purchase unlocks the tools, which are stairs, rafters, roof, concrete, materials and angles. There is no subscription and nothing renews. The unlock is shared with your family through Family Sharing.
+
+**How do I enter feet, inches and fractions?**
+
+Type 12, Feet, 3, Inch, 1, /, 2 and the display reads 12' 3-1/2". A number on its own counts as inches; Settings can make it feet, millimetres or centimetres instead. With the metric keys turned on you can mix metres and inches in one calculation, and the result comes out in the unit you choose.
+
+The whole expression stays on screen while you type, with parentheses, so you can see what you entered before you press equals.
+
+**How does the stair calculation work?**
+
+Enter the total rise, floor to floor. The app divides it into the fewest risers that stay under the riser limit, 7-3/4 inches by default, and gives the riser height, the treads, the total run, the stringer length, the angle and the stairwell opening. A line turns green when the stair meets the riser, tread and headroom limits, and red when it doesn't. The limits are yours to change in Settings.
+
+Step by step.
+
+**Which rafters can it work out?**
+
+Common rafters from a pitch and a run, regular and irregular hips and valleys, and the jack rafters at your spacing, each with the plumb and level cuts. The pitch can be 7/12, degrees or a percentage. The Roof tool turns a plan area and a pitch into squares, bundles and sheets, and the rake wall rows give the stud lengths along a gable.
+
+**Does it work in metric?**
+
+Yes. Turn on the metric keys in Settings for m, cm and mm, enter any mix of units in one calculation, and tap the unit on the result to convert it. Concrete can be shown in cubic metres and bags of 25 kg, and the stair and rafter tools take metric input too.
+
+**Does anything leave my iPhone?**
+
+No. The app has no network code and makes no network connections. There is no account, no analytics and no ads. The one purchase goes through the App Store, and Apple handles it. Privacy policy.
+
+### How to lay out a stair stringer: risers, treads and the code check
+
+Guide: https://cistrondev.github.io/jobsitecalc/stair-layout/
+
+A stair starts with one measurement, the total rise. From it the app gives the number of risers, their height, the treads, the total run, the stringer length, the angle and the stairwell opening, and checks them against the code limits. Here is how to use it.
+
+1. **Measure the total rise.** Measure straight up from the finished floor below to the finished floor above. Count the flooring that will go on top of each level: the stair is laid out to the finished surfaces, not to the subfloor.
+2. **Open Stairs.** In Jobsite Calc, tap Tools, then Stairs. The riser limit, the tread depth and the headroom are filled in with the usual code limits. You can change them in Settings.
+3. **Enter the total rise.** Type it the way you read it on the tape, for example 9' 1". The app works out the stair as you type.
+4. **Read the risers.** The app uses the fewest risers that keep each one under the limit, all the same height. For 9' 1" that is 15 risers of 7-1/4".
+5. **Treads and total run.** There is one tread fewer than risers. 14 treads of 10" make a total run of 11' 8". If you have less room, enter the total run you have: the app shortens the treads to fit, and the code check tells you if they get too short.
+6. **Check the code line.** Green means every riser is at most 7-3/4", every tread at least 10" and the headroom at least 6' 8". Red names the limit that fails. Local codes differ, so set your own limits in Settings.
+7. **Stairwell opening.** The app also gives the length of the floor opening that keeps the headroom, using the floor thickness from Settings. Check it against the framing before you cut.
+8. **Mark and cut the stringer.** Set a framing square to the riser height and the tread depth and step it along the stringer, once per riser. The stringer length on screen runs from the first riser to the last, so buy stock longer than that. Drop the bottom of the stringer by one tread thickness, so the first and last steps come out even once the treads are on.
+
