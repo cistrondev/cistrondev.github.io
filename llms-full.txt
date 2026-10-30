@@ -436,6 +436,7 @@ Facebook lets you download a copy of your friends list, with the date each frien
 
 Page: https://cistrondev.github.io/pedometer/
 Price: Free
+Rating: 4.6 out of 5 from 5 App Store ratings in all countries combined
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6822166433
 Privacy policy: https://cistrondev.github.io/pedometer/privacy/

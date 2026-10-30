@@ -38,7 +38,7 @@ SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
 # and home tile once its average, rounded to one decimal as the App Store
 # shows it, is at least MIN_RATING. Run ratings.py, then this script, to
 # refresh them.
-MIN_RATING = 4.7
+MIN_RATING = 4.6
 
 # Screenshots live at assets/img/<slug>/01.webp, 02.webp, … in the order of
 # `shots`; each entry is that image's alt text. `tile` picks which three
