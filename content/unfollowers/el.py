@@ -30,6 +30,9 @@ L = {
         "summary": "Τι να διαλέξεις",
         "tips": "Καλό να ξέρεις",
         "cta_more": "Σχετικά με το {name}",
+        "ratings": ("{n} βαθμολογία στο App Store", "{n} βαθμολογίες στο App Store"),
+        "out_of_5": " από 5",
+        "decimal": ",",
     },
     "page": {
         "shots_dir": "el",

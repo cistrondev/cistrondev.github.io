@@ -1,0 +1,172 @@
+{
+ "fetched": "2026-10-29",
+ "storefronts": 184,
+ "apps": {
+  "6795773116": {
+   "name": "Aloud — Text to Speech Reader",
+   "by_store": {
+    "gr": [
+     5,
+     3
+    ],
+    "us": [
+     5,
+     2
+    ]
+   },
+   "count": 5,
+   "average": 5.0
+  },
+  "6787547184": {
+   "name": "LifeTrends: Health Insights",
+   "by_store": {
+    "gr": [
+     5,
+     1
+    ],
+    "us": [
+     5,
+     1
+    ]
+   },
+   "count": 2,
+   "average": 5.0
+  },
+  "6822166433": {
+   "name": "Step Counter Widget: Pedometer",
+   "by_store": {
+    "bn": [
+     5,
+     1
+    ],
+    "de": [
+     4,
+     1
+    ],
+    "fr": [
+     4,
+     1
+    ],
+    "gr": [
+     5,
+     1
+    ],
+    "jp": [
+     5,
+     1
+    ]
+   },
+   "count": 5,
+   "average": 4.6
+  },
+  "6788081843": {
+   "name": "Timegrapher — Watch Accuracy",
+   "by_store": {
+    "ar": [
+     5,
+     1
+    ],
+    "be": [
+     5,
+     1
+    ],
+    "fr": [
+     4.5,
+     2
+    ],
+    "gb": [
+     5,
+     1
+    ],
+    "gr": [
+     5,
+     2
+    ],
+    "hu": [
+     5,
+     1
+    ],
+    "mx": [
+     5,
+     1
+    ],
+    "my": [
+     5,
+     1
+    ],
+    "nl": [
+     5,
+     1
+    ],
+    "no": [
+     5,
+     1
+    ],
+    "rs": [
+     5,
+     1
+    ],
+    "us": [
+     4.75,
+     20
+    ],
+    "ve": [
+     5,
+     1
+    ]
+   },
+   "count": 34,
+   "average": 4.824
+  },
+  "6787521130": {
+   "name": "Unfollowers Tracker: No Login",
+   "by_store": {
+    "ar": [
+     5,
+     1
+    ],
+    "au": [
+     5,
+     2
+    ],
+    "br": [
+     5,
+     1
+    ],
+    "ca": [
+     5,
+     1
+    ],
+    "ch": [
+     1,
+     1
+    ],
+    "gr": [
+     5,
+     2
+    ],
+    "mx": [
+     5,
+     2
+    ],
+    "us": [
+     5,
+     2
+    ]
+   },
+   "count": 12,
+   "average": 4.667
+  },
+  "6792587859": {
+   "name": "Unfriended: Who Deleted Me?",
+   "by_store": {
+    "gr": [
+     5,
+     1
+    ]
+   },
+   "count": 1,
+   "average": 5.0
+  }
+ }
+}

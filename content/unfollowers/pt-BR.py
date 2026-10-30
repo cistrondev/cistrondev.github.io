@@ -31,6 +31,9 @@ L = {
         "summary": "O que escolher",
         "tips": "Bom saber",
         "cta_more": "Sobre o {name}",
+        "ratings": ("{n} avaliação na App Store", "{n} avaliações na App Store"),
+        "out_of_5": " de 5",
+        "decimal": ",",
     },
     "page": {
         "tagline": "Veja quem parou de seguir você no Instagram. Sem login.",
