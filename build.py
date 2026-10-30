@@ -9,6 +9,7 @@ relative links, so it works on GitHub Pages at a user site
 (name.github.io) or a project site (name.github.io/repo) alike.
 No dependencies beyond the Python standard library.
 """
+import decimal
 import hashlib
 import html
 import json
@@ -32,6 +33,12 @@ GOOGLE_SITE_VERIFICATION = "0HO-cftcZWuRyvlFjb1OlFsgFgWXaGyS6AsLK70I34Q"
 TOOLRADAR_VERIFICATION = "toolradar-verify-rOrqezKzteNECKs2sFwvBf"
 YEAR = 2026
 SHOT_W, SHOT_H = 642, 1389  # screenshots are 1284×2778 exports at half size
+# Star ratings come from content/ratings.json, which `python3 ratings.py`
+# fills from every App Store country. A live app shows its stars on its pages
+# and home tile once its average, rounded to one decimal as the App Store
+# shows it, is at least MIN_RATING. Run ratings.py, then this script, to
+# refresh them.
+MIN_RATING = 4.7
 
 # Screenshots live at assets/img/<slug>/01.webp, 02.webp, … in the order of
 # `shots`; each entry is that image's alt text. `tile` picks which three
@@ -758,6 +765,11 @@ UI_EN = {
     "appearance": "Screenshot appearance",
     "light": "Light",
     "dark": "Dark",
+    # Star rating: "4.8 · 26 App Store ratings". out_of_5 is read by screen
+    # readers only; decimal is the decimal mark in "4.8".
+    "ratings": ("{n} App Store rating", "{n} App Store ratings"),
+    "out_of_5": " out of 5",
+    "decimal": ".",
 }
 
 # ---------------------------------------------------------------- helpers
@@ -1130,10 +1142,12 @@ def home_page():
         imgs = "".join(
             f'<img src="{p}{shot(app, n)}" width="{SHOT_W}" height="{SHOT_H}" alt="" loading="lazy" decoding="async">'
             for n in app["tile"])
+        rating = rating_line(app, UI_EN, "tile-rating")
+        rating = f"\n        {rating}" if rating else ""
         tiles.append(f"""      <article class="tile">
         <img class="app-icon" src="{p}{icon(app)}" width="256" height="256" alt="">
         <h3>{esc(app['name'])}</h3>
-        <p class="tile-tagline">{esc(app['tagline'])}</p>
+        <p class="tile-tagline">{esc(app['tagline'])}</p>{rating}
         <p class="tile-actions">
           <a class="pill" href="{p}{app['slug']}/">Learn more</a>
           {store}
@@ -1192,6 +1206,46 @@ def stars(review):
         return ""
     n = review["stars"]
     return f'            <p class="stars" aria-label="{n} out of 5 stars">{"★" * n}</p>\n'
+
+
+def load_ratings():
+    path = ROOT / "content" / "ratings.json"
+    return json.loads(path.read_text())["apps"] if path.exists() else {}
+
+
+RATINGS = load_ratings()
+
+
+def app_rating(app):
+    """(average to one decimal, number of ratings) for a live app rated at
+    least MIN_RATING on the App Store, else None."""
+    entry = RATINGS.get(app["id"]) if is_live(app) else None
+    if not entry or not entry["count"]:
+        return None
+    average = decimal.Decimal(str(entry["average"])).quantize(
+        decimal.Decimal("0.1"), rounding=decimal.ROUND_HALF_UP)
+    return (float(average), entry["count"]) if average >= decimal.Decimal(str(MIN_RATING)) else None
+
+
+def rating_line(app, ui, extra_class=""):
+    """Five stars filled to the average, the figure and the number of ratings,
+    e.g. ★★★★★ 4.8 · 26 App Store ratings. Empty below MIN_RATING."""
+    rating = app_rating(app)
+    if not rating:
+        return ""
+    average, count = rating
+    fills = [min(max(average - i, 0), 1) for i in range(5)]
+    stars_html = "".join(f'<span style="--fill: {f:.0%}">★</span>' for f in fills)
+    one, many = ui["ratings"]
+    # A narrow phone may wrap the line: then it breaks after the "·", never
+    # inside the count or inside "App Store".
+    words = (one if count == 1 else many).format(n=count).replace("App Store", "App Store")
+    figure = f"{average:.1f}".replace(".", ui["decimal"])
+    classes = f"rating {extra_class}".strip()
+    return (f'<p class="{classes}">'
+            f'<span class="rating-stars" aria-hidden="true">{stars_html}</span> '
+            f'<strong>{figure}</strong><span class="visually-hidden">{esc(ui["out_of_5"])}</span>'
+            f' · <span class="rating-count">{esc(words)}</span></p>')
 
 
 def duo_showcase(app, p):
@@ -1359,6 +1413,8 @@ def app_page(base, langs=(), L=None):
         meta = ui["soon"]
         store = f'<span class="pill pill-large pill-soon">{esc(ui["coming_soon"])}</span>'
     privacy_href = "privacy/" if folder == f"{base['slug']}/" else f"{p}{base['slug']}/privacy/"
+    hero_rating = rating_line(app, ui)
+    hero_rating = f"\n      {hero_rating}" if hero_rating else ""
 
     guide_link = faq = languages = head = ""
     if L:
@@ -1383,7 +1439,7 @@ def app_page(base, langs=(), L=None):
     body = f"""    <section class="app-hero">
       <img class="app-icon app-icon-large" src="{p}{icon(app)}" width="256" height="256" alt="{esc(app['name'])} app icon">
       <h1>{esc(app['name'])}</h1>
-      <p class="app-tagline">{esc(app['tagline'])}</p>
+      <p class="app-tagline">{esc(app['tagline'])}</p>{hero_rating}
       <p class="app-meta">{esc(meta)} · {esc(app.get("platform", ui["platform"]))}</p>
       <p>{store}</p>
     </section>
@@ -1603,6 +1659,10 @@ def llms_files(all_langs):
         full += [f"## {app['store_name']}", "",
                  f"Page: {url}",
                  f"Price: {app['pricing'] if is_live(app) else 'not released yet'}",
+                 *([f"Rating: {app_rating(app)[0]:.1f} out of 5 from "
+                    + UI_EN["ratings"][app_rating(app)[1] != 1].format(n=app_rating(app)[1])
+                    + " in all countries combined"]
+                   if app_rating(app) else []),
                  f"Runs on: {app.get('platform', UI_EN['platform'])}",
                  *( [f"App Store: {store_url(app)}"] if is_live(app) else [] ),
                  f"Privacy policy: {url}privacy/",

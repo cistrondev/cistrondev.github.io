@@ -28,6 +28,9 @@ L = {
         "summary": "Cosa scegliere",
         "tips": "Da sapere",
         "cta_more": "Scopri {name}",
+        "ratings": ("{n} valutazione su App Store", "{n} valutazioni su App Store"),
+        "out_of_5": " su 5",
+        "decimal": ",",
     },
     "page": {
         "shots_dir": "it",

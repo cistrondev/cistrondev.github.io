@@ -28,6 +28,9 @@ L = {
         "summary": "Wat je kiest",
         "tips": "Goed om te weten",
         "cta_more": "Over {name}",
+        "ratings": ("{n} beoordeling in de App Store", "{n} beoordelingen in de App Store"),
+        "out_of_5": " van 5",
+        "decimal": ",",
     },
     "page": {
         "shots_dir": "nl",

@@ -307,6 +307,30 @@ a:hover { text-decoration: underline; }
   color: var(--text-2);
 }
 .app-meta { margin: 20px 0 32px; font-size: 14px; color: var(--text-3); letter-spacing: -0.016em; }
+/* Star rating (rating_line in build.py): each star is filled orange to its
+   share of the average through a gradient clipped to the glyph. */
+.rating { margin-top: 20px; font-size: 17px; color: var(--text-2); }
+.rating strong { color: var(--text); font-weight: 600; }
+.rating + .app-meta { margin-top: 6px; }
+.rating-stars { margin-right: 4px; letter-spacing: 1px; }
+.rating-stars span {
+  --fill: 100%;
+  background: linear-gradient(90deg, #ff9500 var(--fill), var(--rule) var(--fill));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.rating-count { white-space: nowrap; }
+.tile-rating { margin-top: 16px; font-size: 15px; letter-spacing: -0.016em; }
+.tile-rating + .tile-actions { margin-top: 16px; }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 
 .gallery { padding-bottom: 96px; }
 .gallery-track {
@@ -824,6 +848,8 @@ a:hover { text-decoration: underline; }
   .localnav-title { font-size: 19px; }
   .localnav ul { gap: 14px; }
   .app-hero { padding: 56px var(--gutter) 48px; }
+  /* The longest rating line (Dutch) fits one line down to a 360px screen. */
+  .rating { font-size: min(15px, 4vw); }
   .app-icon-large { width: 104px; }
   .gallery { padding-bottom: 64px; }
   .gallery-track { gap: 12px; }
