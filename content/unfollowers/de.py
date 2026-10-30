@@ -30,7 +30,6 @@ L = {
         "summary": "Was du auswählst",
         "tips": "Gut zu wissen",
         "cta_more": "Mehr über {name}",
-        "ratings": ("{n} Bewertung im App Store", "{n} Bewertungen im App Store"),
         "out_of_5": " von 5",
         "decimal": ",",
     },

@@ -320,7 +320,6 @@ a:hover { text-decoration: underline; }
   background-clip: text;
   color: transparent;
 }
-.rating-count { white-space: nowrap; }
 .tile-rating { margin-top: 16px; font-size: 15px; letter-spacing: -0.016em; }
 .tile-rating + .tile-actions { margin-top: 16px; }
 .visually-hidden {
@@ -848,8 +847,6 @@ a:hover { text-decoration: underline; }
   .localnav-title { font-size: 19px; }
   .localnav ul { gap: 14px; }
   .app-hero { padding: 56px var(--gutter) 48px; }
-  /* The longest rating line (Dutch) fits one line down to a 360px screen. */
-  .rating { font-size: min(15px, 4vw); }
   .app-icon-large { width: 104px; }
   .gallery { padding-bottom: 64px; }
   .gallery-track { gap: 12px; }

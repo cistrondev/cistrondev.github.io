@@ -29,7 +29,6 @@ L = {
         "summary": "Quoi choisir",
         "tips": "Bon à savoir",
         "cta_more": "À propos d'{name}",
-        "ratings": ("{n} note sur l'App Store", "{n} notes sur l'App Store"),
         "out_of_5": " sur 5",
         "decimal": ",",
     },
