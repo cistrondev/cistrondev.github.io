@@ -6,7 +6,7 @@
 
 Page: https://cistrondev.github.io/aloud/
 Price: Free to try · One-time unlock
-Rating: 5.0 out of 5 from 5 App Store ratings in all countries combined
+App Store rating: 5.0 out of 5
 Runs on: iPhone and iPad · iOS 17 or later
 App Store: https://apps.apple.com/app/id6795773116
 Privacy policy: https://cistrondev.github.io/aloud/privacy/
@@ -104,7 +104,7 @@ Aloud reads anything you can read: a web article, a PDF, an EPUB book or text yo
 
 Page: https://cistrondev.github.io/lifetrends/
 Price: Free · One-time Pro unlock
-Rating: 5.0 out of 5 from 2 App Store ratings in all countries combined
+App Store rating: 5.0 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6787547184
 Privacy policy: https://cistrondev.github.io/lifetrends/privacy/
@@ -164,7 +164,7 @@ No. LifeTrends describes patterns in measurements you have already recorded. It 
 
 Page: https://cistrondev.github.io/timegrapher/
 Price: First watch free · One-time Pro unlock
-Rating: 4.8 out of 5 from 34 App Store ratings in all countries combined
+App Store rating: 4.8 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6788081843
 Privacy policy: https://cistrondev.github.io/timegrapher/privacy/
@@ -269,7 +269,7 @@ A timing machine tells you how fast or slow a mechanical watch runs and how heal
 
 Page: https://cistrondev.github.io/unfollowers/
 Price: Free · One-time unlock
-Rating: 4.7 out of 5 from 12 App Store ratings in all countries combined
+App Store rating: 4.7 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6787521130
 Privacy policy: https://cistrondev.github.io/unfollowers/privacy/
@@ -357,7 +357,7 @@ Instagram lets you download a copy of your account data. The export includes the
 
 Page: https://cistrondev.github.io/unfriended/
 Price: Free
-Rating: 5.0 out of 5 from 1 App Store rating in all countries combined
+App Store rating: 5.0 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6792587859
 Privacy policy: https://cistrondev.github.io/unfriended/privacy/
@@ -436,7 +436,7 @@ Facebook lets you download a copy of your friends list, with the date each frien
 
 Page: https://cistrondev.github.io/pedometer/
 Price: Free
-Rating: 4.6 out of 5 from 5 App Store ratings in all countries combined
+App Store rating: 4.6 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6822166433
 Privacy policy: https://cistrondev.github.io/pedometer/privacy/

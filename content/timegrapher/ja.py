@@ -33,7 +33,6 @@ UI = {
     "summary": "ひと目でわかる",
     "tips": "知っておくと便利",
     "cta_more": "{name}について",
-    "ratings": ("App Storeで{n}件の評価", "App Storeで{n}件の評価"),
     "out_of_5": "（5点満点）",
     "decimal": ".",
     "appearance": "スクリーンショットの表示",

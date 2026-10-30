@@ -765,9 +765,8 @@ UI_EN = {
     "appearance": "Screenshot appearance",
     "light": "Light",
     "dark": "Dark",
-    # Star rating: "4.8 · 26 App Store ratings". out_of_5 is read by screen
-    # readers only; decimal is the decimal mark in "4.8".
-    "ratings": ("{n} App Store rating", "{n} App Store ratings"),
+    # Star rating "★★★★★ 4.8": out_of_5 is read by screen readers only;
+    # decimal is the decimal mark in "4.8".
     "out_of_5": " out of 5",
     "decimal": ".",
 }
@@ -1228,24 +1227,19 @@ def app_rating(app):
 
 
 def rating_line(app, ui, extra_class=""):
-    """Five stars filled to the average, the figure and the number of ratings,
-    e.g. ★★★★★ 4.8 · 26 App Store ratings. Empty below MIN_RATING."""
+    """Five stars filled to the average, then the figure, e.g. ★★★★★ 4.8.
+    Empty below MIN_RATING."""
     rating = app_rating(app)
     if not rating:
         return ""
-    average, count = rating
+    average, _ = rating
     fills = [min(max(average - i, 0), 1) for i in range(5)]
     stars_html = "".join(f'<span style="--fill: {f:.0%}">★</span>' for f in fills)
-    one, many = ui["ratings"]
-    # A narrow phone may wrap the line: then it breaks after the "·", never
-    # inside the count or inside "App Store".
-    words = (one if count == 1 else many).format(n=count).replace("App Store", "App Store")
     figure = f"{average:.1f}".replace(".", ui["decimal"])
     classes = f"rating {extra_class}".strip()
     return (f'<p class="{classes}">'
             f'<span class="rating-stars" aria-hidden="true">{stars_html}</span> '
-            f'<strong>{figure}</strong><span class="visually-hidden">{esc(ui["out_of_5"])}</span>'
-            f' · <span class="rating-count">{esc(words)}</span></p>')
+            f'<strong>{figure}</strong><span class="visually-hidden">{esc(ui["out_of_5"])}</span></p>')
 
 
 def duo_showcase(app, p):
@@ -1659,9 +1653,7 @@ def llms_files(all_langs):
         full += [f"## {app['store_name']}", "",
                  f"Page: {url}",
                  f"Price: {app['pricing'] if is_live(app) else 'not released yet'}",
-                 *([f"Rating: {app_rating(app)[0]:.1f} out of 5 from "
-                    + UI_EN["ratings"][app_rating(app)[1] != 1].format(n=app_rating(app)[1])
-                    + " in all countries combined"]
+                 *([f"App Store rating: {app_rating(app)[0]:.1f} out of 5"]
                    if app_rating(app) else []),
                  f"Runs on: {app.get('platform', UI_EN['platform'])}",
                  *( [f"App Store: {store_url(app)}"] if is_live(app) else [] ),
