@@ -522,8 +522,7 @@ APPS = [
         "slug": "voiceclone",
         "name": "Voice Clone",
         "store_name": "Voice Clone: Private & Offline",
-        "id": "",
-        "live": False,
+        "id": "6826862088",
         # The voice model needs 8 GB of memory, so newer iPhones only.
         "platform": "iPhone 15 Pro or later · iOS 18 or later",
         "tagline": "Text to speech in your own voice.",

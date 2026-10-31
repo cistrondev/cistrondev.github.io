@@ -1,6 +1,6 @@
 # Voice Clone in English. build.py reads the dict L below.
 #
-# Same keys as content/unfollowers/en.py, without a guide (not released yet).
+# Same keys as content/unfollowers/en.py, without a guide.
 # English page copy stays in APPS; this file adds the FAQ. Facts to keep true:
 # runs on the iPhone (iPhone 15 Pro or later, iOS 18); 10-15 second sample;
 # 22 languages; one-time ~1.9 GB model download from Hugging Face; clips are
@@ -14,8 +14,8 @@ L = {
         ("Can I clone my voice on my iPhone without uploading it?", [
             "Yes. Voice Clone runs the voice model on the iPhone itself. Record 10 to 15 "
             "seconds of your voice, type any text, and hear it read in your voice. Your "
-            "sample, your text and your clips never leave the phone. Voice Clone is coming "
-            "soon to the App Store.",
+            "sample, your text and your clips never leave the phone. Voice Clone is free "
+            "on the App Store.",
         ]),
         ("Which iPhones can run it?", [
             "An iPhone 15 Pro or later, with iOS 18 or later. The voice model needs the 8 GB "
