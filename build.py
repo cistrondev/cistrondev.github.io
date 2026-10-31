@@ -721,6 +721,62 @@ APPS = [
         ],
         "languages": ["en", "es"],
     },
+    {
+        "slug": "sleepsonar",
+        "name": "Sleep Sonar",
+        "store_name": "Sleep Sonar: Snore Recorder",
+        "id": "",
+        "live": False,
+        "tagline": "Hear your night. Snoring, sleep talk and your breathing, from the nightstand.",
+        "pricing": "Free",
+        "intro": (
+            "Sleep Sonar records your night from the nightstand. It listens for snoring and sleep talk, and "
+            "follows your breathing with a sonar you can't hear, even if you make no sound.",
+            "Everything is worked out on your iPhone. There is no account, nothing is uploaded, and the only "
+            "audio it keeps are short clips of the sounds it recognised.",
+        ),
+        "features": [
+            ("How much you snore",
+             "Every night's report shows the minutes of snoring, the number of sleep-talk moments and the "
+             "sounds in between, on one timeline. Drag a finger across it to see any moment."),
+            ("Hear it back",
+             "Each snore, each bit of sleep talk and each cough is kept as a short clip, from three seconds "
+             "before to two seconds after, so you can play it in the morning."),
+            ("Breathing by sonar",
+             "The phone plays a sweep between 18 and 20 kHz, above what adults can hear, and reads its echo from "
+             "your chest. That gives your breathing rate all night, whether or not you snore."),
+            ("Restless or asleep",
+             "The sonar also sees when you turn over or get up, so the report shows your restless minutes and "
+             "an estimate of how long you slept."),
+            ("Breathing pauses",
+             "Stretches of ten seconds or more without a breath while you lay still are listed for your "
+             "information. Sleep Sonar is not a medical device and does not diagnose sleep apnea."),
+            ("A placement check",
+             "Lie down and breathe for 15 seconds: the app says whether it can find your breathing, how far "
+             "away you are, and what to change if not."),
+        ],
+        "privacy_title": "Nothing leaves your iPhone.",
+        "privacy": [
+            "The sonar, the sound recognition and every report run on the phone.",
+            "The night is analysed as it happens, not recorded: only short clips of recognised sounds are kept.",
+            "There is no account, and nothing is uploaded. No analytics, no ads, no tracking.",
+            "Delete a night to delete its clips; deleting the app deletes everything.",
+        ],
+        "network": "Nothing. Sleep Sonar makes no network connections.",
+        "note": "",
+        "tile": [1, 2, 3],
+        "languages": ["en"],
+        "category": "HealthApplication",   # schema.org applicationCategory
+        "shots": [
+            "A night's report: 76 minutes of snoring, 3 sleep-talk moments, 15 breaths a minute, and the night's timeline.",
+            "The Privacy page: on the phone, no cloud, no analytics, no account.",
+            "The night screen at 2:47 AM: 15 breaths a minute at 49 cm, and the breathing wave.",
+            "The list of sounds, each with a play button: sleep talk, snoring, a cough, a door slam.",
+            "The night's timeline while dragging: 2:54 AM, 15 breaths a minute, snoring for 26 minutes.",
+            "The placement check: found you at 49 cm, 15 breaths a minute, good placement.",
+            "How the sonar works: the phone sends a sweep toward your chest and reads the echo.",
+        ],
+    },
 ]
 
 PRINCIPLES = [
