@@ -300,8 +300,8 @@ APPS = [
         "category": "UtilitiesApplication",   # schema.org applicationCategory
         "shots": [
             "Your iPhone is a timing machine: rate, amplitude, and beat error in 30 seconds.",
-            "Accurate readings, no matter what: quiet movements, even in noisy rooms.",
-            "Your entire collection at a glance: age, health, and value.",
+            "Readings that hold steady: quiet movements, even in noisy rooms.",
+            "Your entire collection at a glance: the age, health and value of every watch, kept on your iPhone.",
             "See the drift before it matters, and know when to service your watch.",
             "Know what it's worth: the Chrono24 median for your exact reference.",
             "Is your watch magnetized? Checked in ten seconds.",
