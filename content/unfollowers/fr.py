@@ -58,6 +58,8 @@ L = {
             ("Ton historique en graphiques",
              "Des graphiques de croissance et de follow-back créés à partir de chaque export "
              "que tu importes."),
+            ('Partage ton année',
+             'Des cartes avec ton année en abonnés, ta team des débuts et ceux que tu hypes le plus, au format story.'),
             ("Sans login",
              "L'app n'a aucun écran de connexion. Ton mot de passe reste à toi."),
         ],
@@ -92,6 +94,7 @@ L = {
             "Qui tu hypes le plus : tes j'aime, commentaires et réactions aux stories, "
             "comptés.",
             "Tes stats en courbes : croissance et follow-back depuis ton historique.",
+            'Partage ton année : ton année en abonnés, ta team des débuts et ceux que tu hypes le plus, pour ta story.',
         ],
     },
     "guide_link": "Comment télécharger tes données Instagram",

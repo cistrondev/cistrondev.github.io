@@ -55,6 +55,8 @@ L = {
              "export."),
             ("Tu historial en gráficos",
              "Gráficos de crecimiento y de follow-back creados con cada export que importas."),
+            ('Comparte tu año',
+             'Tarjetas con tu año en seguidores, tu crew de siempre y a quién apoyas más, listas para tus historias.'),
             ("Sin login",
              "La app no tiene ninguna pantalla de inicio de sesión. Tu contraseña es solo "
              "tuya."),
@@ -88,6 +90,7 @@ L = {
             "A quién das más bombo: tus likes, comentarios y reacciones a historias, "
             "contados desde tu export.",
             "Tus stats en gráficas: crecimiento y follow-back con tu propio historial.",
+            'Comparte tu año: tu año en seguidores, tu crew de siempre y a quién apoyas más, para tus historias.',
         ],
     },
     "guide_link": "Cómo descargar tus datos de Instagram",
