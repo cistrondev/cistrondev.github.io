@@ -33,14 +33,24 @@ L = {
              "automatisch erkannt."),
             ("Werte, die ruhig stehen",
              "Die App verfolgt den Geräuschpegel des Raumes und verwirft Störgeräusche. Die "
-             "Amplitude kommt aus dem Hebungswinkel Ihres Kalibers."),
+             "Amplitude kommt aus dem Hebungswinkel Ihres Kalibers, einstellbar auf ein "
+             "Zehntelgrad."),
+            ("In Lagen messen",
+             "Die App führt Sie durch sechs Lagen, oder vier für eine schnellere Prüfung, "
+             "und zeigt die mittlere Gangabweichung und die Lagendifferenz, so wie ein "
+             "Uhrmacher ein Werk prüft."),
             ("Ihre Sammlung",
-             "Jede Uhr mit Foto, Referenz, Werk und Hebungswinkel. Jede Messung wird "
-             "gespeichert und als Diagramm gezeigt. „Anhand des Fotos erkennen“ schlägt "
-             "Marke und Modell vor."),
+             "Jede Uhr mit Referenz, Werk, Hebungswinkel und bis zu 13 Fotos. Jede Messung "
+             "wird gespeichert und als Diagramm gezeigt, und eine Erinnerung sagt Ihnen, "
+             "wann Sie wieder messen sollten. „Anhand des Fotos erkennen“ schlägt Marke und "
+             "Modell vor."),
             ("Der Gang über einen Tag am Handgelenk",
              "Fotografieren Sie das Zifferblatt heute und morgen. Timegrapher vergleicht "
              "die Fotos mit der Uhr des iPhones und zeigt, wie die Uhr am Handgelenk lief."),
+            ("Gangbericht",
+             "Teilen Sie einen einseitigen Bericht zu einer Uhr als PDF oder Bild, mit der "
+             "letzten Messung, den Lagen und dem Verlauf. Ihre Messungen lassen sich als "
+             "CSV-Datei exportieren."),
             ("Wissen, was sie wert ist",
              "Aktuelle Chrono24-Angebotspreise für Ihre genaue Referenz, mit dem Median, "
              "auf Ihrem iPhone berechnet."),
@@ -48,6 +58,10 @@ L = {
              "Eine magnetisierte Unruhspirale ist der häufigste Grund, warum eine Uhr "
              "plötzlich vorgeht. Das Magnetometer des iPhones zeigt, ob Ihre Uhr "
              "entmagnetisiert werden muss."),
+            ("Atomuhr",
+             "Der Tab „Atomuhr“ zeigt die genaue Zeit von Apples Zeitserver und wie weit "
+             "die Uhr Ihres iPhones abweicht. Countdown-Töne vor jeder Minute helfen, Ihre "
+             "Uhr auf die Sekunde zu stellen."),
         ],
         "privacy_title": "Der Ton wird nie aufgezeichnet.",
         "privacy": [
@@ -125,7 +139,8 @@ L = {
             "damit die Amplitude. Viele Schweizer Werke haben 52°, viele aber auch andere "
             "Werte, also schlagen Sie Ihr Kaliber nach. Ein falscher Hebungswinkel ist der "
             "übliche Grund für falsche Amplituden in Handy-Apps. Gang und Abfallfehler "
-            "hängen nicht davon ab.",
+            "hängen nicht davon ab. In Timegrapher stellen Sie ihn auf ein Zehntelgrad "
+            "genau ein.",
         ]),
         ("Wie genau ist eine Zeitwaage auf dem Handy im Vergleich zur Werkstattmaschine?", [
             "Timegrapher misst jedes Tic auf Bruchteile einer Millisekunde und gleicht "
@@ -219,7 +234,7 @@ L = {
              "Die erste Uhr ist kostenlos. Timegrapher Pro schaltet unbegrenzt viele Uhren "
              "mit einer einzigen Zahlung frei, ohne Abo."),
         ],
-        "updated": "Geschrieben für Timegrapher 2.7, Oktober 2026.",
+        "updated": "Geschrieben für Timegrapher 2.8, Oktober 2026.",
         "cta_title": "Messen Sie Ihre Uhr noch heute",
         "cta_text": "Gangabweichung, Amplitude und Abfallfehler in 30 Sekunden, mit dem "
                     "iPhone, das Sie schon haben. Erste Uhr kostenlos, kein Abo.",
