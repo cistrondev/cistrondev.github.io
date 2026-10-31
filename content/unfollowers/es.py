@@ -33,7 +33,7 @@ L = {
     },
     "page": {
         "shots_dir": "es",
-        "tagline": "Mira quién dejó de seguirte en Instagram. Sin login.",
+        "tagline": "Mira quién dejó de seguirte en Instagram, sin login.",
         "pricing": "Gratis · Desbloqueo único",
         "intro": (
             "Instagram no te dice quién dejó de seguirte. Tu propio export de datos sí.",

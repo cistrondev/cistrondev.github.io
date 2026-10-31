@@ -127,7 +127,7 @@ L = {
         "updated": "Written for Jobsite Calc 1.0, October 2026.",
         "cta_title": "Lay out the next stair in seconds",
         "cta_text": "Jobsite Calc works out the risers, treads, stringer and code check "
-                    "from the total rise, on your iPhone, with no internet. Pay once, "
-                    "no subscription.",
+                    "from the total rise, on your iPhone, with no internet. You pay "
+                    "once, with no subscription.",
     },
 }

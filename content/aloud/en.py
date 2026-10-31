@@ -153,6 +153,6 @@ L = {
         "updated": "Written for Aloud 3.2, October 2026.",
         "cta_title": "Listen to your reading list",
         "cta_text": "Aloud reads articles, PDFs and EPUB books in a natural voice made on "
-                    "your iPhone. It works offline. Pay once, no subscription.",
+                    "your iPhone. It works offline, and you pay once, with no subscription.",
     },
 }

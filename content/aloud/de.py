@@ -81,13 +81,13 @@ L = {
         ],
         "duo": {
             "title": "Auf dem iPhone Duo",
-            "sub": "Zugeklappt hörst du zu. Aufgeklappt liest du.",
+            "sub": "Das Außendisplay ist ein Player, und aufgeklappt zeigt das iPhone zwei Seiten.",
             "items": [
                 ("cover", "cover", "Zugeklappt", "Die Stimme liest auf dem Außendisplay weiter.",
                  "Aloud auf dem Außendisplay des iPhone Duo: die Stimme liest weiter, mit Wiedergabesteuerung."),
                 ("book", "spread", "Halb offen", "Zwei gegenüberliegende Seiten, in jedem Winkel.",
                  "Aloud auf dem halb geöffneten iPhone Duo: zwei gegenüberliegende Seiten."),
-                ("flat", "spread", "Offen", "Mit Übersetzung? Original und Übersetzung nebeneinander.",
+                ("flat", "spread", "Offen", "Mit Übersetzung stehen Original und Übersetzung nebeneinander.",
                  "Aloud auf dem geöffneten iPhone Duo: links das spanische Original, rechts die "
                  "englische Übersetzung, Zeile für Zeile."),
             ],
@@ -240,6 +240,7 @@ L = {
         "updated": "Geschrieben für Aloud 3.2, Oktober 2026.",
         "cta_title": "Hör dir deine Leseliste an",
         "cta_text": "Aloud liest Artikel, PDFs und EPUB-Bücher mit einer natürlichen Stimme "
-                    "vor, die auf deinem iPhone entsteht. Offline. Einmal zahlen, kein Abo.",
+                    "vor, die auf deinem iPhone entsteht. Es funktioniert offline, und du zahlst "
+                    "einmal, ohne Abo.",
     },
 }

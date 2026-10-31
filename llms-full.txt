@@ -114,16 +114,16 @@ You walk more on weekends. You sleep less on Sunday nights. LifeTrends reads the
 
 ### Features
 
-- **Only patterns that hold up.** A pattern only appears when it is large enough to matter and unlikely to be chance. Thin evidence shows nothing.
+- **Only patterns that hold up.** A pattern only appears when it is large enough to matter and unlikely to be chance. When the evidence is thin, you see nothing.
 - **Weekdays, seasons, body clock.** Weekday against weekend, month by month across your whole history, and your daily rhythm hour by hour.
-- **Trips and places.** Worked out from photo dates and locations only, never the pictures, matched against cities built into the app.
+- **Trips and places.** Worked out from the dates and locations of your photos and matched against cities built into the app. LifeTrends never looks at the pictures.
 - **Every number, charted.** Each metric over your entire history, plus the correlations between them that hold up.
 - **The whole story.** Tap any finding for the gap, the sample sizes, and whether it still holds this year.
-- **No score, no streaks.** No readiness number, no coaching voice, no advice you did not ask for.
+- **No score or streaks.** There is no readiness number, no coaching voice and no advice you did not ask for.
 
 ### Privacy: Your health data never leaves your iPhone.
 
-- Health data is read, analyzed, and kept on your iPhone. Never uploaded.
+- Health data is read, analyzed and kept on your iPhone, and never uploaded.
 - From Photos it reads only dates and locations, never the images.
 - No account, no analytics, no ads, no tracking.
 
@@ -175,7 +175,7 @@ Rate, amplitude, and beat error in about thirty seconds. Timegrapher listens to 
 
 ### Features
 
-- **Rate, amplitude, beat error.** Seconds gained or lost per day, how far the balance swings, and tick–tock symmetry. Beat rate detected from 18,000 to 36,000 bph.
+- **Rate, amplitude, beat error.** Seconds gained or lost per day, how far the balance swings, and the symmetry of tick and tock. Beat rate detected from 18,000 to 36,000 bph.
 - **Readings that hold steady.** It tracks the room's noise floor and rejects stray sounds. Amplitude comes from your calibre's own lift angle, set to a tenth of a degree.
 - **Measure in positions.** The app guides you through six positions, or four for a quicker check, and shows the average rate and the spread between positions, the way a watchmaker checks a movement.
 - **Your collection.** Every watch with its reference, movement, lift angle, and up to 13 photos. Every reading is saved and charted, and a reminder tells you when to measure again. Identify from Photo suggests the brand and model.
@@ -279,16 +279,16 @@ Privacy policy: https://cistrondev.github.io/unfollowers/privacy/
 What it sends over the network: Only the usernames being checked, sent anonymously to Instagram when a profile check runs. Your export stays on your iPhone.
 This page in other languages: Português (Brasil) https://cistrondev.github.io/unfollowers/pt-br/, Español https://cistrondev.github.io/unfollowers/es/, Italiano https://cistrondev.github.io/unfollowers/it/, Français https://cistrondev.github.io/unfollowers/fr/, Deutsch https://cistrondev.github.io/unfollowers/de/, Ελληνικά https://cistrondev.github.io/unfollowers/el/, Nederlands https://cistrondev.github.io/unfollowers/nl/
 
-Instagram will never tell you who unfollowed you. Your own data export will. Unfollowers reads the official export you download from Instagram yourself and shows what changed, without ever asking for your password.
+Instagram doesn't tell you who unfollowed you, but your own data export shows it. Unfollowers reads the official export you download from Instagram yourself and shows what changed, without ever asking for your password.
 
 ### Features
 
 - **Who unfollowed you.** Tracked across imports, with the date each change was caught.
-- **Probably blocked.** Accounts that left your followers and your following at the same moment, flagged as a likely block, never stated as fact.
+- **Probably blocked.** Accounts that left your followers and your following at the same moment. The app marks them as a likely block.
 - **Who doesn't follow back.** The classic list, plus mutuals and requests that were never accepted.
 - **Who you interact with most.** Your likes, comments, and story reactions, counted from your own export.
 - **Your history, charted.** Growth and follow-back trends built from every export you import.
-- **No login, ever.** There is no sign-in screen anywhere in the app. Your password stays yours.
+- **No login.** The app has no sign-in screen, so your password stays with you.
 
 ### Privacy: Your export never leaves your iPhone.
 
@@ -366,7 +366,7 @@ App Store: https://apps.apple.com/app/id6792587859
 Privacy policy: https://cistrondev.github.io/unfriended/privacy/
 What it sends over the network: Nothing about you. The App Store loads the prices of the optional tips.
 
-Facebook friendship is mutual, so no single snapshot can show who left. Unfriended compares two of your own Facebook data exports, a few weeks apart, and shows exactly what changed. All on your iPhone, with zero network requests.
+Facebook friendship is mutual, so no single snapshot can show who left. Unfriended compares two of your own Facebook data exports, a few weeks apart, and shows what changed. It all happens on your iPhone.
 
 ### Features
 
@@ -648,7 +648,7 @@ Privacy policy: https://cistrondev.github.io/jobsitecalc/privacy/
 What it sends over the network: No network connections at all. The one purchase goes through the App Store.
 This page in other languages: Español https://cistrondev.github.io/jobsitecalc/es/
 
-A feet-inch-fraction calculator for framers, carpenters and contractors. Type a measurement the way you read it on the tape, see the whole calculation on screen, and lay out stairs, rafters and concrete from it. One purchase unlocks every tool, forever. No subscription, no account, no internet.
+A feet-inch-fraction calculator for framers, carpenters and contractors. Type a measurement the way you read it on the tape, see the whole calculation on screen, and lay out stairs, rafters and concrete from it. One purchase unlocks every tool for good, and the app needs no subscription, account or internet.
 
 ### Features
 
@@ -666,7 +666,7 @@ A feet-inch-fraction calculator for framers, carpenters and contractors. Type a 
 - Your settings and your tape stay on your iPhone.
 - The one purchase goes through Apple, and the price never renews.
 
-Dark screen, big keys and key clicks, for gloves and sunlight. Works with no signal.
+It has a dark screen, big keys and key clicks for gloves and sunlight, and it works with no signal.
 
 ### Questions and answers
 
@@ -730,7 +730,7 @@ Sleep Sonar records your night from the nightstand. It listens for snoring and s
 - **Hear it back.** Each snore, each bit of sleep talk and each cough is kept as a short clip, from three seconds before to two seconds after, so you can play it in the morning.
 - **Breathing by sonar.** The phone plays a sweep between 18 and 20 kHz, above what adults can hear, and reads its echo from your chest. That gives your breathing rate all night, whether or not you snore.
 - **Restless or asleep.** The sonar also sees when you turn over or get up, so the report shows your restless minutes and an estimate of how long you slept.
-- **Breathing pauses.** Stretches of ten seconds or more without a breath while you lay still are listed for your information. Sleep Sonar is not a medical device and does not diagnose sleep apnea.
+- **Breathing pauses.** Stretches of ten seconds or more without a breath while you lie still are listed for your information. Sleep Sonar is not a medical device and does not diagnose sleep apnea.
 - **A placement check.** Lie down and breathe for 15 seconds: the app says whether it can find your breathing, how far away you are, and what to change if not.
 
 ### Privacy: Nothing leaves your iPhone.
@@ -764,7 +764,7 @@ On the nightstand on your side of the bed, an arm's length from your chest (30 t
 
 **Does it detect sleep apnea?**
 
-No. Sleep Sonar is not a medical device. It can show stretches of ten seconds or more without a breath while you lay still, for your information, but it cannot diagnose sleep apnea or anything else. If you see many pauses on most nights, or someone has noticed you stop breathing in your sleep, talk to a doctor.
+No. Sleep Sonar is not a medical device. It can show stretches of ten seconds or more without a breath while you lie still, for your information, but it cannot diagnose sleep apnea or anything else. If you see many pauses on most nights, or someone has noticed you stop breathing in your sleep, talk to a doctor.
 
 **Does Sleep Sonar upload anything?**
 

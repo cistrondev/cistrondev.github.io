@@ -82,13 +82,13 @@ L = {
         ],
         "duo": {
             "title": "Sur iPhone Duo",
-            "sub": "Fermé, vous écoutez. Ouvert, vous lisez.",
+            "sub": "L'écran extérieur sert de lecteur, et l'iPhone ouvert affiche deux pages.",
             "items": [
                 ("cover", "cover", "Fermé", "La voix continue sur l'écran extérieur.",
                  "Aloud sur l'écran extérieur de l'iPhone Duo : la voix continue de lire, avec les commandes de lecture."),
                 ("book", "spread", "À demi ouvert", "Deux pages face à face, à n'importe quel angle.",
                  "Aloud sur l'iPhone Duo à demi ouvert : deux pages face à face."),
-                ("flat", "spread", "Ouvert", "Une traduction ? L'original et la traduction côte à côte.",
+                ("flat", "spread", "Ouvert", "Avec une traduction, l'original et la traduction s'affichent côte à côte.",
                  "Aloud sur l'iPhone Duo ouvert : l'original espagnol sur la page de gauche, la "
                  "traduction anglaise sur celle de droite, ligne à ligne."),
             ],
@@ -240,6 +240,7 @@ L = {
         "updated": "Rédigé pour Aloud 3.2, octobre 2026.",
         "cta_title": "Écoutez votre liste de lecture",
         "cta_text": "Aloud lit les articles, les PDF et les livres EPUB d'une voix naturelle "
-                    "créée sur votre iPhone. Hors ligne. Un seul paiement, sans abonnement.",
+                    "créée sur votre iPhone. Il fonctionne hors ligne, et vous payez une seule "
+                    "fois, sans abonnement.",
     },
 }

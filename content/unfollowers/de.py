@@ -35,7 +35,7 @@ L = {
     },
     "page": {
         "shots_dir": "de",
-        "tagline": "Sieh, wer dir auf Instagram entfolgt ist. Ohne Login.",
+        "tagline": "Sieh, wer dir auf Instagram entfolgt ist, ganz ohne Login.",
         "pricing": "Kostenlos · Einmalig freischalten",
         "intro": (
             "Instagram sagt dir nicht, wer dir entfolgt ist. Dein eigener Datenexport schon.",

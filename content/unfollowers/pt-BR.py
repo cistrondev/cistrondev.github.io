@@ -35,7 +35,7 @@ L = {
         "decimal": ",",
     },
     "page": {
-        "tagline": "Veja quem parou de seguir você no Instagram. Sem login.",
+        "tagline": "Veja quem parou de seguir você no Instagram, sem login.",
         "pricing": "Grátis · Desbloqueio único",
         "intro": (
             "O Instagram não mostra quem parou de seguir você. O arquivo de dados que você "

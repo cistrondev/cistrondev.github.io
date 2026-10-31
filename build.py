@@ -130,13 +130,13 @@ APPS = [
         "languages": ["en", "de", "es", "fr", "it", "pt-BR"],
         "category": "ProductivityApplication",   # schema.org applicationCategory
         "duo": {
-            "sub": "Closed, it listens. Open, it reads.",
+            "sub": "The cover screen is a player, and the open phone shows two pages.",
             "items": [
                 ("cover", "cover", "Folded", "The voice keeps going on the cover screen.",
                  "Aloud on the iPhone Duo's cover screen: the voice keeps reading, with play controls."),
                 ("book", "spread", "Half open", "Two facing pages, at any angle.",
                  "Aloud on the half-open iPhone Duo: two facing pages."),
-                ("flat", "spread", "Open", "Translating? The original and the translation, side by side.",
+                ("flat", "spread", "Open", "With a translation on, the original and the translation sit side by side.",
                  "Aloud on the open iPhone Duo: the Spanish original on the left page, the English "
                  "translation on the right, row for row."),
             ],
@@ -178,26 +178,26 @@ APPS = [
         "features": [
             ("Only patterns that hold up",
              "A pattern only appears when it is large enough to matter and "
-             "unlikely to be chance. Thin evidence shows nothing."),
+             "unlikely to be chance. When the evidence is thin, you see nothing."),
             ("Weekdays, seasons, body clock",
              "Weekday against weekend, month by month across your whole history, "
              "and your daily rhythm hour by hour."),
             ("Trips and places",
-             "Worked out from photo dates and locations only, never the pictures, "
-             "matched against cities built into the app."),
+             "Worked out from the dates and locations of your photos and matched "
+             "against cities built into the app. LifeTrends never looks at the pictures."),
             ("Every number, charted",
              "Each metric over your entire history, plus the correlations between "
              "them that hold up."),
             ("The whole story",
              "Tap any finding for the gap, the sample sizes, and whether it still "
              "holds this year."),
-            ("No score, no streaks",
-             "No readiness number, no coaching voice, no advice you did not ask "
-             "for."),
+            ("No score or streaks",
+             "There is no readiness number, no coaching voice and no advice you did "
+             "not ask for."),
         ],
         "privacy_title": "Your health data never leaves your iPhone.",
         "privacy": [
-            "Health data is read, analyzed, and kept on your iPhone. Never uploaded.",
+            "Health data is read, analyzed and kept on your iPhone, and never uploaded.",
             "From Photos it reads only dates and locations, never the images.",
             "No account, no analytics, no ads, no tracking.",
         ],
@@ -238,7 +238,7 @@ APPS = [
         "features": [
             ("Rate, amplitude, beat error",
              "Seconds gained or lost per day, how far the balance swings, and "
-             "tick–tock symmetry. Beat rate detected from 18,000 to 36,000 bph."),
+             "the symmetry of tick and tock. Beat rate detected from 18,000 to 36,000 bph."),
             ("Readings that hold steady",
              "It tracks the room's noise floor and rejects stray sounds. Amplitude "
              "comes from your calibre's own lift angle, set to a tenth of a degree."),
@@ -313,10 +313,10 @@ APPS = [
         "name": "Unfollowers",
         "store_name": "Unfollowers Tracker: No Login",
         "id": "6787521130",
-        "tagline": "See who unfollowed you on Instagram. No login.",
+        "tagline": "See who unfollowed you on Instagram, with no login.",
         "pricing": "Free · One-time unlock",
         "intro": (
-            "Instagram will never tell you who unfollowed you. Your own data export will.",
+            "Instagram doesn't tell you who unfollowed you, but your own data export shows it.",
             "Unfollowers reads the official export you download from Instagram "
             "yourself and shows what changed, without ever asking for your "
             "password.",
@@ -326,7 +326,7 @@ APPS = [
              "Tracked across imports, with the date each change was caught."),
             ("Probably blocked",
              "Accounts that left your followers and your following at the same "
-             "moment, flagged as a likely block, never stated as fact."),
+             "moment. The app marks them as a likely block."),
             ("Who doesn't follow back",
              "The classic list, plus mutuals and requests that were never "
              "accepted."),
@@ -335,9 +335,8 @@ APPS = [
              "export."),
             ("Your history, charted",
              "Growth and follow-back trends built from every export you import."),
-            ("No login, ever",
-             "There is no sign-in screen anywhere in the app. Your password stays "
-             "yours."),
+            ("No login",
+             "The app has no sign-in screen, so your password stays with you."),
         ],
         "privacy_title": "Your export never leaves your iPhone.",
         "privacy": [
@@ -353,7 +352,7 @@ APPS = [
         "note": "Unfollowers is an independent app, not affiliated with Instagram or Meta.",
         "stats": [
             ("Tens of thousands", "of downloads"),
-            ("#48", "in Social Networking on the App Store in Greece"),
+            ("#48", "in Social Networking on the App Store in Greece, September 2026"),
         ],
         "reviews": [
             {"stars": 5, "source": "App Store review, United States",
@@ -370,14 +369,14 @@ APPS = [
         "languages": ["en", "pt-BR", "es", "it", "fr", "de", "el", "nl"],
         "category": "SocialNetworkingApplication",   # schema.org applicationCategory
         "why": (
-            "Your password stays yours.",
+            "Your password stays with you.",
             "Most follower trackers ask for your Instagram password, then access "
             "your account in the background. Instagram warns that letting "
             "unauthorized apps into your account puts it at risk, and people who "
             "use them regularly report locked, suspended, or “action blocked” "
             "accounts. Unfollowers never asks for your password and never signs "
-            "in as you: it reads the data export Instagram itself gives you. And "
-            "there is no subscription: one optional purchase unlocks everything.",
+            "in as you. It reads the data export that Instagram gives you. There "
+            "is no subscription, and one optional purchase unlocks everything.",
         ),
         "shots": [
             "See every unfollower: who left, and when, read from your own Instagram export.",
@@ -397,8 +396,7 @@ APPS = [
         "intro": (
             "Facebook friendship is mutual, so no single snapshot can show who left.",
             "Unfriended compares two of your own Facebook data exports, a few "
-            "weeks apart, and shows exactly what changed. All on your iPhone, "
-            "with zero network requests.",
+            "weeks apart, and shows what changed. It all happens on your iPhone.",
         ),
         "features": [
             ("Who dropped you",
@@ -662,15 +660,15 @@ APPS = [
         "live": False,
         "platform": "iPhone and iPad · iOS 17 or later",
         "category": "UtilitiesApplication",
-        "tagline": "Feet, inches and fractions. Pay once.",
+        "tagline": "Feet, inches and fractions, for a one-time price.",
         "pricing": "Free · One-time unlock",
         "intro": (
             "A feet-inch-fraction calculator for framers, carpenters and "
             "contractors.",
             "Type a measurement the way you read it on the tape, see the whole "
             "calculation on screen, and lay out stairs, rafters and concrete from "
-            "it. One purchase unlocks every tool, forever. No subscription, no "
-            "account, no internet.",
+            "it. One purchase unlocks every tool for good, and the app needs no "
+            "subscription, account or internet.",
         ),
         "features": [
             ("Feet, inches and fractions",
@@ -708,8 +706,8 @@ APPS = [
         ],
         "network": "No network connections at all. The one purchase goes through "
                    "the App Store.",
-        "note": "Dark screen, big keys and key clicks, for gloves and sunlight. "
-                "Works with no signal.",
+        "note": "It has a dark screen, big keys and key clicks for gloves and "
+                "sunlight, and it works with no signal.",
         "tile": [1, 2, 3],
         "shots": [
             "Feet, inches and fractions, with the whole calculation on screen.",
@@ -727,7 +725,7 @@ APPS = [
         "store_name": "Sleep Sonar: Snore Recorder",
         "id": "",
         "live": False,
-        "tagline": "Hear your night. Snoring, sleep talk and your breathing, from the nightstand.",
+        "tagline": "Your snoring, sleep talk and breathing, recorded from the nightstand.",
         "pricing": "Free",
         "intro": (
             "Sleep Sonar records your night from the nightstand. It listens for snoring and sleep talk, and "
@@ -749,7 +747,7 @@ APPS = [
              "The sonar also sees when you turn over or get up, so the report shows your restless minutes and "
              "an estimate of how long you slept."),
             ("Breathing pauses",
-             "Stretches of ten seconds or more without a breath while you lay still are listed for your "
+             "Stretches of ten seconds or more without a breath while you lie still are listed for your "
              "information. Sleep Sonar is not a medical device and does not diagnose sleep apnea."),
             ("A placement check",
              "Lie down and breathe for 15 seconds: the app says whether it can find your breathing, how far "
@@ -1249,7 +1247,7 @@ def home_page():
     <section class="about" id="about">
       <p class="eyebrow">About the name</p>
       <h2 class="about-word">cis·tron</h2>
-      <p>A cistron is the stretch of DNA that does one complete job: it carries the instructions for a single protein. The word comes from biology's <i>cis</i>–<i>trans</i> test, and <i>cis</i> is Latin for “on this side”. That's the idea behind every app here: each does one job well, and does it on your side, on your iPhone, not on someone else's server.</p>
+      <p>A cistron is the stretch of DNA that does one complete job: it carries the instructions for a single protein. The word comes from biology's <i>cis</i>-<i>trans</i> test, and <i>cis</i> is Latin for “on this side”. That's the idea behind every app here: each does one job well, and does it on your side, on your iPhone.</p>
     </section>"""
 
     org = {"@type": "Organization", "@id": f"{SITE_URL}#org", "name": COMPANY,
@@ -1263,7 +1261,7 @@ def home_page():
                  "name": a["store_name"]} for i, a in enumerate(APPS, 1)]}
     write("index.html", page(
         prefix=p, title=f"{BRAND} · Apps for iPhone",
-        description="Minimal, local, ad-free iPhone apps. No accounts, no ads, no tracking.",
+        description="Small iPhone apps that work on your phone, with no accounts, ads or tracking.",
         body=body, head=json_ld({"@graph": [org, apps]})))
 
 

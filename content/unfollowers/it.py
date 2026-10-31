@@ -33,7 +33,7 @@ L = {
     },
     "page": {
         "shots_dir": "it",
-        "tagline": "Scopri chi ha smesso di seguirti su Instagram. Senza login.",
+        "tagline": "Scopri chi ha smesso di seguirti su Instagram, senza login.",
         "pricing": "Gratis · Sblocco una tantum",
         "intro": (
             "Instagram non ti dice chi ha smesso di seguirti. Il tuo export di dati sì.",
