@@ -21,6 +21,7 @@ Contact: cistron.support@icloud.com
 - [Atlas: Travel Map From Photos](https://cistrondev.github.io/atlas/): Every country you've been to, from your photos. Atlas finds the countries you've been to in the photos on your iPhone and puts them on a world map. Coming soon to the App Store.
 - [Jobsite Calc: Feet Inch Math](https://cistrondev.github.io/jobsitecalc/): Feet, inches and fractions. Pay once. A feet-inch-fraction calculator for framers, carpenters and contractors. Coming soon to the App Store.
   - Guide: [How to lay out a stair stringer: risers, treads and the code check](https://cistrondev.github.io/jobsitecalc/stair-layout/)
+- [Sleep Sonar: Snore Recorder](https://cistrondev.github.io/sleepsonar/): Hear your night. Snoring, sleep talk and your breathing, from the nightstand. Sleep Sonar records your night from the nightstand. It listens for snoring and sleep talk, and follows your breathing with a sonar you can't hear, even if you make no sound. Coming soon to the App Store.
 
 ## More
 
