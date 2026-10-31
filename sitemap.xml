@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cistrondev.github.io/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/privacy/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/de/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/es/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/fr/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/it/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/pt-br/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -168,7 +168,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -186,7 +186,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/de/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -204,7 +204,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/fr/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -222,7 +222,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/ja/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -244,7 +244,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -272,7 +272,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/pt-br/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -300,7 +300,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/es/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -328,7 +328,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/it/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -356,7 +356,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/fr/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -384,7 +384,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/de/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -412,7 +412,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/el/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -440,7 +440,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/nl/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -488,7 +488,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -516,7 +516,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/de/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -544,7 +544,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/es/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -572,7 +572,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/fr/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -600,7 +600,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/it/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -628,7 +628,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/nl/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -656,7 +656,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/pt-br/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -684,7 +684,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/ja/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -716,7 +716,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/voiceclone/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/voiceclone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/voiceclone/"/>
   </url>
@@ -726,7 +726,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/atlas/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/atlas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/atlas/"/>
   </url>
@@ -736,7 +736,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
@@ -750,7 +750,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/es/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
