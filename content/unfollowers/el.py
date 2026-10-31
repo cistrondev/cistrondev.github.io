@@ -35,7 +35,7 @@ L = {
     },
     "page": {
         "shots_dir": "el",
-        "tagline": "Δες ποιος σου έκανε unfollow στο Instagram. Χωρίς login.",
+        "tagline": "Δες ποιος σου έκανε unfollow στο Instagram, χωρίς login.",
         "pricing": "Δωρεάν · Εφάπαξ ξεκλείδωμα",
         "intro": (
             "Το Instagram δεν σου λέει ποιος σου έκανε unfollow. Το δικό σου export δεδομένων "

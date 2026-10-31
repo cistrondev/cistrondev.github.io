@@ -82,13 +82,13 @@ L = {
         ],
         "duo": {
             "title": "No iPhone Duo",
-            "sub": "Fechado, você ouve. Aberto, você lê.",
+            "sub": "A tela externa vira um player, e o iPhone aberto mostra duas páginas.",
             "items": [
                 ("cover", "cover", "Fechado", "A voz continua na tela externa.",
                  "Aloud na tela externa do iPhone Duo: a voz continua lendo, com controles de reprodução."),
                 ("book", "spread", "Meio aberto", "Duas páginas lado a lado, em qualquer ângulo.",
                  "Aloud no iPhone Duo meio aberto: duas páginas lado a lado."),
-                ("flat", "spread", "Aberto", "Traduzindo? O original e a tradução, lado a lado.",
+                ("flat", "spread", "Aberto", "Com uma tradução, o original e a tradução ficam lado a lado.",
                  "Aloud no iPhone Duo aberto: o original em espanhol na página da esquerda e a "
                  "tradução em inglês na da direita, linha por linha."),
             ],

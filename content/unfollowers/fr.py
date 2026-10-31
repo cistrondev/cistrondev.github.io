@@ -34,7 +34,7 @@ L = {
     },
     "page": {
         "shots_dir": "fr",
-        "tagline": "Découvre qui a arrêté de te suivre sur Instagram. Sans login.",
+        "tagline": "Découvre qui a arrêté de te suivre sur Instagram, sans login.",
         "pricing": "Gratuit · Déblocage unique",
         "intro": (
             "Instagram ne te dit pas qui a arrêté de te suivre. Ton propre export de "

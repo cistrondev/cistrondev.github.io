@@ -37,7 +37,7 @@ L = {
     },
     "page": {
         "shots_dir": "es",
-        "tagline": "Pies, pulgadas y fracciones. Pagas una vez.",
+        "tagline": "Pies, pulgadas y fracciones, con un solo pago.",
         "pricing": "Gratis · Desbloqueo único",
         "platform": "iPhone y iPad · iOS 17 o posterior",
         "intro": (
@@ -45,7 +45,7 @@ L = {
             "contratistas.",
             "Escribe la medida como la lees en la cinta, mira toda la operación en pantalla "
             "y saca de ahí escaleras, vigas y concreto. Una sola compra desbloquea todas las "
-            "herramientas, para siempre. Sin suscripción, sin cuenta, sin internet.",
+            "herramientas para siempre, y la app no pide suscripción, cuenta ni internet.",
         ),
         "features": [
             ("Pies, pulgadas y fracciones",
@@ -80,8 +80,8 @@ L = {
             "Tus ajustes y tu cinta se quedan en tu iPhone.",
             "La única compra pasa por Apple y el precio nunca se renueva.",
         ],
-        "note": "Pantalla oscura, teclas grandes y clics al teclear, para guantes y sol. "
-                "Funciona sin señal.",
+        "note": "Tiene pantalla oscura, teclas grandes y clics al teclear para guantes y "
+                "sol, y funciona sin señal.",
         "shots": [
             "Pies, pulgadas y fracciones, con toda la operación en pantalla.",
             "Escaleras a partir de la altura total: contrahuellas, huellas, zanca y revisión de código.",

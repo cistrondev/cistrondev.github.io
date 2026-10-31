@@ -36,7 +36,7 @@ L = {
         ]),
         ("Does it detect sleep apnea?", [
             "No. Sleep Sonar is not a medical device. It can show stretches of ten seconds or more without a breath "
-            "while you lay still, for your information, but it cannot diagnose sleep apnea or anything else. If you "
+            "while you lie still, for your information, but it cannot diagnose sleep apnea or anything else. If you "
             "see many pauses on most nights, or someone has noticed you stop breathing in your sleep, talk to a doctor.",
         ]),
         ("Does Sleep Sonar upload anything?", [

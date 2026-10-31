@@ -33,7 +33,7 @@ L = {
     },
     "page": {
         "shots_dir": "nl",
-        "tagline": "Zie wie je ontvolgde op Instagram. Zonder login.",
+        "tagline": "Zie wie je ontvolgde op Instagram, zonder login.",
         "pricing": "Gratis · Eenmalig ontgrendelen",
         "intro": (
             "Instagram vertelt je niet wie je ontvolgde. Je eigen data-export wel.",
