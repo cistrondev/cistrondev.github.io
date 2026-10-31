@@ -57,9 +57,7 @@ L = {
              "propre export."),
             ("Ton historique en graphiques",
              "Des graphiques de croissance et de follow-back créés à partir de chaque export "
-             "que tu importes."),
-            ('Partage ton année',
-             'Des cartes avec ton année en abonnés, ta team des débuts et ceux que tu hypes le plus, au format story.'),
+             "que tu importes. Partage ton année en cartes pour ta story."),
             ("Sans login",
              "L'app n'a aucun écran de connexion. Ton mot de passe reste à toi."),
         ],

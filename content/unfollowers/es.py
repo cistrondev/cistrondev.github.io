@@ -54,9 +54,7 @@ L = {
              "Tus me gusta, comentarios y reacciones a historias, contados desde tu propio "
              "export."),
             ("Tu historial en gráficos",
-             "Gráficos de crecimiento y de follow-back creados con cada export que importas."),
-            ('Comparte tu año',
-             'Tarjetas con tu año en seguidores, tu crew de siempre y a quién apoyas más, listas para tus historias.'),
+             "Gráficos de crecimiento y de follow-back creados con cada export que importas. Comparte tu año en tarjetas para tus historias."),
             ("Sin login",
              "La app no tiene ninguna pantalla de inicio de sesión. Tu contraseña es solo "
              "tuya."),

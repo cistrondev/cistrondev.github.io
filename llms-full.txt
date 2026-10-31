@@ -287,8 +287,7 @@ Instagram doesn't tell you who unfollowed you, but your own data export shows it
 - **Probably blocked.** Accounts that left your followers and your following at the same moment. The app marks them as a likely block.
 - **Who doesn't follow back.** The classic list, plus mutuals and requests that were never accepted.
 - **Who you interact with most.** Your likes, comments, and story reactions, counted from your own export.
-- **Your history, charted.** Growth and follow-back trends built from every export you import.
-- **Share your year.** Cards with your year in followers, your OG crew and who you hype most, sized for your Instagram story.
+- **Your history, charted.** Growth and follow-back trends built from every export you import. Share your year as cards for your story.
 - **No login.** The app has no sign-in screen, so your password stays with you.
 
 ### Privacy: Your export never leaves your iPhone.

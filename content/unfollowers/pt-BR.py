@@ -58,9 +58,7 @@ L = {
              "própria exportação."),
             ("Seu histórico em gráficos",
              "Gráficos de crescimento e de follow-back feitos com cada exportação que você "
-             "importa."),
-            ('Compartilhe seu ano',
-             'Cards com seu ano em seguidores, sua galera raiz e quem você mais apoia, prontos para os seus stories.'),
+             "importa. Compartilhe seu ano em cards para os seus stories."),
             ("Sem login",
              "O app não tem nenhuma tela de login. A sua senha fica com você."),
         ],
