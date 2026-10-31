@@ -366,7 +366,7 @@ App Store: https://apps.apple.com/app/id6792587859
 Privacy policy: https://cistrondev.github.io/unfriended/privacy/
 What it sends over the network: Nothing about you. The App Store loads the prices of the optional tips.
 
-Facebook friendship is mutual, so no single snapshot can show who left. Unfriended compares two of your own Facebook data exports, a few weeks apart, and shows what changed. It all happens on your iPhone.
+Facebook friendship is mutual, so no single snapshot can show who left. Unfriended compares two of your own Facebook data exports, a few weeks apart, and shows what changed. It all happens on your iPhone, and the app has no network code of its own.
 
 ### Features
 
