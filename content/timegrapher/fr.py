@@ -36,15 +36,25 @@ L = {
              "36 000 A/h."),
             ("Des valeurs qui restent stables",
              "L'app suit le bruit de fond de la pièce et rejette les sons parasites. "
-             "L'amplitude vient de l'angle de levée de votre calibre."),
+             "L'amplitude vient de l'angle de levée de votre calibre, réglable au dixième "
+             "de degré."),
+            ("Mesurer en positions",
+             "L'app vous guide dans six positions, ou quatre pour un contrôle plus rapide, "
+             "et affiche la marche moyenne et l'écart entre les positions, comme un "
+             "horloger contrôle un mouvement."),
             ("Votre collection",
-             "Chaque montre avec sa photo, sa référence, son mouvement et son angle de "
-             "levée. Chaque mesure est conservée et tracée. « Identifier d'après la "
-             "photo » suggère la marque et le modèle."),
+             "Chaque montre avec sa référence, son mouvement, son angle de levée et "
+             "jusqu'à 13 photos. Chaque mesure est conservée et tracée, et un rappel vous "
+             "indique quand mesurer de nouveau. « Identifier d'après la photo » suggère "
+             "la marque et le modèle."),
             ("La marche sur une journée au poignet",
              "Photographiez le cadran aujourd'hui et demain. Timegrapher compare les "
              "photos avec l'horloge de l'iPhone et montre comment la montre a marché à "
              "votre poignet."),
+            ("Rapport de marche",
+             "Partagez un rapport d'une page sur une montre, en PDF ou en image, avec la "
+             "dernière mesure, les positions et l'évolution. Exportez vos mesures en "
+             "fichier CSV."),
             ("Savoir ce qu'elle vaut",
              "Les prix demandés sur Chrono24 pour votre référence exacte, avec la "
              "médiane calculée sur votre iPhone."),
@@ -52,6 +62,10 @@ L = {
              "Un spiral aimanté est la cause la plus fréquente d'une montre qui se met "
              "soudain à avancer. Le magnétomètre de l'iPhone vous dit s'il faut la "
              "démagnétiser."),
+            ("Horloge atomique",
+             "L'onglet Horloge affiche l'heure exacte du serveur de temps d'Apple et "
+             "l'écart de l'horloge de votre iPhone. Des bips avant chaque minute vous "
+             "aident à régler votre montre à la seconde près."),
         ],
         "privacy_title": "Le son n'est jamais enregistré.",
         "privacy": [
@@ -131,7 +145,8 @@ L = {
             "pour calculer l'amplitude. Beaucoup de mouvements suisses ont 52°, mais "
             "beaucoup d'autres non : cherchez la valeur de votre calibre. Un angle de levée "
             "erroné est la cause habituelle d'une amplitude fausse sur téléphone. La marche "
-            "et l'erreur de repère n'en dépendent pas.",
+            "et l'erreur de repère n'en dépendent pas. Dans Timegrapher, vous le réglez au "
+            "dixième de degré.",
         ]),
         ("Un chronocomparateur sur téléphone est-il aussi précis qu'une machine d'établi ?", [
             "Timegrapher mesure chaque tic à la fraction de milliseconde près et en ajuste "
@@ -226,7 +241,7 @@ L = {
              "La première montre est gratuite. Timegrapher Pro ajoute un nombre illimité de "
              "montres pour un paiement unique, sans abonnement."),
         ],
-        "updated": "Rédigé pour Timegrapher 2.7, octobre 2026.",
+        "updated": "Rédigé pour Timegrapher 2.8, octobre 2026.",
         "cta_title": "Mesurez votre montre ce soir",
         "cta_text": "Marche, amplitude et erreur de repère en 30 secondes, avec l'iPhone que "
                     "vous avez déjà. Première montre gratuite, sans abonnement.",

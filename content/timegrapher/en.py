@@ -67,7 +67,8 @@ L = {
             "The lift angle is a property of the movement, and Timegrapher uses it to work "
             "out the amplitude. Many Swiss movements use 52°, but plenty use other values, "
             "so look up your calibre. A wrong lift angle is the usual reason a phone app "
-            "shows the wrong amplitude. The rate and beat error do not depend on it.",
+            "shows the wrong amplitude. The rate and beat error do not depend on it. "
+            "In Timegrapher you can set it to a tenth of a degree.",
         ]),
         ("How accurate is a phone timegrapher compared to a bench machine?", [
             "Timegrapher times each tick to a fraction of a millisecond and fits thousands of "
@@ -157,7 +158,7 @@ L = {
              "The first watch is free. Timegrapher Pro adds unlimited watches for one "
              "payment, with no subscription."),
         ],
-        "updated": "Written for Timegrapher 2.7, October 2026.",
+        "updated": "Written for Timegrapher 2.8, October 2026.",
         "cta_title": "Time your watch tonight",
         "cta_text": "Rate, amplitude and beat error in 30 seconds, with the iPhone you "
                     "already have. First watch free, no subscription.",

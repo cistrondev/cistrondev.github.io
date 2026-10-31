@@ -241,14 +241,22 @@ APPS = [
              "tick–tock symmetry. Beat rate detected from 18,000 to 36,000 bph."),
             ("Readings that hold steady",
              "It tracks the room's noise floor and rejects stray sounds. Amplitude "
-             "comes from your calibre's own lift angle."),
+             "comes from your calibre's own lift angle, set to a tenth of a degree."),
+            ("Measure in positions",
+             "The app guides you through six positions, or four for a quicker check, "
+             "and shows the average rate and the spread between positions, the way a "
+             "watchmaker checks a movement."),
             ("Your collection",
-             "Every watch with its photo, reference, movement, and lift angle. "
-             "Every reading is saved and charted. Identify from Photo suggests "
-             "the brand and model."),
+             "Every watch with its reference, movement, lift angle, and up to 13 "
+             "photos. Every reading is saved and charted, and a reminder tells you "
+             "when to measure again. Identify from Photo suggests the brand and model."),
             ("Accuracy over a day of wear",
              "Take two photos of the watch a day apart. Timegrapher compares them "
              "with your iPhone's clock and shows how the watch ran on your wrist."),
+            ("Timing report",
+             "Share a one-page report on a watch as a PDF or an image, with the "
+             "latest reading, the positions, and the trend. Export your measurements "
+             "as a CSV file."),
             ("Know what it's worth",
              "Current Chrono24 asking prices for your exact reference, with the "
              "median worked out on your iPhone."),
@@ -256,6 +264,10 @@ APPS = [
              "A magnetized hairspring is the most common reason a watch suddenly "
              "gains time. Sweep the watch across the back of your iPhone and its "
              "magnetometer tells you whether it needs demagnetizing."),
+            ("Atomic clock",
+             "The Clock tab shows the exact time from Apple's time server and how far "
+             "your iPhone is off. Countdown tones before each minute help you set your "
+             "watch to the second."),
         ],
         "privacy_title": "Audio is never recorded.",
         "privacy": [

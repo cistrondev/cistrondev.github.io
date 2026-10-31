@@ -176,11 +176,14 @@ Rate, amplitude, and beat error in about thirty seconds. Timegrapher listens to 
 ### Features
 
 - **Rate, amplitude, beat error.** Seconds gained or lost per day, how far the balance swings, and tick–tock symmetry. Beat rate detected from 18,000 to 36,000 bph.
-- **Readings that hold steady.** It tracks the room's noise floor and rejects stray sounds. Amplitude comes from your calibre's own lift angle.
-- **Your collection.** Every watch with its photo, reference, movement, and lift angle. Every reading is saved and charted. Identify from Photo suggests the brand and model.
+- **Readings that hold steady.** It tracks the room's noise floor and rejects stray sounds. Amplitude comes from your calibre's own lift angle, set to a tenth of a degree.
+- **Measure in positions.** The app guides you through six positions, or four for a quicker check, and shows the average rate and the spread between positions, the way a watchmaker checks a movement.
+- **Your collection.** Every watch with its reference, movement, lift angle, and up to 13 photos. Every reading is saved and charted, and a reminder tells you when to measure again. Identify from Photo suggests the brand and model.
 - **Accuracy over a day of wear.** Take two photos of the watch a day apart. Timegrapher compares them with your iPhone's clock and shows how the watch ran on your wrist.
+- **Timing report.** Share a one-page report on a watch as a PDF or an image, with the latest reading, the positions, and the trend. Export your measurements as a CSV file.
 - **Know what it's worth.** Current Chrono24 asking prices for your exact reference, with the median worked out on your iPhone.
 - **Magnetism check.** A magnetized hairspring is the most common reason a watch suddenly gains time. Sweep the watch across the back of your iPhone and its magnetometer tells you whether it needs demagnetizing.
+- **Atomic clock.** The Clock tab shows the exact time from Apple's time server and how far your iPhone is off. Countdown tones before each minute help you set your watch to the second.
 
 ### Privacy: Audio is never recorded.
 
@@ -225,7 +228,7 @@ Take off any magnetic case, wallet or mount first. Every check is saved, so a ch
 
 **What lift angle should I use?**
 
-The lift angle is a property of the movement, and Timegrapher uses it to work out the amplitude. Many Swiss movements use 52°, but plenty use other values, so look up your calibre. A wrong lift angle is the usual reason a phone app shows the wrong amplitude. The rate and beat error do not depend on it.
+The lift angle is a property of the movement, and Timegrapher uses it to work out the amplitude. Many Swiss movements use 52°, but plenty use other values, so look up your calibre. A wrong lift angle is the usual reason a phone app shows the wrong amplitude. The rate and beat error do not depend on it. In Timegrapher you can set it to a tenth of a degree.
 
 **How accurate is a phone timegrapher compared to a bench machine?**
 
