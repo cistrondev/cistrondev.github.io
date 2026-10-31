@@ -1,6 +1,6 @@
 # Privacy Policy for LifeTrends
 
-**Last updated: 22 September 2026**
+**Last updated: 31 October 2026**
 
 LifeTrends ("the app") is designed to work entirely on your device. This
 policy explains, in plain language, what the app does and does not do with your
@@ -11,7 +11,7 @@ information.
 **LifeTrends does not collect, store, transmit, or share any personal data.**
 There are no accounts, no servers, no analytics, no advertising, and no
 third‑party tracking. The app makes no network connections of its own, other
-than Apple's App Store for optional purchases and one optional city lookup,
+than Apple’s App Store for the optional tips and one optional city lookup,
 described under "Current location" below. All of your health information and
 everything the app derives from it stays on your iPhone.
 
@@ -78,13 +78,14 @@ enabled, are computed and stored **locally on your iPhone** using Apple's
 on‑device storage. This information is not sent anywhere and is not accessible
 to the developer.
 
-## Purchases
+## Tips
 
-LifeTrends offers an optional one‑time in‑app purchase ("LifeTrends Pro") that
-unlocks the Statistics tab and analysis of Health history older than two years.
-Purchases are processed entirely by Apple through the App Store. The app does
-not receive, store, or process your payment details. Apple's handling of your
-purchase is governed by Apple's own privacy policy.
+LifeTrends is free, and every feature is included. It offers three optional
+tips, which are in-app purchases. A tip unlocks nothing. To show their prices
+and to take a payment, the app uses Apple's App Store. Apple processes the
+payment; the developer never receives your name, payment details or Apple
+Account. The app keeps no record of your tips. Apple's privacy policy covers
+the purchase itself.
 
 ## Analytics, advertising, and tracking
 

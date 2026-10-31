@@ -1,6 +1,6 @@
 # Privacy Policy for Pedometer
 
-**Last updated: 24 October 2026**
+**Last updated: 25 October 2026**
 
 Pedometer ("the app") is designed to work entirely on your device. This policy
 explains, in plain language, what the app does and does not do with your
@@ -12,8 +12,9 @@ information.
 There are no accounts, no servers, no analytics, no third‑party advertising,
 and no tracking. Your health, motion and location information, and everything
 the app works out from it, stays on your iPhone and, where you allow it, in
-Apple Health. The app's only network connection is the map, which Apple Maps
-draws (see "Maps" below).
+Apple Health. The app connects to the network only for the map, which Apple
+Maps draws, and for the optional tips, which the App Store handles (see "Maps"
+and "Tips" below).
 
 ## Health data (Apple Health / HealthKit)
 
@@ -56,6 +57,14 @@ The map of a walk or run is drawn by Apple Maps. To draw it, your iPhone loads
 map images for the area shown from Apple, as it does in any app that shows an
 Apple map. Apple's privacy policy covers that. Pedometer sends nothing else
 with it, and the developer receives nothing.
+
+## Tips
+
+Pedometer offers three optional tips, which are in-app purchases. A tip
+unlocks nothing. To show their prices and to take a payment, the app uses
+Apple's App Store. Apple processes the payment; the developer never receives
+your name, payment details or Apple Account. The app keeps no record of your
+tips. Apple's privacy policy covers the purchase itself.
 
 ## Motion & Fitness (Core Motion)
 

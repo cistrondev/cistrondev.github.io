@@ -103,12 +103,12 @@ Aloud reads anything you can read: a web article, a PDF, an EPUB book or text yo
 ## LifeTrends: Health Insights
 
 Page: https://cistrondev.github.io/lifetrends/
-Price: Free · One-time Pro unlock
+Price: Free
 App Store rating: 5.0 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6787547184
 Privacy policy: https://cistrondev.github.io/lifetrends/privacy/
-What it sends over the network: Nothing, unless you tap Current Location and are outside its built-in city list. Then one approximate position goes to Apple to name the city. Health data never leaves.
+What it sends over the network: Health data never leaves. If you tap Current Location outside the built-in city list, one approximate position goes to Apple to name the city, and the App Store loads the prices of the optional tips.
 
 You walk more on weekends. You sleep less on Sunday nights. LifeTrends reads the Apple Health history already on your iPhone, tells you in plain English what is in it, and shows the numbers behind every claim.
 
@@ -149,11 +149,11 @@ Yes. With optional photo access, LifeTrends reads the date and location saved wi
 
 **Is LifeTrends free?**
 
-The Summary tab is free and covers your last two years. LifeTrends Pro is a one-time purchase, never a subscription, and adds the Statistics tab, with every measurement charted and correlation plots, and analysis of your full history.
+Yes. Every feature is free, including the Statistics tab, with every measurement charted and correlation plots, and analysis of your full history. There is no subscription. Under Settings › Support LifeTrends you can leave an optional tip, which unlocks nothing.
 
 **Does LifeTrends upload my health data?**
 
-No. Health data is read, analysed and kept on your iPhone. There is no account, no server and no analytics. The only network request happens if you tap Current Location while outside the built-in city list: then one approximate position goes to Apple to name the city. Privacy policy.
+No. Health data is read, analysed and kept on your iPhone. There is no account, no server and no analytics. Apart from the optional tips, which go through Apple's App Store, the only network request happens if you tap Current Location while outside the built-in city list: then one approximate position goes to Apple to name the city. Privacy policy.
 
 **Is it a medical app?**
 
@@ -361,7 +361,7 @@ App Store rating: 5.0 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6792587859
 Privacy policy: https://cistrondev.github.io/unfriended/privacy/
-What it sends over the network: Nothing. The app makes no network connections at all.
+What it sends over the network: Nothing about you. The App Store loads the prices of the optional tips.
 
 Facebook friendship is mutual, so no single snapshot can show who left. Unfriended compares two of your own Facebook data exports, a few weeks apart, and shows exactly what changed. All on your iPhone, with zero network requests.
 
@@ -376,8 +376,8 @@ Facebook friendship is mutual, so no single snapshot can show who left. Unfriend
 
 ### Privacy: Nothing leaves your iPhone.
 
-- The app makes no network connections at all.
 - Your Facebook export is read and stored only on your iPhone.
+- The app sends nothing of yours anywhere. Only the optional tips go through Apple.
 - No login, no account, no analytics, no ads.
 
 Unfriended is an independent app, not affiliated with Facebook or Meta.
@@ -410,11 +410,11 @@ No. There is no login screen anywhere in the app, and it never contacts Facebook
 
 **Is Unfriended free?**
 
-Yes. Unfriended is free, with no subscription, no ads and no account. See it on the App Store.
+Yes. Every list and chart is free, with no subscription, no ads and no account. At the bottom of THE TEA you can leave an optional tip, which unlocks nothing. See it on the App Store.
 
 **Is my Facebook data uploaded anywhere?**
 
-No. The app makes no network connections at all. Your export is read and stored only on your iPhone, and deleting the app deletes it. Privacy policy.
+No. Your export is read and stored only on your iPhone, and deleting the app deletes it. The app sends nothing of yours anywhere; its only connection is Apple's App Store, for the optional tips. Privacy policy.
 
 ### How to download your Facebook friends list
 
