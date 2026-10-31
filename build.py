@@ -151,15 +151,15 @@ APPS = [
             "is no subscription either: one optional purchase removes the limit for good.",
         ),
         "shots": [
-            "Anything you can read, it reads to you.",
-            "Get through the reading list.",
-            "Works offline. Anywhere.",
-            "No subscription. No ads. No tracking.",
-            "Natural voices. Every language.",
-            "Reader mode: read it your way.",
-            "Twice the speed. Half the time.",
-            "Your shelf, on every device.",
-            "Read it in your language: any piece translated on the device, sentence beside sentence.",
+            "Anything you can read, it reads to you. Articles, PDFs and notes, read in a natural voice, sentence by sentence.",
+            "Get through the reading list. Listen on the commute, on a walk or while doing the dishes.",
+            "Reads offline, even on a flight. The voice downloads once. After that, Aloud reads without an internet connection.",
+            "No subscription, ads or tracking. There is no account and nothing renews, and nothing you read is collected.",
+            "Natural voices for over 30 languages. Ten voices for English and four that read thirty more languages, all made on your iPhone.",
+            "Reader mode: read it your way. Reader mode hides the player so you can read the page yourself, in the font and size you like.",
+            "Listen at up to 3× speed. From 0.5× to 3×, with the silence between sentences trimmed if you like. A 30-minute article fits a 15-minute walk.",
+            "Your shelf, on every device. Turn on iCloud sync and your shelf follows you. Each piece is also saved in iCloud Drive as a plain text file.",
+            "Read it in your language. Translate any piece on your iPhone and see each sentence beside its translation. Aloud can read either language aloud.",
         ],
     },
     {
@@ -211,14 +211,14 @@ APPS = [
         "languages": ["en"],
         "category": "HealthApplication",   # schema.org applicationCategory
         "shots": [
-            "Your life has patterns, hiding in your health data.",
-            "It knows where you were: the cities you move more in.",
+            "Your life has patterns: LifeTrends finds them in your health data.",
+            "It knows where you were: see the cities where you move more.",
             "It reads your body clock: jet lag, measured in your own sleep.",
-            "Seasons leave marks: trends across your whole history.",
-            "Tap in for the whole story: the gap, the sample size, and whether it holds.",
+            "Trends by season: month by month, across your whole history.",
+            "Tap a finding for details: the gap, the sample size, and whether it still holds.",
             "Every number, over time: each metric you track, charted.",
-            "It connects the dots: correlations, only when significant.",
-            "See how it thinks: statistics decide what you are shown.",
+            "How your numbers relate: correlations, shown only when significant.",
+            "How it decides: a significance test decides what you see.",
             "Your best days, on record, tagged with the city you were in.",
         ],
     },
@@ -1441,9 +1441,18 @@ def app_page(base, langs=(), L=None):
             return ""
         return f' data-light="{p}{shot(app, i)}" data-dark="{p}{shot(app, i, dark=True)}"'
 
-    shots = "\n".join(
-        f'          <li><img src="{p}{shot(app, i)}"{variants(i)} width="{SHOT_W}" height="{SHOT_H}" alt="{esc(alt)}" loading="{"eager" if i < 4 else "lazy"}" decoding="async"></li>'
-        for i, alt in enumerate(app["shots"], 1))
+    def slide(i, alt):
+        img = (f'<img src="{p}{shot(app, i)}"{variants(i)} width="{SHOT_W}" height="{SHOT_H}" alt="{esc(alt)}" '
+               f'loading="{"eager" if i < 4 else "lazy"}" decoding="async">')
+        # An animated WebP next to the still (assets/img/<slug>/NN-anim.webp) plays for everyone except people
+        # who asked their system to reduce motion; they keep the still.
+        anim = shot_path(app, i).replace(".webp", "-anim.webp")
+        if (ROOT / anim).exists():
+            return (f'<picture><source srcset="{p}{versioned(anim)}" type="image/webp" '
+                    f'media="(prefers-reduced-motion: no-preference)">{img}</picture>')
+        return img
+
+    shots = "\n".join(f"          <li>{slide(i, alt)}</li>" for i, alt in enumerate(app["shots"], 1))
     toggle = f"""
         <div class="appearance-toggle" role="group" aria-label="{esc(ui["appearance"])}">
           <button type="button" data-appearance="light" aria-pressed="true">{esc(ui["light"])}</button>
