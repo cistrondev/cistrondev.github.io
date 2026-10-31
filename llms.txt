@@ -8,7 +8,7 @@ Contact: cistron.support@icloud.com
 
 - [Aloud — Text to Speech Reader](https://cistrondev.github.io/aloud/): Anything you can read, read aloud. Share an article, open a PDF, or paste any text. Free to try · One-time unlock. App Store: https://apps.apple.com/app/id6795773116.
   - Guide: [How to listen to articles, PDFs and EPUB books on iPhone](https://cistrondev.github.io/aloud/listen-to-articles-and-books/)
-- [LifeTrends: Health Insights](https://cistrondev.github.io/lifetrends/): The patterns hiding in your health data. You walk more on weekends. You sleep less on Sunday nights. Free · One-time Pro unlock. App Store: https://apps.apple.com/app/id6787547184.
+- [LifeTrends: Health Insights](https://cistrondev.github.io/lifetrends/): The patterns hiding in your health data. You walk more on weekends. You sleep less on Sunday nights. Free. App Store: https://apps.apple.com/app/id6787547184.
 - [Timegrapher — Watch Accuracy](https://cistrondev.github.io/timegrapher/): A watchmaker's timing machine, in your iPhone. Rate, amplitude, and beat error in about thirty seconds. First watch free · One-time Pro unlock. App Store: https://apps.apple.com/app/id6788081843.
   - Guide: [How to check your mechanical watch's accuracy with an iPhone](https://cistrondev.github.io/timegrapher/check-watch-accuracy/)
 - [Unfollowers Tracker: No Login](https://cistrondev.github.io/unfollowers/): See who unfollowed you on Instagram. No login. Instagram will never tell you who unfollowed you. Your own data export will. Free · One-time unlock. App Store: https://apps.apple.com/app/id6787521130.

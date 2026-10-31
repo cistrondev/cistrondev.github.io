@@ -2,9 +2,9 @@
 #
 # Same keys as content/unfollowers/en.py, without a guide. English page copy
 # stays in APPS; this file adds the FAQ. Facts to keep true (live description,
-# October 2026): the Summary tab is free and covers the last two years;
-# LifeTrends Pro is a one-time purchase that adds the Statistics tab and the full
-# history; photo access is optional and reads only dates and locations; a
+# October 2026): every feature is free (StoreManager.everythingIsFree; the old
+# Pro purchase is removed from sale); 1.5 adds three optional tips that unlock
+# nothing; photo access is optional and reads only dates and locations; a
 # reverse geocode happens only for Current Location outside the city list.
 
 L = {
@@ -38,16 +38,17 @@ L = {
             "shorter and earlier after a long flight east.",
         ]),
         ("Is LifeTrends free?", [
-            "The Summary tab is free and covers your last two years. LifeTrends Pro is a "
-            "one-time purchase, never a subscription, and adds the Statistics tab, with "
-            "every measurement charted and correlation plots, and analysis of your full "
-            "history.",
+            "Yes. Every feature is free, including the Statistics tab, with every "
+            "measurement charted and correlation plots, and analysis of your full history. "
+            "There is no subscription. Under Settings › Support LifeTrends you can leave an "
+            "optional tip, which unlocks nothing.",
         ]),
         ("Does LifeTrends upload my health data?", [
             "No. Health data is read, analysed and kept on your iPhone. There is no account, "
-            "no server and no analytics. The only network request happens if you tap Current "
-            "Location while outside the built-in city list: then one approximate position "
-            "goes to Apple to name the city. [Privacy policy](privacy).",
+            "no server and no analytics. Apart from the optional tips, which go through Apple's "
+            "App Store, the only network request happens if you tap Current Location while "
+            "outside the built-in city list: then one approximate position goes to Apple to "
+            "name the city. [Privacy policy](privacy).",
         ]),
         ("Is it a medical app?", [
             "No. LifeTrends describes patterns in measurements you have already recorded. It "

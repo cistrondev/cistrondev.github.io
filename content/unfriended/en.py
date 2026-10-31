@@ -5,10 +5,9 @@
 #
 # Facebook's menu names come from the app's own HOW-TO (Unfriended/TutorialView
 # .swift, checked against Facebook in 2026) and are written in **bold**. Facts to
-# keep true: the app makes no network connections; it needs two exports a few
+# keep true: the app sends nothing of yours anywhere (only StoreKit, for tips); it needs two exports a few
 # weeks apart to show who left; renames are matched by the friend-since second;
-# 1.2 has no purchases at all (its App Store description still mentions an
-# unlock: leave pricing out of the copy beyond "free").
+# 1.3 adds three optional tips that unlock nothing; every feature is free.
 
 L = {
     "name": "English",
@@ -53,12 +52,14 @@ L = {
             "yourself.",
         ]),
         ("Is Unfriended free?", [
-            "Yes. Unfriended is free, with no subscription, no ads and no account. "
-            "[See it on the App Store](store).",
+            "Yes. Every list and chart is free, with no subscription, no ads and no "
+            "account. At the bottom of THE TEA you can leave an optional tip, which unlocks "
+            "nothing. [See it on the App Store](store).",
         ]),
         ("Is my Facebook data uploaded anywhere?", [
-            "No. The app makes no network connections at all. Your export is read and stored "
-            "only on your iPhone, and deleting the app deletes it. [Privacy policy](privacy).",
+            "No. Your export is read and stored only on your iPhone, and deleting the app "
+            "deletes it. The app sends nothing of yours anywhere; its only connection is "
+            "Apple's App Store, for the optional tips. [Privacy policy](privacy).",
         ]),
     ],
     "guide": {
@@ -109,11 +110,11 @@ L = {
              "Friends who renamed themselves are matched by the second your friendship "
              "began, so they don't look like unfriends."),
             ("Nothing leaves your iPhone",
-             "Unfriended makes no network connections. Your export stays on the phone."),
+             "Unfriended never uploads your export. It stays on the phone."),
         ],
         "updated": "Checked against the Facebook app, October 2026.",
         "cta_title": "Find out who left",
-        "cta_text": "Import two Facebook exports and see who unfriended you. No login, no "
-                    "network connections, free.",
+        "cta_text": "Import two Facebook exports and see who unfriended you. No login, "
+                    "free, and your export stays on your iPhone.",
     },
 }

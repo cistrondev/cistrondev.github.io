@@ -168,7 +168,7 @@ APPS = [
         "store_name": "LifeTrends: Health Insights",
         "id": "6787547184",
         "tagline": "The patterns hiding in your health data.",
-        "pricing": "Free · One-time Pro unlock",
+        "pricing": "Free",
         "intro": (
             "You walk more on weekends. You sleep less on Sunday nights.",
             "LifeTrends reads the Apple Health history already on your iPhone, "
@@ -202,9 +202,9 @@ APPS = [
             "No account, no analytics, no ads, no tracking.",
         ],
         "network": (
-            "Nothing, unless you tap Current Location and are outside its built-in "
-            "city list. Then one approximate position goes to Apple to name the "
-            "city. Health data never leaves."
+            "Health data never leaves. If you tap Current Location outside the "
+            "built-in city list, one approximate position goes to Apple to name the "
+            "city, and the App Store loads the prices of the optional tips."
         ),
         "note": "LifeTrends is not a medical device and does not give medical advice.",
         "tile": [1, 2, 4],
@@ -407,11 +407,11 @@ APPS = [
         ],
         "privacy_title": "Nothing leaves your iPhone.",
         "privacy": [
-            "The app makes no network connections at all.",
             "Your Facebook export is read and stored only on your iPhone.",
+            "The app sends nothing of yours anywhere. Only the optional tips go through Apple.",
             "No login, no account, no analytics, no ads.",
         ],
-        "network": "Nothing. The app makes no network connections at all.",
+        "network": "Nothing about you. The App Store loads the prices of the optional tips.",
         "note": "Unfriended is an independent app, not affiliated with Facebook or Meta.",
         "tile": [2, 4, 5],
         "languages": ["en"],

@@ -1,6 +1,6 @@
 # Privacy Policy for Unfriended
 
-**Effective date: 31 July 2026**
+**Effective date: 31 October 2026**
 
 Unfriended ("the app") is designed to work on your device from data that you
 provide. This policy explains, in plain language, what the app does and does
@@ -11,8 +11,9 @@ not do with your information.
 **Unfriended does not collect, store on our servers, sell, or share any of
 your personal data. We have no servers and no account system.** There are no
 user accounts, no analytics, no advertising, and no third‑party tracking. Your
-Facebook data is analyzed and stored only on your iPhone. **The app makes
-no network connections at all.**
+Facebook data is analyzed and stored only on your iPhone. **The app sends
+nothing of yours anywhere.** Its only connection is Apple's App Store, for
+the optional tips (see "Tips" below).
 
 ## Your Facebook data
 
@@ -29,11 +30,13 @@ you import that file into the app:
 - You control it completely: erase everything at any time with the **Reset All
   Data** button, or by deleting the app.
 
-## No network access
+## Network access
 
-Unfriended makes **no network requests of any kind**. It has no online
-features, fetches nothing, and sends nothing anywhere. Your Facebook data
-cannot leave your device through the app.
+Unfriended has **no online features**. It fetches nothing and sends nothing
+of yours anywhere, so your Facebook data cannot leave your device through the
+app. The one exception is Apple's App Store, which loads the prices of the
+optional tips when you scroll to them and handles the payment if you leave
+one. Nothing from your Facebook data is part of that.
 
 ## Information you enter
 
@@ -42,11 +45,13 @@ as your name, email, or password. Any actions you take within the app, for
 example dismissing an entry from a list, are stored **locally on your
 device** and are not sent anywhere.
 
-## Purchases
+## Tips
 
-Unfriended is **free**. It contains no in‑app purchases, no subscriptions,
-and no payment features of any kind, so the app never handles payment
-details or Apple ID information.
+Unfriended is **free**, with no subscription. It offers three optional tips, which are in-app purchases. A tip
+unlocks nothing. To show their prices and to take a payment, the app uses
+Apple's App Store. Apple processes the payment; the developer never receives
+your name, payment details or Apple Account. The app keeps no record of your
+tips. Apple's privacy policy covers the purchase itself.
 
 ## Analytics, advertising, and tracking
 
