@@ -334,9 +334,7 @@ APPS = [
              "Your likes, comments, and story reactions, counted from your own "
              "export."),
             ("Your history, charted",
-             "Growth and follow-back trends built from every export you import."),
-            ('Share your year',
-             'Cards with your year in followers, your OG crew and who you hype most, sized for your Instagram story.'),
+             "Growth and follow-back trends built from every export you import. Share your year as cards for your story."),
             ("No login",
              "The app has no sign-in screen, so your password stays with you."),
         ],
