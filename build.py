@@ -397,7 +397,8 @@ APPS = [
         "intro": (
             "Facebook friendship is mutual, so no single snapshot can show who left.",
             "Unfriended compares two of your own Facebook data exports, a few "
-            "weeks apart, and shows what changed. It all happens on your iPhone.",
+            "weeks apart, and shows what changed. It all happens on your iPhone, "
+            "and the app has no network code of its own.",
         ),
         "features": [
             ("Who dropped you",
