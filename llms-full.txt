@@ -533,8 +533,9 @@ Your iPhone already counts your steps. Pedometer puts that count on your Lock Sc
 ## Voice Clone: Private & Offline
 
 Page: https://cistrondev.github.io/voiceclone/
-Price: not released yet
+Price: Free
 Runs on: iPhone 15 Pro or later · iOS 18 or later
+App Store: https://apps.apple.com/app/id6826862088
 Privacy policy: https://cistrondev.github.io/voiceclone/privacy/
 What it sends over the network: Only the one-time download of the voice model from Hugging Face. Nothing about you is sent.
 
@@ -562,7 +563,7 @@ Needs an iPhone 15 Pro or later, for its 8 GB of memory. Clone only your own voi
 
 **Can I clone my voice on my iPhone without uploading it?**
 
-Yes. Voice Clone runs the voice model on the iPhone itself. Record 10 to 15 seconds of your voice, type any text, and hear it read in your voice. Your sample, your text and your clips never leave the phone. Voice Clone is coming soon to the App Store.
+Yes. Voice Clone runs the voice model on the iPhone itself. Record 10 to 15 seconds of your voice, type any text, and hear it read in your voice. Your sample, your text and your clips never leave the phone. Voice Clone is free on the App Store.
 
 **Which iPhones can run it?**
 
