@@ -20,6 +20,12 @@ L = {
             "reads its echo from your chest. That shows your breathing rate, how restless you were and an estimate "
             "of how long you slept, whether or not you make a sound.",
         ]),
+        ("Does it work with Apple Health?", [
+            "Yes, if you want it to. Turn on Save to Apple Health on the home screen and each night is added to "
+            "the Health app on your iPhone: the time in bed, the sleep estimate as time asleep and awake, and your "
+            "breathing rate minute by minute. Older nights can be added one at a time from their report. The app "
+            "never reads anything from Health.",
+        ]),
         ("Does it record me all night?", [
             "No. The sound is analysed as it happens and discarded. The app keeps only short clips of the sounds it "
             "recognises, from three seconds before to two seconds after each one. Everything stays on your iPhone: "

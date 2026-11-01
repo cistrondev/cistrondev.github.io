@@ -1,6 +1,6 @@
 # Privacy Policy for Sleep Sonar
 
-**Last updated: 31 October 2026**
+**Last updated: 1 November 2026**
 
 Sleep Sonar ("the app") records your night on your iPhone: it listens for snoring and sleep talk, and follows your
 breathing with an inaudible sonar. This policy explains, in plain language, what the app does and does not do with
@@ -37,14 +37,22 @@ The app keeps, in its own storage on your iPhone:
   the sound level, the volume and the strength of the sonar echo; the sounds it recognised, with their times; any
   breathing pauses; and a few lines describing the audio setup (sample rate, microphone, speaker);
 - the clips described above, in a folder per night;
-- your settings: whether the sonar is on, whether you have seen the introduction, and the dates on which the app
-  asked you for a rating.
+- your settings: whether the sonar is on, whether nights are saved to Apple Health, whether you have seen the
+  introduction, and the dates on which the app asked you for a rating.
 
 None of this is sent anywhere or accessible to the developer.
 
 ## Apple Health
 
-The app does not read or write Apple Health data.
+If you turn on **Save to Apple Health** (it is off until you do), the app adds each night to the Health app on your
+iPhone through Apple's HealthKit framework: the time in bed, the sleep estimate as time asleep and awake (Sleep
+Analysis), and the breathing rate minute by minute (Respiratory Rate). A night can also be added on its own from
+its report. These entries are then Apple Health's: you can see and delete them in the Health app, and deleting a
+night in Sleep Sonar removes its entries too. You can withdraw the permission at any time in Settings › Health ›
+Data Access & Devices › Sleep Sonar.
+
+The app never reads anything from Apple Health. Health data is never used for advertising or marketing, and is
+never shared with anyone.
 
 ## Ratings and email
 

@@ -751,6 +751,9 @@ APPS = [
             ("Restless or asleep",
              "The sonar also sees when you turn over or get up, so the report shows your restless minutes and "
              "an estimate of how long you slept."),
+            ("Apple Health, if you want",
+             "Turn on Save to Apple Health and each night's time in bed, sleep estimate and breathing rate go "
+             "into the Health app on your iPhone. The app never reads anything from Health."),
             ("Breathing pauses",
              "Stretches of ten seconds or more without a breath while you lie still are listed for your "
              "information. Sleep Sonar is not a medical device and does not diagnose sleep apnea."),
@@ -787,6 +790,7 @@ APPS = [
             "The sonar, the sound recognition and every report run on the phone.",
             "The night is analysed as it happens, not recorded: only short clips of recognised sounds are kept.",
             "There is no account, and nothing is uploaded. No analytics, no ads, no tracking.",
+            "Apple Health gets a night only if you turn that on, and the app reads nothing from it.",
             "Delete a night to delete its clips; deleting the app deletes everything.",
         ],
         "network": "Nothing. Sleep Sonar makes no network connections.",
