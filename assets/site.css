@@ -438,7 +438,7 @@ a:hover { text-decoration: underline; }
 .duo-track figcaption { min-width: 100%; font-size: 15px; line-height: 1.4; color: var(--text-2); text-wrap: balance; }
 .duo-track figcaption strong { display: block; color: var(--text); font-weight: 600; margin-bottom: 2px; }
 
-.duo-screen img, .duo-flat img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.duo-screen img, .duo-flat img, .duo-flat video { display: block; width: 100%; height: 100%; object-fit: cover; }
 
 /* Folded: the 466x678pt cover screen. The camera is a hole in the top-right
    corner, above the status bar that runs down that edge. */
@@ -488,7 +488,7 @@ a:hover { text-decoration: underline; }
   border-radius: 5% / 7.1%;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.14);
 }
-.duo-flat img { border-radius: 4.3% / 6.1%; }
+.duo-flat img, .duo-flat video { border-radius: 4.3% / 6.1%; }
 
 /* Half open: the same spread, each half turned toward you around the fold. */
 .duo-book {

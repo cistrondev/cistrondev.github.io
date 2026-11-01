@@ -32,3 +32,20 @@ document.querySelectorAll("[data-appearance]").forEach((button) => {
   });
 });
 
+// Duo animations kept as video (data-motion): play while on screen, never for visitors who asked for
+// reduced motion (they keep the poster, which is the still).
+(() => {
+  const videos = document.querySelectorAll("video[data-motion]");
+  if (!videos.length) return;
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const play = (video) => {
+    if (reduce.matches) return;
+    video.preload = "auto";
+    video.play().catch(() => {});
+  };
+  const watcher = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => (entry.isIntersecting ? play(entry.target) : entry.target.pause()));
+  }, { threshold: 0.25 });
+  videos.forEach((video) => watcher.observe(video));
+  reduce.addEventListener("change", () => videos.forEach((video) => (reduce.matches ? video.pause() : play(video))));
+})();
