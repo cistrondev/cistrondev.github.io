@@ -1348,8 +1348,16 @@ def duo_showcase(app, p):
         light = f"{p}{versioned(f'assets/img/{slug}/duo/{name}-light.webp')}"
         dark_path = f"assets/img/{slug}/duo/{name}-dark.webp"
         dark = f"{p}{versioned(dark_path)}" if (ROOT / dark_path).exists() else light
-        return (f'<img src="{light}" data-light="{light}" data-dark="{dark}" {size} '
-                f'alt="{esc(alt)}" loading="lazy" decoding="async">')
+        tag = (f'<img src="{light}" data-light="{light}" data-dark="{dark}" {size} '
+               f'alt="{esc(alt)}" loading="lazy" decoding="async">')
+        # An animated WebP next to the still (<name>-anim.webp) plays unless the visitor asked for reduced
+        # motion, as in the gallery. (The Light/Dark switch swaps only the still; an app with both dark images
+        # and animations would need a dark animation too.)
+        anim = f"assets/img/{slug}/duo/{name}-anim.webp"
+        if (ROOT / anim).exists():
+            return (f'<picture><source srcset="{p}{versioned(anim)}" type="image/webp" '
+                    f'media="(prefers-reduced-motion: no-preference)">{tag}</picture>')
+        return tag
 
     cover = 'width="699" height="1017"'
     inner = 'width="1427" height="1004"'
