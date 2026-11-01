@@ -766,6 +766,14 @@ APPS = [
              "and the night's details the flat half. The screen stays on, the clock drifts a little each minute "
              "to spare the display, and a tap dims it further."),
         ],
+        # A short film under the intro (assets/video/<file>.mp4 + a poster): plays on tap, never on its own.
+        "video": {
+            "src": "assets/video/sleepsonar-promo.mp4",
+            "poster": "assets/img/sleepsonar/promo-poster.webp",
+            "title": "Sleep Sonar in 23 seconds",
+            "label": "A 23-second film: the night screen with the breathing wave, the morning report, the timeline "
+                     "you can touch, and the line 'Nothing leaves your iPhone'.",
+        },
         "duo": {
             "title": "A bedside clock on iPhone Duo",
             "sub": "Stand it half open on the nightstand and the night screen becomes a dim clock.",
@@ -1560,6 +1568,17 @@ def app_page(base, langs=(), L=None):
                           hreflang_links(cluster),
                           app_structured_data(app, L, url, absolute)])
 
+    promo = ""
+    if video := app.get("video"):
+        promo = f"""
+    <section class="promo">
+      <h2>{esc(video["title"])}</h2>
+      <video controls playsinline preload="metadata" width="1920" height="1080" poster="{p}{versioned(video["poster"])}" aria-label="{esc(video["label"])}">
+        <source src="{p}{versioned(video["src"])}" type="video/mp4">
+      </video>
+    </section>
+"""
+
     body = f"""    <section class="app-hero">
       <img class="app-icon app-icon-large" src="{p}{icon(app)}" width="256" height="256" alt="{esc(app['name'])} app icon">
       <h1>{esc(app['name'])}</h1>
@@ -1583,7 +1602,7 @@ def app_page(base, langs=(), L=None):
     <section class="intro">
       <p><strong>{esc(lead)}</strong> {esc(rest)}</p>{guide_link}
     </section>
-
+{promo}
     <section class="features">
       <ul>
 {features}

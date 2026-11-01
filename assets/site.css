@@ -713,6 +713,24 @@ a:hover { text-decoration: underline; }
 .more-apps a:hover { text-decoration: none; color: var(--link); }
 .more-apps .app-icon { width: 64px; }
 
+/* ------------------------------------------------------------ promo video */
+
+.promo {
+  max-width: calc(var(--content) - 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 0 var(--gutter) 96px;
+  text-align: center;
+}
+.promo h2 { font-size: 28px; font-weight: 600; letter-spacing: 0.007em; margin-bottom: 28px; }
+.promo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 24px;
+  background: #0A0C11;
+}
+
 /* ------------------------------------------------------------ privacy */
 
 .policy {
