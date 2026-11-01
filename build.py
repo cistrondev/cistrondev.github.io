@@ -54,7 +54,8 @@ MIN_RATING = 4.6
 #
 # `duo` adds an "iPhone Duo" showcase under the gallery: a subtitle and up to
 # three phones, each (pose, image, label, caption, alt). pose is "cover" (the
-# folded cover screen, 699×1017), "book" (half open) or "flat" (open); the last
+# folded cover screen, 699×1017), "tent" (standing half open, hinge up: the cover
+# screen in landscape, 1017×699), "book" (half open) or "flat" (open); the last
 # two take a 1427×1004 inner-screen image. Images live at
 # assets/img/<slug>/duo/<image>-light.webp, plus <image>-dark.webp when the app
 # has `dark_shots`.
@@ -754,14 +755,21 @@ APPS = [
             ("A placement check",
              "Lie down and breathe for 15 seconds: the app says whether it can find your breathing, how far "
              "away you are, and what to change if not."),
+            ("A bedside clock on iPhone Duo",
+             "Stand the phone half open on the nightstand. Folded into a tent, the cover screen becomes a large, "
+             "dim clock with your breathing rate under it; set like a laptop, the clock takes the upright half "
+             "and the night's details the flat half. The screen stays on, the clock drifts a little each minute "
+             "to spare the display, and a tap dims it further."),
         ],
         "duo": {
+            "title": "A bedside clock on iPhone Duo",
             "sub": "Stand it half open on the nightstand and the night screen becomes a dim clock.",
             "items": [
-                ("cover", "cover", "Closed",
-                 "Closed, it records like any iPhone: the clock, your breathing and what it hears.",
-                 "Sleep Sonar on the iPhone Duo's cover screen while a night records: 2:47 AM, 15 breaths a minute, "
-                 "and the breathing wave."),
+                ("tent", "tent", "Standing",
+                 "Folded into a tent, the cover screen shows a large, dim clock with your breathing rate under it. "
+                 "Tap the clock to dim it further.",
+                 "Sleep Sonar on an iPhone Duo standing in a tent on the nightstand: a large dim clock reading 2:47 AM "
+                 "on the cover screen, with '15 breaths a minute · Quiet' under it."),
                 ("book", "book", "Half open",
                  "A dim clock on one page, your breathing and the night's sounds on the other.",
                  "Sleep Sonar on the half-open iPhone Duo: a large dim clock on the left page, the breathing wave and "
@@ -1345,11 +1353,16 @@ def duo_showcase(app, p):
 
     cover = 'width="699" height="1017"'
     inner = 'width="1427" height="1004"'
+    tent = 'width="1017" height="699"'
     phones = []
     for pose, name, label, caption, alt in duo["items"]:
         if pose == "cover":
             art = (f'<div class="duo-closed"><div class="duo-screen">{img(name, cover, alt)}'
                    f'<span class="duo-camera"></span></div></div>')
+        elif pose == "tent":
+            # Standing on the nightstand, folded into a tent, hinge up: the cover screen in landscape.
+            art = (f'<div class="duo-tent"><div class="duo-screen duo-screen-tent">{img(name, tent, alt)}'
+                   f'<span class="duo-camera duo-camera-tent"></span></div></div>')
         elif pose == "book":
             art = (f"""<div class="duo-book">
                 <div class="duo-half duo-half-left">{img(name, inner, alt)}</div>
