@@ -36,9 +36,9 @@ L = {
             "and a line of flag emoji for your bio.",
         ]),
         ("Does Atlas upload my photos?", [
-            "No. Atlas makes no network connections. It reads the location and date of your "
-            "photos on the phone, has no account, and deleting the app deletes everything it "
-            "saved. [Privacy policy](privacy).",
+            "No. Atlas reads the location and date of your photos on the phone, has no account, "
+            "and deleting the app deletes everything it saved. Its only connection is Apple's App "
+            "Store, for the optional tips. [Privacy policy](privacy).",
         ]),
     ],
 }

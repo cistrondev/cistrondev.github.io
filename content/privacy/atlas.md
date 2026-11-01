@@ -1,6 +1,6 @@
 # Privacy Policy for Atlas
 
-**Last updated: 25 October 2026**
+**Last updated: 1 November 2026**
 
 Atlas ("the app") finds the countries you've been to in the photos on your iPhone. This policy explains, in plain
 language, what the app does and does not do with your information.
@@ -9,13 +9,14 @@ language, what the app does and does not do with your information.
 
 **Atlas does not collect, store, transmit, or share any personal data.** There are no accounts, no servers, no
 analytics, no advertising, and no tracking. The app reads your photo library on your iPhone, and everything it
-works out stays on your iPhone. The app has no network code and makes no network connections.
+works out stays on your iPhone. The app's only connection is Apple's App Store, for the optional tips (see "Tips"
+below).
 
 ## Your photo library
 
 With your permission, the app reads the **date and location saved with each photo and video** in your library,
-to work out which countries they were taken in. It matches each location against country borders built into the
-app, on your iPhone. You can give access to all your photos or only to the ones you select.
+to work out which countries and which towns or cities they were taken in. It matches each location against
+country borders and a list of towns and cities built into the app, on your iPhone. You can give access to all your photos or only to the ones you select.
 
 When you open a trip, the app shows that trip's photos from your library, at the size they are drawn. It never
 copies your pictures or changes your library. When you look at a photo kept only in iCloud ("Optimise iPhone
@@ -30,8 +31,8 @@ The app keeps four small files in its own storage on your iPhone:
 - the countries and visits it found;
 - your own changes (countries you added or removed, edited visit counts, trips you merged, and the photos you
   hid);
-- for each photo it counted, the photo's library ID, its date and its country, so a trip can show its photos (no
-  coordinates and no image data);
+- for each photo it counted, the photo's library ID, its date, its country and its town or city, so a trip or a
+  city can show its photos (no coordinates and no image data);
 - your Photo sources settings.
 
 It also remembers the list order, a few settings of the last scan, and how often the app has just been useful to
@@ -40,7 +41,8 @@ anywhere or accessible to the developer.
 
 ## Sharing and copying
 
-When you share your map, the app draws the picture on your iPhone and hands it to iOS. It goes only where you send
+When you share your map, one country, or a video of your globe, the app draws it on your iPhone and hands it to
+iOS. It goes only where you send
 it. **Copy flags** puts only the flag emoji on the clipboard. The optional Instagram Story button puts the story
 picture on the clipboard for five minutes, for Instagram to pick up, and then opens Instagram.
 
@@ -49,6 +51,13 @@ picture on the clipboard for five minutes, for Instagram to pick up, and then op
 Now and then the app may ask you to rate it, using Apple's standard rating prompt; Apple handles any rating you
 give. **Rate Atlas** opens the App Store, and **Email the developer** opens a new message in your mail app with the
 app and iOS version filled in. The app itself sends nothing: an email reaches the developer only if you send it.
+
+## Tips
+
+Atlas is free. It offers three optional tips, which are in-app purchases. A tip unlocks nothing. To show their
+prices and to take a payment, the app uses Apple's App Store. Apple processes the payment; the developer never
+receives your name, payment details or Apple Account. The app keeps no record of your tips. Apple's privacy policy
+covers the purchase itself.
 
 ## Analytics, advertising, and tracking
 

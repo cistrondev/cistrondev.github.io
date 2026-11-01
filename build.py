@@ -666,8 +666,8 @@ APPS = [
             "No analytics, no ads, no tracking.",
             "Deleting the app deletes everything it saved.",
         ],
-        "network": "Nothing. Atlas makes no network connections. A photo kept "
-                   "only in iCloud is downloaded by Photos when you open it, as "
+        "network": "Nothing about you. The App Store loads the prices of the optional tips. "
+                   "A photo kept only in iCloud is downloaded by Photos when you open it, as "
                    "in the Photos app.",
         "note": "",
         "tile": [1, 3, 5],

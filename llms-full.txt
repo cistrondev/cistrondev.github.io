@@ -593,7 +593,7 @@ Price: Free
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6826944036
 Privacy policy: https://cistrondev.github.io/atlas/privacy/
-What it sends over the network: Nothing. Atlas makes no network connections. A photo kept only in iCloud is downloaded by Photos when you open it, as in the Photos app.
+What it sends over the network: Nothing about you. The App Store loads the prices of the optional tips. A photo kept only in iCloud is downloaded by Photos when you open it, as in the Photos app.
 
 Atlas finds the countries you've been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.
 
@@ -637,7 +637,7 @@ Yes. Atlas makes a picture of your map and flags for an Instagram post or Story,
 
 **Does Atlas upload my photos?**
 
-No. Atlas makes no network connections. It reads the location and date of your photos on the phone, has no account, and deleting the app deletes everything it saved. Privacy policy.
+No. Atlas reads the location and date of your photos on the phone, has no account, and deleting the app deletes everything it saved. Its only connection is Apple's App Store, for the optional tips. Privacy policy.
 
 
 ## Jobsite Calc: Feet Inch Math
