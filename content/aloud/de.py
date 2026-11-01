@@ -20,6 +20,7 @@ L = {
         "what_people_say": "Was andere sagen.",
     },
     "page": {
+        "video": None,   # the film is in English; it stays on the English page
         "shots_dir": "de",
         "tagline": "Alles, was du lesen kannst, vorgelesen.",
         "pricing": "Kostenlos testen · Einmalig freischalten",

@@ -20,6 +20,7 @@ L = {
         "what_people_say": "Ce qu'en disent les gens.",
     },
     "page": {
+        "video": None,   # the film is in English; it stays on the English page
         "shots_dir": "fr",
         "tagline": "Tout ce qui se lit, lu à voix haute.",
         "pricing": "Essai gratuit · Achat unique",
