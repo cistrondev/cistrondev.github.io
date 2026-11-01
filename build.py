@@ -795,9 +795,10 @@ APPS = [
         "video": {
             "src": "assets/video/sleepsonar-promo.mp4",
             "poster": "assets/img/sleepsonar/promo-poster.webp",
-            "title": "Sleep Sonar in 23 seconds",
-            "label": "A 23-second film: the night screen with the breathing wave, the morning report, the timeline "
-                     "you can touch, and the line 'Nothing leaves your iPhone'.",
+            "title": "Sleep Sonar in 25 seconds",
+            "label": "A 25-second film: the night screen with the breathing wave, iPhone Duo standing and half open "
+                     "as a bedside clock, the morning report, the timeline you can touch, and the line 'Nothing "
+                     "leaves your iPhone'.",
         },
         "duo": {
             "title": "A bedside clock on iPhone Duo",
