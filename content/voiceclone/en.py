@@ -3,7 +3,7 @@
 # Same keys as content/unfollowers/en.py, without a guide.
 # English page copy stays in APPS; this file adds the FAQ. Facts to keep true:
 # runs on the iPhone (iPhone 15 Pro or later, iOS 18); 10-15 second sample;
-# 22 languages; one-time ~1.9 GB model download from Hugging Face; clips are
+# 22 languages (the list in ChatterboxCloneApp.swift `languages`); one-time ~1.9 GB model download from Hugging Face; clips are
 # labelled AI-generated in their file information; free, no account, no credits.
 
 L = {
@@ -26,8 +26,11 @@ L = {
             "that it makes speech in airplane mode.",
         ]),
         ("Which languages can it speak?", [
-            "Record once, in any language, and make clips in 22 languages in your own voice. "
-            "When your text looks like another language, the app offers to switch.",
+            "Record once, in any language, and make clips in 22 languages in your own voice: "
+            "Arabic, Chinese, Danish, Dutch, English, Finnish, French, German, Greek, Hindi, "
+            "Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Russian, Spanish, "
+            "Swahili, Swedish and Turkish. When your text looks like another language, the app "
+            "offers to switch.",
         ]),
         ("Is it free?", [
             "Yes. There is no account to make and there are no credits to buy.",
