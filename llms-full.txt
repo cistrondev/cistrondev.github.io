@@ -539,13 +539,13 @@ App Store: https://apps.apple.com/app/id6826862088
 Privacy policy: https://cistrondev.github.io/voiceclone/privacy/
 What it sends over the network: Only the one-time download of the voice model from Hugging Face. Nothing about you is sent.
 
-Record a short sample of your voice, type any text, and hear it read in your voice. The voice model runs on your iPhone, so your recordings and clips stay with you. There is no account and nothing to buy.
+Record a short sample of your voice, type any text in one of 22 languages, and hear it read in your voice. The voice model runs on your iPhone, so your recordings and clips stay with you. There is no account and nothing to buy.
 
 ### Features
 
 - **Your voice in 15 seconds.** Talk for 10 to 15 seconds in your normal voice. The app learns your voice from that one sample, on your iPhone.
 - **Type anything.** Type what it should say and tap Generate. A long text starts playing as soon as its first sentence is ready.
-- **22 languages.** Record once, in any language, then make clips in 22 languages. When your text looks like another language, the app offers to switch.
+- **22 languages.** Record once, in any language, then make clips in Arabic, Chinese, Danish, Dutch, English, Finnish, French, German, Greek, Hindi, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Russian, Spanish, Swahili, Swedish or Turkish. When your text looks like another language, the app offers to switch.
 - **Works offline.** The first time, the app downloads the voice model, about 1.9 GB. After that it works in airplane mode.
 - **Your clips.** Every clip is saved with its text and language. Play it, share it, save it to Files, or delete it.
 - **No account, no credits.** There is nothing to sign up for and no credits to buy.
@@ -575,7 +575,7 @@ Yes. The first time, the app downloads the voice model once, about 1.9 GB. After
 
 **Which languages can it speak?**
 
-Record once, in any language, and make clips in 22 languages in your own voice. When your text looks like another language, the app offers to switch.
+Record once, in any language, and make clips in 22 languages in your own voice: Arabic, Chinese, Danish, Dutch, English, Finnish, French, German, Greek, Hindi, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Russian, Spanish, Swahili, Swedish and Turkish. When your text looks like another language, the app offers to switch.
 
 **Is it free?**
 

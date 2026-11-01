@@ -529,8 +529,8 @@ APPS = [
         "tagline": "Text to speech in your own voice.",
         "pricing": "Free",
         "intro": (
-            "Record a short sample of your voice, type any text, and hear it "
-            "read in your voice.",
+            "Record a short sample of your voice, type any text in one of 22 "
+            "languages, and hear it read in your voice.",
             "The voice model runs on your iPhone, so your recordings and clips "
             "stay with you. There is no account and nothing to buy.",
         ),
@@ -542,9 +542,11 @@ APPS = [
              "Type what it should say and tap Generate. A long text starts "
              "playing as soon as its first sentence is ready."),
             ("22 languages",
-             "Record once, in any language, then make clips in 22 languages. "
-             "When your text looks like another language, the app offers to "
-             "switch."),
+             "Record once, in any language, then make clips in Arabic, Chinese, "
+             "Danish, Dutch, English, Finnish, French, German, Greek, Hindi, "
+             "Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, "
+             "Russian, Spanish, Swahili, Swedish or Turkish. When your text "
+             "looks like another language, the app offers to switch."),
             ("Works offline",
              "The first time, the app downloads the voice model, about 1.9 GB. "
              "After that it works in airplane mode."),
