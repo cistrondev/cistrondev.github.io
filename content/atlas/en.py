@@ -1,8 +1,7 @@
 # Atlas in English. build.py reads the dict L below.
 #
-# Same keys as content/unfollowers/en.py, without a guide (Atlas isn't released
-# yet; add a how-to once button names are final). English page copy stays in
-# APPS; this file adds the FAQ. Facts to keep true: reads only location and date
+# Same keys as content/unfollowers/en.py, without a guide (add a how-to
+# later). English page copy stays in APPS; this file adds the FAQ. Facts to keep true: reads only location and date
 # on the device; no network connections; 90+ days of photos within a year marks
 # a country as lived in; saved pictures from Instagram, WhatsApp and similar
 # apps are left out.
@@ -15,7 +14,7 @@ L = {
         ("Is there an app that shows every country I've visited from my photos?", [
             "Atlas finds the countries you've been to in the photos on your iPhone and fills "
             "them in on a world map. It works from the location and date saved with each "
-            "photo, so there is nothing to type in. Atlas is coming soon to the App Store.",
+            "photo, so there is nothing to type in. Atlas is free on the App Store.",
         ]),
         ("How does Atlas know where I've been?", [
             "Most iPhone photos carry the place and time they were taken. Atlas reads those "

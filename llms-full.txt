@@ -589,8 +589,9 @@ Only with their permission. Clone your own voice, or the voice of someone who ag
 ## Atlas: Travel Map From Photos
 
 Page: https://cistrondev.github.io/atlas/
-Price: not released yet
+Price: Free
 Runs on: iPhone · iOS 17 or later
+App Store: https://apps.apple.com/app/id6826944036
 Privacy policy: https://cistrondev.github.io/atlas/privacy/
 What it sends over the network: Nothing. Atlas makes no network connections. A photo kept only in iCloud is downloaded by Photos when you open it, as in the Photos app.
 
@@ -616,7 +617,7 @@ Atlas finds the countries you've been to in the photos on your iPhone and puts t
 
 **Is there an app that shows every country I've visited from my photos?**
 
-Atlas finds the countries you've been to in the photos on your iPhone and fills them in on a world map. It works from the location and date saved with each photo, so there is nothing to type in. Atlas is coming soon to the App Store.
+Atlas finds the countries you've been to in the photos on your iPhone and fills them in on a world map. It works from the location and date saved with each photo, so there is nothing to type in. Atlas is free on the App Store.
 
 **How does Atlas know where I've been?**
 
