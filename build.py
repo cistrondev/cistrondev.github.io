@@ -630,8 +630,8 @@ APPS = [
                  "filled in."),
                 ("flat", "globe", "Open",
                  "A globe of your countries that turns slowly. Tap one to see your visits.",
-                 "Atlas on the open iPhone Duo: a globe with the visited countries filled in, "
-                 "and Italy tapped, showing 9 visits."),
+                 "Atlas on the open iPhone Duo: a turning globe with the visited countries "
+                 "filled in."),
             ],
         },
         "privacy_title": "Your photos stay on your iPhone.",
@@ -1363,6 +1363,16 @@ def duo_showcase(app, p):
         if (ROOT / anim).exists():
             return (f'<picture><source srcset="{p}{versioned(anim)}" type="image/webp" '
                     f'media="(prefers-reduced-motion: no-preference)">{tag}</picture>')
+        # A long animation is a video instead (<name>-anim.mp4, optionally .webm too): far smaller than an
+        # animated WebP. The still is its poster; site.js plays it only while it is on screen and only when the
+        # visitor hasn't asked for reduced motion, so without JavaScript the still shows.
+        video = f"assets/img/{slug}/duo/{name}-anim.mp4"
+        if (ROOT / video).exists():
+            webm = f"assets/img/{slug}/duo/{name}-anim.webm"
+            sources = (f'<source src="{p}{versioned(webm)}" type="video/webm">' if (ROOT / webm).exists() else "")
+            sources += f'<source src="{p}{versioned(video)}" type="video/mp4">'
+            return (f'<video {size} poster="{light}" muted loop playsinline preload="none" '
+                    f'aria-label="{esc(alt)}" data-motion>{sources}</video>')
         return tag
 
     cover = 'width="699" height="1017"'
