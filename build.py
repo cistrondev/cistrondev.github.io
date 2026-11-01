@@ -218,6 +218,15 @@ APPS = [
         ),
         "note": "LifeTrends is not a medical device and does not give medical advice.",
         "tile": [1, 2, 4],
+        # A short film under the intro (assets/video/<file>.mp4 + a poster): plays on tap, never on its own.
+        "video": {
+            "src": "assets/video/lifetrends-promo.mp4",
+            "poster": "assets/img/lifetrends/promo-poster.webp",
+            "title": "LifeTrends in 20 seconds",
+            "label": "A 20-second film: neurons seen through a microscope eyepiece and the line 'Your life has "
+                     "patterns.', trend cards such as 'You walk more on weekends', a scatter plot linking more "
+                     "active days to lower blood pressure, and the line 'Nothing is ever uploaded.'",
+        },
         "languages": ["en"],
         "category": "HealthApplication",   # schema.org applicationCategory
         "shots": [
