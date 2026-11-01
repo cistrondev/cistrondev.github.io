@@ -755,6 +755,17 @@ APPS = [
              "Lie down and breathe for 15 seconds: the app says whether it can find your breathing, how far "
              "away you are, and what to change if not."),
         ],
+        # Cover pose only for now: the half-open and open poses need inner-screen captures (a real Duo, or the
+        # Duo simulator opened in Device Hub); see SnoreSonar/CLAUDE.md.
+        "duo": {
+            "sub": "Stand it half open on the nightstand and the night screen becomes a dim clock.",
+            "items": [
+                ("cover", "cover", "Closed",
+                 "Closed, it records like any iPhone: the clock, your breathing and what it hears. Half open, the clock fills the screen.",
+                 "Sleep Sonar on the iPhone Duo's cover screen while a night records: 2:47 AM, 15 breaths a minute, "
+                 "and the breathing wave."),
+            ],
+        },
         "privacy_title": "Nothing leaves your iPhone.",
         "privacy": [
             "The sonar, the sound recognition and every report run on the phone.",
