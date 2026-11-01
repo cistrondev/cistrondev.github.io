@@ -21,6 +21,7 @@ L = {
         "what_people_say": "O que as pessoas dizem.",
     },
     "page": {
+        "video": None,   # the film is in English; it stays on the English page
         "shots_dir": "pt-BR",
         "tagline": "Tudo o que você pode ler, lido em voz alta.",
         "pricing": "Teste grátis · Desbloqueio único",

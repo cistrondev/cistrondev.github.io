@@ -128,6 +128,15 @@ APPS = [
         "tile": [1, 2, 6],
         "dark_shots": True,
         "platform": "iPhone and iPad · iOS 17 or later",
+        # A short film under the intro; English only (its words are English), the language pages set None.
+        "video": {
+            "src": "assets/video/aloud-promo.mp4",
+            "poster": "assets/img/aloud/promo-poster.webp",
+            "title": "Aloud in 22 seconds",
+            "label": "A 22-second film: 'Anything you can read, read aloud' lighting up word by word, an article "
+                     "shared to Aloud and read sentence by sentence, the speed dial going to 2×, books, two "
+                     "languages and the voices, and the line 'No subscription. No ads. No tracking.'",
+        },
         "languages": ["en", "de", "es", "fr", "it", "pt-BR"],
         "category": "ProductivityApplication",   # schema.org applicationCategory
         "duo": {
