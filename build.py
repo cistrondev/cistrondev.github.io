@@ -583,8 +583,7 @@ APPS = [
         "slug": "atlas",
         "name": "Atlas",
         "store_name": "Atlas: Travel Map From Photos",
-        "id": "",
-        "live": False,
+        "id": "6826944036",
         "tagline": "Every country you've been to, from your photos.",
         "pricing": "Free",
         "intro": (
@@ -617,6 +616,14 @@ APPS = [
              "Pictures saved from Instagram, WhatsApp and other apps are left "
              "out. You can add, edit or remove any country yourself."),
         ],
+        "video": {
+            "src": "assets/video/atlas-promo.mp4",
+            "poster": "assets/img/atlas/promo-poster.webp",
+            "title": "Atlas in 22 seconds",
+            "label": "A 22-second film: a world map filling in from the photos on an iPhone until it reads 34 "
+                     "countries, a trip's photos, travels year by year, the turning globe on iPhone Duo, and the "
+                     "line 'Your photos stay on your iPhone'.",
+        },
         "duo": {
             "sub": "Unfold it for a globe of your travels.",
             "items": [
