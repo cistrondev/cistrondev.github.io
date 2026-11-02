@@ -687,7 +687,7 @@ APPS = [
             "Found in your photos, on your iPhone: nothing is uploaded.",
             "Tap any country to see your visits: zoom in anywhere on the map, or switch to the globe.",
             "Each country's cities, with your days there: Italy's map and its cities.",
-            "Every trip, with its photos: each visit's dates and pictures.",
+            "Every trip, with its photos: a New York trip's dates and pictures.",
             "Your travels, year by year: trips, days away, countries and cities.",
             "Share your map as a Story: a post, one country or a globe video too.",
         ],
