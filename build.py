@@ -647,7 +647,7 @@ APPS = [
             "poster": "assets/img/atlas/promo-poster.webp",
             "title": "Atlas in 22 seconds",
             "label": "A 22-second film: a world map filling in from the photos on an iPhone until it reads 34 "
-                     "countries, a trip's photos, travels year by year, the turning globe on iPhone Duo, and the "
+                     "countries, a New York trip's photos, travels year by year, the turning globe on iPhone Duo, and the "
                      "line 'Your photos stay on your iPhone'.",
         },
         "duo": {
