@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Atlas: Every country you&#x27;ve been to, from your photos.</title>
-  <meta name="description" content="Atlas finds the countries you&#x27;ve been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.">
+  <title>Atlas: Every country and city you&#x27;ve been to, from your photos.</title>
+  <meta name="description" content="Atlas finds the countries and cities you&#x27;ve been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.">
   <meta name="theme-color" content="#ffffff">
   <meta name="google-site-verification" content="0HO-cftcZWuRyvlFjb1OlFsgFgWXaGyS6AsLK70I34Q">
   <meta name="toolradar-verify" content="toolradar-verify-rOrqezKzteNECKs2sFwvBf">
@@ -12,8 +12,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png?v=0c1a7870">
   <link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48.png?v=98163ec7">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png?v=97c86b02">
-  <meta property="og:title" content="Atlas: Every country you&#x27;ve been to, from your photos.">
-  <meta property="og:description" content="Atlas finds the countries you&#x27;ve been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.">
+  <meta property="og:title" content="Atlas: Every country and city you&#x27;ve been to, from your photos.">
+  <meta property="og:description" content="Atlas finds the countries and cities you&#x27;ve been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.">
   <meta name="apple-itunes-app" content="app-id=6826944036">
   <link rel="stylesheet" href="../assets/site.css?v=e253631e">
   <script src="../assets/site.js?v=ddfd6725" defer></script>
@@ -31,7 +31,7 @@
    "alternateName": "Atlas",
    "url": "https://cistrondev.github.io/atlas/",
    "inLanguage": "en",
-   "description": "Atlas finds the countries you've been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.",
+   "description": "Atlas finds the countries and cities you've been to in the photos on your iPhone and puts them on a world map. It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.",
    "applicationCategory": "TravelApplication",
    "operatingSystem": "iOS 17.0 or later",
    "availableOnDevice": "iPhone",
@@ -45,10 +45,13 @@
     "https://cistrondev.github.io/assets/img/atlas/03.webp",
     "https://cistrondev.github.io/assets/img/atlas/04.webp",
     "https://cistrondev.github.io/assets/img/atlas/05.webp",
-    "https://cistrondev.github.io/assets/img/atlas/06.webp"
+    "https://cistrondev.github.io/assets/img/atlas/06.webp",
+    "https://cistrondev.github.io/assets/img/atlas/07.webp",
+    "https://cistrondev.github.io/assets/img/atlas/08.webp"
    ],
    "featureList": [
     "Your map, filled in",
+    "Every city",
     "Every trip",
     "Lived here",
     "Stats",
@@ -82,6 +85,14 @@
     },
     {
      "@type": "Question",
+     "name": "Does Atlas show the cities I've been to?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Yes. Each country's page lists the towns and cities in your photos, with the days you spent there, and the map shows them with their names when you zoom in. Atlas finds them on your iPhone from a list of about 160,000 places built into the app, so nothing is looked up online.<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
      "name": "How does Atlas know where I've been?",
      "acceptedAnswer": {
       "@type": "Answer",
@@ -109,7 +120,15 @@
      "name": "Can I share my travel map?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "<p>Yes. Atlas makes a picture of your map and flags for an Instagram post or Story, and a line of flag emoji for your bio.<\/p>"
+      "text": "<p>Yes. Atlas makes a picture of your map and flags, or of a single country with its cities, for an Instagram post or Story. It can also make a 12-second video of your globe turning, and a line of flag emoji for your bio.<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Atlas free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Yes. Atlas is free, with no ads, no account and no subscription. If you'd like to support it, you can leave an optional tip in the app. A tip unlocks nothing.<\/p>"
      }
     },
     {
@@ -154,19 +173,21 @@
     <section class="app-hero">
       <img class="app-icon app-icon-large" src="../assets/img/atlas/icon.png?v=2b6f9c77" width="256" height="256" alt="Atlas app icon">
       <h1>Atlas</h1>
-      <p class="app-tagline">Every country you&#x27;ve been to, from your photos.</p>
+      <p class="app-tagline">Every country and city you&#x27;ve been to, from your photos.</p>
       <p class="app-meta">Free · iPhone · iOS 17 or later</p>
       <p><a class="pill pill-large" href="https://apps.apple.com/app/id6826944036">View on the App Store</a></p>
     </section>
 
     <section class="gallery" data-gallery aria-label="Screenshots">
       <ul class="gallery-track" tabindex="0">
-          <li><img src="../assets/img/atlas/01.webp?v=773a258a" width="642" height="1389" alt="Every country you&#x27;ve been to, on one map: the count, the map and your list." loading="eager" decoding="async"></li>
-          <li><img src="../assets/img/atlas/02.webp?v=c2427e6f" width="642" height="1389" alt="Found in your photos, on your iPhone: nothing is uploaded." loading="eager" decoding="async"></li>
-          <li><img src="../assets/img/atlas/03.webp?v=dd4fa7c9" width="642" height="1389" alt="Tap any country to see your visits: zoom in anywhere on the map, or switch to the globe." loading="eager" decoding="async"></li>
-          <li><img src="../assets/img/atlas/04.webp?v=543cc476" width="642" height="1389" alt="Every trip, with its photos: each visit&#x27;s dates and pictures." loading="lazy" decoding="async"></li>
-          <li><img src="../assets/img/atlas/05.webp?v=96ab6ffb" width="642" height="1389" alt="Your travels, year by year: trips, days away and your busiest years." loading="lazy" decoding="async"></li>
-          <li><img src="../assets/img/atlas/06.webp?v=8a653eec" width="642" height="1389" alt="Share your map as a Story: a post and a line of flags too." loading="lazy" decoding="async"></li>
+          <li><img src="../assets/img/atlas/01.webp?v=b8b37ddf" width="642" height="1389" alt="Every country you&#x27;ve been to, on one map: the count, the map and your list." loading="eager" decoding="async"></li>
+          <li><img src="../assets/img/atlas/02.webp?v=7758c6c7" width="642" height="1389" alt="Zoom in to see every city you&#x27;ve been to: Europe with the cities&#x27; names." loading="eager" decoding="async"></li>
+          <li><img src="../assets/img/atlas/03.webp?v=df326a5a" width="642" height="1389" alt="Found in your photos, on your iPhone: nothing is uploaded." loading="eager" decoding="async"></li>
+          <li><img src="../assets/img/atlas/04.webp?v=37f9a955" width="642" height="1389" alt="Tap any country to see your visits: zoom in anywhere on the map, or switch to the globe." loading="lazy" decoding="async"></li>
+          <li><img src="../assets/img/atlas/05.webp?v=92f5ee0b" width="642" height="1389" alt="Each country&#x27;s cities, with your days there: Italy&#x27;s map and its cities." loading="lazy" decoding="async"></li>
+          <li><img src="../assets/img/atlas/06.webp?v=6e19b27f" width="642" height="1389" alt="Every trip, with its photos: each visit&#x27;s dates and pictures." loading="lazy" decoding="async"></li>
+          <li><img src="../assets/img/atlas/07.webp?v=38e2e612" width="642" height="1389" alt="Your travels, year by year: trips, days away, countries and cities." loading="lazy" decoding="async"></li>
+          <li><img src="../assets/img/atlas/08.webp?v=873236ca" width="642" height="1389" alt="Share your map as a Story: a post, one country or a globe video too." loading="lazy" decoding="async"></li>
       </ul>
       <div class="gallery-controls">
         <div class="gallery-paddles">
@@ -204,7 +225,7 @@
     </section>
 
     <section class="intro">
-      <p><strong>Atlas finds the countries you&#x27;ve been to in the photos on your iPhone and puts them on a world map.</strong> It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.</p>
+      <p><strong>Atlas finds the countries and cities you&#x27;ve been to in the photos on your iPhone and puts them on a world map.</strong> It reads only the location and date saved with each photo, on the phone. There is no account, and nothing is uploaded.</p>
     </section>
 
     <section class="promo">
@@ -216,11 +237,12 @@
 
     <section class="features">
       <ul>
-        <li><h3>Your map, filled in</h3><p>Every country in your photos, on a world map you can zoom into or on a turning globe. Tap any country to see how many times you&#x27;ve been, or to add one that isn&#x27;t in your photos.</p></li>
+        <li><h3>Your map, filled in</h3><p>Every country in your photos, on a world map you can zoom into, or on a globe you can spin and zoom. Tap any country to see how many times you&#x27;ve been, or to add one that isn&#x27;t in your photos. Tap the line under your count to see how much of the world&#x27;s land you&#x27;ve covered.</p></li>
+        <li><h3>Every city</h3><p>The towns and cities in your photos, listed on each country&#x27;s page with the days you spent there. Tap a city to see its photos, or zoom in on the map to see your cities with their names. Atlas finds them on your iPhone, from a list built into the app.</p></li>
         <li><h3>Every trip</h3><p>Each visit to a country, with its dates. Tap a trip to see its photos and hide any that aren&#x27;t from it. Merge trips that were really one.</p></li>
         <li><h3>Lived here</h3><p>Countries with 90 or more days of photos within a year are marked as places you&#x27;ve lived, in a deeper colour, with how long you lived there. Moving somewhere new doesn&#x27;t count as time away.</p></li>
-        <li><h3>Stats</h3><p>Trips and days away, countries per year (tap a year to see where you went), your busiest years, the countries you go back to most, and your longest trips.</p></li>
-        <li><h3>Share your map</h3><p>A picture of your map and flags for an Instagram post or Story, or all your flags as emoji for your bio.</p></li>
+        <li><h3>Stats</h3><p>Trips, days away and cities, countries per year (tap a year to see where you went), your busiest years, the countries you go back to most, and your longest trips.</p></li>
+        <li><h3>Share your map</h3><p>A picture of your map and flags, or of one country with its cities, for an Instagram post or Story; a 12-second video of your globe turning; or all your flags as emoji for your bio.</p></li>
         <li><h3>Fewer false visits</h3><p>Pictures saved from Instagram, WhatsApp and other apps are left out. You can add, edit or remove any country yourself.</p></li>
       </ul>
     </section>
@@ -232,6 +254,12 @@
           <h3>Is there an app that shows every country I&#x27;ve visited from my photos?</h3>
           <div class="faq-answer">
             <p>Atlas finds the countries you've been to in the photos on your iPhone and fills them in on a world map. It works from the location and date saved with each photo, so there is nothing to type in. Atlas is free on the App Store.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>Does Atlas show the cities I&#x27;ve been to?</h3>
+          <div class="faq-answer">
+            <p>Yes. Each country's page lists the towns and cities in your photos, with the days you spent there, and the map shows them with their names when you zoom in. Atlas finds them on your iPhone from a list of about 160,000 places built into the app, so nothing is looked up online.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -255,7 +283,13 @@
         <div class="faq-item">
           <h3>Can I share my travel map?</h3>
           <div class="faq-answer">
-            <p>Yes. Atlas makes a picture of your map and flags for an Instagram post or Story, and a line of flag emoji for your bio.</p>
+            <p>Yes. Atlas makes a picture of your map and flags, or of a single country with its cities, for an Instagram post or Story. It can also make a 12-second video of your globe turning, and a line of flag emoji for your bio.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>Is Atlas free?</h3>
+          <div class="faq-answer">
+            <p>Yes. Atlas is free, with no ads, no account and no subscription. If you'd like to support it, you can leave an optional tip in the app. A tip unlocks nothing.</p>
           </div>
         </div>
         <div class="faq-item">
