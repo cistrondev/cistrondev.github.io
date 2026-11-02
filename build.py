@@ -602,19 +602,26 @@ APPS = [
         "name": "Atlas",
         "store_name": "Atlas: Travel Map From Photos",
         "id": "6826944036",
-        "tagline": "Every country you've been to, from your photos.",
+        "tagline": "Every country and city you've been to, from your photos.",
         "pricing": "Free",
         "intro": (
-            "Atlas finds the countries you've been to in the photos on your "
-            "iPhone and puts them on a world map.",
+            "Atlas finds the countries and cities you've been to in the photos "
+            "on your iPhone and puts them on a world map.",
             "It reads only the location and date saved with each photo, on the "
             "phone. There is no account, and nothing is uploaded.",
         ),
         "features": [
             ("Your map, filled in",
-             "Every country in your photos, on a world map you can zoom into or "
-             "on a turning globe. Tap any country to see how many times you've "
-             "been, or to add one that isn't in your photos."),
+             "Every country in your photos, on a world map you can zoom into, or "
+             "on a globe you can spin and zoom. Tap any country to see how many "
+             "times you've been, or to add one that isn't in your photos. Tap the "
+             "line under your count to see how much of the world's land you've "
+             "covered."),
+            ("Every city",
+             "The towns and cities in your photos, listed on each country's page "
+             "with the days you spent there. Tap a city to see its photos, or zoom "
+             "in on the map to see your cities with their names. Atlas finds them "
+             "on your iPhone, from a list built into the app."),
             ("Every trip",
              "Each visit to a country, with its dates. Tap a trip to see its "
              "photos and hide any that aren't from it. Merge trips that were "
@@ -624,12 +631,13 @@ APPS = [
              "as places you've lived, in a deeper colour, with how long you lived "
              "there. Moving somewhere new doesn't count as time away."),
             ("Stats",
-             "Trips and days away, countries per year (tap a year to see where "
-             "you went), your busiest years, the countries you go back to most, "
-             "and your longest trips."),
+             "Trips, days away and cities, countries per year (tap a year to see "
+             "where you went), your busiest years, the countries you go back to "
+             "most, and your longest trips."),
             ("Share your map",
-             "A picture of your map and flags for an Instagram post or Story, "
-             "or all your flags as emoji for your bio."),
+             "A picture of your map and flags, or of one country with its cities, "
+             "for an Instagram post or Story; a 12-second video of your globe "
+             "turning; or all your flags as emoji for your bio."),
             ("Fewer false visits",
              "Pictures saved from Instagram, WhatsApp and other apps are left "
              "out. You can add, edit or remove any country yourself."),
@@ -670,16 +678,18 @@ APPS = [
                    "A photo kept only in iCloud is downloaded by Photos when you open it, as "
                    "in the Photos app.",
         "note": "",
-        "tile": [1, 3, 5],
+        "tile": [1, 2, 7],
         "languages": ["en"],
         "category": "TravelApplication",   # schema.org applicationCategory
         "shots": [
             "Every country you've been to, on one map: the count, the map and your list.",
+            "Zoom in to see every city you've been to: Europe with the cities' names.",
             "Found in your photos, on your iPhone: nothing is uploaded.",
             "Tap any country to see your visits: zoom in anywhere on the map, or switch to the globe.",
+            "Each country's cities, with your days there: Italy's map and its cities.",
             "Every trip, with its photos: each visit's dates and pictures.",
-            "Your travels, year by year: trips, days away and your busiest years.",
-            "Share your map as a Story: a post and a line of flags too.",
+            "Your travels, year by year: trips, days away, countries and cities.",
+            "Share your map as a Story: a post, one country or a globe video too.",
         ],
     },
     {
