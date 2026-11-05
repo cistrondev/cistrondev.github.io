@@ -272,7 +272,7 @@ A timing machine tells you how fast or slow a mechanical watch runs and how heal
 
 Page: https://cistrondev.github.io/unfollowers/
 Price: Free · One-time unlock
-App Store rating: 4.7 out of 5
+App Store rating: 4.8 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6787521130
 Privacy policy: https://cistrondev.github.io/unfollowers/privacy/
@@ -537,7 +537,7 @@ Price: Free
 Runs on: iPhone 15 Pro or later · iOS 18 or later
 App Store: https://apps.apple.com/app/id6826862088
 Privacy policy: https://cistrondev.github.io/voiceclone/privacy/
-What it sends over the network: Only the one-time download of the voice model from Hugging Face. Nothing about you is sent.
+What it sends over the network: Only the one-time download of the voice model from Hugging Face, and the App Store for the prices of the optional tips. Nothing about you is sent.
 
 Record a short sample of your voice, type any text in one of 22 languages, and hear it read in your voice. The voice model runs on your iPhone, so your recordings and clips stay with you. There is no account and nothing to buy.
 
@@ -652,8 +652,9 @@ No. Atlas reads the location and date of your photos on the phone, has no accoun
 ## Jobsite Calc: Feet Inch Math
 
 Page: https://cistrondev.github.io/jobsitecalc/
-Price: not released yet
+Price: Free · One-time unlock
 Runs on: iPhone and iPad · iOS 17 or later
+App Store: https://apps.apple.com/app/id6827232124
 Privacy policy: https://cistrondev.github.io/jobsitecalc/privacy/
 What it sends over the network: No network connections at all. The one purchase goes through the App Store.
 This page in other languages: Español https://cistrondev.github.io/jobsitecalc/es/
@@ -730,7 +731,7 @@ Page: https://cistrondev.github.io/sleepsonar/
 Price: not released yet
 Runs on: iPhone · iOS 17 or later
 Privacy policy: https://cistrondev.github.io/sleepsonar/privacy/
-What it sends over the network: Nothing. Sleep Sonar makes no network connections.
+What it sends over the network: Nothing about you. The App Store loads the prices of the optional tips.
 
 Sleep Sonar records your night from the nightstand. It listens for snoring and sleep talk, and follows your breathing with a sonar you can't hear, even if you make no sound. Everything is worked out on your iPhone. There is no account, nothing is uploaded, and the only audio it keeps are short clips of the sounds it recognised.
 
@@ -785,5 +786,5 @@ No. Sleep Sonar is not a medical device. It can show stretches of ten seconds or
 
 **Does Sleep Sonar upload anything?**
 
-No. Sleep Sonar makes no network connections. The sonar, the sound recognition and every report run on your iPhone, and deleting the app deletes everything it saved. Privacy policy.
+No. Its only connection is the App Store, which shows the prices of the optional tips. The sonar, the sound recognition and every report run on your iPhone, and deleting the app deletes everything it saved. Privacy policy.
 
