@@ -582,7 +582,8 @@ APPS = [
             "No account, no analytics, no tracking.",
         ],
         "network": "Only the one-time download of the voice model from Hugging "
-                   "Face. Nothing about you is sent.",
+                   "Face, and the App Store for the prices of the optional tips. "
+                   "Nothing about you is sent.",
         "note": "Needs an iPhone 15 Pro or later, for its 8 GB of memory. Clone "
                 "only your own voice, or the voice of someone who agreed to it.",
         "tile": [1, 3, 5],
@@ -696,8 +697,7 @@ APPS = [
         "slug": "jobsitecalc",
         "name": "Jobsite Calc",
         "store_name": "Jobsite Calc: Feet Inch Math",
-        "id": "",
-        "live": False,
+        "id": "6827232124",
         "platform": "iPhone and iPad · iOS 17 or later",
         "category": "UtilitiesApplication",
         "tagline": "Feet, inches and fractions, for a one-time price.",
@@ -837,7 +837,7 @@ APPS = [
             "Apple Health gets a night only if you turn that on, and the app reads nothing from it.",
             "Delete a night to delete its clips; deleting the app deletes everything.",
         ],
-        "network": "Nothing. Sleep Sonar makes no network connections.",
+        "network": "Nothing about you. The App Store loads the prices of the optional tips.",
         "note": "",
         "tile": [1, 2, 3],
         "languages": ["en"],

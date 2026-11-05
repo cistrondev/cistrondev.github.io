@@ -2,7 +2,7 @@
 #
 # Same keys as content/atlas/en.py: the FAQ only (no guide yet; the app isn't released). English page copy stays in
 # APPS. Facts to keep true: microphone on only during a night or a placement check; only short clips are kept
-# (3 s before to 2 s after a sound, 45 s at most); the sonar is an 18-20 kHz sweep; no network connections; not a
+# (3 s before to 2 s after a sound, 45 s at most); the sonar is an 18-20 kHz sweep; only network use is the App Store for tip prices; not a
 # medical device; breathing pauses are informational.
 
 L = {
@@ -46,7 +46,8 @@ L = {
             "see many pauses on most nights, or someone has noticed you stop breathing in your sleep, talk to a doctor.",
         ]),
         ("Does Sleep Sonar upload anything?", [
-            "No. Sleep Sonar makes no network connections. The sonar, the sound recognition and every report run on "
+            "No. Its only connection is the App Store, which shows the prices of the optional tips. The sonar, the sound "
+            "recognition and every report run on "
             "your iPhone, and deleting the app deletes everything it saved. [Privacy policy](privacy).",
         ]),
     ],

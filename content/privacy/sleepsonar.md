@@ -10,7 +10,8 @@ your information.
 
 **Sleep Sonar does not collect, store, transmit, or share any personal data.** There are no accounts, no servers, no
 analytics, no advertising, and no tracking. Everything the app hears is analysed on your iPhone, and everything it
-keeps stays on your iPhone. The app has no network code and makes no network connections.
+keeps stays on your iPhone. The app's only connection is Apple's App Store, for the optional tips (see "Tips"
+below).
 
 ## The microphone
 
@@ -20,7 +21,8 @@ the microphone indicator then. The microphone serves two purposes:
 - it listens for snoring, sleep talk, coughs and other sounds, which Apple's built-in sound classifier labels on the
   phone;
 - it hears the echo of the app's sonar: a sweep between 18 and 20 kHz, above what adults can hear, played from the
-  phone's speaker. The echo from your chest shows your breathing and your movement. The sonar can be turned off.
+  phone's earpiece (the speaker above the screen). The echo from your chest shows your breathing and your movement.
+  The sonar can be turned off.
 
 The night is not stored as a recording. The app keeps a short clip of each sound it recognises, from three seconds
 before the sound to two seconds after it (at most 45 seconds), so you can play it back in the morning. Everything
@@ -29,12 +31,19 @@ with the developer or anyone else.
 
 You can turn off microphone access at any time in Settings › Privacy & Security › Microphone.
 
+## The camera
+
+The app uses the camera **only if you turn on Measure room light**, and asks for your permission first. During a
+night the front camera then runs for a few seconds once a minute, and the app keeps one number from it: how light the
+room was. No pictures or video are kept. iOS shows the camera indicator while the camera is on. You can turn the
+setting off at any time, or turn off camera access in Settings › Privacy & Security › Camera.
+
 ## What the app saves
 
 The app keeps, in its own storage on your iPhone:
 
 - one record per night: for each minute, the breathing rate and distance the sonar measured, seconds of movement,
-  the sound level, the volume and the strength of the sonar echo; the sounds it recognised, with their times; any
+  the sound level, the volume, the strength of the sonar echo and, with Measure room light on, how light the room was; the sounds it recognised, with their times; any
   breathing pauses; and a few lines describing the audio setup (sample rate, microphone, speaker);
 - the clips described above, in a folder per night;
 - your settings: whether the sonar is on, whether nights are saved to Apple Health, whether you have seen the
@@ -59,6 +68,13 @@ never shared with anyone.
 Now and then the app may ask you to rate it, using Apple's standard rating prompt; Apple handles any rating you give.
 **Rate Sleep Sonar** opens the App Store, and **Email the developer** opens a new message in your mail app with the
 app and iOS version filled in. The app itself sends nothing: an email reaches the developer only if you send it.
+
+## Tips
+
+Sleep Sonar is free. It offers three optional tips, which are in-app purchases. A tip unlocks nothing. To show their
+prices and to take a payment, the app uses Apple's App Store. Apple processes the payment; the developer never
+receives your name, payment details or Apple Account. The app keeps no record of your tips. Apple's privacy policy
+covers the purchase itself.
 
 ## Analytics, advertising, and tracking
 

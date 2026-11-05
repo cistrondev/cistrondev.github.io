@@ -1,6 +1,6 @@
 # Privacy Policy for Voice Clone
 
-**Last updated: 25 October 2026**
+**Last updated: 1 November 2026**
 
 Voice Clone ("the app") makes a copy of your voice on your iPhone. This policy explains, in plain
 language, what the app does and does not do with your information.
@@ -9,8 +9,8 @@ language, what the app does and does not do with your information.
 
 **Voice Clone does not collect, store, transmit, or share any personal data.** There are no accounts,
 no servers, no analytics, no third‑party advertising, and no tracking. Your voice recording, the text you type
-and the clips the app makes stay on your iPhone. The app's only network connection downloads the voice model
-(see "The voice model download" below).
+and the clips the app makes stay on your iPhone. The app connects to the network only to download the voice
+model and, for the optional tips, to Apple's App Store (see "The voice model download" and "Tips" below).
 
 ## Your voice recording
 
@@ -40,7 +40,15 @@ you send it. The app shares nothing on its own.
 The first time you generate a clip, the app downloads the voice model (about 1.9 GB) from Hugging Face
 (huggingface.co), where the model is published. The app sends nothing about you with this download. As with
 any web request, Hugging Face's servers receive your device's IP address; Hugging Face's privacy policy covers
-that. After the download, the app makes no network connections.
+that. After the download, the app makes no network connections of its own, other than the App Store for the
+optional tips.
+
+## Tips
+
+Voice Clone is free. It offers three optional tips, which are in-app purchases. A tip unlocks nothing. To show their
+prices and to take a payment, the app uses Apple's App Store. Apple processes the payment; the developer never
+receives your name, payment details or Apple Account. The app keeps no record of your tips. Apple's privacy policy
+covers the purchase itself.
 
 ## Analytics, advertising, and tracking
 
