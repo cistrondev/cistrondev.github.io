@@ -731,19 +731,21 @@ Page: https://cistrondev.github.io/sleepsonar/
 Price: not released yet
 Runs on: iPhone · iOS 17 or later
 Privacy policy: https://cistrondev.github.io/sleepsonar/privacy/
-What it sends over the network: Nothing about you. The App Store loads the prices of the optional tips.
+What it sends over the network: Nothing about you. The App Store shows the price of Sleep Sonar Plus and handles the purchase.
 
 Sleep Sonar records your night from the nightstand. It listens for snoring and sleep talk, and follows your breathing with a sonar you can't hear, even if you make no sound. Everything is worked out on your iPhone. There is no account, nothing is uploaded, and the only audio it keeps are short clips of the sounds it recognised.
 
 ### Features
 
 - **How much you snore.** Every night's report shows the minutes of snoring, the number of sleep-talk moments and the sounds in between, on one timeline. Drag a finger across it to see any moment.
+- **When you slept.** The home screen shows when you fell asleep and woke up, how long you slept and how much you snored, with a summary of your last seven nights.
 - **Hear it back.** Each snore, each bit of sleep talk and each cough is kept as a short clip, from three seconds before to two seconds after, so you can play it in the morning.
 - **Breathing by sonar.** The phone plays a sweep between 18 and 20 kHz, above what adults can hear, and reads its echo from your chest. That gives your breathing rate all night, whether or not you snore.
 - **Restless or asleep.** The sonar also sees when you turn over or get up, so the report shows your restless minutes and an estimate of how long you slept.
 - **Apple Health, if you want.** Turn on Save to Apple Health and each night's time in bed, sleep estimate and breathing rate go into the Health app on your iPhone. The app never reads anything from Health.
 - **Breathing pauses.** Stretches of ten seconds or more without a breath while you lie still are listed for your information. Sleep Sonar is not a medical device and does not diagnose sleep apnea.
 - **A placement check.** Lie down and breathe for 15 seconds: the app says whether it can find your breathing, how far away you are, and what to change if not.
+- **Free for a week of nights.** Sleep Sonar keeps your last seven nights for free. Sleep Sonar Plus, a one-time purchase, opens every night you record. There is no subscription.
 - **A bedside clock on iPhone Duo.** Stand the phone half open on the nightstand. Folded into a tent, the cover screen becomes a large, dim clock with your breathing rate under it; set like a laptop, the clock takes the upright half and the night's details the flat half. The screen stays on, the clock drifts a little each minute to spare the display, and a tap dims it further.
 
 ### Privacy: Nothing leaves your iPhone.
@@ -759,6 +761,10 @@ Sleep Sonar records your night from the nightstand. It listens for snoring and s
 **Can my iPhone tell me whether I snore?**
 
 Yes. Put the phone on the nightstand and start the night. Sleep Sonar listens all night and keeps a short clip of each snore, each bit of sleep talk and each cough, with the time it happened. In the morning you see how long you snored and can play the clips. Sleep Sonar is coming soon to the App Store.
+
+**Is Sleep Sonar free?**
+
+Yes. Sleep Sonar is free and keeps your last seven nights open. Sleep Sonar Plus, a one-time purchase, opens every night you record, with its report and its clips. Nights older than a week stay on your iPhone until you delete them, so Plus also opens the ones you recorded before buying it. There is no subscription.
 
 **Does it work if I don't snore?**
 
@@ -786,5 +792,5 @@ No. Sleep Sonar is not a medical device. It can show stretches of ten seconds or
 
 **Does Sleep Sonar upload anything?**
 
-No. Its only connection is the App Store, which shows the prices of the optional tips. The sonar, the sound recognition and every report run on your iPhone, and deleting the app deletes everything it saved. Privacy policy.
+No. Its only connection is the App Store, for the optional Sleep Sonar Plus purchase. The sonar, the sound recognition and every report run on your iPhone, and deleting the app deletes everything it saved. Privacy policy.
 

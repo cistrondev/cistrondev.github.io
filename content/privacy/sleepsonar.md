@@ -1,6 +1,6 @@
 # Privacy Policy for Sleep Sonar
 
-**Last updated: 1 November 2026**
+**Last updated: 5 November 2026**
 
 Sleep Sonar ("the app") records your night on your iPhone: it listens for snoring and sleep talk, and follows your
 breathing with an inaudible sonar. This policy explains, in plain language, what the app does and does not do with
@@ -10,8 +10,8 @@ your information.
 
 **Sleep Sonar does not collect, store, transmit, or share any personal data.** There are no accounts, no servers, no
 analytics, no advertising, and no tracking. Everything the app hears is analysed on your iPhone, and everything it
-keeps stays on your iPhone. The app's only connection is Apple's App Store, for the optional tips (see "Tips"
-below).
+keeps stays on your iPhone. The app's only connection is Apple's App Store, for the optional Sleep Sonar Plus
+purchase (see "Sleep Sonar Plus" below).
 
 ## The microphone
 
@@ -69,11 +69,12 @@ Now and then the app may ask you to rate it, using Apple's standard rating promp
 **Rate Sleep Sonar** opens the App Store, and **Email the developer** opens a new message in your mail app with the
 app and iOS version filled in. The app itself sends nothing: an email reaches the developer only if you send it.
 
-## Tips
+## Sleep Sonar Plus
 
-Sleep Sonar is free. It offers three optional tips, which are in-app purchases. A tip unlocks nothing. To show their
-prices and to take a payment, the app uses Apple's App Store. Apple processes the payment; the developer never
-receives your name, payment details or Apple Account. The app keeps no record of your tips. Apple's privacy policy
+Sleep Sonar is free and opens your last seven nights. Sleep Sonar Plus is an optional one-time in-app purchase that
+opens every night you record. To show its price, to take the payment and to restore it on another iPhone, the app
+uses Apple's App Store. Apple processes the payment; the developer never receives your name, payment details or
+Apple Account. The app keeps one setting on your iPhone that says whether Plus is unlocked. Apple's privacy policy
 covers the purchase itself.
 
 ## Analytics, advertising, and tracking

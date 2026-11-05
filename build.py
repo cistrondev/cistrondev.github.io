@@ -766,7 +766,7 @@ APPS = [
         "id": "",
         "live": False,
         "tagline": "Your snoring, sleep talk and breathing, recorded from the nightstand.",
-        "pricing": "Free",
+        "pricing": "Free · One-time unlock",
         "intro": (
             "Sleep Sonar records your night from the nightstand. It listens for snoring and sleep talk, and "
             "follows your breathing with a sonar you can't hear, even if you make no sound.",
@@ -777,6 +777,9 @@ APPS = [
             ("How much you snore",
              "Every night's report shows the minutes of snoring, the number of sleep-talk moments and the "
              "sounds in between, on one timeline. Drag a finger across it to see any moment."),
+            ("When you slept",
+             "The home screen shows when you fell asleep and woke up, how long you slept and how much you "
+             "snored, with a summary of your last seven nights."),
             ("Hear it back",
              "Each snore, each bit of sleep talk and each cough is kept as a short clip, from three seconds "
              "before to two seconds after, so you can play it in the morning."),
@@ -795,6 +798,9 @@ APPS = [
             ("A placement check",
              "Lie down and breathe for 15 seconds: the app says whether it can find your breathing, how far "
              "away you are, and what to change if not."),
+            ("Free for a week of nights",
+             "Sleep Sonar keeps your last seven nights for free. Sleep Sonar Plus, a one-time purchase, opens "
+             "every night you record. There is no subscription."),
             ("A bedside clock on iPhone Duo",
              "Stand the phone half open on the nightstand. Folded into a tent, the cover screen becomes a large, "
              "dim clock with your breathing rate under it; set like a laptop, the clock takes the upright half "
@@ -825,8 +831,8 @@ APPS = [
                  "sound level on the right."),
                 ("flat", "report", "Open",
                  "In the morning, the whole night on one page.",
-                 "Sleep Sonar's night report on the open iPhone Duo: 76 minutes of snoring, 3 sleep-talk moments, "
-                 "15 breaths a minute, and the night's timeline."),
+                 "Sleep Sonar's night report on the open iPhone Duo, under a painted sunrise: 31 minutes of "
+                 "snoring, 3 sleep-talk moments, 15 breaths a minute, and the night's timeline."),
             ],
         },
         "privacy_title": "Nothing leaves your iPhone.",
@@ -837,19 +843,22 @@ APPS = [
             "Apple Health gets a night only if you turn that on, and the app reads nothing from it.",
             "Delete a night to delete its clips; deleting the app deletes everything.",
         ],
-        "network": "Nothing about you. The App Store loads the prices of the optional tips.",
+        "network": "Nothing about you. The App Store shows the price of Sleep Sonar Plus and handles the purchase.",
         "note": "",
         "tile": [1, 2, 3],
         "languages": ["en"],
         "category": "HealthApplication",   # schema.org applicationCategory
         "shots": [
-            "A night's report: 76 minutes of snoring, 3 sleep-talk moments, 15 breaths a minute, and the night's timeline.",
-            "The Privacy page: on the phone, no cloud, no analytics, no account.",
+            "A night's report under a painted sunrise: 31 minutes of snoring, 3 sleep-talk moments, 15 breaths a "
+            "minute, 7 h 18 min asleep.",
+            "The home screen under a painted moon and sailboat, with last night: fell asleep at 11:26 PM, woke up at "
+            "6:44 AM, 7 h 18 min asleep.",
             "The night screen at 2:47 AM: 15 breaths a minute at 49 cm, and the breathing wave.",
             "The list of sounds, each with a play button: sleep talk, snoring, a cough, a door slam.",
-            "The night's timeline while dragging: 2:54 AM, 15 breaths a minute, snoring for 26 minutes.",
+            "The last seven nights: usually fell asleep at 11:30 PM and woke up at 6:12 AM, 6 h 52 min asleep and "
+            "22 minutes of snoring a night.",
+            "The night's timeline while dragging: 2:45 AM, 16 breaths a minute, snoring for 10 minutes.",
             "The placement check: found you at 49 cm, 15 breaths a minute, good placement.",
-            "How the sonar works: the phone sends a sweep toward your chest and reads the echo.",
         ],
     },
 ]
