@@ -2,7 +2,7 @@
 #
 # Same keys as content/atlas/en.py: the FAQ only (no guide yet; the app isn't released). English page copy stays in
 # APPS. Facts to keep true: microphone on only during a night or a placement check; only short clips are kept
-# (3 s before to 2 s after a sound, 45 s at most); the sonar is an 18-20 kHz sweep; only network use is the App Store for tip prices; not a
+# (3 s before to 2 s after a sound, 45 s at most); the sonar is an 18-20 kHz sweep; only network use is the App Store for the Sleep Sonar Plus purchase; not a
 # medical device; breathing pauses are informational.
 
 L = {
@@ -14,6 +14,12 @@ L = {
             "Yes. Put the phone on the nightstand and start the night. Sleep Sonar listens all night and keeps a "
             "short clip of each snore, each bit of sleep talk and each cough, with the time it happened. In the "
             "morning you see how long you snored and can play the clips. Sleep Sonar is coming soon to the App Store.",
+        ]),
+        ("Is Sleep Sonar free?", [
+            "Yes. Sleep Sonar is free and keeps your last seven nights open. Sleep Sonar Plus, a one-time purchase, "
+            "opens every night you record, with its report and its clips. Nights older than a week stay on your "
+            "iPhone until you delete them, so Plus also opens the ones you recorded before buying it. There is no "
+            "subscription.",
         ]),
         ("Does it work if I don't snore?", [
             "Yes. Besides listening, the phone plays a sweep between 18 and 20 kHz, too high for adults to hear, and "
@@ -46,7 +52,7 @@ L = {
             "see many pauses on most nights, or someone has noticed you stop breathing in your sleep, talk to a doctor.",
         ]),
         ("Does Sleep Sonar upload anything?", [
-            "No. Its only connection is the App Store, which shows the prices of the optional tips. The sonar, the sound "
+            "No. Its only connection is the App Store, for the optional Sleep Sonar Plus purchase. The sonar, the sound "
             "recognition and every report run on "
             "your iPhone, and deleting the app deletes everything it saved. [Privacy policy](privacy).",
         ]),
