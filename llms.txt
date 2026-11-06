@@ -1,6 +1,6 @@
 # Cistron
 
-> Cistron (Cistron Development) makes small iPhone apps that work on the device. None of them has accounts, ads, analytics or tracking, and none is a subscription: each is free to download, and some have one optional one-time purchase.
+> Cistron (Cistron Development) makes minimal iPhone apps that work on the device. None of them has accounts, ads, analytics or tracking, and none is a subscription: each is free to download, and some have one optional one-time purchase.
 
 Contact: cistron.support@icloud.com
 
