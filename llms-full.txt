@@ -1,6 +1,6 @@
 # Cistron: every app, in full
 
-> Cistron (Cistron Development) makes small iPhone apps that work on the device, with no accounts, ads, analytics, tracking or subscriptions.
+> Cistron (Cistron Development) makes minimal iPhone apps that work on the device, with no accounts, ads, analytics, tracking or subscriptions.
 
 ## Aloud — Text to Speech Reader
 

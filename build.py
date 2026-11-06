@@ -1309,7 +1309,7 @@ def home_page():
     body = f"""    <section class="hero">
       <p class="eyebrow">Built for iPhone</p>
       <h1>Apps that mind <br>their own business.</h1>
-      <p class="hero-sub">Small iPhone apps with no accounts, no ads and no subscriptions.</p>
+      <p class="hero-sub">Minimal iPhone apps with no accounts, no ads and no subscriptions.</p>
     </section>
 
     <section class="principles-wrap" aria-label="Principles">
@@ -1348,7 +1348,7 @@ def home_page():
                  "name": a["store_name"]} for i, a in enumerate(APPS, 1)]}
     write("index.html", page(
         prefix=p, title=f"{BRAND} · Apps for iPhone",
-        description="Small iPhone apps that work on your phone, with no accounts, ads or tracking.",
+        description="Minimal iPhone apps that work on your phone, with no accounts, ads or tracking.",
         body=body, head=json_ld({"@graph": [org, apps]})))
 
 
@@ -1826,7 +1826,7 @@ def llms_files(all_langs):
     English, so an assistant can answer from one file."""
     short = [f"# {BRAND}",
              "",
-             f"> {BRAND} ({COMPANY}) makes small iPhone apps that work on the device. "
+             f"> {BRAND} ({COMPANY}) makes minimal iPhone apps that work on the device. "
              "None of them has accounts, ads, analytics or tracking, and none is a "
              "subscription: each is free to download, and some have one optional "
              "one-time purchase.",
@@ -1835,7 +1835,7 @@ def llms_files(all_langs):
              "",
              "## Apps", ""]
     full = [f"# {BRAND}: every app, in full", "",
-            f"> {BRAND} ({COMPANY}) makes small iPhone apps that work on the device, "
+            f"> {BRAND} ({COMPANY}) makes minimal iPhone apps that work on the device, "
             "with no accounts, ads, analytics, tracking or subscriptions.", ""]
     for app in APPS:
         langs = all_langs[app["slug"]]
