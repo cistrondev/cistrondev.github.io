@@ -832,8 +832,8 @@ APPS = [
                  "sound level on the right."),
                 ("flat", "report", "Open",
                  "In the morning, the whole night on one page.",
-                 "Sleep Sonar's night report on the open iPhone Duo, under a painted sunrise: 31 minutes of "
-                 "snoring, 3 sleep-talk moments, 15 breaths a minute, and the night's timeline."),
+                 "Sleep Sonar's night report filling the open iPhone Duo under a painted sunrise: 31 minutes of "
+                 "snoring, 3 sleep-talk moments and 15 breaths a minute on the left, the night's timeline on the right."),
             ],
         },
         "privacy_title": "Nothing leaves your iPhone.",
