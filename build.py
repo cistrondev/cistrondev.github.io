@@ -812,7 +812,7 @@ APPS = [
             "src": "assets/video/sleepsonar-promo.mp4",
             "poster": "assets/img/sleepsonar/promo-poster.webp",
             "title": "Sleep Sonar in 25 seconds",
-            "label": "A 25-second film: a painted night with the line 'No watch or tracker. Just your iPhone.', the "
+            "label": "A 25-second film: a painted night with the line 'Track your snoring, breathing and sleep with just your iPhone.', the "
                      "night screen finding your breathing, the morning report under a painted sunrise, the home "
                      "screen with when you fell asleep and woke up, iPhone Duo standing and half open as a bedside "
                      "clock, and the line 'Nothing leaves your iPhone'.",
