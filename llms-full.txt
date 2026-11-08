@@ -590,6 +590,7 @@ Only with their permission. Clone your own voice, or the voice of someone who ag
 
 Page: https://cistrondev.github.io/atlas/
 Price: Free
+App Store rating: 5.0 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6826944036
 Privacy policy: https://cistrondev.github.io/atlas/privacy/

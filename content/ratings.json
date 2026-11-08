@@ -199,6 +199,17 @@
    },
    "count": 1,
    "average": 5.0
+  },
+  "6826944036": {
+   "name": "Atlas: Travel Map From Photos",
+   "by_store": {
+    "gr": [
+     5,
+     3
+    ]
+   },
+   "count": 3,
+   "average": 5.0
   }
  }
 }
