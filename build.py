@@ -1348,7 +1348,8 @@ def home_page():
                  "name": a["store_name"]} for i, a in enumerate(APPS, 1)]}
     write("index.html", page(
         prefix=p, title=f"{BRAND} · Apps for iPhone",
-        description="Minimal iPhone apps that work on your phone, with no accounts, ads or tracking.",
+        description="Minimal iPhone apps that work on your phone, with no accounts, ads or tracking. "
+                    "See who unfollowed you, count steps, time a watch or hear articles read aloud.",
         body=body, head=json_ld({"@graph": [org, apps]})))
 
 
@@ -1759,6 +1760,17 @@ def guide_page(base, langs, L):
         lang=L["code"], ui=ui, head=head))
 
 
+def privacy_description(app):
+    """Search snippet for a privacy page. Bing asks for 150-160 characters, so a
+    short network line gets a general sentence added."""
+    text = f"How {app['name']} handles your information: {app['network']}"
+    if len(text) < 140:
+        for tail in (" See what stays on your iPhone and what it sends.", " See what stays on your iPhone."):
+            if len(text + tail) <= 160:
+                return text + tail
+    return text
+
+
 def privacy_page(app):
     p = "../../"
     source = (ROOT / "content/privacy" / f"{app['slug']}.md").read_text(encoding="utf-8")
@@ -1775,7 +1787,7 @@ def privacy_page(app):
     </article>"""
     write(f"{app['slug']}/privacy/index.html", page(
         prefix=p, title=f"{app['name']} Privacy Policy",
-        description=f"How {app['name']} handles your information: {app['network']}",
+        description=privacy_description(app),
         body=body, local_nav=local_nav(app, p, "privacy"),
         app_id=app["id"] if is_live(app) else None))
 
@@ -1805,7 +1817,8 @@ def privacy_index():
     </section>"""
     write("privacy/index.html", page(
         prefix=p, title=f"Privacy · {BRAND}",
-        description="What each app sends over the network, if anything, and links to every privacy policy.",
+        description="What each Cistron app sends over the network, if anything, and what stays on your iPhone, "
+                    "with a link to every app's full privacy policy in plain words.",
         body=body))
 
 

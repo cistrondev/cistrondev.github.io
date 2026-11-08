@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cistrondev.github.io/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/privacy/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/</loc>
@@ -484,7 +484,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfriended/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/</loc>
@@ -712,7 +712,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/voiceclone/</loc>
@@ -764,7 +764,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/privacy/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/sleepsonar/</loc>
@@ -774,6 +774,6 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/sleepsonar/privacy/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
 </urlset>
