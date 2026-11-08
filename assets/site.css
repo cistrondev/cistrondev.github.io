@@ -937,3 +937,15 @@ a:hover { text-decoration: underline; }
   html { scroll-behavior: auto; }
   .pill, .gallery-paddles button { transition: none; }
 }
+
+/* Right-to-left pages (Arabic, Hebrew): mirror the few rules that use a side.
+   The screenshot gallery keeps left-to-right scrolling, which site.js expects. */
+[dir="rtl"] .wordmark { margin-right: 0; margin-left: -0.22em; }
+[dir="rtl"] .rating-stars { margin-right: 0; margin-left: 4px; }
+[dir="rtl"] .faq-answer ol { padding-left: 0; padding-right: 24px; }
+[dir="rtl"] .faq-answer li { padding-left: 0; padding-right: 4px; }
+[dir="rtl"] .guide-steps li { padding: 0 56px 32px 0; }
+[dir="rtl"] .guide-steps li::before { left: auto; right: 0; }
+[dir="rtl"] .checks li { padding: 0 34px 16px 0; }
+[dir="rtl"] .checks li::before { left: auto; right: 0; }
+[dir="rtl"] .gallery-track { direction: ltr; }

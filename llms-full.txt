@@ -277,7 +277,7 @@ Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6787521130
 Privacy policy: https://cistrondev.github.io/unfollowers/privacy/
 What it sends over the network: Only the usernames being checked, sent anonymously to Instagram when a profile check runs. Your export stays on your iPhone.
-This page in other languages: Português (Brasil) https://cistrondev.github.io/unfollowers/pt-br/, Español https://cistrondev.github.io/unfollowers/es/, Italiano https://cistrondev.github.io/unfollowers/it/, Français https://cistrondev.github.io/unfollowers/fr/, Deutsch https://cistrondev.github.io/unfollowers/de/, Ελληνικά https://cistrondev.github.io/unfollowers/el/, Nederlands https://cistrondev.github.io/unfollowers/nl/
+This page in other languages: Português (Brasil) https://cistrondev.github.io/unfollowers/pt-br/, Español https://cistrondev.github.io/unfollowers/es/, Italiano https://cistrondev.github.io/unfollowers/it/, Français https://cistrondev.github.io/unfollowers/fr/, Deutsch https://cistrondev.github.io/unfollowers/de/, Ελληνικά https://cistrondev.github.io/unfollowers/el/, Nederlands https://cistrondev.github.io/unfollowers/nl/, Türkçe https://cistrondev.github.io/unfollowers/tr/, 日本語 https://cistrondev.github.io/unfollowers/ja/, 한국어 https://cistrondev.github.io/unfollowers/ko/, Русский https://cistrondev.github.io/unfollowers/ru/, العربية https://cistrondev.github.io/unfollowers/ar/, עברית https://cistrondev.github.io/unfollowers/he/, Polski https://cistrondev.github.io/unfollowers/pl/
 
 Instagram doesn't tell you who unfollowed you, but your own data export shows it. Unfollowers reads the official export you download from Instagram yourself and shows what changed, without ever asking for your password.
 

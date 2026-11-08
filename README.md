@@ -19,12 +19,12 @@ build.py                   generates every .html file above
 ```
 
 Unfollowers also has these pages, one set per language (en, pt-BR, es, it,
-fr, de, el, nl):
+fr, de, el, nl, tr, ja, ko, ru, ar, he, pl; ar and he are right to left):
 
 ```
 unfollowers/<lang>/                   app page with an FAQ (English: unfollowers/)
 unfollowers/<lang>/<guide-slug>/      how to download the Instagram data export
-assets/img/unfollowers/<lang>/        that language's screenshots (es, it, fr, de, el, nl)
+assets/img/unfollowers/<lang>/        that language's screenshots (es, it, fr, de, el, nl, tr, ja, ko)
 ```
 
 Aloud has the same, in en, de, es, fr, it and pt-BR (`content/aloud/`), with
