@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cistrondev.github.io/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/privacy/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/listen-to-articles-and-books/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/de/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/es/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/fr/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -94,7 +94,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/fr/ecouter-articles-et-livres/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/it/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -118,7 +118,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/it/ascoltare-articoli-e-libri/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/pt-br/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/"/>
@@ -142,7 +142,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/pt-br/ouvir-artigos-e-livros/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/aloud/listen-to-articles-and-books/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/aloud/de/artikel-und-buecher-anhoeren/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/aloud/es/escuchar-articulos-y-libros/"/>
@@ -154,21 +154,21 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/aloud/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/lifetrends/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/lifetrends/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/lifetrends/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/lifetrends/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -177,7 +177,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/check-watch-accuracy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
@@ -186,7 +186,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/de/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -195,7 +195,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
@@ -204,7 +204,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/fr/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -213,7 +213,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
@@ -222,7 +222,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/ja/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
@@ -231,7 +231,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
@@ -240,11 +240,11 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -254,11 +254,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/download-instagram-data/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -268,11 +275,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/pt-br/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -282,11 +296,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -296,11 +317,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/es/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -310,11 +338,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -324,11 +359,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/it/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -338,11 +380,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -352,11 +401,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/fr/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -366,11 +422,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -380,11 +443,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/de/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -394,11 +464,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -408,11 +485,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/el/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -422,11 +506,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -436,11 +527,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/nl/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
@@ -450,11 +548,18 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
@@ -464,31 +569,332 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/tr/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ja/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ja/instagram-data-download/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ko/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ko/instagram-data-download/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ru/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ar/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/ar/download-instagram-data/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/he/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/he/download-instagram-data/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/pl/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/unfollowers/pt-br/baixar-dados-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/unfollowers/es/descargar-datos-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://cistrondev.github.io/unfollowers/it/scaricare-dati-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/unfollowers/fr/telecharger-donnees-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/unfollowers/de/instagram-daten-herunterladen/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://cistrondev.github.io/unfollowers/el/katevasma-dedomenon-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://cistrondev.github.io/unfollowers/nl/instagram-gegevens-downloaden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://cistrondev.github.io/unfollowers/tr/instagram-verilerini-indir/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/unfollowers/ja/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://cistrondev.github.io/unfollowers/ko/instagram-data-download/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://cistrondev.github.io/unfollowers/ru/skachat-dannye-instagram/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cistrondev.github.io/unfollowers/ar/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://cistrondev.github.io/unfollowers/he/download-instagram-data/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://cistrondev.github.io/unfollowers/pl/pobierz-dane-instagrama/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfollowers/download-instagram-data/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfollowers/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfriended/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfriended/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfriended/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfriended/download-facebook-friends-list/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/unfriended/download-facebook-friends-list/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/unfriended/download-facebook-friends-list/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/unfriended/privacy/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -502,7 +908,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/step-counter-lock-screen/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -516,7 +922,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/de/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -530,7 +936,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -544,7 +950,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/es/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -558,7 +964,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -572,7 +978,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/fr/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -586,7 +992,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/fr/podometre-ecran-verrouille/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -600,7 +1006,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/it/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -614,7 +1020,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/it/contapassi-schermata-blocco/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -628,7 +1034,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/nl/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -642,7 +1048,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/nl/stappenteller-toegangsscherm/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -656,7 +1062,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/pt-br/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -670,7 +1076,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/pt-br/contador-de-passos-tela-bloqueada/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -684,7 +1090,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/ja/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/"/>
@@ -698,7 +1104,7 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/ja/step-counter-lock-screen/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/pedometer/step-counter-lock-screen/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/pedometer/de/schrittzaehler-sperrbildschirm/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/pedometer/es/contador-pasos-pantalla-bloqueo/"/>
@@ -712,68 +1118,68 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/pedometer/privacy/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/voiceclone/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/voiceclone/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/voiceclone/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/voiceclone/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/atlas/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/atlas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/atlas/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/atlas/privacy/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/stair-layout/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/es/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/jobsitecalc/es/trazar-escalera/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/jobsitecalc/stair-layout/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/jobsitecalc/privacy/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://cistrondev.github.io/sleepsonar/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/sleepsonar/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/sleepsonar/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/sleepsonar/privacy/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
   </url>
 </urlset>

@@ -385,7 +385,7 @@ APPS = [
                       "Love that no ads are involved!"},
         ],
         "tile": [1, 4, 5],
-        "languages": ["en", "pt-BR", "es", "it", "fr", "de", "el", "nl"],
+        "languages": ["en", "pt-BR", "es", "it", "fr", "de", "el", "nl", "tr", "ja", "ko", "ru", "ar", "he", "pl"],
         "category": "SocialNetworkingApplication",   # schema.org applicationCategory
         "why": (
             "Your password stays with you.",
@@ -886,6 +886,9 @@ PRINCIPLES = [
 # replaces any of these on that language's pages. On a 375-pixel phone the
 # header links must stay within about 178px of text and the app bar's two
 # links within about 112px, so long languages use short words there.
+# Languages written right to left: their pages get <html dir="rtl">.
+RTL = {"ar", "he"}
+
 UI_EN = {
     "nav_apps": "Apps",
     "nav_privacy": "Privacy",
@@ -1140,7 +1143,7 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
     # An empty nav_about leaves the link out, where longer words need the room on phones.
     about = f'        <li><a href="{home}#about">{esc(ui["nav_about"])}</a></li>\n' if ui["nav_about"] else ""
     return f"""<!doctype html>
-<html lang="{lang}">
+<html lang="{lang}"{' dir="rtl"' if lang in RTL else ""}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1158,7 +1161,7 @@ def page(*, prefix, title, description, body, local_nav="", app_id=None, scripts
 <body>
   <header class="globalnav">
     <nav class="globalnav-inner" aria-label="Site">
-      <a class="wordmark" href="{home}">{BRAND}</a>
+      <a class="wordmark" href="{home}" lang="en">{BRAND}</a>
       <ul>
         <li><a href="{home}#apps">{esc(ui["nav_apps"])}</a></li>
         <li><a href="{prefix}privacy/">{esc(ui["nav_privacy"])}</a></li>
