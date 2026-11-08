@@ -164,7 +164,7 @@ No. LifeTrends describes patterns in measurements you have already recorded. It 
 
 Page: https://cistrondev.github.io/timegrapher/
 Price: First watch free · One-time Pro unlock
-App Store rating: 4.8 out of 5
+App Store rating: 4.9 out of 5
 Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6788081843
 Privacy policy: https://cistrondev.github.io/timegrapher/privacy/
