@@ -169,7 +169,7 @@ Runs on: iPhone · iOS 17 or later
 App Store: https://apps.apple.com/app/id6788081843
 Privacy policy: https://cistrondev.github.io/timegrapher/privacy/
 What it sends over the network: Only when you use a feature that needs it. The Clock tab asks time.apple.com for the time. The price check searches only your watch's brand and reference on Chrono24. Identify from Photo sends that one photo to Apple's Private Cloud Compute. Audio is never recorded.
-This page in other languages: Deutsch https://cistrondev.github.io/timegrapher/de/, Français https://cistrondev.github.io/timegrapher/fr/, 日本語 https://cistrondev.github.io/timegrapher/ja/
+This page in other languages: Deutsch https://cistrondev.github.io/timegrapher/de/, Español https://cistrondev.github.io/timegrapher/es/, Français https://cistrondev.github.io/timegrapher/fr/, Português (Brasil) https://cistrondev.github.io/timegrapher/pt-br/, 日本語 https://cistrondev.github.io/timegrapher/ja/
 
 Rate, amplitude, and beat error in about thirty seconds. Timegrapher listens to your mechanical watch through the iPhone's microphone, then keeps your whole collection, every reading, and what each watch is worth, in one place.
 
