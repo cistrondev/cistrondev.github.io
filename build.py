@@ -315,7 +315,7 @@ APPS = [
                       "price of my collection over the years"},
         ],
         "tile": [1, 3, 4],
-        "languages": ["en", "de", "fr", "ja"],
+        "languages": ["en", "de", "es", "fr", "pt-BR", "ja"],
         "category": "UtilitiesApplication",   # schema.org applicationCategory
         "shots": [
             "Your iPhone is a timing machine: rate, amplitude, and beat error in 30 seconds.",

@@ -168,73 +168,145 @@
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/check-watch-accuracy/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/comprobar-precision-reloj/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/de/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/comprobar-precision-reloj/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/es/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/es/comprobar-precision-reloj/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/comprobar-precision-reloj/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/fr/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/comprobar-precision-reloj/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/pt-br/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
+  </url>
+  <url>
+    <loc>https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/comprobar-precision-reloj/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/ja/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/"/>
   </url>
   <url>
     <loc>https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://cistrondev.github.io/timegrapher/de/ganggenauigkeit-pruefen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cistrondev.github.io/timegrapher/es/comprobar-precision-reloj/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://cistrondev.github.io/timegrapher/fr/mesurer-precision-montre/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://cistrondev.github.io/timegrapher/pt-br/verificar-precisao-relogio/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://cistrondev.github.io/timegrapher/ja/measure-watch-accuracy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://cistrondev.github.io/timegrapher/check-watch-accuracy/"/>
   </url>
