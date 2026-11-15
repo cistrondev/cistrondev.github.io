@@ -42,9 +42,10 @@ L = {
             "sonar off on the home screen. The sound detection keeps working without it.",
         ]),
         ("Where should the phone go?", [
-            "On the nightstand on your side of the bed, an arm's length from your chest (30 to 70 cm), face up with "
-            "the bottom edge toward you, about mattress height, plugged in, with the volume at least halfway up. "
-            "The placement check tells you within 15 seconds whether it can find your breathing.",
+            "On the nightstand on your side of the bed, an arm's length from your chest (30 to 70 cm), about "
+            "mattress height and plugged in. Lay it face up with the bottom edge toward you, or stand it upright in a "
+            "stand, vertical with the screen toward you. Not sideways: on its side the sonar finds your breathing far "
+            "less often. The placement check tells you within 15 seconds whether it can find your breathing.",
         ]),
         ("Does it detect sleep apnea?", [
             "No. Sleep Sonar is not a medical device. It can show stretches of ten seconds or more without a breath "
