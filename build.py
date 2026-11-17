@@ -269,9 +269,11 @@ APPS = [
              "Every watch with its reference, movement, lift angle, and up to 13 "
              "photos. Every reading is saved and charted, and a reminder tells you "
              "when to measure again. Identify from Photo suggests the brand and model."),
-            ("Accuracy over a day of wear",
-             "Take two photos of the watch a day apart. Timegrapher compares them "
-             "with your iPhone's clock and shows how the watch ran on your wrist."),
+            ("Accuracy from two photos",
+             "Photograph the dial today and again tomorrow. Timegrapher compares the "
+             "photos with your iPhone's clock and shows how the watch ran on your "
+             "wrist. Quartz watches work too: take the photos a week or two apart to "
+             "see how many seconds a month they gain or lose."),
             ("Timing report",
              "Share a one-page report on a watch as a PDF or an image, with the "
              "latest reading, the positions, and the trend. Export your measurements "

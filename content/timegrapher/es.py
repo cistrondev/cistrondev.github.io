@@ -46,9 +46,11 @@ L = {
              "13 fotos. Cada medición se guarda y se muestra en un gráfico, y un "
              "recordatorio te avisa de cuándo volver a medir. Identificar por la foto "
              "sugiere la marca y el modelo."),
-            ("La marcha en un día de uso",
+            ("La precisión con dos fotos",
              "Haz una foto de la esfera hoy y otra mañana. Timegrapher compara las fotos "
-             "con el reloj del iPhone y muestra cómo funcionó el reloj en tu muñeca."),
+             "con el reloj del iPhone y muestra cómo funcionó el reloj en tu muñeca. "
+             "También mide relojes de cuarzo: haz las fotos con una o dos semanas de "
+             "diferencia y verás cuántos segundos al mes adelanta o atrasa el reloj."),
             ("Informe de marcha",
              "Comparte un informe de una página sobre un reloj, en PDF o en imagen, con la "
              "última lectura, las posiciones y la evolución. Tus mediciones se pueden "
@@ -159,9 +161,15 @@ L = {
             "llevabas.",
         ]),
         ("¿Funciona con relojes de cuarzo?", [
-            "No. Un reloj de cuarzo marca la hora con un cristal de cuarzo y mueve la aguja "
-            "una vez por segundo, así que no hay volante que escuchar. Timegrapher es para "
-            "relojes mecánicos automáticos y de cuerda manual.",
+            "Sí, con fotos. Un reloj de cuarzo marca la hora con un cristal de cuarzo y "
+            "mueve el segundero una vez por segundo, así que no hay volante que el "
+            "micrófono pueda escuchar. Al añadir el reloj, elige **Cuarzo** en **Tipo**. "
+            "Después, en la página del reloj, usa **Marcha por fotos**: fotografía la "
+            "esfera y otra vez una o dos semanas después. Timegrapher muestra cuántos "
+            "segundos al mes adelanta o atrasa el reloj.",
+            "Con fotos separadas dos semanas, la precisión es de menos de un segundo al "
+            "mes. Deja menos de tres semanas entre las fotos, porque un segundero no puede "
+            "mostrar una desviación de un minuto entero. El reloj necesita segundero.",
         ]),
         ("¿Timegrapher es gratis?", [
             "Tu primer reloj es gratis para siempre, con todas las mediciones. **Timegrapher "
@@ -228,7 +236,8 @@ L = {
              "desvía poco a poco se nota antes de que se pare."),
             ("Un día en la muñeca",
              "**Marcha por fotos** compara dos fotos de la esfera hechas con un día de "
-             "diferencia y muestra cómo funcionó el reloj mientras lo llevabas."),
+             "diferencia y muestra cómo funcionó el reloj mientras lo llevabas. Con un "
+             "reloj de cuarzo, haz las fotos con una o dos semanas de diferencia."),
             ("Cuánto vale",
              "La consulta de precios obtiene los precios actuales de Chrono24 para tu "
              "referencia exacta y guarda la mediana."),
@@ -236,7 +245,7 @@ L = {
              "El primer reloj es gratis. Timegrapher Pro añade relojes ilimitados con un "
              "solo pago, sin suscripción."),
         ],
-        "updated": "Escrita para Timegrapher 2.9, noviembre de 2026.",
+        "updated": "Escrita para Timegrapher 2.10, noviembre de 2026.",
         "cta_title": "Mide tu reloj esta noche",
         "cta_text": "Marcha, amplitud y error de ritmo en 30 segundos, con el iPhone que ya "
                     "tienes. Primer reloj gratis, sin suscripción.",

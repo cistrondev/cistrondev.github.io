@@ -44,9 +44,11 @@ L = {
              "wird gespeichert und als Diagramm gezeigt, und eine Erinnerung sagt Ihnen, "
              "wann Sie wieder messen sollten. „Anhand des Fotos erkennen“ schlägt Marke und "
              "Modell vor."),
-            ("Der Gang über einen Tag am Handgelenk",
+            ("Genauigkeit aus zwei Fotos",
              "Fotografieren Sie das Zifferblatt heute und morgen. Timegrapher vergleicht "
-             "die Fotos mit der Uhr des iPhones und zeigt, wie die Uhr am Handgelenk lief."),
+             "die Fotos mit der Uhr des iPhones und zeigt, wie die Uhr am Handgelenk lief. "
+             "Auch Quarzuhren lassen sich so messen: Mit Fotos im Abstand von ein bis zwei "
+             "Wochen sehen Sie, wie viele Sekunden pro Monat sie vor- oder nachgehen."),
             ("Gangbericht",
              "Teilen Sie einen einseitigen Bericht zu einer Uhr als PDF oder Bild, mit der "
              "letzten Messung, den Lagen und dem Verlauf. Ihre Messungen lassen sich als "
@@ -158,9 +160,16 @@ L = {
             "nachgegangen ist.",
         ]),
         ("Funktioniert die App mit Quarzuhren?", [
-            "Nein. Eine Quarzuhr geht nach einem Quarzkristall und bewegt den Zeiger einmal "
-            "pro Sekunde, es gibt also keine Unruh, die man abhören könnte. Timegrapher ist "
-            "für mechanische Uhren mit Automatik oder Handaufzug.",
+            "Ja, über Fotos. Eine Quarzuhr geht nach einem Quarzkristall und bewegt den "
+            "Sekundenzeiger einmal pro Sekunde, es gibt also keine Unruh, die das Mikrofon "
+            "abhören könnte. Stellen Sie beim Anlegen der Uhr den **Typ** auf **Quarz**. "
+            "Auf der Seite der Uhr fotografieren Sie dann mit **Gang per Foto** das "
+            "Zifferblatt und in ein bis zwei Wochen noch einmal. Timegrapher zeigt, wie "
+            "viele Sekunden pro Monat die Uhr vor- oder nachgeht.",
+            "Fotos mit zwei Wochen Abstand sind auf weniger als eine Sekunde pro Monat "
+            "genau. Lassen Sie zwischen den Fotos weniger als drei Wochen, denn eine "
+            "Abweichung um eine ganze Minute kann ein Sekundenzeiger nicht zeigen. Die Uhr "
+            "braucht einen Sekundenzeiger.",
         ]),
         ("Ist Timegrapher kostenlos?", [
             "Ihre erste Uhr ist für immer kostenlos, mit allen Messungen. **Timegrapher Pro** "
@@ -226,7 +235,8 @@ L = {
              "das langsam nachlässt, bevor es stehen bleibt."),
             ("Ein Tag am Handgelenk",
              "**Gang per Foto** vergleicht zwei Fotos des Zifferblatts, einen Tag "
-             "auseinander, und zeigt, wie die Uhr beim Tragen lief."),
+             "auseinander, und zeigt, wie die Uhr beim Tragen lief. Bei einer Quarzuhr "
+             "liegen ein bis zwei Wochen zwischen den Fotos."),
             ("Was sie wert ist",
              "Die Preisabfrage holt aktuelle Chrono24-Angebotspreise für Ihre genaue "
              "Referenz und speichert den Median."),
@@ -234,7 +244,7 @@ L = {
              "Die erste Uhr ist kostenlos. Timegrapher Pro schaltet unbegrenzt viele Uhren "
              "mit einer einzigen Zahlung frei, ohne Abo."),
         ],
-        "updated": "Geschrieben für Timegrapher 2.8, Oktober 2026.",
+        "updated": "Geschrieben für Timegrapher 2.10, November 2026.",
         "cta_title": "Messen Sie Ihre Uhr noch heute",
         "cta_text": "Gangabweichung, Amplitude und Abfallfehler in 30 Sekunden, mit dem "
                     "iPhone, das Sie schon haben. Erste Uhr kostenlos, kein Abo.",

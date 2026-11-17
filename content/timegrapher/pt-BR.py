@@ -46,9 +46,12 @@ L = {
              "Cada relógio com referência, calibre, ângulo de levantamento e até 13 fotos. "
              "Cada medição fica salva e aparece em um gráfico, e um lembrete avisa quando "
              "medir de novo. Identificar pela foto sugere a marca e o modelo."),
-            ("A marcha em um dia de uso",
+            ("A precisão com duas fotos",
              "Tire uma foto do mostrador hoje e outra amanhã. O Timegrapher compara as fotos "
-             "com o relógio do iPhone e mostra como o relógio funcionou no seu pulso."),
+             "com o relógio do iPhone e mostra como o relógio funcionou no seu pulso. "
+             "Relógios de quartzo também podem ser medidos: tire as fotos com uma ou duas "
+             "semanas de intervalo e veja quantos segundos por mês o relógio adianta ou "
+             "atrasa."),
             ("Relatório de marcha",
              "Compartilhe um relatório de uma página sobre um relógio, em PDF ou imagem, com "
              "a última leitura, as posições e a evolução. Suas medições podem ser exportadas "
@@ -159,9 +162,16 @@ L = {
             "você o usava.",
         ]),
         ("Funciona com relógios de quartzo?", [
-            "Não. Um relógio de quartzo marca o tempo com um cristal de quartzo e move o "
-            "ponteiro uma vez por segundo, então não há balanço para ouvir. O Timegrapher é "
-            "para relógios mecânicos automáticos e de corda manual.",
+            "Sim, com fotos. Um relógio de quartzo marca o tempo com um cristal de quartzo "
+            "e move o ponteiro dos segundos uma vez por segundo, então não há balanço para "
+            "o microfone ouvir. Ao adicionar o relógio, escolha **Quartzo** em **Tipo**. "
+            "Depois, na página do relógio, use **Marcha por fotos**: fotografe o mostrador "
+            "e de novo uma ou duas semanas depois. O Timegrapher mostra quantos segundos "
+            "por mês o relógio adianta ou atrasa.",
+            "Com fotos a duas semanas de distância, a precisão fica abaixo de um segundo "
+            "por mês. Deixe menos de três semanas entre as fotos, porque um ponteiro dos "
+            "segundos não consegue mostrar um desvio de um minuto inteiro. O relógio "
+            "precisa ter ponteiro dos segundos.",
         ]),
         ("O Timegrapher é grátis?", [
             "Seu primeiro relógio é grátis para sempre, com todas as medições. O "
@@ -228,7 +238,8 @@ L = {
              "desviando aos poucos aparece antes de parar."),
             ("Um dia no pulso",
              "**Marcha por fotos** compara duas fotos do mostrador tiradas com um dia de "
-             "intervalo e mostra como o relógio funcionou enquanto você o usava."),
+             "intervalo e mostra como o relógio funcionou enquanto você o usava. Com um "
+             "relógio de quartzo, tire as fotos com uma ou duas semanas de intervalo."),
             ("Quanto vale",
              "A consulta de preços busca os preços atuais do Chrono24 para a sua referência "
              "exata e salva a mediana."),
@@ -236,7 +247,7 @@ L = {
              "O primeiro relógio é grátis. O Timegrapher Pro libera relógios ilimitados com "
              "um único pagamento, sem assinatura."),
         ],
-        "updated": "Escrito para o Timegrapher 2.9, novembro de 2026.",
+        "updated": "Escrito para o Timegrapher 2.10, novembro de 2026.",
         "cta_title": "Meça seu relógio hoje à noite",
         "cta_text": "Marcha, amplitude e erro de batida em 30 segundos, com o iPhone que você "
                     "já tem. Primeiro relógio grátis, sem assinatura.",

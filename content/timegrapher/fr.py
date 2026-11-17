@@ -47,10 +47,12 @@ L = {
              "jusqu'à 13 photos. Chaque mesure est conservée et tracée, et un rappel vous "
              "indique quand mesurer de nouveau. « Identifier d'après la photo » suggère "
              "la marque et le modèle."),
-            ("La marche sur une journée au poignet",
+            ("La précision en deux photos",
              "Photographiez le cadran aujourd'hui et demain. Timegrapher compare les "
              "photos avec l'horloge de l'iPhone et montre comment la montre a marché à "
-             "votre poignet."),
+             "votre poignet. Les montres à quartz se mesurent aussi : prenez les photos "
+             "à une ou deux semaines d'écart pour voir de combien de secondes par mois "
+             "elles avancent ou retardent."),
             ("Rapport de marche",
              "Partagez un rapport d'une page sur une montre, en PDF ou en image, avec la "
              "dernière mesure, les positions et l'évolution. Exportez vos mesures en "
@@ -164,9 +166,17 @@ L = {
             "portiez.",
         ]),
         ("Fonctionne-t-il avec les montres à quartz ?", [
-            "Non. Une montre à quartz bat au rythme d'un cristal et avance son aiguille une "
-            "fois par seconde : il n'y a pas de balancier à écouter. Timegrapher est fait "
-            "pour les montres mécaniques automatiques ou à remontage manuel.",
+            "Oui, avec des photos. Une montre à quartz bat au rythme d'un cristal et avance "
+            "sa trotteuse une fois par seconde : il n'y a pas de balancier que le "
+            "microphone puisse écouter. En ajoutant la montre, choisissez **Quartz** dans "
+            "**Type**. Puis, sur la page de la montre, utilisez **Marche par photo** : "
+            "photographiez le cadran, puis de nouveau une à deux semaines plus tard. "
+            "Timegrapher indique de combien de secondes par mois la montre avance ou "
+            "retarde.",
+            "Des photos à deux semaines d'écart sont précises à moins d'une seconde par "
+            "mois. Gardez moins de trois semaines entre les photos, car une trotteuse ne "
+            "peut pas montrer un écart d'une minute entière. La montre doit avoir une "
+            "trotteuse.",
         ]),
         ("Timegrapher est-il gratuit ?", [
             "Votre première montre est gratuite pour toujours, avec toutes les mesures. "
@@ -233,7 +243,8 @@ L = {
              "voit avant qu'il ne s'arrête."),
             ("Une journée au poignet",
              "**Marche par photo** compare deux photos du cadran prises à un jour d'écart "
-             "et montre comment la montre a marché pendant que vous la portiez."),
+             "et montre comment la montre a marché pendant que vous la portiez. Pour une "
+             "montre à quartz, prenez les photos à une ou deux semaines d'écart."),
             ("Ce qu'elle vaut",
              "Le contrôle de prix récupère les prix demandés sur Chrono24 pour votre "
              "référence exacte et garde la médiane."),
@@ -241,7 +252,7 @@ L = {
              "La première montre est gratuite. Timegrapher Pro ajoute un nombre illimité de "
              "montres pour un paiement unique, sans abonnement."),
         ],
-        "updated": "Rédigé pour Timegrapher 2.8, octobre 2026.",
+        "updated": "Rédigé pour Timegrapher 2.10, novembre 2026.",
         "cta_title": "Mesurez votre montre ce soir",
         "cta_text": "Marche, amplitude et erreur de repère en 30 secondes, avec l'iPhone que "
                     "vous avez déjà. Première montre gratuite, sans abonnement.",
