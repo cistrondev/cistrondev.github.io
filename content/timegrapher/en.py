@@ -12,6 +12,9 @@
 # chronometer range, under 15 acceptable, 30+ needs regulation; beat error
 # under 0.3 ms well in beat, 0.8-1.5 adjustment recommended; amplitude 250-315
 # healthy, under 220 low, under 200 very low, over 315 risk of knocking.
+# Quartz watches (2.10) are measured only from two dial photos a week or two
+# apart, less than three weeks, with the result in seconds per month; two weeks
+# is precise to under a second a month; the watch needs a seconds hand.
 
 L = {
     "name": "English",
@@ -85,9 +88,15 @@ L = {
             "hand shows how much the watch gained or lost while you wore it.",
         ]),
         ("Does it work with quartz watches?", [
-            "No. A quartz watch keeps time with a crystal and moves its hand once a second, "
-            "so there is no balance wheel to listen to. Timegrapher is for automatic and "
-            "hand-wound mechanical watches.",
+            "Yes, with photos. A quartz watch keeps time with a crystal and moves its "
+            "seconds hand once a second, so there is no balance wheel for the microphone "
+            "to listen to. When you add the watch, set its **Type** to **Quartz**. Then use "
+            "**Rate from photos** on the watch's page: photograph the dial, and again a "
+            "week or two later. Timegrapher shows how many seconds a month the watch "
+            "gains or loses.",
+            "Photos two weeks apart are precise to under a second a month. Keep them less "
+            "than three weeks apart, because a seconds hand can't show a whole minute of "
+            "drift. The watch needs a seconds hand.",
         ]),
         ("Is Timegrapher free?", [
             "Your first watch is free for good, with every measurement. **Timegrapher Pro** "
@@ -150,7 +159,8 @@ L = {
              "before it stops."),
             ("A day on the wrist",
              "**Rate from photos** compares two dial photos taken a day apart and shows how "
-             "the watch ran while you wore it."),
+             "the watch ran while you wore it. For a quartz watch, take the photos a week "
+             "or two apart."),
             ("What it's worth",
              "The price check gets current Chrono24 asking prices for your exact reference "
              "and keeps the median."),
@@ -158,7 +168,7 @@ L = {
              "The first watch is free. Timegrapher Pro adds unlimited watches for one "
              "payment, with no subscription."),
         ],
-        "updated": "Written for Timegrapher 2.8, October 2026.",
+        "updated": "Written for Timegrapher 2.10, November 2026.",
         "cta_title": "Time your watch tonight",
         "cta_text": "Rate, amplitude and beat error in 30 seconds, with the iPhone you "
                     "already have. First watch free, no subscription.",

@@ -179,7 +179,7 @@ Rate, amplitude, and beat error in about thirty seconds. Timegrapher listens to 
 - **Readings that hold steady.** It tracks the room's noise floor and rejects stray sounds. Amplitude comes from your calibre's own lift angle, set to a tenth of a degree.
 - **Measure in positions.** The app guides you through six positions, or four for a quicker check, and shows the average rate and the spread between positions, the way a watchmaker checks a movement.
 - **Your collection.** Every watch with its reference, movement, lift angle, and up to 13 photos. Every reading is saved and charted, and a reminder tells you when to measure again. Identify from Photo suggests the brand and model.
-- **Accuracy over a day of wear.** Take two photos of the watch a day apart. Timegrapher compares them with your iPhone's clock and shows how the watch ran on your wrist.
+- **Accuracy from two photos.** Photograph the dial today and again tomorrow. Timegrapher compares the photos with your iPhone's clock and shows how the watch ran on your wrist. Quartz watches work too: take the photos a week or two apart to see how many seconds a month they gain or lose.
 - **Timing report.** Share a one-page report on a watch as a PDF or an image, with the latest reading, the positions, and the trend. Export your measurements as a CSV file.
 - **Know what it's worth.** Current Chrono24 asking prices for your exact reference, with the median worked out on your iPhone.
 - **Magnetism check.** A magnetized hairspring is the most common reason a watch suddenly gains time. Sweep the watch across the back of your iPhone and its magnetometer tells you whether it needs demagnetizing.
@@ -242,7 +242,9 @@ Yes. Rate from photos compares two photos of the dial taken a day apart. Each ph
 
 **Does it work with quartz watches?**
 
-No. A quartz watch keeps time with a crystal and moves its hand once a second, so there is no balance wheel to listen to. Timegrapher is for automatic and hand-wound mechanical watches.
+Yes, with photos. A quartz watch keeps time with a crystal and moves its seconds hand once a second, so there is no balance wheel for the microphone to listen to. When you add the watch, set its Type to Quartz. Then use Rate from photos on the watch's page: photograph the dial, and again a week or two later. Timegrapher shows how many seconds a month the watch gains or loses.
+
+Photos two weeks apart are precise to under a second a month. Keep them less than three weeks apart, because a seconds hand can't show a whole minute of drift. The watch needs a seconds hand.
 
 **Is Timegrapher free?**
 
