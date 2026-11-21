@@ -9,6 +9,13 @@
 # no subscription; ten English voices and four that read thirty more languages,
 # made on the device; the voice downloads once; translation needs iOS 18 and
 # uses Apple's on-device translator; iCloud sync is optional plain text files.
+# Checked against the 3.3 code on 2026-11-20: the four voices read thirty other
+# languages (31 codes with English, so never "over thirty"); EPUBs come in through
+# + › Import a file or Settings › Import from a file (3.3 can't open them from the
+# Files app; PDFs can be shared from Files); Pocket closed in 2025, so only an old
+# Pocket export works; imports past the three-piece free shelf wait for the unlock;
+# with Sync with iCloud on, the shelf goes to the user's own iCloud Drive, so write
+# "never uploaded to be spoken", not "never uploaded".
 
 L = {
     "name": "English",
@@ -39,7 +46,7 @@ L = {
             "guide](guide).",
         ]),
         ("Can Aloud turn an EPUB into an audiobook?", [
-            "Yes. Open an EPUB file from the Files app, or tap **+** › **Import a file**. "
+            "Yes. In Aloud, tap **+** › **Import a file** and choose the EPUB. "
             "Aloud keeps the book's cover and chapters. The **Chapters** list shows how "
             "long each chapter takes to hear, and you can start from any of them. Your "
             "place is kept, so a long book plays like an audiobook.",
@@ -58,7 +65,7 @@ L = {
             "anything already on your shelf does not.",
         ]),
         ("Which languages can it read?", [
-            "Ten natural voices read English, and four more read over thirty other "
+            "Ten natural voices read English, and four more read thirty other "
             "languages, including German, Spanish, French, Italian and Portuguese. The "
             "app itself is in English, German, Spanish, French, Italian and Portuguese.",
         ]),
@@ -79,9 +86,11 @@ L = {
             "limit. There is no subscription. [See it on the App Store](store).",
         ]),
         ("Can I bring my reading list from Pocket or Instapaper?", [
-            "Yes. Export your saves from Pocket, Instapaper, Raindrop or your browser's "
-            "bookmarks, then in Aloud open **Settings** › **Import from a file**. Every "
-            "link lands on your shelf, and Aloud fetches the articles in the background.",
+            "Yes. Export your saves from Instapaper, Raindrop or your browser's bookmarks, "
+            "then in Aloud open **Settings** › **Import from a file**. An export you saved "
+            "from Pocket before it closed in 2025 works too. Aloud queues every link and "
+            "fetches the articles one by one. The free shelf holds three pieces, and the "
+            "rest wait until you unlock Aloud or remove a piece.",
         ]),
         ("Does Aloud upload my documents?", [
             "No. Speech is made on your iPhone. Aloud downloads each voice once from a "
@@ -98,10 +107,10 @@ L = {
                        "voice made on your iPhone, at your speed, offline.",
         "lead": "Aloud reads anything you can read: a web article, a PDF, an EPUB book or "
                 "text you paste. The voice is made on your iPhone, so it works offline and "
-                "nothing you read is uploaded. The steps below cover each kind of text.",
+                "nothing you read is uploaded to be spoken. The steps below cover each kind of text.",
         "choose": [
             ("Articles", "Share from Safari or any app"),
-            ("PDFs and EPUBs", "Open from Files"),
+            ("PDFs and EPUBs", "Import from Files"),
             ("Any text", "Paste it in"),
         ],
         "steps": [
@@ -114,9 +123,9 @@ L = {
              "The article goes on your shelf without menus, ads or comments. From Safari, "
              "Aloud reads the page as you see it, so articles you are signed in to work."),
             ("Open a PDF or an EPUB",
-             "In Aloud, tap **+** › **Import a file** and pick the file, or share it to "
-             "Aloud from the Files app. Scanned PDFs are recognised on the device. EPUB "
-             "books keep their cover and chapters."),
+             "In Aloud, tap **+** › **Import a file** and pick the file. You can also "
+             "share a PDF to Aloud from the Files app. Scanned PDFs are recognised on the "
+             "device. EPUB books keep their cover and chapters."),
             ("Paste any text",
              "Tap **+** › **Paste text** for notes, emails or anything you copied. "
              "**Paste a link** takes a web address."),
@@ -144,8 +153,8 @@ L = {
              "Tap the glasses button to hide the player and read the page yourself, with "
              "your choice of font, size and paper under **Appearance**."),
             ("Your reading list",
-             "Saves from Pocket, Instapaper, Raindrop or browser bookmarks come in through "
-             "**Settings** › **Import from a file**."),
+             "Saves from Instapaper, Raindrop, browser bookmarks or an old Pocket export "
+             "come in through **Settings** › **Import from a file**."),
             ("Free to try",
              "The free shelf holds three pieces. One purchase removes the limit, and there "
              "is no subscription."),

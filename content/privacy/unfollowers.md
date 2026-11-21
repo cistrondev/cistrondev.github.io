@@ -1,6 +1,6 @@
 # Privacy Policy for Unfollowers
 
-**Last updated: 22 September 2026**
+**Last updated: 20 November 2026**
 
 Unfollowers Tracker: No Login ("Unfollowers" or "the app") is designed to work
 on your device from data that you provide. This policy explains, in plain
@@ -12,12 +12,13 @@ language, what the app does and does not do with your information.
 your personal data. We have no servers and no account system.** There are no
 user accounts, no analytics, no advertising, and no third‑party tracking. Your
 Instagram data is analyzed and stored only on your iPhone. The app makes no
-network connection using your data except the profile check described below.
+network connection using your data except the profile check and the share-card
+pictures described below.
 
 ## Your Instagram data
 
 The app works from the official data export that **you** request and download
-from Instagram yourself ("Download your information"). When you import that
+from Instagram yourself ("Export your information"). When you import that
 file into the app:
 
 - It is read and analyzed **entirely on your device**.
@@ -25,7 +26,9 @@ file into the app:
   requests, the accounts you interact with most, and related lists) are
   stored **only on your device** in the app's private storage.
 - This information is **never uploaded to us or to any third party**. We have no
-  server that could receive it, and the developer has no access to it.
+  server that could receive it, and the developer has no access to it. The only
+  thing sent anywhere is single usernames, which the profile check and the
+  share-card pictures send to Instagram as described below.
 - You control it completely: erase everything at any time with **nuke
   everything** in Settings, or by deleting the app.
 
@@ -33,8 +36,7 @@ file into the app:
 
 Someone who disappears from your lists may have unfollowed you, blocked you, or
 deleted or deactivated their account. To tell these apart, the app can check
-whether an account still exists on Instagram. This is the **only** feature that
-uses the network. It runs:
+whether an account still exists on Instagram. It runs:
 
 - when you tap **run a vibe check**, and
 - if you have unlocked the full app, automatically right after an import, for
@@ -49,11 +51,24 @@ Whenever it runs:
   identifiers.
 - No cookies are stored and no browsing data is retained between checks.
 
+## Profile pictures on share cards
+
+Your Instagram export contains no pictures. If you have unlocked the full app,
+the share cards in the Stats tab show the profile pictures of the people on
+them. To get these pictures, the app loads each person's public Instagram
+profile page while the Stats tab or the share cards are open:
+
+- The requests are **anonymous**, made **without logging in**, and send only
+  the username of the person whose picture is loaded.
+- No cookies are stored. The pictures are kept only on your device, for up to
+  30 days.
+- Before the unlock, the cards blur these people and no pictures are loaded.
+
 As with any request to any website, your device's IP address is necessarily
-visible to Instagram/Meta's servers while a check runs. Their handling of
-that request is governed by Instagram's own privacy policy
-(https://privacycenter.instagram.com/policy). If no check ever runs, the app
-makes no network requests involving your data at all.
+visible to Instagram/Meta's servers while a check runs or pictures load. Their
+handling of those requests is governed by Instagram's own privacy policy
+(https://privacycenter.instagram.com/policy). If no check runs and no pictures
+load, the app makes no network requests involving your data at all.
 
 ## Reminders
 

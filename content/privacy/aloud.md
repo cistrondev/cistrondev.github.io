@@ -1,6 +1,6 @@
 # Privacy Policy for Aloud
 
-**Last updated: 22 September 2026**
+**Last updated: 20 November 2026**
 
 Aloud collects nothing. There is no account, no analytics, and no server that
 sees what you read.
@@ -67,9 +67,10 @@ situations. Both are initiated by you, and neither involves us.
    fetched. After a voice is downloaded, Aloud can read without any internet
    connection at all.
 
-**Your documents are never uploaded.** Speech is generated on your iPhone, so
-the text you listen to is never transmitted anywhere, either to us or to any
-speech service. If you translate a piece, the translation is done on your iPhone
+**Your documents are never uploaded to be spoken.** Speech is generated on your
+iPhone, so the text you listen to is never sent to us or to any speech service.
+With iCloud sync on, it goes only to your own iCloud Drive, as described above.
+If you translate a piece, the translation is done on your iPhone
 by Apple's Translation framework; iOS may download a language from Apple the
 first time you use it, but your text is not sent.
 

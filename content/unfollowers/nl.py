@@ -52,7 +52,7 @@ L = {
             ("Met wie je het meest interacteert",
              "Je likes, reacties en story-reacties, geteld uit je eigen export."),
             ("Je geschiedenis in grafieken",
-             "Groei- en follow-back-grafieken uit elke export die je importeert. Deel je jaar als kaarten voor je story."),
+             "Groei- en follow-back-grafieken op basis van de volgdatums in je export. Deel je jaar als kaarten voor je story."),
             ("Geen login",
              "De app heeft nergens een inlogscherm. Je wachtwoord blijft van jou."),
         ],
@@ -60,8 +60,9 @@ L = {
         "privacy": [
             "Je Instagram-export wordt alleen op je iPhone gelezen en bewaard.",
             "Geen account, geen analytics, geen advertenties, geen tracking.",
-            "Om te controleren of een account nog bestaat, stuurt de app alleen die "
-            "gebruikersnaam naar Instagram, zonder in te loggen.",
+            "Om te controleren of een account nog bestaat en om foto's voor je "
+            "story-kaarten te laden, stuurt de app alleen gebruikersnamen naar "
+            "Instagram, zonder in te loggen.",
         ],
         "note": "Unfollowers is een onafhankelijke app en niet gelieerd aan Instagram of Meta.",
         "stats": [],
@@ -134,19 +135,22 @@ L = {
             "gebruikersnaam nog bestaat en zet verdwenen accounts in een aparte lijst.",
         ]),
         ("Is Unfollowers gratis?", [
-            "Unfollowers downloaden is gratis. De gratis versie laat zien wie jou niet "
-            "terugvolgt, wie jij niet terugvolgt en je mutuals. Eén eenmalige aankoop "
+            "Unfollowers downloaden is gratis. De gratis versie toont je volgers, de "
+            "accounts die je volgt, wie jou niet terugvolgt, wie jij niet terugvolgt en je "
+            "mutuals. Eén eenmalige aankoop "
             "ontgrendelt de rest, ook de lijsten van wie je ontvolgde en wie je "
             "waarschijnlijk blokkeerde. Er is geen abonnement. De app werkt op iPhone met "
             "iOS 17 of nieuwer.",
         ]),
         ("Verlaat er iets mijn iPhone?", [
             "Je exportbestand blijft op je iPhone. De app leest en bewaart het daar, en de "
-            "ontwikkelaar heeft geen servers. De enige functie die internet gebruikt, is de "
-            "profielcheck. Die vraagt aan instagram.com of een account nog bestaat en stuurt "
+            "ontwikkelaar heeft geen servers. Twee functies gebruiken internet. De "
+            "profielcheck vraagt aan instagram.com of een account nog bestaat en stuurt "
             "alleen die gebruikersnaam, zonder in te loggen. Hij draait als je op de vibe "
             "check tikt en, na ontgrendeling, voor maximaal 30 nieuwe accounts na elke "
-            "import. [Privacybeleid (in het Engels)](privacy).",
+            "import. Na ontgrendeling laadt het tabblad Statistieken ook de profielfoto's "
+            "van de mensen op je story-kaarten vanaf hun openbare Instagram-pagina's, weer "
+            "zonder in te loggen. [Privacybeleid (in het Engels)](privacy).",
         ]),
     ],
     "guide": {

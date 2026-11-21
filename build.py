@@ -89,7 +89,7 @@ APPS = [
              "Ten voices for English and four that read thirty more languages. No "
              "server does the talking, so Aloud keeps reading in airplane mode."),
             ("Articles, PDFs, books",
-             "Share from any browser, open PDFs and EPUB books from Files, even "
+             "Share from any browser, import PDFs and EPUB books from Files, even "
              "scanned PDFs, or paste your own text."),
             ("Read along",
              "The sentence being spoken is lit. Hold the margin rail to scrub "
@@ -106,15 +106,15 @@ APPS = [
         ],
         "privacy_title": "Your documents stay with you.",
         "privacy": [
-            "Speech is generated on your iPhone. Your documents are never uploaded.",
+            "Speech is generated on your iPhone. Your documents are never uploaded to be spoken.",
             "Voices download once from a public host. Articles you share are "
             "fetched from their own website, as a browser would.",
             "No account, no analytics, no ads, no tracking.",
         ],
         "network": (
             "Downloads each voice once from Hugging Face, and fetches articles you "
-            "share from their own websites. Optional iCloud sync goes to your own "
-            "iCloud. Your documents are never uploaded."
+            "share from their own websites. Optional iCloud sync keeps your shelf in your "
+            "own iCloud Drive. Nothing else is uploaded."
         ),
         "note": "",
         "reviews": [
@@ -355,7 +355,7 @@ APPS = [
              "Your likes, comments, and story reactions, counted from your own "
              "export."),
             ("Your history, charted",
-             "Growth and follow-back trends built from every export you import. Share your year as cards for your story."),
+             "Growth and follow-back charts built from the follow dates in your export. Share your year as cards for your story."),
             ("No login",
              "The app has no sign-in screen, so your password stays with you."),
         ],
@@ -363,12 +363,12 @@ APPS = [
         "privacy": [
             "Your Instagram export is read and stored only on your iPhone.",
             "No account, no analytics, no ads, no tracking.",
-            "Checking whether an account still exists sends only that username to "
-            "Instagram, anonymously.",
+            "Checking whether an account still exists, and loading pictures for your "
+            "share cards, sends only usernames to Instagram, anonymously.",
         ],
         "network": (
-            "Only the usernames being checked, sent anonymously to Instagram when a "
-            "profile check runs. Your export stays on your iPhone."
+            "Only usernames, sent anonymously to Instagram when a profile check runs or "
+            "the share cards load profile pictures. Your export stays on your iPhone."
         ),
         "note": "Unfollowers is an independent app, not affiliated with Instagram or Meta.",
         "stats": [

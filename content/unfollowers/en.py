@@ -20,7 +20,11 @@
 #
 # Copy rules: plain sentences, one idea each. A block is always "probably".
 # Never claim the app can't get an account banned, or that nothing leaves the
-# iPhone: the profile check (vibe check) contacts instagram.com.
+# iPhone: the profile check (vibe check) contacts instagram.com, and after the
+# unlock the Stats tab loads share-card profile pictures from public Instagram
+# pages (checked against the code 2026-11-20). The free version shows followers,
+# following, the two follow-back lists and mutuals. The charts come from the
+# follow dates in the latest export, not from every export.
 
 L = {
     "name": "English",
@@ -73,18 +77,21 @@ L = {
             "username still exists, and moves accounts that are gone to a separate list.",
         ]),
         ("Is Unfollowers free?", [
-            "Unfollowers is free to download. The free version shows who doesn't follow you "
-            "back, who you don't follow back, and your mutuals. A one-time purchase unlocks "
+            "Unfollowers is free to download. The free version shows your followers, the "
+            "accounts you follow, who doesn't follow you back, who you don't follow back, "
+            "and your mutuals. A one-time purchase unlocks "
             "everything else, including the lists of who unfollowed you and who probably "
             "blocked you. There is no subscription. The app runs on iPhone with iOS 17 or "
             "later.",
         ]),
         ("Does anything leave my iPhone?", [
             "Your export file stays on your iPhone. The app reads and stores it there, and "
-            "the developer runs no servers. The one feature that uses the internet is the "
-            "profile check. It asks instagram.com whether an account still exists and sends "
-            "only that username, without signing in. It runs when you tap the vibe check, "
-            "and, once the app is unlocked, for up to 30 new accounts after each import. "
+            "the developer runs no servers. Two features use the internet. The profile "
+            "check asks instagram.com whether an account still exists and sends only that "
+            "username, without signing in. It runs when you tap the vibe check, and, once "
+            "the app is unlocked, for up to 30 new accounts after each import. Once the "
+            "app is unlocked, the Stats tab also loads profile pictures for the people on "
+            "your share cards from their public Instagram pages, again without signing in. "
             "[Privacy policy](privacy).",
         ]),
     ],

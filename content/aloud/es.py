@@ -36,7 +36,7 @@ L = {
              "español. Ningún servidor habla por ti, así que Aloud sigue leyendo en modo "
              "avión."),
             ("Artículos, PDF, libros",
-             "Comparte desde cualquier navegador, abre PDF y libros EPUB desde Archivos, "
+             "Comparte desde cualquier navegador, importa PDF y libros EPUB desde Archivos, "
              "incluso PDF escaneados, o pega tu propio texto."),
             ("Para leer mientras escuchas",
              "La frase que se está leyendo se ilumina. Mantén pulsada la barra del margen "
@@ -54,7 +54,8 @@ L = {
         ],
         "privacy_title": "Tus documentos se quedan contigo.",
         "privacy": [
-            "La voz se genera en tu iPhone. Tus documentos nunca se suben.",
+            "La voz se genera en tu iPhone. Tus documentos nunca se suben para "
+            "convertirlos en voz.",
             "Las voces se descargan una vez desde un servidor público. Los artículos que "
             "compartes se obtienen de su propia web, como haría un navegador.",
             "Sin cuenta, sin analíticas, sin anuncios, sin rastreo.",
@@ -118,8 +119,8 @@ L = {
             "Instagram también funcionan. [Guía paso a paso](guide).",
         ]),
         ("¿Puede Aloud convertir un EPUB en audiolibro?", [
-            "Sí. Abre un archivo EPUB desde la app Archivos o toca **+** › **Importar un "
-            "archivo**. Aloud conserva la portada y los capítulos del libro. La lista "
+            "Sí. En Aloud, toca **+** › **Importar un archivo** y elige el EPUB. "
+            "Aloud conserva la portada y los capítulos del libro. La lista "
             "**Capítulos** muestra cuánto se tarda en escuchar cada uno, y puedes empezar "
             "por cualquiera. Aloud recuerda por dónde ibas, así que un libro largo se "
             "escucha como un audiolibro.",
@@ -139,7 +140,7 @@ L = {
             "estantería, no.",
         ]),
         ("¿Qué idiomas puede leer?", [
-            "Diez voces naturales leen inglés, y cuatro más leen más de treinta idiomas, "
+            "Diez voces naturales leen inglés, y cuatro más leen otros treinta idiomas, "
             "entre ellos español, alemán, francés, italiano y portugués. La app está en "
             "español, inglés, alemán, francés, italiano y portugués.",
         ]),
@@ -159,9 +160,12 @@ L = {
             "Aloud**, quita el límite. No hay suscripción. [Ver en la App Store](store).",
         ]),
         ("¿Puedo traer mi lista de lectura de Pocket o Instapaper?", [
-            "Sí. Exporta tus guardados de Pocket, Instapaper, Raindrop o los marcadores de tu "
-            "navegador, y en Aloud abre **Ajustes** › **Importar desde un archivo**. Cada "
-            "enlace llega a tu estantería, y Aloud descarga los artículos en segundo plano.",
+            "Sí. Exporta tus guardados de Instapaper, Raindrop o los marcadores de tu "
+            "navegador, y en Aloud abre **Ajustes** › **Importar desde un archivo**. "
+            "También funciona una exportación de Pocket que hayas guardado antes de su "
+            "cierre en 2025. Aloud pone cada enlace en cola y descarga los artículos uno "
+            "a uno. La estantería gratuita guarda tres lecturas, y el resto espera hasta "
+            "que desbloquees Aloud o quites una lectura.",
         ]),
         ("¿Aloud sube mis documentos?", [
             "No. La voz se genera en tu iPhone. Aloud descarga cada voz una vez desde un "
@@ -179,11 +183,11 @@ L = {
                        "natural creada en tu iPhone, a tu velocidad, sin conexión.",
         "lead": "Aloud lee todo lo que puedes leer: un artículo de la web, un PDF, un libro "
                 "EPUB o un texto que pegues. La voz se crea en tu iPhone, así que funciona "
-                "sin conexión y nada de lo que lees se sube. Así se añade cada tipo de texto "
-                "y así se escucha.",
+                "sin conexión y nada de lo que lees se sube para convertirlo en voz. "
+                "Así se añade cada tipo de texto y así se escucha.",
         "choose": [
             ("Artículos", "Compártelos desde Safari o cualquier app"),
-            ("PDF y EPUB", "Ábrelos desde Archivos"),
+            ("PDF y EPUB", "Impórtalos desde Archivos"),
             ("Cualquier texto", "Pégalo"),
         ],
         "steps": [
@@ -197,9 +201,10 @@ L = {
              "comentarios. Desde Safari, Aloud lee la página tal como la ves, así que "
              "funcionan también los artículos de webs en las que tienes la sesión iniciada."),
             ("Abre un PDF o un EPUB",
-             "En Aloud, toca **+** › **Importar un archivo** y elige el archivo, o "
-             "compártelo con Aloud desde la app Archivos. Los PDF escaneados se reconocen en "
-             "el dispositivo. Los libros EPUB conservan su portada y sus capítulos."),
+             "En Aloud, toca **+** › **Importar un archivo** y elige el archivo. También "
+             "puedes compartir un PDF con Aloud desde la app Archivos. Los PDF escaneados "
+             "se reconocen en el dispositivo. Los libros EPUB conservan su portada y sus "
+             "capítulos."),
             ("Pega cualquier texto",
              "Toca **+** › **Pegar texto** para notas, correos o cualquier cosa que hayas "
              "copiado. **Pegar un enlace** acepta una dirección web."),
@@ -228,8 +233,9 @@ L = {
              "Toca el botón de las gafas para ocultar el reproductor y leer tú mismo, con la "
              "letra, el tamaño y el papel que elijas en **Aspecto**."),
             ("Tu lista de lectura",
-             "Los guardados de Pocket, Instapaper, Raindrop o los marcadores del navegador "
-             "entran por **Ajustes** › **Importar desde un archivo**."),
+             "Los guardados de Instapaper o Raindrop, los marcadores del navegador o una "
+             "exportación antigua de Pocket entran por **Ajustes** › **Importar desde un "
+             "archivo**."),
             ("Prueba gratis",
              "La estantería gratuita guarda tres lecturas. Una sola compra quita el límite, "
              "y no hay suscripción."),

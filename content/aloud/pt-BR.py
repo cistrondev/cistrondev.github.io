@@ -37,7 +37,7 @@ L = {
              "português. Nenhum servidor fala por você, então o Aloud continua lendo no modo "
              "avião."),
             ("Artigos, PDFs, livros",
-             "Compartilhe de qualquer navegador, abra PDFs e livros EPUB pelo app Arquivos, "
+             "Compartilhe de qualquer navegador, importe PDFs e livros EPUB pelo app Arquivos, "
              "até PDFs escaneados, ou cole o seu próprio texto."),
             ("Para acompanhar a leitura",
              "A frase que está sendo lida fica em destaque. Segure a barra da margem para "
@@ -54,7 +54,7 @@ L = {
         ],
         "privacy_title": "Seus documentos ficam com você.",
         "privacy": [
-            "A voz é criada no seu iPhone. Seus documentos nunca são enviados.",
+            "A voz é criada no seu iPhone. Seus documentos nunca são enviados para virar voz.",
             "As vozes são baixadas uma vez de um servidor público. Os artigos que você "
             "compartilha são buscados no próprio site, como um navegador faria.",
             "Sem conta, sem análises, sem anúncios, sem rastreamento.",
@@ -118,8 +118,8 @@ L = {
             "[Guia passo a passo](guide).",
         ]),
         ("O Aloud transforma um EPUB em audiolivro?", [
-            "Sim. Abra um arquivo EPUB pelo app Arquivos ou toque em **+** › **Importar um "
-            "arquivo**. O Aloud mantém a capa e os capítulos do livro. A lista "
+            "Sim. No Aloud, toque em **+** › **Importar um arquivo** e escolha o EPUB. "
+            "O Aloud mantém a capa e os capítulos do livro. A lista "
             "**Capítulos** mostra quanto tempo leva para ouvir cada um, e você pode começar "
             "de qualquer capítulo. O Aloud guarda onde você parou, então um livro longo toca "
             "como um audiolivro.",
@@ -138,7 +138,7 @@ L = {
             "Buscar um artigo novo precisa de internet; o que já está na sua estante, não.",
         ]),
         ("Quais idiomas ele lê?", [
-            "Dez vozes naturais leem inglês, e outras quatro leem mais de trinta idiomas, "
+            "Dez vozes naturais leem inglês, e outras quatro leem mais trinta idiomas, "
             "entre eles português, alemão, espanhol, francês e italiano. O app está em "
             "português, inglês, alemão, espanhol, francês e italiano.",
         ]),
@@ -158,10 +158,12 @@ L = {
             "limite. Não há assinatura. [Ver na App Store](store).",
         ]),
         ("Posso trazer minha lista de leitura do Pocket ou do Instapaper?", [
-            "Sim. Exporte seus links salvos do Pocket, do Instapaper, do Raindrop ou os "
-            "favoritos do navegador, e no Aloud abra **Ajustes** › **Importar de um "
-            "arquivo**. Cada link chega à sua estante, e o Aloud busca os artigos em segundo "
-            "plano.",
+            "Sim. Exporte seus links salvos do Instapaper, do Raindrop ou os favoritos do "
+            "navegador, e no Aloud abra **Ajustes** › **Importar de um arquivo**. "
+            "Uma exportação que você salvou do Pocket antes de ele fechar, em 2025, também "
+            "funciona. O Aloud enfileira cada link e busca os artigos um por um. A estante "
+            "grátis guarda três textos, e o resto espera até você desbloquear o Aloud ou "
+            "remover um texto.",
         ]),
         ("O Aloud envia meus documentos?", [
             "Não. A voz é criada no seu iPhone. O Aloud baixa cada voz uma vez de um servidor "
@@ -179,11 +181,11 @@ L = {
                        "natural criada no seu iPhone, na sua velocidade, offline.",
         "lead": "O Aloud lê tudo o que você pode ler: um artigo, um PDF, um livro EPUB ou um "
                 "texto que você cola. A voz é criada no seu iPhone, então funciona offline e "
-                "nada do que você lê é enviado. Veja como colocar cada tipo de texto no app "
-                "e como ouvir.",
+                "nada do que você lê é enviado para virar voz. "
+                "Veja como colocar cada tipo de texto no app e como ouvir.",
         "choose": [
             ("Artigos", "Compartilhe pelo Safari ou outro app"),
-            ("PDFs e EPUBs", "Abra pelo app Arquivos"),
+            ("PDFs e EPUBs", "Importe pelo app Arquivos"),
             ("Qualquer texto", "Cole"),
         ],
         "steps": [
@@ -197,9 +199,10 @@ L = {
              "Pelo Safari, o Aloud lê a página como você a vê, então artigos de sites em que "
              "você está logado funcionam."),
             ("Abra um PDF ou um EPUB",
-             "No Aloud, toque em **+** › **Importar um arquivo** e escolha o arquivo, ou "
-             "compartilhe com o Aloud pelo app Arquivos. PDFs escaneados são reconhecidos no "
-             "aparelho. Livros EPUB mantêm a capa e os capítulos."),
+             "No Aloud, toque em **+** › **Importar um arquivo** e escolha o arquivo. "
+             "Você também pode compartilhar um PDF com o Aloud pelo app Arquivos. PDFs "
+             "escaneados são reconhecidos no aparelho. Livros EPUB mantêm a capa e os "
+             "capítulos."),
             ("Cole qualquer texto",
              "Toque em **+** › **Colar texto** para notas, e-mails ou qualquer coisa que você "
              "copiou. **Colar um link** aceita um endereço da web."),
@@ -227,8 +230,8 @@ L = {
              "Toque no botão dos óculos para esconder o player e ler você mesmo, com a fonte, "
              "o tamanho e o papel que quiser em **Aparência**."),
             ("Sua lista de leitura",
-             "Links do Pocket, do Instapaper, do Raindrop ou favoritos do navegador entram "
-             "por **Ajustes** › **Importar de um arquivo**."),
+             "Links do Instapaper ou do Raindrop, favoritos do navegador ou uma exportação "
+             "antiga do Pocket entram por **Ajustes** › **Importar de um arquivo**."),
             ("Teste grátis",
              "A estante grátis guarda três textos. Uma única compra tira o limite, e não há "
              "assinatura."),

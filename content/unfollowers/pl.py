@@ -57,8 +57,8 @@ L = {
             ("Z kim masz najwięcej interakcji",
              "Twoje polubienia, komentarze i reakcje na relacje, policzone z twojego eksportu."),
             ("Twoja historia na wykresach",
-             "Wykresy wzrostu i wzajemnych obserwacji z każdego eksportu, który importujesz. "
-             "Swój rok możesz udostępnić w relacji jako karty."),
+             "Wykresy wzrostu i wzajemnych obserwacji na podstawie dat obserwowania z twojego "
+             "eksportu. Swój rok możesz udostępnić w relacji jako karty."),
             ("Bez logowania",
              "Aplikacja nie ma ekranu logowania. Twoje hasło zostaje przy tobie."),
         ],
@@ -66,8 +66,9 @@ L = {
         "privacy": [
             "Eksport z Instagrama jest odczytywany i przechowywany tylko na twoim iPhonie.",
             "Bez rejestracji, analityki, reklam i śledzenia.",
-            "Aby sprawdzić, czy konto nadal istnieje, aplikacja wysyła do Instagrama tylko "
-            "tę nazwę użytkownika, bez logowania.",
+            "Aby sprawdzić, czy konto nadal istnieje, i wczytać zdjęcia na karty do "
+            "udostępniania, aplikacja wysyła do Instagrama tylko nazwy użytkowników, "
+            "bez logowania.",
         ],
         "note": "Unfollowers to niezależna aplikacja, niepowiązana z Instagramem ani z Meta.",
         "stats": [],
@@ -143,19 +144,22 @@ L = {
             "użytkownika nadal istnieje, i przenosi znikające konta na osobną listę.",
         ]),
         ("Czy Unfollowers jest za darmo?", [
-            "Unfollowers można pobrać za darmo. Wersja darmowa pokazuje, kto nie obserwuje "
-            "cię nawzajem, kogo ty nie obserwujesz nawzajem i wzajemne obserwowanie. "
+            "Unfollowers można pobrać za darmo. Wersja darmowa pokazuje twoich obserwujących, "
+            "obserwowanych, kto nie obserwuje cię nawzajem, kogo ty nie obserwujesz nawzajem "
+            "i wzajemne obserwowanie. "
             "Jednorazowy zakup odblokowuje całą resztę, w tym listy osób, które przestały "
             "cię obserwować i które prawdopodobnie cię zablokowały. Nie ma subskrypcji. "
             "Aplikacja działa na iPhonie z iOS 17 lub nowszym i jest w języku angielskim.",
         ]),
         ("Czy coś opuszcza mojego iPhone'a?", [
             "Plik eksportu zostaje na twoim iPhonie. Aplikacja tam go odczytuje i "
-            "przechowuje, a twórca nie ma żadnych serwerów. Z internetu korzysta tylko "
-            "sprawdzanie profili. Pyta instagram.com, czy konto nadal istnieje, i wysyła "
-            "tylko tę nazwę użytkownika, bez logowania. Działa, gdy dotkniesz vibe check, a "
-            "po odblokowaniu dla maksymalnie 30 nowych kont po każdym imporcie. [Polityka "
-            "prywatności (po angielsku)](privacy).",
+            "przechowuje, a twórca nie ma żadnych serwerów. Z internetu korzystają dwie "
+            "funkcje. Sprawdzanie profili pyta instagram.com, czy konto nadal istnieje, i "
+            "wysyła tylko tę nazwę użytkownika, bez logowania. Działa, gdy dotkniesz "
+            "vibe check, a po odblokowaniu dla maksymalnie 30 nowych kont po każdym "
+            "imporcie. Po odblokowaniu zakładka STATS wczytuje też zdjęcia profilowe osób "
+            "na kartach do udostępniania z ich publicznych stron na Instagramie, znów bez "
+            "logowania. [Polityka prywatności (po angielsku)](privacy).",
         ]),
     ],
     "guide": {
