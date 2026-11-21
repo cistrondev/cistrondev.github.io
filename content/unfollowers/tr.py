@@ -56,8 +56,8 @@ L = {
             ("En çok etkileşim kurduğun hesaplar",
              "Beğenilerin, yorumların ve hikaye tepkilerin, kendi dışa aktarımından sayılır."),
             ("Geçmişin grafiklerde",
-             "İçe aktardığın her dosyadan büyüme ve geri takip grafikleri. Yılını hikayende "
-             "kartlarla paylaş."),
+             "Dışa aktarımındaki takip tarihlerinden büyüme ve geri takip grafikleri. Yılını "
+             "hikayende kartlarla paylaş."),
             ("Giriş yok",
              "Uygulamanın giriş ekranı yok. Şifren sende kalır."),
         ],
@@ -65,8 +65,9 @@ L = {
         "privacy": [
             "Instagram dışa aktarımın yalnızca iPhone'unda okunur ve saklanır.",
             "Hesap yok, analitik yok, reklam yok, izleme yok.",
-            "Bir hesabın hâlâ var olup olmadığını kontrol etmek için uygulama, giriş "
-            "yapmadan Instagram'a yalnızca o kullanıcı adını gönderir.",
+            "Bir hesabın hâlâ var olup olmadığını kontrol etmek ve paylaştığın kartlardaki "
+            "fotoğrafları indirmek için uygulama, giriş yapmadan Instagram'a yalnızca "
+            "kullanıcı adlarını gönderir.",
         ],
         "note": "Unfollowers bağımsız bir uygulamadır; Instagram veya Meta ile bağlantılı "
                 "değildir.",
@@ -142,19 +143,22 @@ L = {
             "olmadığını instagram.com'a sorar ve kaybolan hesapları ayrı bir listeye taşır.",
         ]),
         ("Unfollowers ücretsiz mi?", [
-            "Unfollowers'ı indirmek ücretsizdir. Ücretsiz sürüm, seni geri takip "
-            "etmeyenleri, senin geri takip etmediklerini ve karşılıklı takipleri gösterir. "
+            "Unfollowers'ı indirmek ücretsizdir. Ücretsiz sürüm, takipçilerini, takip "
+            "ettiğin hesapları, seni geri takip etmeyenleri, senin geri takip etmediklerini "
+            "ve karşılıklı takipleri gösterir. "
             "Tek seferlik bir satın alma, seni takipten çıkanlar ve muhtemelen seni "
             "engelleyenler listeleri dahil geri kalan her şeyin kilidini açar. Abonelik "
             "yoktur. Uygulama, iOS 17 veya üzeri yüklü iPhone'da çalışır.",
         ]),
         ("iPhone'umdan bir şey çıkıyor mu?", [
             "Dışa aktarım dosyan iPhone'unda kalır. Uygulama onu orada okur ve saklar; "
-            "geliştiricinin sunucusu yoktur. İnternet kullanan tek özellik profil "
-            "kontrolüdür. Bir hesabın hâlâ var olup olmadığını instagram.com'a sorar ve "
+            "geliştiricinin sunucusu yoktur. İki özellik internet kullanır. Profil "
+            "kontrolü, bir hesabın hâlâ var olup olmadığını instagram.com'a sorar ve "
             "giriş yapmadan yalnızca o kullanıcı adını gönderir. Vibe check'e dokunduğunda "
             "ve kilit açıldıktan sonra her içe aktarmanın ardından en fazla 30 yeni hesap "
-            "için çalışır. [Gizlilik politikası (İngilizce)](privacy).",
+            "için çalışır. Kilit açıldıktan sonra İSTATİSTİK sekmesi de paylaştığın "
+            "kartlardaki kişilerin profil fotoğraflarını, yine giriş yapmadan, herkese açık "
+            "Instagram sayfalarından yükler. [Gizlilik politikası (İngilizce)](privacy).",
         ]),
     ],
     "guide": {

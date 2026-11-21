@@ -36,7 +36,7 @@ L = {
              "français. Aucun serveur ne parle à votre place, donc Aloud continue de lire en "
              "mode avion."),
             ("Articles, PDF, livres",
-             "Partagez depuis n'importe quel navigateur, ouvrez des PDF et des livres EPUB "
+             "Partagez depuis n'importe quel navigateur, importez des PDF et des livres EPUB "
              "depuis Fichiers, même des PDF scannés, ou collez votre propre texte."),
             ("Pour suivre la lecture",
              "La phrase en cours est mise en évidence. Maintenez le doigt sur la barre de la "
@@ -53,7 +53,8 @@ L = {
         ],
         "privacy_title": "Vos documents restent chez vous.",
         "privacy": [
-            "La voix est créée sur votre iPhone. Vos documents ne sont jamais envoyés.",
+            "La voix est créée sur votre iPhone. Vos documents ne sont jamais envoyés "
+            "pour être lus.",
             "Les voix se téléchargent une fois depuis un serveur public. Les articles que "
             "vous partagez sont récupérés sur leur propre site, comme le ferait un "
             "navigateur.",
@@ -118,8 +119,8 @@ L = {
             "également. [Guide pas à pas](guide).",
         ]),
         ("Aloud peut-il transformer un EPUB en livre audio ?", [
-            "Oui. Ouvrez un fichier EPUB depuis l'app Fichiers, ou touchez **+** › "
-            "**Importer un fichier**. Aloud garde la couverture et les chapitres du livre. "
+            "Oui. Dans Aloud, touchez **+** › **Importer un fichier** et choisissez "
+            "l'EPUB. Aloud garde la couverture et les chapitres du livre. "
             "La liste **Chapitres** indique la durée d'écoute de chaque chapitre, et vous "
             "pouvez commencer par n'importe lequel. Votre position est retenue : un long "
             "livre s'écoute comme un livre audio.",
@@ -139,8 +140,8 @@ L = {
             "étagère, non.",
         ]),
         ("Quelles langues peut-il lire ?", [
-            "Dix voix naturelles lisent l'anglais, et quatre autres lisent plus de trente "
-            "langues, dont le français, l'allemand, l'espagnol, l'italien et le portugais. "
+            "Dix voix naturelles lisent l'anglais, et quatre autres lisent trente langues "
+            "de plus, dont le français, l'allemand, l'espagnol, l'italien et le portugais. "
             "L'app est en français, anglais, allemand, espagnol, italien et portugais.",
         ]),
         ("Peut-il traduire ce que je lis ?", [
@@ -161,10 +162,12 @@ L = {
             "Store](store).",
         ]),
         ("Puis-je importer ma liste de lecture depuis Pocket ou Instapaper ?", [
-            "Oui. Exportez vos liens depuis Pocket, Instapaper, Raindrop ou les favoris de "
-            "votre navigateur, puis dans Aloud ouvrez **Réglages** › **Importer depuis un "
-            "fichier**. Chaque lien arrive sur votre étagère, et Aloud récupère les articles "
-            "en arrière-plan.",
+            "Oui. Exportez vos liens depuis Instapaper, Raindrop ou les favoris de votre "
+            "navigateur, puis dans Aloud ouvrez **Réglages** › **Importer depuis un "
+            "fichier**. Un export que vous avez enregistré depuis Pocket avant sa fermeture "
+            "en 2025 fonctionne aussi. Aloud met chaque lien en file d'attente et récupère "
+            "les articles un par un. L'étagère gratuite contient trois textes, et les autres "
+            "attendent que vous déverrouilliez Aloud ou que vous retiriez un texte.",
         ]),
         ("Aloud envoie-t-il mes documents ?", [
             "Non. La voix est créée sur votre iPhone. Aloud télécharge chaque voix une fois "
@@ -183,11 +186,11 @@ L = {
                        "ligne.",
         "lead": "Aloud lit tout ce qui se lit : un article web, un PDF, un livre EPUB ou un "
                 "texte que vous collez. La voix est créée sur votre iPhone : elle fonctionne "
-                "hors ligne et rien de ce que vous lisez n'est envoyé. Voici comment ajouter "
-                "chaque type de texte et comment l'écouter.",
+                "hors ligne et rien de ce que vous lisez n'est envoyé pour être lu. Voici "
+                "comment ajouter chaque type de texte et comment l'écouter.",
         "choose": [
             ("Articles", "À partager depuis Safari ou une app"),
-            ("PDF et EPUB", "À ouvrir depuis Fichiers"),
+            ("PDF et EPUB", "À importer depuis Fichiers"),
             ("Tout texte", "À coller"),
         ],
         "steps": [
@@ -201,9 +204,10 @@ L = {
              "commentaires. Depuis Safari, Aloud lit la page telle que vous la voyez : les "
              "articles des sites où vous êtes connecté fonctionnent."),
             ("Ouvrez un PDF ou un EPUB",
-             "Dans Aloud, touchez **+** › **Importer un fichier** et choisissez le fichier, "
-             "ou partagez-le avec Aloud depuis l'app Fichiers. Les PDF scannés sont reconnus "
-             "sur l'appareil. Les livres EPUB gardent leur couverture et leurs chapitres."),
+             "Dans Aloud, touchez **+** › **Importer un fichier** et choisissez le fichier. "
+             "Vous pouvez aussi partager un PDF avec Aloud depuis l'app Fichiers. Les PDF "
+             "scannés sont reconnus sur l'appareil. Les livres EPUB gardent leur couverture "
+             "et leurs chapitres."),
             ("Collez n'importe quel texte",
              "Touchez **+** › **Coller du texte** pour des notes, des e-mails ou tout ce que "
              "vous avez copié. **Coller un lien** accepte une adresse web."),
@@ -232,8 +236,8 @@ L = {
              "Touchez le bouton des lunettes pour masquer le lecteur audio et lire vous-même, "
              "avec la police, la taille et le papier de votre choix dans **Apparence**."),
             ("Votre liste de lecture",
-             "Les liens de Pocket, Instapaper, Raindrop ou des favoris du navigateur arrivent "
-             "par **Réglages** › **Importer depuis un fichier**."),
+             "Les liens d'Instapaper, de Raindrop, des favoris du navigateur ou d'un ancien "
+             "export Pocket arrivent par **Réglages** › **Importer depuis un fichier**."),
             ("Essai gratuit",
              "L'étagère gratuite contient trois textes. Un seul achat lève la limite, et il "
              "n'y a pas d'abonnement."),

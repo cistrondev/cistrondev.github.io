@@ -56,8 +56,8 @@ L = {
              "Tes j'aime, commentaires et réactions aux stories, comptés à partir de ton "
              "propre export."),
             ("Ton historique en graphiques",
-             "Des graphiques de croissance et de follow-back créés à partir de chaque export "
-             "que tu importes. Partage ton année en cartes pour ta story."),
+             "Des graphiques de croissance et de follow-back créés à partir des dates "
+             "d'abonnement de ton export. Partage ton année en cartes pour ta story."),
             ("Sans login",
              "L'app n'a aucun écran de connexion. Ton mot de passe reste à toi."),
         ],
@@ -65,8 +65,9 @@ L = {
         "privacy": [
             "Ton export Instagram est lu et enregistré uniquement sur ton iPhone.",
             "Pas de compte, pas d'analytics, pas de pub, pas de tracking.",
-            "Pour vérifier qu'un compte existe encore, l'app envoie à Instagram uniquement "
-            "ce nom d'utilisateur, sans se connecter.",
+            "Pour vérifier qu'un compte existe encore et pour charger les photos de tes "
+            "cartes à partager, l'app envoie à Instagram uniquement des noms d'utilisateur, "
+            "sans se connecter.",
         ],
         "note": "Unfollowers est une app indépendante, sans lien avec Instagram ou Meta.",
         "stats": [],
@@ -143,19 +144,23 @@ L = {
             "d'utilisateur existe encore, et range les comptes disparus dans une liste à part.",
         ]),
         ("Unfollowers est-il gratuit ?", [
-            "Le téléchargement d'Unfollowers est gratuit. La version gratuite montre qui ne "
-            "te suit pas en retour, qui tu ne suis pas en retour et tes mutuals. Un achat "
+            "Le téléchargement d'Unfollowers est gratuit. La version gratuite montre tes "
+            "abonnés, les comptes que tu suis, qui ne te suit pas en retour, qui tu ne suis "
+            "pas en retour et tes mutuals. Un achat "
             "unique débloque tout le reste, dont les listes de qui a arrêté de te suivre et "
             "de qui t'a probablement bloqué. Il n'y a pas d'abonnement. L'app fonctionne sur "
             "iPhone avec iOS 17 ou version ultérieure.",
         ]),
         ("Est-ce que quelque chose quitte mon iPhone ?", [
             "Ton fichier d'export reste sur ton iPhone. L'app le lit et l'enregistre là, et "
-            "le développeur n'a pas de serveur. La seule fonction qui utilise internet est la "
-            "vérification des profils. Elle demande à instagram.com si un compte existe "
+            "le développeur n'a pas de serveur. Deux fonctions utilisent internet. La "
+            "vérification des profils demande à instagram.com si un compte existe "
             "encore et envoie uniquement ce nom d'utilisateur, sans se connecter. Elle se "
             "lance quand tu touches le vibe check et, une fois l'app débloquée, pour 30 "
-            "nouveaux comptes au maximum après chaque import. [Politique de confidentialité "
+            "nouveaux comptes au maximum après chaque import. Une fois l'app débloquée, "
+            "l'onglet Statistiques charge aussi les photos de profil des personnes qui "
+            "apparaissent sur tes cartes à partager, depuis leurs pages Instagram publiques, "
+            "là encore sans se connecter. [Politique de confidentialité "
             "(en anglais)](privacy).",
         ]),
     ],

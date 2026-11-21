@@ -54,7 +54,7 @@ L = {
              "Tus me gusta, comentarios y reacciones a historias, contados desde tu propio "
              "export."),
             ("Tu historial en gráficos",
-             "Gráficos de crecimiento y de follow-back creados con cada export que importas. Comparte tu año en tarjetas para tus historias."),
+             "Gráficos de crecimiento y de follow-back creados con las fechas de seguimiento de tu export. Comparte tu año en tarjetas para tus historias."),
             ("Sin login",
              "La app no tiene ninguna pantalla de inicio de sesión. Tu contraseña es solo "
              "tuya."),
@@ -63,8 +63,9 @@ L = {
         "privacy": [
             "Tu export de Instagram se lee y se guarda solo en tu iPhone.",
             "Sin cuenta, sin analíticas, sin anuncios y sin rastreo.",
-            "Para comprobar si una cuenta sigue existiendo, la app envía a Instagram solo ese "
-            "nombre de usuario, sin iniciar sesión.",
+            "Para comprobar si una cuenta sigue existiendo y cargar las fotos de tus tarjetas "
+            "para compartir, la app envía a Instagram solo nombres de usuario, sin iniciar "
+            "sesión.",
         ],
         "note": "Unfollowers es una app independiente, sin afiliación con Instagram ni con Meta.",
         "stats": [],
@@ -139,19 +140,23 @@ L = {
             "lista aparte.",
         ]),
         ("¿Unfollowers es gratis?", [
-            "Descargar Unfollowers es gratis. La versión gratuita muestra quién no te sigue "
-            "de vuelta, a quién no sigues tú de vuelta y tus mutuos. Una única compra "
+            "Descargar Unfollowers es gratis. La versión gratuita muestra tus seguidores, "
+            "las cuentas que sigues, quién no te sigue de vuelta, a quién no sigues tú de "
+            "vuelta y tus mutuos. Una única compra "
             "desbloquea todo lo demás, incluidas las listas de quién dejó de seguirte y de "
             "quién probablemente te bloqueó. No hay suscripción. La app funciona en iPhone "
             "con iOS 17 o posterior.",
         ]),
         ("¿Sale algo de mi iPhone?", [
             "Tu archivo de export se queda en tu iPhone. La app lo lee y lo guarda ahí, y el "
-            "desarrollador no tiene servidores. La única función que usa internet es la "
-            "comprobación de perfiles. Pregunta a instagram.com si una cuenta sigue "
+            "desarrollador no tiene servidores. Dos funciones usan internet. La "
+            "comprobación de perfiles pregunta a instagram.com si una cuenta sigue "
             "existiendo y envía solo ese nombre de usuario, sin iniciar sesión. Se ejecuta "
             "cuando tocas el vibe check y, con la app desbloqueada, para un máximo de 30 "
-            "cuentas nuevas después de cada importación. [Política de privacidad (en "
+            "cuentas nuevas después de cada importación. Con la app desbloqueada, la "
+            "pestaña Estadísticas carga además las fotos de perfil de las personas que "
+            "aparecen en tus tarjetas para compartir. Las obtiene de sus páginas públicas "
+            "de Instagram, también sin iniciar sesión. [Política de privacidad (en "
             "inglés)](privacy).",
         ]),
     ],

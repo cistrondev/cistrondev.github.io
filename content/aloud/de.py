@@ -36,8 +36,8 @@ L = {
              "darunter Deutsch. Kein Server spricht mit, deshalb liest Aloud auch im "
              "Flugmodus weiter."),
             ("Artikel, PDFs, Bücher",
-             "Teile aus jedem Browser, öffne PDFs und EPUB-Bücher aus „Dateien“, auch "
-             "eingescannte PDFs, oder setz deinen eigenen Text ein."),
+             "Teile aus jedem Browser, importiere PDFs und EPUB-Bücher aus „Dateien“, "
+             "auch eingescannte PDFs, oder setz deinen eigenen Text ein."),
             ("Zum Mitlesen",
              "Der Satz, der gerade gesprochen wird, ist hervorgehoben. Halte die Leiste am "
              "Rand gedrückt, um durch den ganzen Text zu springen."),
@@ -53,7 +53,8 @@ L = {
         ],
         "privacy_title": "Deine Dokumente bleiben bei dir.",
         "privacy": [
-            "Die Sprache entsteht auf deinem iPhone. Deine Dokumente werden nie hochgeladen.",
+            "Die Sprache entsteht auf deinem iPhone. Deine Dokumente werden nie zum "
+            "Vorlesen hochgeladen.",
             "Die Stimmen werden einmal von einem öffentlichen Server geladen. Geteilte "
             "Artikel holt Aloud von ihrer eigenen Website, wie ein Browser.",
             "Kein Konto, keine Analytics, keine Werbung, kein Tracking.",
@@ -117,8 +118,8 @@ L = {
             "[Schritt-für-Schritt-Anleitung](guide).",
         ]),
         ("Kann Aloud aus einem EPUB ein Hörbuch machen?", [
-            "Ja. Öffne eine EPUB-Datei aus der App „Dateien“ oder tippe auf **+** › "
-            "**Datei importieren**. Aloud behält das Cover und die Kapitel. Die Liste "
+            "Ja. Tippe in Aloud auf **+** › **Datei importieren** und wähle die "
+            "EPUB-Datei. Aloud behält das Cover und die Kapitel. Die Liste "
             "**Kapitel** zeigt, wie lange jedes Kapitel zum Anhören dauert, und du kannst "
             "bei jedem beginnen. Deine Stelle bleibt gemerkt, so läuft ein langes Buch wie "
             "ein Hörbuch.",
@@ -138,7 +139,7 @@ L = {
             "Internet. Was schon im Regal liegt, nicht.",
         ]),
         ("Welche Sprachen kann Aloud vorlesen?", [
-            "Zehn natürliche Stimmen lesen Englisch, vier weitere lesen über dreißig andere "
+            "Zehn natürliche Stimmen lesen Englisch, vier weitere lesen dreißig andere "
             "Sprachen, darunter Deutsch, Spanisch, Französisch, Italienisch und "
             "Portugiesisch. Die App selbst gibt es auf Deutsch, Englisch, Spanisch, "
             "Französisch, Italienisch und Portugiesisch.",
@@ -161,10 +162,13 @@ L = {
             "ansehen](store).",
         ]),
         ("Kann ich meine Leseliste aus Pocket oder Instapaper mitnehmen?", [
-            "Ja. Exportiere deine gespeicherten Links aus Pocket, Instapaper, Raindrop oder "
-            "die Lesezeichen deines Browsers. Öffne dann in Aloud **Einstellungen** › **Aus "
-            "einer Datei importieren**. Jeder Link landet im Regal, und Aloud holt die "
-            "Artikel im Hintergrund.",
+            "Ja. Exportiere deine gespeicherten Links aus Instapaper, Raindrop oder den "
+            "Lesezeichen deines Browsers. Öffne dann in Aloud **Einstellungen** › **Aus "
+            "einer Datei importieren**. Ein Pocket-Export, den du gespeichert hast, bevor "
+            "der Dienst 2025 eingestellt wurde, funktioniert auch. Aloud stellt jeden Link "
+            "in die Warteschlange und holt die Artikel nacheinander. Im kostenlosen Regal "
+            "haben drei Texte Platz, und die übrigen warten, bis du Aloud freischaltest "
+            "oder einen Text entfernst.",
         ]),
         ("Lädt Aloud meine Dokumente hoch?", [
             "Nein. Die Sprache entsteht auf deinem iPhone. Aloud lädt jede Stimme einmal von "
@@ -183,11 +187,12 @@ L = {
                        "in deinem Tempo, offline.",
         "lead": "Aloud liest alles vor, was du lesen kannst: einen Artikel, ein PDF, ein "
                 "EPUB-Buch oder Text, den du einsetzt. Die Stimme entsteht auf deinem "
-                "iPhone, deshalb funktioniert sie offline, und nichts wird hochgeladen. So "
-                "bekommst du jede Art von Text in die App und hörst ihn dir an.",
+                "iPhone, deshalb funktioniert sie offline, und nichts wird zum Vorlesen "
+                "hochgeladen. So bekommst du jede Art von Text in die App und hörst ihn "
+                "dir an.",
         "choose": [
             ("Artikel", "Aus Safari oder jeder App teilen"),
-            ("PDFs und EPUBs", "Aus „Dateien“ öffnen"),
+            ("PDFs und EPUBs", "Aus „Dateien“ importieren"),
             ("Jeder Text", "Einsetzen"),
         ],
         "steps": [
@@ -201,9 +206,9 @@ L = {
              "Regal. Aus Safari liest Aloud die Seite so, wie du sie siehst, also auch "
              "Artikel, bei denen du angemeldet bist."),
             ("Ein PDF oder EPUB öffnen",
-             "Tippe in Aloud auf **+** › **Datei importieren** und wähle die Datei, oder "
-             "teile sie aus der App „Dateien“ mit Aloud. Eingescannte PDFs werden auf dem "
-             "Gerät erkannt. EPUB-Bücher behalten ihr Cover und ihre Kapitel."),
+             "Tippe in Aloud auf **+** › **Datei importieren** und wähle die Datei. Ein "
+             "PDF kannst du auch aus der App „Dateien“ mit Aloud teilen. Eingescannte PDFs "
+             "werden auf dem Gerät erkannt. EPUB-Bücher behalten ihr Cover und ihre Kapitel."),
             ("Beliebigen Text einsetzen",
              "Tippe auf **+** › **Text einsetzen** für Notizen, E-Mails oder alles, was du "
              "kopiert hast. **Link einsetzen** nimmt eine Webadresse."),
@@ -232,8 +237,9 @@ L = {
              "Tippe auf die Brillen-Taste, um den Player auszublenden und selbst zu lesen, "
              "mit Schrift, Größe und Papier nach Wahl unter **Darstellung**."),
             ("Deine Leseliste",
-             "Gespeicherte Links aus Pocket, Instapaper, Raindrop oder Browser-Lesezeichen "
-             "kommen über **Einstellungen** › **Aus einer Datei importieren** in die App."),
+             "Gespeicherte Links aus Instapaper, Raindrop, Browser-Lesezeichen oder einem "
+             "alten Pocket-Export kommen über **Einstellungen** › **Aus einer Datei "
+             "importieren** in die App."),
             ("Kostenlos testen",
              "Im kostenlosen Regal haben drei Texte Platz. Ein einziger Kauf hebt das Limit "
              "auf, und es gibt kein Abo."),
