@@ -12,9 +12,15 @@
 # chronometer range, under 15 acceptable, 30+ needs regulation; beat error
 # under 0.3 ms well in beat, 0.8-1.5 adjustment recommended; amplitude 250-315
 # healthy, under 220 low, under 200 very low, over 315 risk of knocking.
-# Quartz watches (2.10) are measured only from two dial photos a week or two
-# apart, less than three weeks, with the result in seconds per month; two weeks
-# is precise to under a second a month; the watch needs a seconds hand.
+# Quartz watches with hands (2.10) are measured only from two dial photos a
+# week or two apart, less than three weeks, with the result in seconds per
+# month; two weeks is precise to under a second a month; they need a seconds
+# hand. Digital displays (2.12): Type Quartz, then Display Digital (watch form
+# or the Rate from photos screen); the app reads the time from each photo on
+# the iPhone and the user checks or corrects the digits (Read again reads the
+# zoomed-in area); the display must show the seconds; photos a week or more
+# apart, weeks or months are fine. For any quartz watch, a result from photos
+# less than a day apart is shown but not saved.
 
 L = {
     "name": "English",
@@ -87,7 +93,7 @@ L = {
             "Each photo records the exact time it was taken, so the position of the seconds "
             "hand shows how much the watch gained or lost while you wore it.",
         ]),
-        ("Does it work with quartz watches?", [
+        ("Does it work with quartz and digital watches?", [
             "Yes, with photos. A quartz watch keeps time with a crystal and moves its "
             "seconds hand once a second, so there is no balance wheel for the microphone "
             "to listen to. When you add the watch, set its **Type** to **Quartz**. Then use "
@@ -96,7 +102,14 @@ L = {
             "gains or loses.",
             "Photos two weeks apart are precise to under a second a month. Keep them less "
             "than three weeks apart, because a seconds hand can't show a whole minute of "
-            "drift. The watch needs a seconds hand.",
+            "drift. A watch with hands needs a seconds hand.",
+            "A digital watch works too, if its display shows the seconds. Set its "
+            "**Display** to **Digital** as well. On your iPhone, Timegrapher reads the "
+            "time from each photo. Check the digits against the photo and correct any "
+            "that are wrong, or zoom in on the time and tap **Read again**. The display "
+            "shows the whole time, so the photos can be weeks or even months apart. The "
+            "longer you wait, the more precise the result. For any quartz watch, a "
+            "result from photos less than a day apart is shown but not saved.",
         ]),
         ("Is Timegrapher free?", [
             "Your first watch is free for good, with every measurement. **Timegrapher Pro** "
@@ -160,7 +173,8 @@ L = {
             ("A day on the wrist",
              "**Rate from photos** compares two dial photos taken a day apart and shows how "
              "the watch ran while you wore it. For a quartz watch, take the photos a week "
-             "or two apart."),
+             "or two apart. For a digital watch, leave a week or more between the photos. "
+             "Timegrapher reads the time from each one."),
             ("What it's worth",
              "The price check gets current Chrono24 asking prices for your exact reference "
              "and keeps the median."),
@@ -168,7 +182,7 @@ L = {
              "The first watch is free. Timegrapher Pro adds unlimited watches for one "
              "payment, with no subscription."),
         ],
-        "updated": "Written for Timegrapher 2.10, November 2026.",
+        "updated": "Written for Timegrapher 2.12, November 2026.",
         "cta_title": "Time your watch tonight",
         "cta_text": "Rate, amplitude and beat error in 30 seconds, with the iPhone you "
                     "already have. First watch free, no subscription.",

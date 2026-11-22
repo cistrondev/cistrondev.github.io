@@ -273,7 +273,8 @@ APPS = [
              "Photograph the dial today and again tomorrow. Timegrapher compares the "
              "photos with your iPhone's clock and shows how the watch ran on your "
              "wrist. Quartz watches work too: take the photos a week or two apart to "
-             "see how many seconds a month they gain or lose."),
+             "see how many seconds a month they gain or lose. On a digital watch, "
+             "Timegrapher reads the time on the display for you to check."),
             ("Timing report",
              "Share a one-page report on a watch as a PDF or an image, with the "
              "latest reading, the positions, and the trend. Export your measurements "

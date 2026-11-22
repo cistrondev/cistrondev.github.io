@@ -5,6 +5,8 @@
 # magnetismo, Marcha por fotos, Ângulo de levantamento, Identificar pela foto,
 # Guia and Hora (tabs). Glossary: Timegrapher/Localization/GLOSSARY.md
 # (cronocomparador, marcha, amplitude, erro de batida, balanço, mostrador).
+# For quartz watches: Tipo > Quartzo, Mostrador > Ponteiros | Digital, and Ler
+# de novo (reading screen). In running text the app calls an LCD the "visor".
 import runpy
 from pathlib import Path
 
@@ -51,7 +53,8 @@ L = {
              "com o relógio do iPhone e mostra como o relógio funcionou no seu pulso. "
              "Relógios de quartzo também podem ser medidos: tire as fotos com uma ou duas "
              "semanas de intervalo e veja quantos segundos por mês o relógio adianta ou "
-             "atrasa."),
+             "atrasa. Em um relógio digital, o Timegrapher lê a hora no visor para você "
+             "conferir."),
             ("Relatório de marcha",
              "Compartilhe um relatório de uma página sobre um relógio, em PDF ou imagem, com "
              "a última leitura, as posições e a evolução. Suas medições podem ser exportadas "
@@ -161,7 +164,7 @@ L = {
             "do ponteiro dos segundos mostra quanto o relógio adiantou ou atrasou enquanto "
             "você o usava.",
         ]),
-        ("Funciona com relógios de quartzo?", [
+        ("Funciona com relógios de quartzo e digitais?", [
             "Sim, com fotos. Um relógio de quartzo marca o tempo com um cristal de quartzo "
             "e move o ponteiro dos segundos uma vez por segundo, então não há balanço para "
             "o microfone ouvir. Ao adicionar o relógio, escolha **Quartzo** em **Tipo**. "
@@ -170,8 +173,16 @@ L = {
             "por mês o relógio adianta ou atrasa.",
             "Com fotos a duas semanas de distância, a precisão fica abaixo de um segundo "
             "por mês. Deixe menos de três semanas entre as fotos, porque um ponteiro dos "
-            "segundos não consegue mostrar um desvio de um minuto inteiro. O relógio "
-            "precisa ter ponteiro dos segundos.",
+            "segundos não consegue mostrar um desvio de um minuto inteiro. Um relógio de "
+            "ponteiros precisa ter ponteiro dos segundos.",
+            "Um relógio digital também pode ser medido, se o visor mostrar os segundos. "
+            "Escolha também **Digital** em **Mostrador**. O Timegrapher lê a hora em cada "
+            "foto, no próprio iPhone. Compare os dígitos com a foto e corrija os que "
+            "estiverem errados, ou amplie a hora e toque em **Ler de novo**. O visor "
+            "mostra a hora completa, então as fotos podem ter semanas ou até meses de "
+            "intervalo. Quanto mais você esperar, mais preciso será o resultado. Em "
+            "qualquer relógio de quartzo, um resultado de fotos com menos de um dia de "
+            "intervalo aparece, mas não é salvo.",
         ]),
         ("O Timegrapher é grátis?", [
             "Seu primeiro relógio é grátis para sempre, com todas as medições. O "
@@ -239,7 +250,9 @@ L = {
             ("Um dia no pulso",
              "**Marcha por fotos** compara duas fotos do mostrador tiradas com um dia de "
              "intervalo e mostra como o relógio funcionou enquanto você o usava. Com um "
-             "relógio de quartzo, tire as fotos com uma ou duas semanas de intervalo."),
+             "relógio de quartzo, tire as fotos com uma ou duas semanas de intervalo. Com "
+             "um relógio digital, deixe uma semana ou mais entre as fotos. O Timegrapher "
+             "lê a hora em cada uma."),
             ("Quanto vale",
              "A consulta de preços busca os preços atuais do Chrono24 para a sua referência "
              "exata e salva a mediana."),
@@ -247,7 +260,7 @@ L = {
              "O primeiro relógio é grátis. O Timegrapher Pro libera relógios ilimitados com "
              "um único pagamento, sem assinatura."),
         ],
-        "updated": "Escrito para o Timegrapher 2.10, novembro de 2026.",
+        "updated": "Escrito para o Timegrapher 2.12, novembro de 2026.",
         "cta_title": "Meça seu relógio hoje à noite",
         "cta_text": "Marcha, amplitude e erro de batida em 30 segundos, com o iPhone que você "
                     "já tem. Primeiro relógio grátis, sem assinatura.",

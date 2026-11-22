@@ -2,7 +2,9 @@
 # explained in content/unfollowers/en.py; facts to keep true are in en.py.
 # Button names are the app's Spanish strings (Timegrapher Localizable.xcstrings):
 # Añadir reloj, Medir, Medir en posiciones, Comprobar magnetismo, Marcha por
-# fotos, Ángulo de levantamiento, Identificar por la foto, Guía and Hora (tabs).
+# fotos, Ángulo de levantamiento, Identificar por la foto, Guía and Hora (tabs);
+# for quartz watches Tipo > Cuarzo, Pantalla > Agujas | Digital, and Volver a
+# leer (reading screen).
 # Glossary: Timegrapher/Localization/GLOSSARY.md (cronocomparador, marcha,
 # amplitud, error de ritmo, volante, espiral, esfera).
 import runpy
@@ -50,7 +52,9 @@ L = {
              "Haz una foto de la esfera hoy y otra mañana. Timegrapher compara las fotos "
              "con el reloj del iPhone y muestra cómo funcionó el reloj en tu muñeca. "
              "También mide relojes de cuarzo: haz las fotos con una o dos semanas de "
-             "diferencia y verás cuántos segundos al mes adelanta o atrasa el reloj."),
+             "diferencia y verás cuántos segundos al mes adelanta o atrasa el reloj. "
+             "En un reloj digital, Timegrapher lee la hora de la pantalla y tú la "
+             "compruebas."),
             ("Informe de marcha",
              "Comparte un informe de una página sobre un reloj, en PDF o en imagen, con la "
              "última lectura, las posiciones y la evolución. Tus mediciones se pueden "
@@ -160,7 +164,7 @@ L = {
             "posición del segundero muestra cuánto adelantó o atrasó el reloj mientras lo "
             "llevabas.",
         ]),
-        ("¿Funciona con relojes de cuarzo?", [
+        ("¿Funciona con relojes de cuarzo y digitales?", [
             "Sí, con fotos. Un reloj de cuarzo marca la hora con un cristal de cuarzo y "
             "mueve el segundero una vez por segundo, así que no hay volante que el "
             "micrófono pueda escuchar. Al añadir el reloj, elige **Cuarzo** en **Tipo**. "
@@ -169,7 +173,16 @@ L = {
             "segundos al mes adelanta o atrasa el reloj.",
             "Con fotos separadas dos semanas, la precisión es de menos de un segundo al "
             "mes. Deja menos de tres semanas entre las fotos, porque un segundero no puede "
-            "mostrar una desviación de un minuto entero. El reloj necesita segundero.",
+            "mostrar una desviación de un minuto entero. Un reloj de agujas necesita "
+            "segundero.",
+            "Un reloj digital también se puede medir si su pantalla muestra los segundos. "
+            "Además, elige **Digital** en **Pantalla**. Timegrapher lee la hora de cada "
+            "foto directamente en tu iPhone. Compara los dígitos con la foto y corrige los "
+            "que estén mal, o amplía la hora y toca **Volver a leer**. La pantalla muestra "
+            "la hora completa, así que entre las fotos pueden pasar semanas o incluso "
+            "meses. Cuanto más esperes, más preciso será el resultado. En cualquier reloj "
+            "de cuarzo, un resultado de fotos separadas menos de un día se muestra, pero "
+            "no se guarda.",
         ]),
         ("¿Timegrapher es gratis?", [
             "Tu primer reloj es gratis para siempre, con todas las mediciones. **Timegrapher "
@@ -237,7 +250,9 @@ L = {
             ("Un día en la muñeca",
              "**Marcha por fotos** compara dos fotos de la esfera hechas con un día de "
              "diferencia y muestra cómo funcionó el reloj mientras lo llevabas. Con un "
-             "reloj de cuarzo, haz las fotos con una o dos semanas de diferencia."),
+             "reloj de cuarzo, haz las fotos con una o dos semanas de diferencia. Con un "
+             "reloj digital, deja una semana o más entre las fotos. Timegrapher lee la "
+             "hora de cada una."),
             ("Cuánto vale",
              "La consulta de precios obtiene los precios actuales de Chrono24 para tu "
              "referencia exacta y guarda la mediana."),
@@ -245,7 +260,7 @@ L = {
              "El primer reloj es gratis. Timegrapher Pro añade relojes ilimitados con un "
              "solo pago, sin suscripción."),
         ],
-        "updated": "Escrita para Timegrapher 2.10, noviembre de 2026.",
+        "updated": "Escrita para Timegrapher 2.12, noviembre de 2026.",
         "cta_title": "Mide tu reloj esta noche",
         "cta_text": "Marcha, amplitud y error de ritmo en 30 segundos, con el iPhone que ya "
                     "tienes. Primer reloj gratis, sin suscripción.",

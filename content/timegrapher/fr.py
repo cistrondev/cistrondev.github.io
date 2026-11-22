@@ -2,7 +2,9 @@
 # explained in content/unfollowers/en.py; facts to keep true are in en.py.
 # Button names are the app's French strings (Timegrapher Localizable.xcstrings):
 # Ajouter une montre, Mesurer, Mesurer en positions, Contrôler le magnétisme,
-# Marche par photo, Angle de levée, Identifier d'après la photo, Guide (tab).
+# Marche par photo, Angle de levée, Identifier d'après la photo, Guide (tab);
+# for quartz watches Type > Quartz, Affichage > Aiguilles | Numérique, and
+# Relire (reading screen).
 # French spacing: a no-break space before ":" and a narrow one before "?" and "!".
 import runpy
 from pathlib import Path
@@ -52,7 +54,8 @@ L = {
              "photos avec l'horloge de l'iPhone et montre comment la montre a marché à "
              "votre poignet. Les montres à quartz se mesurent aussi : prenez les photos "
              "à une ou deux semaines d'écart pour voir de combien de secondes par mois "
-             "elles avancent ou retardent."),
+             "elles avancent ou retardent. Sur une montre numérique, Timegrapher lit "
+             "l'heure sur l'écran, et vous la vérifiez."),
             ("Rapport de marche",
              "Partagez un rapport d'une page sur une montre, en PDF ou en image, avec la "
              "dernière mesure, les positions et l'évolution. Exportez vos mesures en "
@@ -165,7 +168,7 @@ L = {
             "la trotteuse montre donc l'avance ou le retard pris pendant que vous la "
             "portiez.",
         ]),
-        ("Fonctionne-t-il avec les montres à quartz ?", [
+        ("Fonctionne-t-il avec les montres à quartz et numériques ?", [
             "Oui, avec des photos. Une montre à quartz bat au rythme d'un cristal et avance "
             "sa trotteuse une fois par seconde : il n'y a pas de balancier que le "
             "microphone puisse écouter. En ajoutant la montre, choisissez **Quartz** dans "
@@ -175,8 +178,17 @@ L = {
             "retarde.",
             "Des photos à deux semaines d'écart sont précises à moins d'une seconde par "
             "mois. Gardez moins de trois semaines entre les photos, car une trotteuse ne "
-            "peut pas montrer un écart d'une minute entière. La montre doit avoir une "
-            "trotteuse.",
+            "peut pas montrer un écart d'une minute entière. Une montre à aiguilles doit "
+            "avoir une trotteuse.",
+            "Une montre numérique peut aussi être mesurée si son écran affiche les "
+            "secondes. Choisissez également **Numérique** dans **Affichage**. Timegrapher "
+            "lit l'heure sur chaque photo, directement sur votre iPhone. Comparez les "
+            "chiffres avec la photo et corrigez ceux qui sont erronés, ou zoomez sur "
+            "l'heure et touchez **Relire**. L'écran affiche l'heure complète : les "
+            "photos peuvent donc être espacées de plusieurs semaines, voire de plusieurs "
+            "mois. Plus vous attendez, plus le résultat est précis. Pour toute montre à "
+            "quartz, un résultat tiré de photos prises à moins d'un jour d'écart est "
+            "affiché, mais pas enregistré.",
         ]),
         ("Timegrapher est-il gratuit ?", [
             "Votre première montre est gratuite pour toujours, avec toutes les mesures. "
@@ -244,7 +256,9 @@ L = {
             ("Une journée au poignet",
              "**Marche par photo** compare deux photos du cadran prises à un jour d'écart "
              "et montre comment la montre a marché pendant que vous la portiez. Pour une "
-             "montre à quartz, prenez les photos à une ou deux semaines d'écart."),
+             "montre à quartz, prenez les photos à une ou deux semaines d'écart. Pour "
+             "une montre numérique, laissez au moins une semaine entre les photos. "
+             "Timegrapher lit l'heure sur chacune."),
             ("Ce qu'elle vaut",
              "Le contrôle de prix récupère les prix demandés sur Chrono24 pour votre "
              "référence exacte et garde la médiane."),
@@ -252,7 +266,7 @@ L = {
              "La première montre est gratuite. Timegrapher Pro ajoute un nombre illimité de "
              "montres pour un paiement unique, sans abonnement."),
         ],
-        "updated": "Rédigé pour Timegrapher 2.10, novembre 2026.",
+        "updated": "Rédigé pour Timegrapher 2.12, novembre 2026.",
         "cta_title": "Mesurez votre montre ce soir",
         "cta_text": "Marche, amplitude et erreur de repère en 30 secondes, avec l'iPhone que "
                     "vous avez déjà. Première montre gratuite, sans abonnement.",

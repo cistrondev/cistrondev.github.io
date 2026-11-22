@@ -1,6 +1,6 @@
 # Privacy Policy for Timegrapher
 
-**Effective date: 25 October 2026**
+**Effective date: 22 November 2026**
 
 Timegrapher ("the app") is designed to work entirely on your device. This
 policy explains, in plain language, what the app does and does not do with your
@@ -28,6 +28,12 @@ If you choose to add a photo to a watch, the app accesses your camera or photo
 library only to obtain the image you select. That image is stored **only on
 your device**, as part of the app's local data.
 
+**Rate from photos** compares two photos of a watch that you take or choose.
+The app reads the time each photo was taken from the photo's own data. For a
+watch with a digital display, it also reads the time shown on the display, using
+Apple's text recognition on your iPhone. These photos are not sent anywhere. The
+app saves smaller copies of them on your device, with the watch and its results.
+
 On iOS 27 and later, the watch form offers **Identify from Photo**. Only when
 you tap it, the app sends that watch's photo to Apple's Private Cloud Compute,
 where an Apple model suggests the brand, model and reference. Apple uses the
@@ -53,9 +59,9 @@ through the developer.
 
 ## Reminders
 
-Reminders you turn on (to measure a watch again, or to take the second photo of
-a day‑of‑wear check) are scheduled on your iPhone as local notifications. They
-are not sent to or through any server.
+Reminders you turn on (to measure a watch again, or to take the second photo for
+Rate from photos) are scheduled on your iPhone as local notifications. They are
+not sent to or through any server.
 
 ## Sharing and export
 

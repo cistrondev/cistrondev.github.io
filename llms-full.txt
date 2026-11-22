@@ -179,7 +179,7 @@ Rate, amplitude, and beat error in about thirty seconds. Timegrapher listens to 
 - **Readings that hold steady.** It tracks the room's noise floor and rejects stray sounds. Amplitude comes from your calibre's own lift angle, set to a tenth of a degree.
 - **Measure in positions.** The app guides you through six positions, or four for a quicker check, and shows the average rate and the spread between positions, the way a watchmaker checks a movement.
 - **Your collection.** Every watch with its reference, movement, lift angle, and up to 13 photos. Every reading is saved and charted, and a reminder tells you when to measure again. Identify from Photo suggests the brand and model.
-- **Accuracy from two photos.** Photograph the dial today and again tomorrow. Timegrapher compares the photos with your iPhone's clock and shows how the watch ran on your wrist. Quartz watches work too: take the photos a week or two apart to see how many seconds a month they gain or lose.
+- **Accuracy from two photos.** Photograph the dial today and again tomorrow. Timegrapher compares the photos with your iPhone's clock and shows how the watch ran on your wrist. Quartz watches work too: take the photos a week or two apart to see how many seconds a month they gain or lose. On a digital watch, Timegrapher reads the time on the display for you to check.
 - **Timing report.** Share a one-page report on a watch as a PDF or an image, with the latest reading, the positions, and the trend. Export your measurements as a CSV file.
 - **Know what it's worth.** Current Chrono24 asking prices for your exact reference, with the median worked out on your iPhone.
 - **Magnetism check.** A magnetized hairspring is the most common reason a watch suddenly gains time. Sweep the watch across the back of your iPhone and its magnetometer tells you whether it needs demagnetizing.
@@ -240,11 +240,13 @@ Treat the results as a guide. For a decision about a service, a bench machine an
 
 Yes. Rate from photos compares two photos of the dial taken a day apart. Each photo records the exact time it was taken, so the position of the seconds hand shows how much the watch gained or lost while you wore it.
 
-**Does it work with quartz watches?**
+**Does it work with quartz and digital watches?**
 
 Yes, with photos. A quartz watch keeps time with a crystal and moves its seconds hand once a second, so there is no balance wheel for the microphone to listen to. When you add the watch, set its Type to Quartz. Then use Rate from photos on the watch's page: photograph the dial, and again a week or two later. Timegrapher shows how many seconds a month the watch gains or loses.
 
-Photos two weeks apart are precise to under a second a month. Keep them less than three weeks apart, because a seconds hand can't show a whole minute of drift. The watch needs a seconds hand.
+Photos two weeks apart are precise to under a second a month. Keep them less than three weeks apart, because a seconds hand can't show a whole minute of drift. A watch with hands needs a seconds hand.
+
+A digital watch works too, if its display shows the seconds. Set its Display to Digital as well. On your iPhone, Timegrapher reads the time from each photo. Check the digits against the photo and correct any that are wrong, or zoom in on the time and tap Read again. The display shows the whole time, so the photos can be weeks or even months apart. The longer you wait, the more precise the result. For any quartz watch, a result from photos less than a day apart is shown but not saved.
 
 **Is Timegrapher free?**
 

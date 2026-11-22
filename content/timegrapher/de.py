@@ -2,7 +2,8 @@
 # explained in content/unfollowers/en.py; facts to keep true are in en.py.
 # Button names are the app's German strings (Timegrapher Localizable.xcstrings):
 # Uhr hinzufügen, Messen, In Lagen messen, Magnetismus prüfen, Gang per Foto,
-# Hebungswinkel, Anhand des Fotos erkennen, Ratgeber (tab).
+# Hebungswinkel, Anhand des Fotos erkennen, Ratgeber (tab); for quartz watches
+# Typ > Quarz, Anzeige > Zeiger | Digital, and Erneut lesen (reading screen).
 import runpy
 from pathlib import Path
 
@@ -48,7 +49,9 @@ L = {
              "Fotografieren Sie das Zifferblatt heute und morgen. Timegrapher vergleicht "
              "die Fotos mit der Uhr des iPhones und zeigt, wie die Uhr am Handgelenk lief. "
              "Auch Quarzuhren lassen sich so messen: Mit Fotos im Abstand von ein bis zwei "
-             "Wochen sehen Sie, wie viele Sekunden pro Monat sie vor- oder nachgehen."),
+             "Wochen sehen Sie, wie viele Sekunden pro Monat sie vor- oder nachgehen. "
+             "Bei einer Digitaluhr liest Timegrapher die Uhrzeit auf der Anzeige ab, und "
+             "Sie prüfen sie."),
             ("Gangbericht",
              "Teilen Sie einen einseitigen Bericht zu einer Uhr als PDF oder Bild, mit der "
              "letzten Messung, den Lagen und dem Verlauf. Ihre Messungen lassen sich als "
@@ -159,7 +162,7 @@ L = {
             "die Stellung des Sekundenzeigers, wie viel die Uhr beim Tragen vor- oder "
             "nachgegangen ist.",
         ]),
-        ("Funktioniert die App mit Quarzuhren?", [
+        ("Funktioniert die App mit Quarz- und Digitaluhren?", [
             "Ja, über Fotos. Eine Quarzuhr geht nach einem Quarzkristall und bewegt den "
             "Sekundenzeiger einmal pro Sekunde, es gibt also keine Unruh, die das Mikrofon "
             "abhören könnte. Stellen Sie beim Anlegen der Uhr den **Typ** auf **Quarz**. "
@@ -168,8 +171,17 @@ L = {
             "viele Sekunden pro Monat die Uhr vor- oder nachgeht.",
             "Fotos mit zwei Wochen Abstand sind auf weniger als eine Sekunde pro Monat "
             "genau. Lassen Sie zwischen den Fotos weniger als drei Wochen, denn eine "
-            "Abweichung um eine ganze Minute kann ein Sekundenzeiger nicht zeigen. Die Uhr "
-            "braucht einen Sekundenzeiger.",
+            "Abweichung um eine ganze Minute kann ein Sekundenzeiger nicht zeigen. Eine Uhr "
+            "mit Zeigern braucht einen Sekundenzeiger.",
+            "Auch eine Digitaluhr lässt sich messen, wenn sie die Sekunden anzeigt. Stellen "
+            "Sie zusätzlich die **Anzeige** auf **Digital**. Timegrapher liest die Uhrzeit "
+            "aus jedem Foto, direkt auf Ihrem iPhone. Vergleichen Sie die Ziffern mit dem "
+            "Foto und korrigieren Sie, was nicht stimmt, oder zoomen Sie die Uhrzeit heran "
+            "und tippen Sie auf **Erneut lesen**. Die Anzeige zeigt die volle Uhrzeit, "
+            "deshalb können zwischen den Fotos Wochen oder sogar Monate liegen. Je länger "
+            "Sie warten, desto genauer ist das Ergebnis. Bei jeder Quarzuhr wird ein "
+            "Ergebnis aus Fotos mit weniger als einem Tag Abstand angezeigt, aber nicht "
+            "gespeichert.",
         ]),
         ("Ist Timegrapher kostenlos?", [
             "Ihre erste Uhr ist für immer kostenlos, mit allen Messungen. **Timegrapher Pro** "
@@ -236,7 +248,9 @@ L = {
             ("Ein Tag am Handgelenk",
              "**Gang per Foto** vergleicht zwei Fotos des Zifferblatts, einen Tag "
              "auseinander, und zeigt, wie die Uhr beim Tragen lief. Bei einer Quarzuhr "
-             "liegen ein bis zwei Wochen zwischen den Fotos."),
+             "liegen ein bis zwei Wochen zwischen den Fotos. Bei einer Digitaluhr sollte "
+             "mindestens eine Woche dazwischen liegen. Timegrapher liest die Uhrzeit aus "
+             "jedem Foto."),
             ("Was sie wert ist",
              "Die Preisabfrage holt aktuelle Chrono24-Angebotspreise für Ihre genaue "
              "Referenz und speichert den Median."),
@@ -244,7 +258,7 @@ L = {
              "Die erste Uhr ist kostenlos. Timegrapher Pro schaltet unbegrenzt viele Uhren "
              "mit einer einzigen Zahlung frei, ohne Abo."),
         ],
-        "updated": "Geschrieben für Timegrapher 2.10, November 2026.",
+        "updated": "Geschrieben für Timegrapher 2.12, November 2026.",
         "cta_title": "Messen Sie Ihre Uhr noch heute",
         "cta_text": "Gangabweichung, Amplitude und Abfallfehler in 30 Sekunden, mit dem "
                     "iPhone, das Sie schon haben. Erste Uhr kostenlos, kein Abo.",
