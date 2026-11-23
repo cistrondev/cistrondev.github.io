@@ -89,7 +89,7 @@ APPS = [
              "Ten voices for English and four that read thirty more languages. No "
              "server does the talking, so Aloud keeps reading in airplane mode."),
             ("Articles, PDFs, books",
-             "Share from any browser, import PDFs and EPUB books from Files, even "
+             "Share from any browser, open PDFs and EPUB books from Files, even "
              "scanned PDFs, or paste your own text."),
             ("Read along",
              "The sentence being spoken is lit. Hold the margin rail to scrub "

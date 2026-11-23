@@ -36,7 +36,7 @@ L = {
              "darunter Deutsch. Kein Server spricht mit, deshalb liest Aloud auch im "
              "Flugmodus weiter."),
             ("Artikel, PDFs, Bücher",
-             "Teile aus jedem Browser, importiere PDFs und EPUB-Bücher aus „Dateien“, "
+             "Teile aus jedem Browser, öffne PDFs und EPUB-Bücher aus „Dateien“, "
              "auch eingescannte PDFs, oder setz deinen eigenen Text ein."),
             ("Zum Mitlesen",
              "Der Satz, der gerade gesprochen wird, ist hervorgehoben. Halte die Leiste am "
@@ -118,8 +118,10 @@ L = {
             "[Schritt-für-Schritt-Anleitung](guide).",
         ]),
         ("Kann Aloud aus einem EPUB ein Hörbuch machen?", [
-            "Ja. Tippe in Aloud auf **+** › **Datei importieren** und wähle die "
-            "EPUB-Datei. Aloud behält das Cover und die Kapitel. Die Liste "
+            "Ja. Halte das EPUB in der App „Dateien“ gedrückt und tippe auf **Teilen** "
+            "und dann auf **Aloud**. Ab iOS 26 geht auch **Öffnen mit** › **Aloud**. Oder "
+            "tippe in Aloud auf **+** › **Datei importieren**. "
+            "Aloud behält das Cover und die Kapitel. Die Liste "
             "**Kapitel** zeigt, wie lange jedes Kapitel zum Anhören dauert, und du kannst "
             "bei jedem beginnen. Deine Stelle bleibt gemerkt, so läuft ein langes Buch wie "
             "ein Hörbuch.",
@@ -128,7 +130,8 @@ L = {
             "Ebooks, funktionieren.",
         ]),
         ("Liest Aloud PDFs vor, auch eingescannte?", [
-            "Ja. Öffne ein PDF aus „Dateien“ oder teile es mit Aloud. Aloud liest den Text "
+            "Ja. Teile ein PDF aus der App „Dateien“ mit Aloud, oder tippe in Aloud auf "
+            "**+** › **Datei importieren**. Aloud liest den Text "
             "in der richtigen Reihenfolge. Bei einem eingescannten PDF erkennt es den Text "
             "vorher auf dem Gerät.",
         ]),
@@ -165,7 +168,8 @@ L = {
             "Ja. Exportiere deine gespeicherten Links aus Instapaper, Raindrop oder den "
             "Lesezeichen deines Browsers. Öffne dann in Aloud **Einstellungen** › **Aus "
             "einer Datei importieren**. Ein Pocket-Export, den du gespeichert hast, bevor "
-            "der Dienst 2025 eingestellt wurde, funktioniert auch. Aloud stellt jeden Link "
+            "der Dienst 2025 eingestellt wurde, funktioniert auch. Eine ZIP-Datei kannst du "
+            "so importieren, wie sie ist, ohne sie zu entpacken. Aloud stellt jeden Link "
             "in die Warteschlange und holt die Artikel nacheinander. Im kostenlosen Regal "
             "haben drei Texte Platz, und die übrigen warten, bis du Aloud freischaltest "
             "oder einen Text entfernst.",
@@ -192,7 +196,7 @@ L = {
                 "dir an.",
         "choose": [
             ("Artikel", "Aus Safari oder jeder App teilen"),
-            ("PDFs und EPUBs", "Aus „Dateien“ importieren"),
+            ("PDFs und EPUBs", "Aus „Dateien“ teilen"),
             ("Jeder Text", "Einsetzen"),
         ],
         "steps": [
@@ -206,9 +210,12 @@ L = {
              "Regal. Aus Safari liest Aloud die Seite so, wie du sie siehst, also auch "
              "Artikel, bei denen du angemeldet bist."),
             ("Ein PDF oder EPUB öffnen",
-             "Tippe in Aloud auf **+** › **Datei importieren** und wähle die Datei. Ein "
-             "PDF kannst du auch aus der App „Dateien“ mit Aloud teilen. Eingescannte PDFs "
-             "werden auf dem Gerät erkannt. EPUB-Bücher behalten ihr Cover und ihre Kapitel."),
+             "Halte das PDF oder EPUB in der App „Dateien“ gedrückt und tippe auf **Teilen** "
+             "und dann auf **Aloud**. Wenn du Aloud das nächste Mal öffnest, liegt die Datei "
+             "in deinem Regal. Ab iOS 26 geht bei einem EPUB auch **Öffnen mit** › "
+             "**Aloud**. Oder tippe in Aloud auf **+** › **Datei importieren**. Eingescannte "
+             "PDFs werden auf dem Gerät erkannt, und EPUB-Bücher behalten ihr Cover und ihre "
+             "Kapitel."),
             ("Beliebigen Text einsetzen",
              "Tippe auf **+** › **Text einsetzen** für Notizen, E-Mails oder alles, was du "
              "kopiert hast. **Link einsetzen** nimmt eine Webadresse."),
@@ -239,12 +246,12 @@ L = {
             ("Deine Leseliste",
              "Gespeicherte Links aus Instapaper, Raindrop, Browser-Lesezeichen oder einem "
              "alten Pocket-Export kommen über **Einstellungen** › **Aus einer Datei "
-             "importieren** in die App."),
+             "importieren** in die App, auch als ZIP-Datei."),
             ("Kostenlos testen",
              "Im kostenlosen Regal haben drei Texte Platz. Ein einziger Kauf hebt das Limit "
              "auf, und es gibt kein Abo."),
         ],
-        "updated": "Geschrieben für Aloud 3.2, Oktober 2026.",
+        "updated": "Geschrieben für Aloud 3.4, November 2026.",
         "cta_title": "Hör dir deine Leseliste an",
         "cta_text": "Aloud liest Artikel, PDFs und EPUB-Bücher mit einer natürlichen Stimme "
                     "vor, die auf deinem iPhone entsteht. Es funktioniert offline, und du zahlst "

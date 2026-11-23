@@ -18,7 +18,7 @@ Share an article, open a PDF, or paste any text. Aloud reads it to you in a natu
 ### Features
 
 - **Natural voices, on device.** Ten voices for English and four that read thirty more languages. No server does the talking, so Aloud keeps reading in airplane mode.
-- **Articles, PDFs, books.** Share from any browser, import PDFs and EPUB books from Files, even scanned PDFs, or paste your own text.
+- **Articles, PDFs, books.** Share from any browser, open PDFs and EPUB books from Files, even scanned PDFs, or paste your own text.
 - **Read along.** The sentence being spoken is lit. Hold the margin rail to scrub through the whole document.
 - **Faster, if you like.** From 0.5× to 3× without the chipmunk voice, with pauses trimmed at every full stop if you want them.
 - **With the screen locked.** Keeps reading with the screen locked, with lock-screen and AirPods controls and a sleep timer that fades out.
@@ -48,13 +48,13 @@ When you share from Safari, Aloud reads the page as Safari shows it, so articles
 
 **Can Aloud turn an EPUB into an audiobook?**
 
-Yes. In Aloud, tap + › Import a file and choose the EPUB. Aloud keeps the book's cover and chapters. The Chapters list shows how long each chapter takes to hear, and you can start from any of them. Your place is kept, so a long book plays like an audiobook.
+Yes. In the Files app, touch and hold the EPUB, then tap Share and Aloud. On iOS 26 or later, Open With › Aloud works too. You can also tap + › Import a file in Aloud. Aloud keeps the book's cover and chapters. The Chapters list shows how long each chapter takes to hear, and you can start from any of them. Your place is kept, so a long book plays like an audiobook.
 
 Books bought with copy protection cannot be opened by other apps, Aloud included. DRM-free EPUBs, like the ones from Project Gutenberg or Standard Ebooks, work.
 
 **Can it read PDFs, including scanned ones?**
 
-Yes. Open a PDF from Files or share it to Aloud. Aloud reads the text in order, and for a scanned PDF it recognises the text on the device first.
+Yes. Share a PDF to Aloud from the Files app, or tap + › Import a file in Aloud. Aloud reads the text in order, and for a scanned PDF it recognises the text on the device first.
 
 **Does Aloud work offline?**
 
@@ -78,7 +78,7 @@ Aloud is free to download, with every voice and feature. The free shelf holds th
 
 **Can I bring my reading list from Pocket or Instapaper?**
 
-Yes. Export your saves from Instapaper, Raindrop or your browser's bookmarks, then in Aloud open Settings › Import from a file. An export you saved from Pocket before it closed in 2025 works too. Aloud queues every link and fetches the articles one by one. The free shelf holds three pieces, and the rest wait until you unlock Aloud or remove a piece.
+Yes. Export your saves from Instapaper, Raindrop or your browser's bookmarks, then in Aloud open Settings › Import from a file. An export you saved from Pocket before it closed in 2025 works too. A ZIP file can go in as it is, without unzipping. Aloud queues every link and fetches the articles one by one. The free shelf holds three pieces, and the rest wait until you unlock Aloud or remove a piece.
 
 **Does Aloud upload my documents?**
 
@@ -92,7 +92,7 @@ Aloud reads anything you can read: a web article, a PDF, an EPUB book or text yo
 
 1. **Install Aloud.** Download Aloud from the App Store. It runs on iPhone and iPad with iOS 17 or later. The first time you press play, the voice downloads once. After that it works offline.
 2. **Share an article.** Open the article in Safari or another app, tap Share, then Aloud. The article goes on your shelf without menus, ads or comments. From Safari, Aloud reads the page as you see it, so articles you are signed in to work.
-3. **Open a PDF or an EPUB.** In Aloud, tap + › Import a file and pick the file. You can also share a PDF to Aloud from the Files app. Scanned PDFs are recognised on the device. EPUB books keep their cover and chapters.
+3. **Open a PDF or an EPUB.** In the Files app, touch and hold the PDF or EPUB, then tap Share and Aloud. The file is on your shelf the next time you open Aloud. On iOS 26 or later, Open With › Aloud works for an EPUB too. You can also tap + › Import a file inside Aloud. Scanned PDFs are recognised on the device, and EPUB books keep their cover and chapters.
 4. **Paste any text.** Tap + › Paste text for notes, emails or anything you copied. Paste a link takes a web address.
 5. **Press play.** Open a piece and press play. The sentence being read is lit, and the rest stays dim. Hold the rail in the margin to move through the whole piece. In a book, tap Chapters in the ••• menu to start from any chapter.
 6. **Set the speed.** Tap the speed button and choose anything from 0.5× to 3×. Turn on Shorten pauses to trim the silence between sentences.

@@ -9,11 +9,14 @@
 # no subscription; ten English voices and four that read thirty more languages,
 # made on the device; the voice downloads once; translation needs iOS 18 and
 # uses Apple's on-device translator; iCloud sync is optional plain text files.
-# Checked against the 3.3 code on 2026-11-20: the four voices read thirty other
-# languages (31 codes with English, so never "over thirty"); EPUBs come in through
-# + › Import a file or Settings › Import from a file (3.3 can't open them from the
-# Files app; PDFs can be shared from Files); Pocket closed in 2025, so only an old
-# Pocket export works; imports past the three-piece free shelf wait for the unlock;
+# Checked against the 3.4 code (live 2026-11-23): the four voices read thirty other
+# languages (31 codes with English, so never "over thirty"); PDFs and EPUBs come in
+# from the Files app through Share › Aloud (on the shelf when Aloud next opens), and
+# EPUBs also through Open With › Aloud, which Files has only from iOS 26 (Aloud runs
+# on iOS 17, so always say "iOS 26 or later" with it); inside the app, + › Import a
+# file and Settings › Import from a file take PDFs, EPUBs, bookmark exports and ZIPs
+# (Pocket's last export was a ZIP); Pocket closed in 2025, so only an old Pocket
+# export works; imports past the three-piece free shelf wait for the unlock;
 # with Sync with iCloud on, the shelf goes to the user's own iCloud Drive, so write
 # "never uploaded to be spoken", not "never uploaded".
 
@@ -46,7 +49,9 @@ L = {
             "guide](guide).",
         ]),
         ("Can Aloud turn an EPUB into an audiobook?", [
-            "Yes. In Aloud, tap **+** › **Import a file** and choose the EPUB. "
+            "Yes. In the Files app, touch and hold the EPUB, then tap **Share** and "
+            "**Aloud**. On iOS 26 or later, **Open With** › **Aloud** works too. You can "
+            "also tap **+** › **Import a file** in Aloud. "
             "Aloud keeps the book's cover and chapters. The **Chapters** list shows how "
             "long each chapter takes to hear, and you can start from any of them. Your "
             "place is kept, so a long book plays like an audiobook.",
@@ -55,8 +60,9 @@ L = {
             "Ebooks, work.",
         ]),
         ("Can it read PDFs, including scanned ones?", [
-            "Yes. Open a PDF from Files or share it to Aloud. Aloud reads the text in "
-            "order, and for a scanned PDF it recognises the text on the device first.",
+            "Yes. Share a PDF to Aloud from the Files app, or tap **+** › **Import a "
+            "file** in Aloud. Aloud reads the text in order, and for a scanned PDF it "
+            "recognises the text on the device first.",
         ]),
         ("Does Aloud work offline?", [
             "Yes. Each voice downloads once, the first time you use it. After that the "
@@ -88,7 +94,8 @@ L = {
         ("Can I bring my reading list from Pocket or Instapaper?", [
             "Yes. Export your saves from Instapaper, Raindrop or your browser's bookmarks, "
             "then in Aloud open **Settings** › **Import from a file**. An export you saved "
-            "from Pocket before it closed in 2025 works too. Aloud queues every link and "
+            "from Pocket before it closed in 2025 works too. A ZIP file can go in as it "
+            "is, without unzipping. Aloud queues every link and "
             "fetches the articles one by one. The free shelf holds three pieces, and the "
             "rest wait until you unlock Aloud or remove a piece.",
         ]),
@@ -110,7 +117,7 @@ L = {
                 "nothing you read is uploaded to be spoken. The steps below cover each kind of text.",
         "choose": [
             ("Articles", "Share from Safari or any app"),
-            ("PDFs and EPUBs", "Import from Files"),
+            ("PDFs and EPUBs", "Share from Files"),
             ("Any text", "Paste it in"),
         ],
         "steps": [
@@ -123,9 +130,11 @@ L = {
              "The article goes on your shelf without menus, ads or comments. From Safari, "
              "Aloud reads the page as you see it, so articles you are signed in to work."),
             ("Open a PDF or an EPUB",
-             "In Aloud, tap **+** › **Import a file** and pick the file. You can also "
-             "share a PDF to Aloud from the Files app. Scanned PDFs are recognised on the "
-             "device. EPUB books keep their cover and chapters."),
+             "In the Files app, touch and hold the PDF or EPUB, then tap **Share** and "
+             "**Aloud**. The file is on your shelf the next time you open Aloud. On iOS 26 "
+             "or later, **Open With** › **Aloud** works for an EPUB too. You can also tap "
+             "**+** › **Import a file** inside Aloud. Scanned PDFs are recognised on the "
+             "device, and EPUB books keep their cover and chapters."),
             ("Paste any text",
              "Tap **+** › **Paste text** for notes, emails or anything you copied. "
              "**Paste a link** takes a web address."),
@@ -154,12 +163,12 @@ L = {
              "your choice of font, size and paper under **Appearance**."),
             ("Your reading list",
              "Saves from Instapaper, Raindrop, browser bookmarks or an old Pocket export "
-             "come in through **Settings** › **Import from a file**."),
+             "come in through **Settings** › **Import from a file**, zipped or not."),
             ("Free to try",
              "The free shelf holds three pieces. One purchase removes the limit, and there "
              "is no subscription."),
         ],
-        "updated": "Written for Aloud 3.2, October 2026.",
+        "updated": "Written for Aloud 3.4, November 2026.",
         "cta_title": "Listen to your reading list",
         "cta_text": "Aloud reads articles, PDFs and EPUB books in a natural voice made on "
                     "your iPhone. It works offline, and you pay once, with no subscription.",

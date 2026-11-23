@@ -36,7 +36,7 @@ L = {
              "français. Aucun serveur ne parle à votre place, donc Aloud continue de lire en "
              "mode avion."),
             ("Articles, PDF, livres",
-             "Partagez depuis n'importe quel navigateur, importez des PDF et des livres EPUB "
+             "Partagez depuis n'importe quel navigateur, ouvrez des PDF et des livres EPUB "
              "depuis Fichiers, même des PDF scannés, ou collez votre propre texte."),
             ("Pour suivre la lecture",
              "La phrase en cours est mise en évidence. Maintenez le doigt sur la barre de la "
@@ -119,8 +119,10 @@ L = {
             "également. [Guide pas à pas](guide).",
         ]),
         ("Aloud peut-il transformer un EPUB en livre audio ?", [
-            "Oui. Dans Aloud, touchez **+** › **Importer un fichier** et choisissez "
-            "l'EPUB. Aloud garde la couverture et les chapitres du livre. "
+            "Oui. Dans l'app Fichiers, maintenez le doigt sur l'EPUB, puis touchez "
+            "**Partager** et **Aloud**. À partir d'iOS 26, **Ouvrir avec** › **Aloud** "
+            "fonctionne aussi. Dans Aloud, vous pouvez également toucher **+** › **Importer "
+            "un fichier**. Aloud garde la couverture et les chapitres du livre. "
             "La liste **Chapitres** indique la durée d'écoute de chaque chapitre, et vous "
             "pouvez commencer par n'importe lequel. Votre position est retenue : un long "
             "livre s'écoute comme un livre audio.",
@@ -129,7 +131,8 @@ L = {
             "Gutenberg ou de Standard Ebooks, fonctionnent.",
         ]),
         ("Lit-il les PDF, même scannés ?", [
-            "Oui. Ouvrez un PDF depuis Fichiers ou partagez-le avec Aloud. Aloud lit le "
+            "Oui. Partagez un PDF avec Aloud depuis l'app Fichiers, ou touchez **+** › "
+            "**Importer un fichier** dans Aloud. Aloud lit le "
             "texte dans l'ordre, et pour un PDF scanné il reconnaît d'abord le texte sur "
             "l'appareil.",
         ]),
@@ -165,7 +168,8 @@ L = {
             "Oui. Exportez vos liens depuis Instapaper, Raindrop ou les favoris de votre "
             "navigateur, puis dans Aloud ouvrez **Réglages** › **Importer depuis un "
             "fichier**. Un export que vous avez enregistré depuis Pocket avant sa fermeture "
-            "en 2025 fonctionne aussi. Aloud met chaque lien en file d'attente et récupère "
+            "en 2025 fonctionne aussi. Un fichier ZIP s'importe tel quel, sans le "
+            "décompresser. Aloud met chaque lien en file d'attente et récupère "
             "les articles un par un. L'étagère gratuite contient trois textes, et les autres "
             "attendent que vous déverrouilliez Aloud ou que vous retiriez un texte.",
         ]),
@@ -190,7 +194,7 @@ L = {
                 "comment ajouter chaque type de texte et comment l'écouter.",
         "choose": [
             ("Articles", "À partager depuis Safari ou une app"),
-            ("PDF et EPUB", "À importer depuis Fichiers"),
+            ("PDF et EPUB", "À partager depuis Fichiers"),
             ("Tout texte", "À coller"),
         ],
         "steps": [
@@ -204,10 +208,12 @@ L = {
              "commentaires. Depuis Safari, Aloud lit la page telle que vous la voyez : les "
              "articles des sites où vous êtes connecté fonctionnent."),
             ("Ouvrez un PDF ou un EPUB",
-             "Dans Aloud, touchez **+** › **Importer un fichier** et choisissez le fichier. "
-             "Vous pouvez aussi partager un PDF avec Aloud depuis l'app Fichiers. Les PDF "
-             "scannés sont reconnus sur l'appareil. Les livres EPUB gardent leur couverture "
-             "et leurs chapitres."),
+             "Dans l'app Fichiers, maintenez le doigt sur le PDF ou l'EPUB, puis touchez "
+             "**Partager** et **Aloud**. Le fichier apparaît sur votre étagère à la prochaine "
+             "ouverture d'Aloud. À partir d'iOS 26, **Ouvrir avec** › **Aloud** fonctionne "
+             "aussi pour un EPUB. Dans Aloud, vous pouvez également toucher **+** › "
+             "**Importer un fichier**. Les PDF scannés sont reconnus sur l'appareil, et les livres EPUB gardent "
+             "leur couverture et leurs chapitres."),
             ("Collez n'importe quel texte",
              "Touchez **+** › **Coller du texte** pour des notes, des e-mails ou tout ce que "
              "vous avez copié. **Coller un lien** accepte une adresse web."),
@@ -237,12 +243,13 @@ L = {
              "avec la police, la taille et le papier de votre choix dans **Apparence**."),
             ("Votre liste de lecture",
              "Les liens d'Instapaper, de Raindrop, des favoris du navigateur ou d'un ancien "
-             "export Pocket arrivent par **Réglages** › **Importer depuis un fichier**."),
+             "export Pocket arrivent par **Réglages** › **Importer depuis un fichier**, "
+             "même dans un fichier ZIP."),
             ("Essai gratuit",
              "L'étagère gratuite contient trois textes. Un seul achat lève la limite, et il "
              "n'y a pas d'abonnement."),
         ],
-        "updated": "Rédigé pour Aloud 3.2, octobre 2026.",
+        "updated": "Rédigé pour Aloud 3.4, novembre 2026.",
         "cta_title": "Écoutez votre liste de lecture",
         "cta_text": "Aloud lit les articles, les PDF et les livres EPUB d'une voix naturelle "
                     "créée sur votre iPhone. Il fonctionne hors ligne, et vous payez une seule "
