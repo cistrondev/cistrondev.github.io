@@ -7,6 +7,7 @@
 # (cronocomparador, marcha, amplitude, erro de batida, balanço, mostrador).
 # For quartz watches: Tipo > Quartzo, Mostrador > Ponteiros | Digital, and Ler
 # de novo (reading screen). In running text the app calls an LCD the "visor".
+# Data e fase da lua is the setting card on the Hora tab.
 import runpy
 from pathlib import Path
 
@@ -66,10 +67,12 @@ L = {
              "Uma espiral magnetizada é o motivo mais comum para um relógio começar a "
              "adiantar de repente. O magnetômetro do iPhone mostra se o seu relógio precisa "
              "ser desmagnetizado."),
-            ("Relógio atômico",
+            ("Relógio atômico, data e fase da lua",
              "A aba Hora mostra a hora exata do servidor da Apple e quanto o relógio do seu "
              "iPhone está desviado. Bipes de contagem regressiva antes de cada minuto ajudam "
-             "a acertar o seu relógio no segundo."),
+             "a acertar o seu relógio no segundo. O mostrador também exibe o dia da semana, "
+             "a data, o mês e a fase da lua, e a aba explica como acertar um relógio com "
+             "calendário ou com fase da lua."),
         ],
         "privacy_title": "O som nunca é gravado.",
         "privacy": [
@@ -86,6 +89,7 @@ L = {
             "Seu iPhone é um cronocomparador: marcha, amplitude e erro de batida em 30 segundos.",
             "Leituras que não pulam: mede movimentos silenciosos mesmo com barulho em volta.",
             "Toda a sua coleção num relance: idade, estado e valor de cada relógio.",
+            "Hora, data e fase da lua: tudo para acertar um relógio com calendário ou fase da lua.",
             "Veja o desvio antes que importe: cada medição salva, em um gráfico.",
             "Saiba quanto vale seu relógio: a mediana do Chrono24 para a sua referência exata.",
             "Seu relógio está magnetizado? Verificado em dez segundos.",
@@ -184,6 +188,17 @@ L = {
             "qualquer relógio de quartzo, um resultado de fotos com menos de um dia de "
             "intervalo aparece, mas não é salvo.",
         ]),
+        ("Como acertar a data e a fase da lua do meu relógio com o Timegrapher?", [
+            "Abra a aba **Hora**. O mostrador exibe o dia da semana, a data, o mês e a "
+            "fase da lua junto com a hora exata. Abaixo do mostrador, você vê quantos "
+            "dias se passaram desde a última lua cheia ou lua nova.",
+            "A seção **Data e fase da lua**, na mesma aba, traz os passos de hoje. "
+            "Acerte primeiro a data, porque em alguns relógios a data também move a "
+            "lua. Depois ponha a lua em cheia ou nova, conforme a que ocorreu por "
+            "último, e avance-a um passo para cada dia que passou desde então. Não "
+            "mude a data entre aproximadamente 20h e 4h, porque nesse período o "
+            "mecanismo da data está girando.",
+        ]),
         ("O Timegrapher é grátis?", [
             "Seu primeiro relógio é grátis para sempre, com todas as medições. O "
             "**Timegrapher Pro** é uma compra única que remove o limite de relógios. Não há "
@@ -196,6 +211,10 @@ L = {
             "relógio no Chrono24, e **Identificar pela foto** envia essa foto ao Private "
             "Cloud Compute da Apple só quando você toca. "
             "[Política de privacidade (em inglês)](privacy).",
+        ]),
+        ("Em quais idiomas o Timegrapher está disponível?", [
+            "O app está em português do Brasil, inglês, alemão, espanhol, francês, "
+            "japonês, chinês simplificado e chinês tradicional.",
         ]),
     ],
     "guide": {
@@ -253,6 +272,11 @@ L = {
              "relógio de quartzo, tire as fotos com uma ou duas semanas de intervalo. Com "
              "um relógio digital, deixe uma semana ou mais entre as fotos. O Timegrapher "
              "lê a hora em cada uma."),
+            ("Acerte a hora, a data e a lua",
+             "A aba **Hora** mostra a hora exata, com bipes de contagem regressiva "
+             "antes de cada minuto. O mostrador também exibe o dia da semana, a data, "
+             "o mês e a fase da lua, e a seção **Data e fase da lua** explica como "
+             "acertar o seu relógio."),
             ("Quanto vale",
              "A consulta de preços busca os preços atuais do Chrono24 para a sua referência "
              "exata e salva a mediana."),
@@ -260,7 +284,7 @@ L = {
              "O primeiro relógio é grátis. O Timegrapher Pro libera relógios ilimitados com "
              "um único pagamento, sem assinatura."),
         ],
-        "updated": "Escrito para o Timegrapher 2.12, novembro de 2026.",
+        "updated": "Escrito para o Timegrapher 2.14, novembro de 2026.",
         "cta_title": "Meça seu relógio hoje à noite",
         "cta_text": "Marcha, amplitude e erro de batida em 30 segundos, com o iPhone que você "
                     "já tem. Primeiro relógio grátis, sem assinatura.",

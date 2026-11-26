@@ -3,7 +3,8 @@
 # Button names are the app's German strings (Timegrapher Localizable.xcstrings):
 # Uhr hinzufügen, Messen, In Lagen messen, Magnetismus prüfen, Gang per Foto,
 # Hebungswinkel, Anhand des Fotos erkennen, Ratgeber (tab); for quartz watches
-# Typ > Quarz, Anzeige > Zeiger | Digital, and Erneut lesen (reading screen).
+# Typ > Quarz, Anzeige > Zeiger | Digital, and Erneut lesen (reading screen);
+# Atomuhr (clock tab) and Datum und Mondphase (the setting card on that tab).
 import runpy
 from pathlib import Path
 
@@ -63,10 +64,12 @@ L = {
              "Eine magnetisierte Unruhspirale ist der häufigste Grund, warum eine Uhr "
              "plötzlich vorgeht. Das Magnetometer des iPhones zeigt, ob Ihre Uhr "
              "entmagnetisiert werden muss."),
-            ("Atomuhr",
+            ("Atomuhr, Datum und Mondphase",
              "Der Tab „Atomuhr“ zeigt die genaue Zeit von Apples Zeitserver und wie weit "
              "die Uhr Ihres iPhones abweicht. Countdown-Töne vor jeder Minute helfen, Ihre "
-             "Uhr auf die Sekunde zu stellen."),
+             "Uhr auf die Sekunde zu stellen. Das Zifferblatt zeigt außerdem Wochentag, "
+             "Datum, Monat und Mondphase, und der Tab erklärt, wie Sie eine Kalender- "
+             "oder Mondphasenuhr stellen."),
         ],
         "privacy_title": "Der Ton wird nie aufgezeichnet.",
         "privacy": [
@@ -84,6 +87,7 @@ L = {
             "Ihr iPhone ist eine Zeitwaage: Gangabweichung, Amplitude und Abfallfehler in 30 Sekunden.",
             "Werte, die ruhig stehen: auch leise Uhrwerke, auch in lauten Räumen.",
             "Ihre Sammlung an einem Ort: Alter, Zustand und Wert jeder Uhr.",
+            "Uhrzeit, Datum und Mondphase: alles, um eine Kalender- oder Mondphasenuhr zu stellen.",
             "Die Drift sehen, bevor sie zählt: jede Messung gespeichert, als Diagramm.",
             "Wissen, was sie wert ist: der Chrono24-Median für Ihre genaue Referenz.",
             "Ist Ihre Uhr magnetisiert? In zehn Sekunden geprüft.",
@@ -183,6 +187,18 @@ L = {
             "Ergebnis aus Fotos mit weniger als einem Tag Abstand angezeigt, aber nicht "
             "gespeichert.",
         ]),
+        ("Wie stelle ich mit Timegrapher Datum und Mondphase meiner Uhr ein?", [
+            "Öffnen Sie den Tab **Atomuhr**. Sein Zifferblatt zeigt neben der genauen "
+            "Uhrzeit Wochentag, Datum, Monat und Mondphase. Unter dem Zifferblatt "
+            "steht, wie viele Tage seit dem letzten Voll- oder Neumond vergangen sind.",
+            "Der Abschnitt **Datum und Mondphase** im selben Tab nennt die Schritte "
+            "für heute. Stellen Sie zuerst das Datum ein, denn bei manchen Uhren "
+            "bewegt die Datumskorrektur auch den Mond. Stellen Sie dann den Mond auf "
+            "Voll- oder Neumond, je nachdem, welcher zuletzt war, und schalten Sie ihn "
+            "für jeden seither vergangenen Tag um einen Schritt weiter. Verstellen Sie "
+            "das Datum nicht zwischen etwa 20 und 4 Uhr, denn dann ist das "
+            "Datumsschaltwerk in Bewegung.",
+        ]),
         ("Ist Timegrapher kostenlos?", [
             "Ihre erste Uhr ist für immer kostenlos, mit allen Messungen. **Timegrapher Pro** "
             "ist ein einmaliger Kauf und hebt die Grenze bei der Zahl der Uhren auf. Es gibt "
@@ -195,6 +211,11 @@ L = {
             "sucht die Referenz Ihrer Uhr auf Chrono24, und **Anhand des Fotos erkennen** "
             "schickt das eine Foto nur auf Ihr Tippen an Apples Private Cloud Compute. "
             "[Datenschutzerklärung (auf Englisch)](privacy).",
+        ]),
+        ("In welchen Sprachen gibt es Timegrapher?", [
+            "Timegrapher gibt es auf Deutsch, Englisch, Spanisch, Französisch, "
+            "brasilianischem Portugiesisch und Japanisch sowie auf vereinfachtem und "
+            "traditionellem Chinesisch.",
         ]),
     ],
     "guide": {
@@ -251,6 +272,11 @@ L = {
              "liegen ein bis zwei Wochen zwischen den Fotos. Bei einer Digitaluhr sollte "
              "mindestens eine Woche dazwischen liegen. Timegrapher liest die Uhrzeit aus "
              "jedem Foto."),
+            ("Uhrzeit, Datum und Mond stellen",
+             "Der Tab **Atomuhr** zeigt die genaue Uhrzeit, mit Countdown-Tönen vor "
+             "jeder Minute. Das Zifferblatt zeigt außerdem Wochentag, Datum, Monat und "
+             "Mondphase, und der Abschnitt **Datum und Mondphase** erklärt, wie Sie "
+             "diese an Ihrer Uhr einstellen."),
             ("Was sie wert ist",
              "Die Preisabfrage holt aktuelle Chrono24-Angebotspreise für Ihre genaue "
              "Referenz und speichert den Median."),
@@ -258,7 +284,7 @@ L = {
              "Die erste Uhr ist kostenlos. Timegrapher Pro schaltet unbegrenzt viele Uhren "
              "mit einer einzigen Zahlung frei, ohne Abo."),
         ],
-        "updated": "Geschrieben für Timegrapher 2.12, November 2026.",
+        "updated": "Geschrieben für Timegrapher 2.14, November 2026.",
         "cta_title": "Messen Sie Ihre Uhr noch heute",
         "cta_text": "Gangabweichung, Amplitude und Abfallfehler in 30 Sekunden, mit dem "
                     "iPhone, das Sie schon haben. Erste Uhr kostenlos, kein Abo.",

@@ -52,7 +52,8 @@
     "https://cistrondev.github.io/assets/img/timegrapher/es/04.webp",
     "https://cistrondev.github.io/assets/img/timegrapher/es/05.webp",
     "https://cistrondev.github.io/assets/img/timegrapher/es/06.webp",
-    "https://cistrondev.github.io/assets/img/timegrapher/es/07.webp"
+    "https://cistrondev.github.io/assets/img/timegrapher/es/07.webp",
+    "https://cistrondev.github.io/assets/img/timegrapher/es/08.webp"
    ],
    "featureList": [
     "Marcha, amplitud, error de ritmo",
@@ -63,7 +64,7 @@
     "Informe de marcha",
     "Cuánto vale",
     "Comprobación de magnetismo",
-    "Reloj atómico"
+    "Reloj atómico, fecha y fase lunar"
    ],
    "offers": {
     "@type": "Offer",
@@ -148,6 +149,14 @@
     },
     {
      "@type": "Question",
+     "name": "¿Cómo ajusto la fecha y la fase lunar de mi reloj con Timegrapher?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Abre la pestaña <strong>Hora<\/strong>. Su esfera muestra el día de la semana, la fecha, el mes y la fase lunar junto a la hora exacta. Debajo de la esfera ves cuántos días han pasado desde la última luna llena o luna nueva.<\/p><p>La sección <strong>Fecha y fase lunar<\/strong>, en la misma pestaña, te da los pasos de hoy. Pon primero la fecha, porque en algunos relojes la fecha también mueve la luna. Después pon la luna en llena o en nueva, según cuál haya sido la última, y avánzala un paso por cada día que ha pasado desde entonces. No cambies la fecha entre las 20:00 y las 4:00 aproximadamente, porque en esas horas el mecanismo de la fecha está girando.<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
      "name": "¿Timegrapher es gratis?",
      "acceptedAnswer": {
       "@type": "Answer",
@@ -160,6 +169,14 @@
      "acceptedAnswer": {
       "@type": "Answer",
       "text": "<p>No. El sonido se analiza en directo y nunca se graba, se guarda ni se sube. Tu colección se queda en tu iPhone. La consulta de precios, opcional, busca la referencia de tu reloj en Chrono24, e <strong>Identificar por la foto<\/strong> envía esa foto al Private Cloud Compute de Apple solo cuando lo tocas. <a href=\"https://cistrondev.github.io/timegrapher/privacy/\">Política de privacidad (en inglés)<\/a>.<\/p>"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿En qué idiomas está disponible Timegrapher?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "<p>Timegrapher está en español, inglés, alemán, francés, portugués de Brasil, japonés, chino simplificado y chino tradicional.<\/p>"
      }
     }
    ]
@@ -206,10 +223,11 @@
           <li><img src="../../assets/img/timegrapher/es/01.webp?v=68cd3931" width="642" height="1389" alt="Tu iPhone es un cronocomparador: marcha, amplitud y error de ritmo en 30 segundos." loading="eager" decoding="async"></li>
           <li><img src="../../assets/img/timegrapher/es/02.webp?v=ca4a51c7" width="642" height="1389" alt="Lecturas que no saltan: mide movimientos silenciosos incluso con ruido alrededor." loading="eager" decoding="async"></li>
           <li><img src="../../assets/img/timegrapher/es/03.webp?v=4fd80b8c" width="642" height="1389" alt="Toda tu colección de un vistazo: edad, estado y valor de cada reloj." loading="eager" decoding="async"></li>
-          <li><img src="../../assets/img/timegrapher/es/04.webp?v=9e4eebc8" width="642" height="1389" alt="Ve la desviación antes de que importe: cada medición guardada, en un gráfico." loading="lazy" decoding="async"></li>
-          <li><img src="../../assets/img/timegrapher/es/05.webp?v=ac6583f0" width="642" height="1389" alt="Descubre cuánto vale tu reloj: la mediana de Chrono24 para tu referencia exacta." loading="lazy" decoding="async"></li>
-          <li><img src="../../assets/img/timegrapher/es/06.webp?v=aeda62ac" width="642" height="1389" alt="¿Tu reloj está magnetizado? Comprobado en diez segundos." loading="lazy" decoding="async"></li>
-          <li><img src="../../assets/img/timegrapher/es/07.webp?v=61a62a61" width="642" height="1389" alt="La marcha en un día de uso: dos fotos, con un día entre ellas." loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/timegrapher/es/04.webp?v=86066208" width="642" height="1389" alt="Hora, fecha y fase lunar: todo para ajustar un reloj con calendario o fase lunar." loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/timegrapher/es/05.webp?v=9e4eebc8" width="642" height="1389" alt="Ve la desviación antes de que importe: cada medición guardada, en un gráfico." loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/timegrapher/es/06.webp?v=ac6583f0" width="642" height="1389" alt="Descubre cuánto vale tu reloj: la mediana de Chrono24 para tu referencia exacta." loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/timegrapher/es/07.webp?v=aeda62ac" width="642" height="1389" alt="¿Tu reloj está magnetizado? Comprobado en diez segundos." loading="lazy" decoding="async"></li>
+          <li><img src="../../assets/img/timegrapher/es/08.webp?v=61a62a61" width="642" height="1389" alt="La marcha en un día de uso: dos fotos, con un día entre ellas." loading="lazy" decoding="async"></li>
       </ul>
       <div class="gallery-controls">
         <div class="gallery-paddles">
@@ -234,7 +252,7 @@
         <li><h3>Informe de marcha</h3><p>Comparte un informe de una página sobre un reloj, en PDF o en imagen, con la última lectura, las posiciones y la evolución. Tus mediciones se pueden exportar en CSV.</p></li>
         <li><h3>Cuánto vale</h3><p>Los precios actuales de Chrono24 para tu referencia exacta, con la mediana calculada en tu iPhone.</p></li>
         <li><h3>Comprobación de magnetismo</h3><p>Una espiral magnetizada es la causa más común de que un reloj empiece a adelantar de repente. El magnetómetro del iPhone muestra si hay que desmagnetizar tu reloj.</p></li>
-        <li><h3>Reloj atómico</h3><p>La pestaña Hora muestra la hora exacta del servidor de Apple y cuánto se desvía el reloj de tu iPhone. Unos tonos de cuenta atrás antes de cada minuto te ayudan a poner tu reloj en hora al segundo.</p></li>
+        <li><h3>Reloj atómico, fecha y fase lunar</h3><p>La pestaña Hora muestra la hora exacta del servidor de Apple y cuánto se desvía el reloj de tu iPhone. Unos tonos de cuenta atrás antes de cada minuto te ayudan a poner tu reloj en hora al segundo. La esfera también indica el día de la semana, la fecha, el mes y la fase lunar, y la pestaña explica cómo ajustar un reloj con calendario o con fase lunar.</p></li>
       </ul>
     </section>
 
@@ -298,6 +316,13 @@
           </div>
         </div>
         <div class="faq-item">
+          <h3>¿Cómo ajusto la fecha y la fase lunar de mi reloj con Timegrapher?</h3>
+          <div class="faq-answer">
+            <p>Abre la pestaña <strong>Hora</strong>. Su esfera muestra el día de la semana, la fecha, el mes y la fase lunar junto a la hora exacta. Debajo de la esfera ves cuántos días han pasado desde la última luna llena o luna nueva.</p>
+            <p>La sección <strong>Fecha y fase lunar</strong>, en la misma pestaña, te da los pasos de hoy. Pon primero la fecha, porque en algunos relojes la fecha también mueve la luna. Después pon la luna en llena o en nueva, según cuál haya sido la última, y avánzala un paso por cada día que ha pasado desde entonces. No cambies la fecha entre las 20:00 y las 4:00 aproximadamente, porque en esas horas el mecanismo de la fecha está girando.</p>
+          </div>
+        </div>
+        <div class="faq-item">
           <h3>¿Timegrapher es gratis?</h3>
           <div class="faq-answer">
             <p>Tu primer reloj es gratis para siempre, con todas las mediciones. <strong>Timegrapher Pro</strong> es una compra única que quita el límite de relojes. No hay suscripción, y las compras se restauran en cualquier dispositivo con la misma cuenta de Apple.</p>
@@ -307,6 +332,12 @@
           <h3>¿Timegrapher graba mi audio?</h3>
           <div class="faq-answer">
             <p>No. El sonido se analiza en directo y nunca se graba, se guarda ni se sube. Tu colección se queda en tu iPhone. La consulta de precios, opcional, busca la referencia de tu reloj en Chrono24, e <strong>Identificar por la foto</strong> envía esa foto al Private Cloud Compute de Apple solo cuando lo tocas. <a href="../../timegrapher/privacy/">Política de privacidad (en inglés)</a>.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3>¿En qué idiomas está disponible Timegrapher?</h3>
+          <div class="faq-answer">
+            <p>Timegrapher está en español, inglés, alemán, francés, portugués de Brasil, japonés, chino simplificado y chino tradicional.</p>
           </div>
         </div>
       </div>

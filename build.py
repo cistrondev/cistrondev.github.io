@@ -286,10 +286,11 @@ APPS = [
              "A magnetized hairspring is the most common reason a watch suddenly "
              "gains time. Sweep the watch across the back of your iPhone and its "
              "magnetometer tells you whether it needs demagnetizing."),
-            ("Atomic clock",
+            ("Atomic clock, date and moon phase",
              "The Clock tab shows the exact time from Apple's time server and how far "
              "your iPhone is off. Countdown tones before each minute help you set your "
-             "watch to the second."),
+             "watch to the second. The dial also shows the day, date, month and moon "
+             "phase, and the tab explains how to set a calendar or moonphase watch."),
         ],
         "privacy_title": "Audio is never recorded.",
         "privacy": [
@@ -317,13 +318,14 @@ APPS = [
                       "the rate of my watches in no time! It also let’s me track the "
                       "price of my collection over the years"},
         ],
-        "tile": [1, 3, 4],
+        "tile": [1, 3, 5],
         "languages": ["en", "de", "es", "fr", "pt-BR", "ja"],
         "category": "UtilitiesApplication",   # schema.org applicationCategory
         "shots": [
             "Your iPhone is a timing machine: rate, amplitude, and beat error in 30 seconds.",
             "Readings that hold steady: quiet movements, even in noisy rooms.",
             "Your entire collection at a glance: the age, health and value of every watch, kept on your iPhone.",
+            "Time, date and moon phase: everything you need to set a calendar or moonphase watch.",
             "See the drift before it matters, and know when to service your watch.",
             "Know what it's worth: the Chrono24 median for your exact reference.",
             "Is your watch magnetized? Checked in ten seconds.",

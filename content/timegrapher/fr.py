@@ -4,7 +4,8 @@
 # Ajouter une montre, Mesurer, Mesurer en positions, Contrôler le magnétisme,
 # Marche par photo, Angle de levée, Identifier d'après la photo, Guide (tab);
 # for quartz watches Type > Quartz, Affichage > Aiguilles | Numérique, and
-# Relire (reading screen).
+# Relire (reading screen); Horloge (clock tab) and Date et phase de lune (the
+# setting card on that tab).
 # French spacing: a no-break space before ":" and a narrow one before "?" and "!".
 import runpy
 from pathlib import Path
@@ -67,10 +68,12 @@ L = {
              "Un spiral aimanté est la cause la plus fréquente d'une montre qui se met "
              "soudain à avancer. Le magnétomètre de l'iPhone vous dit s'il faut la "
              "démagnétiser."),
-            ("Horloge atomique",
+            ("Horloge atomique, date et phase de lune",
              "L'onglet Horloge affiche l'heure exacte du serveur de temps d'Apple et "
              "l'écart de l'horloge de votre iPhone. Des bips avant chaque minute vous "
-             "aident à régler votre montre à la seconde près."),
+             "aident à régler votre montre à la seconde près. Le cadran indique aussi le "
+             "jour, la date, le mois et la phase de lune, et l'onglet explique comment "
+             "régler une montre à calendrier ou à phase de lune."),
         ],
         "privacy_title": "Le son n'est jamais enregistré.",
         "privacy": [
@@ -89,6 +92,7 @@ L = {
             "Votre iPhone est un chronocomparateur : marche, amplitude et erreur de repère en 30 secondes.",
             "Des valeurs qui restent stables : même les mouvements discrets, même dans le bruit.",
             "Votre collection, un seul établi : âge, état et valeur de chaque montre.",
+            "L'heure, la date et la phase de lune : tout pour régler une montre à calendrier ou à phase de lune.",
             "Voir la dérive avant qu'elle compte : chaque mesure conservée et tracée.",
             "Savoir ce qu'elle vaut : la médiane Chrono24 pour votre référence exacte.",
             "Votre montre est-elle aimantée ? Contrôlé en dix secondes.",
@@ -190,6 +194,19 @@ L = {
             "quartz, un résultat tiré de photos prises à moins d'un jour d'écart est "
             "affiché, mais pas enregistré.",
         ]),
+        ("Comment régler la date et la phase de lune de ma montre avec Timegrapher ?", [
+            "Ouvrez l'onglet **Horloge**. Son cadran indique le jour, la date, le mois "
+            "et la phase de lune en plus de l'heure exacte. Sous le cadran, vous voyez "
+            "combien de jours se sont écoulés depuis la dernière pleine lune ou "
+            "nouvelle lune.",
+            "La rubrique **Date et phase de lune**, dans le même onglet, donne les "
+            "étapes du jour. Réglez d'abord la date, car sur certaines montres le "
+            "changement de date entraîne aussi la lune. Réglez ensuite la lune sur "
+            "pleine lune ou nouvelle lune, selon la plus récente, puis avancez-la d'un "
+            "cran pour chaque jour écoulé depuis cette phase. Ne changez pas la date "
+            "entre 20 h et 4 h environ, car le mécanisme de date est alors en "
+            "mouvement.",
+        ]),
         ("Timegrapher est-il gratuit ?", [
             "Votre première montre est gratuite pour toujours, avec toutes les mesures. "
             "**Timegrapher Pro** est un achat unique qui supprime la limite du nombre de "
@@ -202,6 +219,10 @@ L = {
             "facultatif cherche la référence de votre montre sur Chrono24, et **Identifier "
             "d'après la photo** n'envoie cette photo au Private Cloud Compute d'Apple que "
             "si vous le touchez. [Politique de confidentialité (en anglais)](privacy).",
+        ]),
+        ("Dans quelles langues Timegrapher est-il disponible ?", [
+            "L'app est en français, anglais, allemand, espagnol, portugais du Brésil, "
+            "japonais, chinois simplifié et chinois traditionnel.",
         ]),
     ],
     "guide": {
@@ -259,6 +280,11 @@ L = {
              "montre à quartz, prenez les photos à une ou deux semaines d'écart. Pour "
              "une montre numérique, laissez au moins une semaine entre les photos. "
              "Timegrapher lit l'heure sur chacune."),
+            ("Régler l'heure, la date et la lune",
+             "L'onglet **Horloge** affiche l'heure exacte, avec des bips avant chaque "
+             "minute. Son cadran indique aussi le jour, la date, le mois et la phase "
+             "de lune, et la rubrique **Date et phase de lune** explique comment les "
+             "régler sur votre montre."),
             ("Ce qu'elle vaut",
              "Le contrôle de prix récupère les prix demandés sur Chrono24 pour votre "
              "référence exacte et garde la médiane."),
@@ -266,7 +292,7 @@ L = {
              "La première montre est gratuite. Timegrapher Pro ajoute un nombre illimité de "
              "montres pour un paiement unique, sans abonnement."),
         ],
-        "updated": "Rédigé pour Timegrapher 2.12, novembre 2026.",
+        "updated": "Rédigé pour Timegrapher 2.14, novembre 2026.",
         "cta_title": "Mesurez votre montre ce soir",
         "cta_text": "Marche, amplitude et erreur de repère en 30 secondes, avec l'iPhone que "
                     "vous avez déjà. Première montre gratuite, sans abonnement.",

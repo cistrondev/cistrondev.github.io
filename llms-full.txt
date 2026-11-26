@@ -183,7 +183,7 @@ Rate, amplitude, and beat error in about thirty seconds. Timegrapher listens to 
 - **Timing report.** Share a one-page report on a watch as a PDF or an image, with the latest reading, the positions, and the trend. Export your measurements as a CSV file.
 - **Know what it's worth.** Current Chrono24 asking prices for your exact reference, with the median worked out on your iPhone.
 - **Magnetism check.** A magnetized hairspring is the most common reason a watch suddenly gains time. Sweep the watch across the back of your iPhone and its magnetometer tells you whether it needs demagnetizing.
-- **Atomic clock.** The Clock tab shows the exact time from Apple's time server and how far your iPhone is off. Countdown tones before each minute help you set your watch to the second.
+- **Atomic clock, date and moon phase.** The Clock tab shows the exact time from Apple's time server and how far your iPhone is off. Countdown tones before each minute help you set your watch to the second. The dial also shows the day, date, month and moon phase, and the tab explains how to set a calendar or moonphase watch.
 
 ### Privacy: Audio is never recorded.
 
@@ -248,6 +248,12 @@ Photos two weeks apart are precise to under a second a month. Keep them less tha
 
 A digital watch works too, if its display shows the seconds. Set its Display to Digital as well. On your iPhone, Timegrapher reads the time from each photo. Check the digits against the photo and correct any that are wrong, or zoom in on the time and tap Read again. The display shows the whole time, so the photos can be weeks or even months apart. The longer you wait, the more precise the result. For any quartz watch, a result from photos less than a day apart is shown but not saved.
 
+**How do I set my watch's date and moon phase with Timegrapher?**
+
+Open the Clock tab. Its dial shows the day, date, month and moon phase along with the exact time. Below the dial, Timegrapher shows how many days have passed since the last full or new moon.
+
+The Date and moon phase section on the same tab gives the steps for today. Set the date first, because on some watches the date also moves the moon. Then set the moon to full or new, whichever came last, and advance it one step for each day since. Don't change the date between about 8 PM and 4 AM, when the date mechanism is turning.
+
 **Is Timegrapher free?**
 
 Your first watch is free for good, with every measurement. Timegrapher Pro is a one-time purchase that removes the limit on watches. There is no subscription, and purchases restore on any device with the same Apple Account.
@@ -255,6 +261,10 @@ Your first watch is free for good, with every measurement. Timegrapher Pro is a 
 **Does Timegrapher record my audio?**
 
 No. The sound is analysed live and never recorded, saved or uploaded. Your collection stays on your iPhone. The optional price check searches Chrono24 for your watch's reference, and Identify from Photo sends that one photo to Apple's Private Cloud Compute only when you tap it. Privacy policy.
+
+**Which languages is Timegrapher in?**
+
+Timegrapher is in English, German, Spanish, French, Brazilian Portuguese, Japanese, Simplified Chinese and Traditional Chinese.
 
 ### How to check your mechanical watch's accuracy with an iPhone
 

@@ -4,7 +4,7 @@
 # Añadir reloj, Medir, Medir en posiciones, Comprobar magnetismo, Marcha por
 # fotos, Ángulo de levantamiento, Identificar por la foto, Guía and Hora (tabs);
 # for quartz watches Tipo > Cuarzo, Pantalla > Agujas | Digital, and Volver a
-# leer (reading screen).
+# leer (reading screen); Fecha y fase lunar (the setting card on the Hora tab).
 # Glossary: Timegrapher/Localization/GLOSSARY.md (cronocomparador, marcha,
 # amplitud, error de ritmo, volante, espiral, esfera).
 import runpy
@@ -66,10 +66,12 @@ L = {
              "Una espiral magnetizada es la causa más común de que un reloj empiece a "
              "adelantar de repente. El magnetómetro del iPhone muestra si hay que "
              "desmagnetizar tu reloj."),
-            ("Reloj atómico",
+            ("Reloj atómico, fecha y fase lunar",
              "La pestaña Hora muestra la hora exacta del servidor de Apple y cuánto se "
              "desvía el reloj de tu iPhone. Unos tonos de cuenta atrás antes de cada minuto "
-             "te ayudan a poner tu reloj en hora al segundo."),
+             "te ayudan a poner tu reloj en hora al segundo. La esfera también indica el "
+             "día de la semana, la fecha, el mes y la fase lunar, y la pestaña explica "
+             "cómo ajustar un reloj con calendario o con fase lunar."),
         ],
         "privacy_title": "El sonido nunca se graba.",
         "privacy": [
@@ -87,6 +89,7 @@ L = {
             "Tu iPhone es un cronocomparador: marcha, amplitud y error de ritmo en 30 segundos.",
             "Lecturas que no saltan: mide movimientos silenciosos incluso con ruido alrededor.",
             "Toda tu colección de un vistazo: edad, estado y valor de cada reloj.",
+            "Hora, fecha y fase lunar: todo para ajustar un reloj con calendario o fase lunar.",
             "Ve la desviación antes de que importe: cada medición guardada, en un gráfico.",
             "Descubre cuánto vale tu reloj: la mediana de Chrono24 para tu referencia exacta.",
             "¿Tu reloj está magnetizado? Comprobado en diez segundos.",
@@ -184,6 +187,17 @@ L = {
             "de cuarzo, un resultado de fotos separadas menos de un día se muestra, pero "
             "no se guarda.",
         ]),
+        ("¿Cómo ajusto la fecha y la fase lunar de mi reloj con Timegrapher?", [
+            "Abre la pestaña **Hora**. Su esfera muestra el día de la semana, la "
+            "fecha, el mes y la fase lunar junto a la hora exacta. Debajo de la esfera "
+            "ves cuántos días han pasado desde la última luna llena o luna nueva.",
+            "La sección **Fecha y fase lunar**, en la misma pestaña, te da los pasos "
+            "de hoy. Pon primero la fecha, porque en algunos relojes la fecha también "
+            "mueve la luna. Después pon la luna en llena o en nueva, según cuál haya "
+            "sido la última, y avánzala un paso por cada día que ha pasado desde "
+            "entonces. No cambies la fecha entre las 20:00 y las 4:00 aproximadamente, "
+            "porque en esas horas el mecanismo de la fecha está girando.",
+        ]),
         ("¿Timegrapher es gratis?", [
             "Tu primer reloj es gratis para siempre, con todas las mediciones. **Timegrapher "
             "Pro** es una compra única que quita el límite de relojes. No hay suscripción, y "
@@ -195,6 +209,10 @@ L = {
             "referencia de tu reloj en Chrono24, e **Identificar por la foto** envía esa "
             "foto al Private Cloud Compute de Apple solo cuando lo tocas. "
             "[Política de privacidad (en inglés)](privacy).",
+        ]),
+        ("¿En qué idiomas está disponible Timegrapher?", [
+            "Timegrapher está en español, inglés, alemán, francés, portugués de Brasil, "
+            "japonés, chino simplificado y chino tradicional.",
         ]),
     ],
     "guide": {
@@ -253,6 +271,11 @@ L = {
              "reloj de cuarzo, haz las fotos con una o dos semanas de diferencia. Con un "
              "reloj digital, deja una semana o más entre las fotos. Timegrapher lee la "
              "hora de cada una."),
+            ("Pon la hora, la fecha y la luna",
+             "La pestaña **Hora** muestra la hora exacta, con tonos de cuenta atrás "
+             "antes de cada minuto. Su esfera también indica el día de la semana, la "
+             "fecha, el mes y la fase lunar, y la sección **Fecha y fase lunar** "
+             "explica cómo ajustarlos en tu reloj."),
             ("Cuánto vale",
              "La consulta de precios obtiene los precios actuales de Chrono24 para tu "
              "referencia exacta y guarda la mediana."),
@@ -260,7 +283,7 @@ L = {
              "El primer reloj es gratis. Timegrapher Pro añade relojes ilimitados con un "
              "solo pago, sin suscripción."),
         ],
-        "updated": "Escrita para Timegrapher 2.12, noviembre de 2026.",
+        "updated": "Escrita para Timegrapher 2.14, noviembre de 2026.",
         "cta_title": "Mide tu reloj esta noche",
         "cta_text": "Marcha, amplitud y error de ritmo en 30 segundos, con el iPhone que ya "
                     "tienes. Primer reloj gratis, sin suscripción.",

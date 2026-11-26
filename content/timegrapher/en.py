@@ -21,6 +21,15 @@
 # zoomed-in area); the display must show the seconds; photos a week or more
 # apart, weeks or months are fine. For any quartz watch, a result from photos
 # less than a day apart is shown but not saved.
+# Clock tab (2.14): its dial shows the day, date, month and moon phase; under
+# the time it says how many days have passed since the last full or new moon.
+# The "Date and moon phase" card on the same tab (it is not the Guide tab)
+# gives today's steps: the date first, because on some watches the date also
+# moves the moon; then the moon to full or new, whichever came last, and one
+# step forward for each day since; no date changes between about 8 PM and 4 AM.
+# The app is in English, German, Spanish, French, Brazilian Portuguese,
+# Japanese, Simplified Chinese and Traditional Chinese (2.14); the site has no
+# Chinese pages.
 
 L = {
     "name": "English",
@@ -111,6 +120,16 @@ L = {
             "longer you wait, the more precise the result. For any quartz watch, a "
             "result from photos less than a day apart is shown but not saved.",
         ]),
+        ("How do I set my watch's date and moon phase with Timegrapher?", [
+            "Open the **Clock** tab. Its dial shows the day, date, month and moon "
+            "phase along with the exact time. Below the dial, Timegrapher shows how "
+            "many days have passed since the last full or new moon.",
+            "The **Date and moon phase** section on the same tab gives the steps for "
+            "today. Set the date first, because on some watches the date also moves "
+            "the moon. Then set the moon to full or new, whichever came last, and "
+            "advance it one step for each day since. Don't change the date between "
+            "about 8 PM and 4 AM, when the date mechanism is turning.",
+        ]),
         ("Is Timegrapher free?", [
             "Your first watch is free for good, with every measurement. **Timegrapher Pro** "
             "is a one-time purchase that removes the limit on watches. There is no "
@@ -121,6 +140,10 @@ L = {
             "collection stays on your iPhone. The optional price check searches Chrono24 for "
             "your watch's reference, and **Identify from Photo** sends that one photo to "
             "Apple's Private Cloud Compute only when you tap it. [Privacy policy](privacy).",
+        ]),
+        ("Which languages is Timegrapher in?", [
+            "Timegrapher is in English, German, Spanish, French, Brazilian Portuguese, "
+            "Japanese, Simplified Chinese and Traditional Chinese.",
         ]),
     ],
     "guide": {
@@ -175,6 +198,10 @@ L = {
              "the watch ran while you wore it. For a quartz watch, take the photos a week "
              "or two apart. For a digital watch, leave a week or more between the photos. "
              "Timegrapher reads the time from each one."),
+            ("Set the time, date and moon",
+             "The **Clock** tab shows the exact time, with countdown tones before each "
+             "minute. Its dial also shows the day, date, month and moon phase, and its "
+             "**Date and moon phase** section explains how to set them on your watch."),
             ("What it's worth",
              "The price check gets current Chrono24 asking prices for your exact reference "
              "and keeps the median."),
@@ -182,7 +209,7 @@ L = {
              "The first watch is free. Timegrapher Pro adds unlimited watches for one "
              "payment, with no subscription."),
         ],
-        "updated": "Written for Timegrapher 2.12, November 2026.",
+        "updated": "Written for Timegrapher 2.14, November 2026.",
         "cta_title": "Time your watch tonight",
         "cta_text": "Rate, amplitude and beat error in 30 seconds, with the iPhone you "
                     "already have. First watch free, no subscription.",
